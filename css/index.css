@@ -30,13 +30,14 @@ canvas {
 }
 
 .disclaimer {
+  font-size: 20px;
   position: absolute;
-  top: 45%;
-  left: 25vw;
-  background-color: whitesmoke;
-  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke
 }
 
-.text{
+.text {
   text-align: center;
 }
