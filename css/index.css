@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.container {
+  height: 100%;
+}
+
+#canvasHolder {
+  width: 100%;
+  height: 80%;
+}
+
+#canvasSkew {
+  width: 100%;
+  height: 100%;
+  padding: 15% 0 15% 0;
+  transform: skewY(-15deg);
+  -webkit-transform: skewY(-15deg);
+  -moz-transform: skewY(-15deg);
+  -o-transform: skewY(-15deg);
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.disclaimer {
+  position: absolute;
+  top: 45%;
+  left: 25vw;
+  background-color: whitesmoke;
+}
+
+.text{
+  text-align: center;
+}
