@@ -9,13 +9,14 @@ function draw() {
   var canvas = document.getElementById('canvas');
   if (canvas.getContext) {
     var ctx = canvas.getContext('2d');
+    ctx.canvas.width = document.getElementById('canvas').clientWidth;
+    ctx.canvas.height = document.getElementById('canvas').clientHeight;
+
     var tableX = ctx.canvas.width/rectangleSize;
     var tableY = ctx.canvas.height/rectangleSize;
 
-    console.log(ctx.canvas.height);
-
-    for (let x = 0; x < tableX; x++) {
-      for (let y = 0; y < tableY; y++) {
+    for (let x = 0; x < tableX - 1; x++) {
+      for (let y = 0; y < tableY - 1; y++) {
         let xPostition = x * rectangleSize;
         let yPostition = y * rectangleSize;
 
