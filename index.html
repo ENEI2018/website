@@ -1,333 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Your page title here :)</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script src="pixel_gen.js"></script>
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- SCRIPTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="js/pixel_gen.js"></script>
+
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
 </head>
 
-<body>
-    <!--img src="img/background.png" style="width: 100%" alt="ENEI image"-->
-    <table id="workspace">
-        <tbody>
-            <tr>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-            </tr>
-            <tr>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-            </tr>
-            <tr>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-            </tr>
-            <tr>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-            </tr>
+<body onload="draw();">
 
-            <tr>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <!--<td><span>brevemente disponível</span></td>-->
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-            </tr>
-            <tr>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-            </tr>
-            <tr>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-                <td class="pixel">
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+        <div class="row" id="canvasHolder">
+            <div class="one-full column" id="canvasSkew">
+                <canvas id="canvas"></canvas>
+                <span class="disclaimer">brevemente disponível</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="one-full column">
 
-    <span class="text">brevemente disponível</span>
-    <br/>
-    <span class="text">23-26 de março de 2018</span>
-    <br/>
-    <span class="text">Faculdade de Engenharia da Universidade do Porto</span>
+                <span class="text">23-26 de março de 2018</span>
+                <br/>
+                <span class="text">Faculdade de Engenharia da Universidade do Porto</span>
+
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
