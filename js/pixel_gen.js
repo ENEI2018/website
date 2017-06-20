@@ -16,9 +16,6 @@ function draw() {
     var tableX = Math.round(ctx.canvas.width / rectangleSize);
     var tableY = Math.round(ctx.canvas.height / rectangleSize);
 
-    console.log(tableX);
-    console.log(tableY);
-
     for (let x = 0; x < tableX; x++) {
       for (let y = 0; y < tableY; y++) {
         let xPostition = x * rectangleSize;
