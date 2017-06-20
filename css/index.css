@@ -24,14 +24,13 @@ body {
   -o-transform: skewY(-15deg);
 }
 
-#logo{
+#logo {
   position: absolute;
   top: 40%;
   left: 50%;
   width: 25%;
   height: auto;
   transform: translate(-50%, -50%);
-  
 }
 
 canvas {
@@ -56,7 +55,12 @@ canvas {
 }
 
 @media (min-width: 750px) {
-  #logo{
+  #logo {
     width: 15%;
   }
+}
+
+.no-style {
+  color: inherit;
+  text-decoration: none;
 }
