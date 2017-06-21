@@ -2,7 +2,21 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
   width: 100%;
-  background-color: whitesmoke;
+
+  
+  /* The background image */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/ff/D%C3%A4mmerung_am_Rio_Douro.jpg");
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+  
 }
 
 .container {
@@ -52,6 +66,12 @@ canvas {
 .text {
   text-align: center;
   margin: 0;
+}
+
+.row:last-of-type {
+    background: rgba(0,0,224,0.5);
+    color: white;
+    padding: 20px;
 }
 
 @media (min-width: 750px) {
