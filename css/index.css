@@ -16,11 +16,6 @@ body {
   background-size: cover;
 }
 
-#wrapper {
-  background-color: rgba(245, 245, 245, 0.5);
-  height: 100%;
-}
-
 .container {
   height: 100%;
 }
