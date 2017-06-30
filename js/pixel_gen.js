@@ -2,27 +2,28 @@ var colors = ["#0000e0", "#c200ff", "#0000ff", "#6000ff", "#00baff", "#00008c"];
 var layer1ProbOfHidden = 1;
 var layer2ProbOfHidden = 5;
 var layer3ProbOfHidden = 20;
-var rectangleSize = 35;
-
+var RECTANGLE_SCALE = 1 / 4;
 
 function draw() {
+  var logo = document.getElementById('logo');
   var canvas = document.getElementById('canvas');
+
+  var rectangleWidth = Math.trunc(logo.width * RECTANGLE_SCALE);
+  var rectangleHeight = Math.trunc((logo.height - Math.tan(Math.PI / 12 /*15º*/ ) * logo.width) * RECTANGLE_SCALE);
+
+  var tableX = Math.trunc(canvas.clientWidth / rectangleWidth);
+  var tableY = Math.trunc(canvas.clientHeight / rectangleHeight);
+
   if (canvas.getContext) {
-
     var ctx = canvas.getContext('2d');
-    ctx.canvas.width = document.getElementById('canvas').clientWidth;
-    ctx.canvas.height = document.getElementById('canvas').clientHeight;
 
-    var tableX = Math.round(ctx.canvas.width / rectangleSize);
-    var tableY = Math.round(ctx.canvas.height / rectangleSize);
-
-    console.log(tableX);
-    console.log(tableY);
+    ctx.canvas.width = Math.trunc(tableX * rectangleWidth);
+    ctx.canvas.height = Math.trunc(tableY * rectangleHeight);
 
     for (let x = 0; x < tableX; x++) {
       for (let y = 0; y < tableY; y++) {
-        let xPostition = x * rectangleSize;
-        let yPostition = y * rectangleSize;
+        let xPos = x * rectangleWidth;
+        let yPos = y * rectangleHeight;
 
         var rand;
         if ((x < (tableX / 12) || x > (tableX - (tableX / 12))) || (y < (tableY / 12) || y > (tableY - (tableY / 12))))
@@ -34,7 +35,7 @@ function draw() {
 
         if (rand < colors.length) {
           ctx.fillStyle = colors[rand];
-          ctx.fillRect(xPostition, yPostition, rectangleSize, rectangleSize);
+          ctx.fillRect(xPos, yPos, rectangleWidth, rectangleHeight);
         }
       }
     }
