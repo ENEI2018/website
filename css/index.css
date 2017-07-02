@@ -36,6 +36,7 @@ body {
   -o-transform: skewY(-15deg);
 }
 
+
 #logo {
     max-width: 144px;
     width: 25%;
@@ -78,10 +79,51 @@ body {
 }
 
 #mc_embed_signup{
-  background: rgba(0, 0, 224, 0.2);
   clear:left;
-  color: black;
-  width:100%;}
+  width:100%;
+  color: white;
+  }
+
+#mc-embedded-subscribe{
+  color: white;
+  font-size: 10px;
+}
+
+#mc-embedded-subscribe:hover{
+  color:#33C3F0;
+}
+
+#mce-EMAIL{
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-bottom: 0px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: white;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: white;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: white;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
 
 .collapse a{
   display: block;
