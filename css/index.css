@@ -1,5 +1,13 @@
+html{
+  overflow: hidden;
+}
 body {
   font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.cover {
   height: 100vh;
   /* The background image */
   background-image: url("../images/background-min.jpg");
@@ -13,10 +21,6 @@ body {
   background-repeat: no-repeat;
   /* Scale the background image to be as large as possible */
   background-size: cover;
-}
-
-.container {
-
 }
 
 #canvas-holder {
@@ -63,24 +67,30 @@ body {
   text-decoration: none;
 }
 
-#canvas {
-  width: 100%;
-  height: 80%;
-  transform: skewY(-15deg);
-  -webkit-transform: skewY(-15deg);
-  -moz-transform: skewY(-15deg);
-  -o-transform: skewY(-15deg);
-}
-
-
 #info {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   background: rgba(0, 0, 224, 0.5);
   color: white;
   font-size: small;
   width: 100%;
   padding: 10px 0 10px 0;
+}
+
+#mc_embed_signup{
+  background: rgba(0, 0, 224, 0.2);
+  clear:left;
+  color: black;
+  width:100%;}
+
+.collapse a{
+  display: block;
+}
+.collapse>div{
+  display:none;
+}
+.collapse > div:target{
+  display:block;
 }
 
 @media only screen and (max-width: 500px) {

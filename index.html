@@ -33,18 +33,19 @@
 </head>
 
 <body onload="draw();">
-  <div class="container">
-    <div class="row">
-      <div class="one-full column" style="position: relative">
-        <img id="logo" src="images/logo.png">
-        <img id="logotext" src="images/text.png" />
-        <div id="canvas-holder">
-          <canvas id="canvas"></canvas>
+  <div class="cover">
+    <div class="container">
+      <div class="row">
+        <div class="one-full column" style="position: relative">
+          <img id="logo" src="images/logo.png">
+          <img id="logotext" src="images/text.png" />
+          <div id="canvas-holder">
+            <canvas id="canvas"></canvas>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
   <div class="row" id="info">
     <div class="one-full column text">
       <span>23 - 26 de Março de 2018</span>
@@ -55,6 +56,25 @@
     </div>
     <div class="one-full column text">
       <a class="no-style" href="https://www.facebook.com/ENEIConf/" target="_blank"><i class="icon icon-facebook-official"></i>/ENEIConf</a> | <a class="no-style" href="mailto:geral@enei.pt" target="_blank"><i class="icon icon-mail-alt"></i>geral@enei.pt</a>      | <a class="no-style" href="https://www.instagram.com/eneiconf" target="_blank"><i class="icon icon-instagram"></i>@eneiconf</a>
+    </div>
+    <div class="one-full column text collapse">
+      <a class="no-style" href="#subscribe-form">Subscribe</a>
+      <div id="subscribe-form">
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+        <form action="//enei.us16.list-manage.com/subscribe/post?u=28f7822fd7475f217c37b2a67&amp;id=8f988fe84d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+
+        	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_28f7822fd7475f217c37b2a67_8f988fe84d" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+      </div>
     </div>
   </div>
 </body>
