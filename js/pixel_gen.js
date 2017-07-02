@@ -2,7 +2,7 @@ var colors = ["#0000e0", "#c200ff", "#0000ff", "#6000ff", "#00baff", "#00008c"];
 var layer1ProbOfHidden = 1;
 var layer2ProbOfHidden = 5;
 var layer3ProbOfHidden = 20;
-var RECTANGLE_SCALE = 1 / 4;
+var RECTANGLE_SCALE = 1 / 6;
 
 function draw() {
   var logo = document.getElementById('logo');
