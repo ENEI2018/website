@@ -7,12 +7,14 @@ body {
   overflow: hidden;
 }
 
-.cover {
-  height: 100vh;
+.height-100{
+  height: 100%;
+}
+
+#cover {
+  height: calc(100% - 120px);
   /* The background image */
   background-image: url("../images/background-min.jpg");
-  /* Set a specified height, or the minimum height for the background image */
-  min-height: 500px;
   /* Set background image to fixed (don't scroll along with the page) */
   background-attachment: fixed;
   /* Center the background image */
@@ -23,8 +25,24 @@ body {
   background-size: cover;
 }
 
+#info {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 255, 1);
+  color: white;
+  font-size: small;
+  width: 100%;
+  height: 100px;
+  padding: 10px 0 10px 0;
+}
+
+#info > div{
+  padding: 5px;
+}
+
 #canvas-holder {
-  padding: 15% 0;
+  padding: 15% 0 5% 0;
+  height: calc(100% - 25% - 100px);
 }
 
 #canvas {
@@ -42,7 +60,7 @@ body {
     width: 25%;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: calc(50% - 7.50%);
     transform: translate(-50%, -50%);
     z-index: 3;
     opacity: 0.9;
@@ -53,7 +71,7 @@ body {
   width: 25%;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: calc(50% - 7.50%);
   transform: translate(-50%, -50%);
   z-index: 3;
 }
@@ -66,16 +84,6 @@ body {
 .no-style {
   color: inherit;
   text-decoration: none;
-}
-
-#info {
-  position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 224, 0.5);
-  color: white;
-  font-size: small;
-  width: 100%;
-  padding: 10px 0 10px 0;
 }
 
 #mc_embed_signup{
@@ -125,17 +133,29 @@ body {
     color: white;
 }
 
+.collapse{
+  background: rgba(0, 0, 255, 1);
+}
+
 .collapse a{
   display: block;
 }
 .collapse>div{
   display:none;
+  background: rgba(0, 0, 255, 1);
 }
 .collapse > div:target{
   display:block;
+  background: rgba(0, 0, 255, 1);
+}
+
+/* Larger than tablet */
+@media only screen and (max-width: 800px) {
+  #canvas-holder {
+  padding: 22.5% 0 5% 0;
 }
 
 @media only screen and (max-width: 500px) {
   #canvas-holder {
-  padding: 60% 0;
+  padding: 35% 0 5% 0;
 }
