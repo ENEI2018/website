@@ -2,8 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
   /* The background image */
-  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/ff/D%C3%A4mmerung_am_Rio_Douro.jpg");*/
-  background-image: url("../images/postcard.jpg");
+  background-image: url("../images/background-min.jpg");
   /* Set a specified height, or the minimum height for the background image */
   min-height: 500px;
   /* Set background image to fixed (don't scroll along with the page) */
@@ -17,7 +16,7 @@ body {
 }
 
 .container {
-  height: 100%;
+
 }
 
 #canvas-holder {
@@ -59,21 +58,9 @@ body {
   margin: 0;
 }
 
-#info {
-  background: rgba(0, 0, 224, 0.5);
-  color: white;
-  padding: 20px;
-  width: 100%;
-}
-
 .no-style {
   color: inherit;
   text-decoration: none;
-}
-
-@media only screen and (max-width: 500px) {
-  #canvas-holder {
-  padding: 60% 0;
 }
 
 #canvas {
@@ -87,11 +74,16 @@ body {
 
 
 #info {
+  position: fixed;
+  bottom: 0;
   background: rgba(0, 0, 224, 0.5);
   color: white;
-  padding: 20px;
+  font-size: small;
   width: 100%;
-  font-size: x-small;
+  padding: 10px 0 10px 0;
 }
 
+@media only screen and (max-width: 500px) {
+  #canvas-holder {
+  padding: 60% 0;
 }
