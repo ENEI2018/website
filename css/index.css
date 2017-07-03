@@ -1,13 +1,14 @@
-html{
+html {
   overflow: hidden;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
   overflow: hidden;
 }
 
-.height-100{
+.height-100 {
   height: 100%;
 }
 
@@ -36,7 +37,7 @@ body {
   padding: 10px 0 10px 0;
 }
 
-#info > div{
+#info>div {
   padding: 5px;
 }
 
@@ -54,16 +55,15 @@ body {
   -o-transform: skewY(-15deg);
 }
 
-
 #logo {
-    max-width: 144px;
-    width: 25%;
-    position: absolute;
-    left: 50%;
-    top: calc(50% - 7.50%);
-    transform: translate(-50%, -50%);
-    z-index: 3;
-    opacity: 0.9;
+  max-width: 144px;
+  width: 25%;
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 7.50%);
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  opacity: 0.9;
 }
 
 #logotext {
@@ -86,22 +86,23 @@ body {
   text-decoration: none;
 }
 
-#mc_embed_signup{
-  clear:left;
-  width:100%;
-  color: white;
-  }
 
-#mc-embedded-subscribe{
+/*#mc_embed_signup {
+  clear: left;
+  width: 100%;
+  color: white;
+}
+
+#mc-embedded-subscribe {
   color: white;
   font-size: 10px;
 }
 
-#mc-embedded-subscribe:hover{
-  color:#33C3F0;
+#mc-embedded-subscribe:hover {
+  color: #33C3F0;
 }
 
-#mce-EMAIL{
+#mce-EMAIL {
   background-color: transparent;
   border-top: none;
   border-left: none;
@@ -114,48 +115,126 @@ body {
   text-align: center;
   font-weight: lighter;
   font-size: 12px;
-}
+}*/
+
 
 /* do not group these rules */
+
 *::-webkit-input-placeholder {
-    color: white;
-}
-*:-moz-placeholder {
-    /* FF 4-18 */
-    color: white;
-}
-*::-moz-placeholder {
-    /* FF 19+ */
-    color: white;
-}
-*:-ms-input-placeholder {
-    /* IE 10+ */
-    color: white;
+  color: white;
 }
 
-.collapse{
+*:-moz-placeholder {
+  /* FF 4-18 */
+  color: white;
+}
+
+*::-moz-placeholder {
+  /* FF 19+ */
+  color: white;
+}
+
+*:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+
+.collapse {
   background: rgba(0, 0, 255, 1);
 }
 
-.collapse a{
+.collapse a {
   display: block;
 }
-.collapse>div{
-  display:none;
-  background: rgba(0, 0, 255, 1);
-}
-.collapse > div:target{
-  display:block;
+
+.collapse>div {
+  display: none;
   background: rgba(0, 0, 255, 1);
 }
 
+.collapse>div:target {
+  display: block;
+  background: rgba(0, 0, 255, 1);
+}
+
+
 /* Larger than tablet */
+
 @media only screen and (max-width: 800px) {
   #canvas-holder {
-  padding: 22.5% 0 5% 0;
+    padding: 22.5% 0 5% 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   #canvas-holder {
-  padding: 35% 0 5% 0;
+    padding: 35% 0 5% 0;
+  }
+}
+
+
+/* CSS Form */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1000;
+}
+
+.overlay .cancel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 75px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #666;
+  width: 500px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+@media (max-width: 599px) {
+  .popup {
+    width: 80%;
+  }
+}
+
+.popup .close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: all 200ms;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #666;
+}
+
+.popup .close:hover {
+  opacity: 1;
+}
+
+popup .content {
+  max-height: 400px;
+  overflow: auto;
 }
