@@ -99,27 +99,6 @@ body {
   height: 41px;
 }
 
-/* do not group these rules */
-
-*::-webkit-input-placeholder {
-  color: white;
-}
-
-*:-moz-placeholder {
-  /* FF 4-18 */
-  color: white;
-}
-
-*::-moz-placeholder {
-  /* FF 19+ */
-  color: white;
-}
-
-*:-ms-input-placeholder {
-  /* IE 10+ */
-  color: white;
-}
-
 .collapse {
   background: rgba(0, 0, 255, 1);
 }
