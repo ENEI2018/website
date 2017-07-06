@@ -6,14 +6,6 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
   overflow: hidden;
-}
-
-.height-100 {
-  height: 100%;
-}
-
-#cover {
-  height: calc(100% - 120px);
   /* The background image */
   background-image: url("../images/background-min.jpg");
   /* Set background image to fixed (don't scroll along with the page) */
@@ -27,13 +19,12 @@ body {
 }
 
 #info {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  background: rgba(0, 0, 255, 1);
+  background: rgba(0, 0, 224, 0.5);
   color: white;
   font-size: small;
   width: 100%;
-  height: 100px;
   padding: 10px 0 10px 0;
 }
 
@@ -42,8 +33,22 @@ body {
 }
 
 #canvas-holder {
-  padding: 15% 0 5% 0;
-  height: calc(100% - 25% - 100px);
+  margin: 15% 0 5% 0;
+  position: relative;
+}
+
+/* Larger than tablet */
+
+@media only screen and (max-width: 800px) {
+  #canvas-holder {
+    margin: 22.5% 0 5% 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #canvas-holder {
+    margin: 35% 0 5% 0;
+  }
 }
 
 #canvas {
@@ -60,7 +65,7 @@ body {
   width: 25%;
   position: absolute;
   left: 50%;
-  top: calc(50% - 7.50%);
+  top: calc(50%);
   transform: translate(-50%, -50%);
   z-index: 3;
   opacity: 0.9;
@@ -71,7 +76,7 @@ body {
   width: 25%;
   position: absolute;
   left: 50%;
-  top: calc(50% - 7.50%);
+  top: calc(50%);
   transform: translate(-50%, -50%);
   z-index: 3;
 }
@@ -128,20 +133,6 @@ body {
 .collapse > div:target {
   display: block;
   background: rgba(0, 0, 255, 1);
-}
-
-/* Larger than tablet */
-
-@media only screen and (max-width: 800px) {
-  #canvas-holder {
-    padding: 22.5% 0 5% 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  #canvas-holder {
-    padding: 35% 0 5% 0;
-  }
 }
 
 /* CSS Form */

@@ -33,15 +33,13 @@
 </head>
 
 <body onload="draw();">
-  <div id="cover">
-    <div class="container height-100">
-      <div class="row height-100">
-        <div class="one-full column height-100" style="position: relative">
-          <div id="canvas-holder">
-            <img id="logo" src="images/logo.png">
-            <img id="logotext" src="images/text.png" />
-            <canvas id="canvas"></canvas>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="one-full column">
+        <div id="canvas-holder">
+          <img id="logo" src="images/logo.png">
+          <img id="logotext" src="images/text.png" />
+          <canvas id="canvas"></canvas>
         </div>
       </div>
     </div>
@@ -55,20 +53,9 @@
       <span>Faculdade de Engenharia da Universidade do Porto</span>
     </div>
     <div class="one-full column text">
-      <a class="no-style" href="https://www.facebook.com/ENEIConf/" target="_blank"><i class="icon icon-facebook-official"></i>/ENEIConf</a>      | <a class="no-style" href="mailto:geral@enei.pt" target="_blank"><i class="icon icon-mail-alt"></i>geral@enei.pt</a>      | <a class="no-style" href="https://www.instagram.com/eneiconf" target="_blank"><i class="icon icon-instagram"></i>/eneiconf</a>      | <a class="no-style open-form" href="#subscribe-form"><i class="icon icon-news"></i>Newsletter</a>
+      <a class="no-style" href="https://www.facebook.com/ENEIConf/" target="_blank"><i class="icon icon-facebook-official"></i>/ENEIConf</a>      | <a class="no-style" href="mailto:geral@enei.pt" target="_blank"><i class="icon icon-mail-alt"></i>geral@enei.pt</a>      | <a class="no-style" href="https://www.instagram.com/eneiconf" target="_blank"><i class="icon icon-instagram"></i>@eneiconf</a>      | <a class="no-style open-form" href="#subscribe-form"><i class="icon icon-news"></i>Newsletter</a>
     </div>
   </div>
-
-  <script type="text/javascript" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-  <script type="text/javascript">
-    require(["mojo/signup-forms/Loader"], function (L) {
-      L.start({
-        "baseUrl": "https://mc.us16.list-manage.com",
-        "uuid": "28f7822fd7475f217c37b2a67",
-        "lid": "8f988fe84d"
-      })
-    })
-  </script>
 
   <!-- Begin MailChimp Signup Form -->
   <div id="subscribe-form" class="overlay">
