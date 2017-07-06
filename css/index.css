@@ -37,7 +37,7 @@ body {
   padding: 10px 0 10px 0;
 }
 
-#info>div {
+#info > div {
   padding: 5px;
 }
 
@@ -86,37 +86,10 @@ body {
   text-decoration: none;
 }
 
-
-/*#mc_embed_signup {
-  clear: left;
-  width: 100%;
-  color: white;
-}
-
-#mc-embedded-subscribe {
-  color: white;
-  font-size: 10px;
-}
-
-#mc-embedded-subscribe:hover {
-  color: #33C3F0;
-}
-
 #mce-EMAIL {
-  background-color: transparent;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 0;
-  padding-bottom: 0px;
-  padding-left: 55px;
-  padding-right: 55px;
-  margin-top: 20px;
-  text-align: center;
-  font-weight: lighter;
-  font-size: 12px;
-}*/
-
+  margin-top: 10px;
+  width: 100%;
+}
 
 /* do not group these rules */
 
@@ -147,16 +120,15 @@ body {
   display: block;
 }
 
-.collapse>div {
+.collapse > div {
   display: none;
   background: rgba(0, 0, 255, 1);
 }
 
-.collapse>div:target {
+.collapse > div:target {
   display: block;
   background: rgba(0, 0, 255, 1);
 }
-
 
 /* Larger than tablet */
 
@@ -171,7 +143,6 @@ body {
     padding: 35% 0 5% 0;
   }
 }
-
 
 /* CSS Form */
 
