@@ -1,204 +1,204 @@
 html {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  height: 100vh;
-  overflow: hidden;
-  /* The background image */
-  background-image: url("../images/background-min.jpg");
-  /* Set background image to fixed (don't scroll along with the page) */
-  background-attachment: fixed;
-  /* Center the background image */
-  background-position: center;
-  /* Set the background image to no repeat */
-  background-repeat: no-repeat;
-  /* Scale the background image to be as large as possible */
-  background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    /* The background image */
+    background-image: url("../images/background-min.jpg");
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
 }
 
 #info {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 224, 0.5);
-  color: white;
-  font-size: small;
-  width: 100%;
-  padding: 10px 0 10px 0;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 224, 0.5);
+    color: white;
+    font-size: small;
+    width: 100%;
+    padding: 10px 0 10px 0;
 }
 
-#info > div {
-  padding: 5px;
+#info>div {
+    padding: 5px;
 }
 
 #canvas-holder {
-  margin: 15% 0 5% 0;
-  position: relative;
+    margin: 15% 0 5% 0;
+    position: relative;
 }
+
 
 /* Larger than tablet */
 
 @media only screen and (max-width: 800px) {
-  #canvas-holder {
-    margin: 22.5% 0 5% 0;
-  }
+    #canvas-holder {
+        margin: 22.5% 0 5% 0;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-  #canvas-holder {
-    margin: 35% 0 5% 0;
-  }
+    #canvas-holder {
+        margin: 35% 0 5% 0;
+    }
 }
 
 #canvas {
-  width: 100%;
-  height: 80%;
-  transform: skewY(-15deg);
-  -webkit-transform: skewY(-15deg);
-  -moz-transform: skewY(-15deg);
-  -o-transform: skewY(-15deg);
+    width: 100%;
+    height: 80%;
+    transform: skewY(-15deg);
+    -webkit-transform: skewY(-15deg);
+    -moz-transform: skewY(-15deg);
+    -o-transform: skewY(-15deg);
 }
 
 #logo {
-  max-width: 144px;
-  width: 25%;
-  position: absolute;
-  left: 50%;
-  top: calc(50%);
-  transform: translate(-50%, -50%);
-  z-index: 3;
-  opacity: 0.9;
+    max-width: 144px;
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: calc(50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    opacity: 0.9;
 }
 
 #logotext {
-  max-width: 144px;
-  width: 25%;
-  position: absolute;
-  left: 50%;
-  top: calc(50%);
-  transform: translate(-50%, -50%);
-  z-index: 3;
+    max-width: 144px;
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: calc(50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
 }
 
 .text {
-  text-align: center;
-  margin: 0;
+    text-align: center;
+    margin: 0;
 }
 
 .no-style {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 #mce-EMAIL {
-  margin-top: 20px;
-  width: 100%;
-  font-size:13px;
-  color: gray;
-  height: 41px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 13px;
+    color: gray;
+    height: 41px;
 }
 
 .collapse {
-  background: rgba(0, 0, 255, 1);
+    background: rgba(0, 0, 255, 1);
 }
 
 .collapse a {
-  display: block;
+    display: block;
 }
 
-.collapse > div {
-  display: none;
-  background: rgba(0, 0, 255, 1);
+.collapse>div {
+    display: none;
+    background: rgba(0, 0, 255, 1);
 }
 
-.collapse > div:target {
-  display: block;
-  background: rgba(0, 0, 255, 1);
+.collapse>div:target {
+    display: block;
+    background: rgba(0, 0, 255, 1);
 }
+
 
 /* CSS Form */
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-  transition: opacity 200ms;
-  visibility: hidden;
-  opacity: 0;
-  z-index: 1000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 200ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
 }
 
 .overlay .cancel {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  cursor: default;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
 }
 
 .overlay:target {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .popup {
-  margin: 75px auto;
-  padding: 20px;
-  padding-bottom: 38px;
-  background: #fff;
-  border: 1px solid #666;
-  width: 500px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  position: relative;
-  opacity: 0.9;
+    margin: 75px auto;
+    padding: 20px;
+    padding-bottom: 38px;
+    background: #fff;
+    border: 1px solid #666;
+    width: 500px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    position: relative;
+    opacity: 0.9;
 }
 
 @media (max-width: 599px) {
-  .popup {
-    width: 80%;
-  }
+    .popup {
+        width: 80%;
+    }
 }
 
 .popup .close {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 3px;
-  right: 15px;
-  opacity: 0.8;
-  transition: all 200ms;
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #666;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    right: 15px;
+    opacity: 0.8;
+    transition: all 200ms;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #666;
 }
 
 .popup .close:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 popup .content {
-  max-height: 400px;
-  overflow: auto;
+    max-height: 400px;
+    overflow: auto;
 }
 
-
-#mc-embedded-subscribe{
-  margin-bottom: 0;
-  padding: 0 10px;
-  text-align:center;
-  font-size: 9px;
-  background-color: rgba(0, 0, 255, 1);
-  color: white;
-  border-color: rgba(0, 0, 255, 1);
-  
+#mc-embedded-subscribe {
+    margin-bottom: 0;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 9px;
+    background-color: rgba(0, 0, 255, 1);
+    color: white;
+    border-color: rgba(0, 0, 255, 1);
 }
 
-.clear{
-  position:absolute; 
-  right:0;
-  padding-right: 20px;
+.clear {
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
 }

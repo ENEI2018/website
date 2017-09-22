@@ -3,86 +3,87 @@
 
 <head>
 
-  <!-- Basic Page Needs
+    <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>ENEI 2018</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <title>ENEI 2018</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
+    <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-  <!-- CSS
+    <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/enei-embedded.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/enei-embedded.css">
 
 
-  <!-- Favicon
+    <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 
 <body onload="draw();">
-  <div class="container">
-    <div class="row">
-      <div class="one-full column">
-        <div id="canvas-holder">
-          <img id="logo" src="images/logo.png">
-          <img id="logotext" src="images/text.png" />
-          <canvas id="canvas"></canvas>
+    <div class="container">
+        <div class="row">
+            <div class="one-full column">
+                <div id="canvas-holder">
+                    <img id="logo" src="images/logo.png">
+                    <img id="logotext" src="images/text.png" />
+                    <canvas id="canvas"></canvas>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="row" id="info">
-    <div class="one-full column text">
-      <span>23 - 26 de março de 2018</span>
+    <div class="row" id="info">
+        <div class="one-full column text">
+            <span>23 - 26 de março de 2018</span>
+        </div>
+
+        <div class="one-full column text">
+            <span>Faculdade de Engenharia da Universidade do Porto</span>
+        </div>
+        <div class="one-full column text">
+            <a class="no-style" href="https://www.facebook.com/ENEIConf/" target="_blank"><i class="icon icon-facebook-official"></i>/ENEIConf</a> | <a class="no-style" href="mailto:geral@enei.pt" target="_blank"><i class="icon icon-mail-alt"></i>geral@enei.pt</a>            | <a class="no-style" href="https://www.instagram.com/eneiconf" target="_blank"><i class="icon icon-instagram"></i>@eneiconf</a> | <a class="no-style open-form" href="#subscribe-form"><i class="icon icon-news"></i>Newsletter</a>
+        </div>
     </div>
 
-    <div class="one-full column text">
-      <span>Faculdade de Engenharia da Universidade do Porto</span>
-    </div>
-    <div class="one-full column text">
-      <a class="no-style" href="https://www.facebook.com/ENEIConf/" target="_blank"><i class="icon icon-facebook-official"></i>/ENEIConf</a>      | <a class="no-style" href="mailto:geral@enei.pt" target="_blank"><i class="icon icon-mail-alt"></i>geral@enei.pt</a>      | <a class="no-style" href="https://www.instagram.com/eneiconf" target="_blank"><i class="icon icon-instagram"></i>@eneiconf</a>      | <a class="no-style open-form" href="#subscribe-form"><i class="icon icon-news"></i>Newsletter</a>
-    </div>
-  </div>
-
-  <!-- Begin MailChimp Signup Form -->
-  <div id="subscribe-form" class="overlay">
-    <a class="cancel" href="#"></a>
-    <div class="popup">
-      <!--<h5>Subscrever Newsletter</h5>-->
-      <a class="close" href="#">&times;</a>
-      <div id="mc_embed_signup" class="content">
-        <form action="https://enei.us16.list-manage.com/subscribe/post?u=28f7822fd7475f217c37b2a67&amp;id=8f988fe84d" method="post"
-          id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-            <!--   <label>
+    <!-- Begin MailChimp Signup Form -->
+    <div id="subscribe-form" class="overlay">
+        <a class="cancel" href="#"></a>
+        <div class="popup">
+            <!--<h5>Subscrever Newsletter</h5>-->
+            <a class="close" href="#">&times;</a>
+            <div id="mc_embed_signup" class="content">
+                <form action="https://enei.us16.list-manage.com/subscribe/post?u=28f7822fd7475f217c37b2a67&amp;id=8f988fe84d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <!--   <label>
               Email<br/>-->
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Insere aqui o teu email" required>
-            </label>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_28f7822fd7475f217c37b2a67_8f988fe84d" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscrever Newsletter" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-          </div>
-        </form>
-      </div>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Insere aqui o teu email" required>
+                        </label>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_28f7822fd7475f217c37b2a67_8f988fe84d" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscrever Newsletter" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-  </div>
-  <!--End mc_embed_signup-->
+    <!--End mc_embed_signup-->
 
-  <!-- SCRIPTS -->
-  <script src="js/pixel_gen.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/pixel_gen.js"></script>
+
 </body>
 
 </html>
