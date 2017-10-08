@@ -1,3 +1,9 @@
+:root {
+  --main-background-blue: rgb(1, 0, 140);
+  --main-highlight-pink: rgb(194, 0, 254);
+  --secondary-highlight-blue: rgb(90, 0, 255);
+}
+
 body {
   margin: 0;
 }
@@ -21,16 +27,21 @@ body {
   margin: 0 !important;
 }
 
-.page-content-container {
+.page-content-container,
+.see-you-soon-footer {
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-.page-content-container .subscribe-area-container {
+.page-content-container .subscribe-area-container,
+.page-content-container .tickets-area-container,
+.page-content-container .faqs-container {
+  text-align: center;
+  color: white;
   width: 100% !important;
   margin: 0 !important;
-  background-color: rgb(1, 0, 140);
+  background-color: var(--main-background-blue);
   padding: 3em;
 }
 
@@ -39,6 +50,22 @@ body {
   text-align: center;
   color: white;
   padding: 1em;
+}
+
+.see-you-soon-footer {
+  background-color: var(--main-background-blue);
+  vertical-align: middle;
+}
+
+.see-you-soon-footer,
+.see-you-soon-footer > div {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.see-you-soon-img {
+  margin: auto;
+  display: block;
 }
 
 .info-socialmedia-col .subcribe-btn-custom {
@@ -51,4 +78,45 @@ body {
   border-bottom-width: 4px;
   width:80%;
   background-color: transparent;
+}
+
+.page-content-container .separator-row,
+.page-content-container .speakers-row,
+.page-content-container .ambassadors-row {
+  text-align: center;
+  color: white;
+  padding: 2em;
+  background-color: var(--main-background-blue);
+}
+
+.page-content-container .separator-row-secondary {
+  text-align: center;
+  color: white;
+  padding: 2em;
+  background-color: var(--main-highlight-pink);
+}
+
+.page-content-container .call-for-speakers-row {
+  text-align: center;
+  padding: 2em;
+  color: var(--main-background-blue);
+  background-color: var(--main-highlight-pink);
+}
+
+.page-content-container .join-team-row {
+  text-align: center;
+  padding: 2em;
+  color: white;
+  background-color: var(--secondary-highlight-blue);
+}
+
+.speakers-btn-container .call-speakers-btn-custom {
+  background-color: transparent;
+  border-color: var(--main-background-blue);
+  border-width: thick;
+}
+
+.tickets-area-container .ticket-categories-row {
+  margin: auto;
+  max-width: 600px;
 }
