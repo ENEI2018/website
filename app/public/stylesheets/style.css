@@ -16,3 +16,39 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+.navbar-container-custom .navbar-custom {
+  margin: 0 !important;
+}
+
+.page-content-container {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.page-content-container .subscribe-area-container {
+  width: 100% !important;
+  margin: 0 !important;
+  background-color: rgb(1, 0, 140);
+  padding: 3em;
+}
+
+.page-content-container .subscribe-area-container .info-socialmedia-row,
+.page-content-container .subscribe-area-container .info-subscribe-row {
+  text-align: center;
+  color: white;
+  padding: 1em;
+}
+
+.info-socialmedia-col .subcribe-btn-custom {
+  background-color: transparent;
+  width:60%;
+}
+
+.info-socialmedia-col .subcribe-input-custom {
+  border-width: 0;
+  border-bottom-width: 4px;
+  width:80%;
+  background-color: transparent;
+}
