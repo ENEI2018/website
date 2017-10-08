@@ -4,8 +4,18 @@
   --secondary-highlight-blue: rgb(90, 0, 255);
 }
 
-body {
+html, body {
+  padding: 0;
   margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: var(--main-background-blue) !important;
 }
 
 .logo-area {
@@ -36,7 +46,8 @@ body {
 
 .page-content-container .subscribe-area-container,
 .page-content-container .tickets-area-container,
-.page-content-container .faqs-container {
+.page-content-container .faqs-container,
+.page-content-container .team-title-container {
   text-align: center;
   color: white;
   width: 100% !important;
@@ -119,4 +130,23 @@ body {
 .tickets-area-container .ticket-categories-row {
   margin: auto;
   max-width: 600px;
+}
+
+.team-title-row img {
+  display: block;
+  vertical-align: middle;
+  margin: auto;
+  height: 200px;
+}
+
+.team-title-row div {
+  height: 200px;
+}
+
+.team-title-row div h1 {
+  font-weight: bold;
+  padding-top: 40px;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
 }

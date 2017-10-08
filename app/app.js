@@ -4,8 +4,10 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var hbs = require('hbs');
 
 var index = require('./routes/index');
+var team = require('./routes/team');
 
 var app = express();
 
@@ -22,6 +24,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
+app.use('/team', team);
+
+// register path to partials
+hbs.registerPartials(__dirname + '/views/partials');
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
