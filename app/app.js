@@ -8,6 +8,7 @@ var hbs = require('hbs');
 
 var index = require('./routes/index');
 var team = require('./routes/team');
+var schedule = require('./routes/schedule');
 
 var app = express();
 
@@ -25,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/team', team);
+app.use('/schedule', schedule);
 
 // register path to partials
 hbs.registerPartials(__dirname + '/views/partials');

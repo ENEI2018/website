@@ -1,7 +1,13 @@
 :root {
-  --main-background-blue: rgb(1, 0, 140);
-  --main-highlight-pink: rgb(194, 0, 254);
-  --secondary-highlight-blue: rgb(90, 0, 255);
+  --main-background-blue: #00008c;
+  --main-highlight-pink: #c200ff;
+  --main-highlight-blue: #0000ff;
+  --main-highlight-purple: #5a00ff;
+  --main-third-highlight-blue: #00e9ff;
+
+  --secondary-blue: #92d2e9;
+  --secondary-pink: #da75ab;
+  --secondary-dark-purple: #221c47;
 }
 
 html, body {
@@ -118,7 +124,7 @@ body {
   text-align: center;
   padding: 2em;
   color: white;
-  background-color: var(--secondary-highlight-blue);
+  background-color: var(--main-highlight-purple);
 }
 
 .speakers-btn-container .call-speakers-btn-custom {
