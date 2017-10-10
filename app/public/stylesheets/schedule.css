@@ -87,6 +87,7 @@
 }
 
 .entry-title {
+  font-weight: bold;
   border-style: solid;
   border-width: 4px;
   border-color: white;
@@ -110,6 +111,21 @@
   color: var(--main-background-blue);
   background-color: white;
   margin-top: 10px !important;
+  font-weight: bold;
+}
+
+.schedule-entry-type {
+  color: var(--font-highlight-blue);
+  font-size: 80%;
+}
+
+.schedule-location-box {
+  font-size: 70%;
+  min-height: 56px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: solid;
+  border-color: var(--font-highlight-blue);
 }
 
 /************************/
