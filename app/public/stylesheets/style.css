@@ -156,3 +156,30 @@ body {
   position: absolute;
   bottom: 0;
 }
+
+#countdown-row{
+  padding-top: 5%;
+  text-align: center;
+}
+#countdown {
+  color: white;
+}
+
+#countdown div{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  float: none;
+}
+
+#faltam{
+    width: 100px;
+}
+
+.countdown-text{
+  font-size: 1.5em;
+}
+.countdown-numbers{
+  font-size: 2.0em;
+  width: 50px;
+}
