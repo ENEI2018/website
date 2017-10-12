@@ -43,6 +43,22 @@ body {
   margin: 0 !important;
 }
 
+nav > div > div > ul{
+  display: flex;
+  float:inherit!important;
+}
+
+nav > div > div > ul > li{
+  flex-grow: 1;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+nav > div > div > ul > li > a{
+  color:#0000ff!important;
+  font-size:1.2em;
+}
+
 .page-content-container,
 .see-you-soon-footer {
   width: 100% !important;
