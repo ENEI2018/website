@@ -162,7 +162,7 @@ body {
 }
 #countdown {
   color: white;
-  padding-top: 3%;
+  padding-top: 4%;
 }
 
 #countdown div{
@@ -185,11 +185,11 @@ body {
 }
 
 #logo {
-    min-width: 400px;
+    min-width: 300px;
     width: 60%;
     position: absolute;
     top:45%;
     left: 50%;
-    transform: translate(-52%,-50%);
+    transform: translate(-50%,-50%);
     z-index: 3;
 }
