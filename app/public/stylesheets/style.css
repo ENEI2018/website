@@ -183,13 +183,14 @@ body {
   font-size: 2.0em;
   width: 50px;
 }
+#logo-div{
+  margin: auto;
+}
 
 #logo {
-    min-width: 300px;
-    width: 60%;
-    position: absolute;
-    top:45%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 3;
+    max-width: 1000px;
+    width: 100%;
+    padding-top: 5%;
+    margin: auto;
+    display:block;
 }
