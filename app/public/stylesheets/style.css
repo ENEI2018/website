@@ -186,3 +186,20 @@ body {
   font-size: 2.0em;
   width: 50px;
 }
+
+.font-verylarge {
+  font-size: 250%;
+}
+
+.font-boild {
+  font-weight: bold;
+}
+
+.homepage-info-small {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.homepage-info-entry {
+  margin-bottom: 20px;
+}
