@@ -8,6 +8,8 @@
   --secondary-blue: #92d2e9;
   --secondary-pink: #da75ab;
   --secondary-dark-purple: #221c47;
+
+  --font-highlight-blue: #54cdf0;
 }
 
 html, body {
@@ -22,6 +24,7 @@ html {
 body {
   min-height: 100%;
   background-color: var(--main-background-blue) !important;
+  font-family: 'Montserrat' !important;
 }
 
 .logo-area {
