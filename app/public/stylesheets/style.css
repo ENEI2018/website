@@ -22,6 +22,7 @@ html {
 }
 
 body {
+  min-width: 300px;
   min-height: 100%;
   background-color: var(--main-background-blue) !important;
   font-family: 'Montserrat' !important;
@@ -78,14 +79,52 @@ body {
 }
 
 .see-you-soon-footer,
-.see-you-soon-footer > div {
+.see-you-soon-footer .footer-img-container {
   width: 100%;
   vertical-align: middle;
+}
+
+.see-you-soon-txt {
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-align: center;
+}
+
+div.enei-footer {
+  width: 100%;
+  vertical-align: middle;
+  margin: auto;
+  height: 50px;
+}
+
+.enei-skew {
+  -ms-transform: skewY(-15deg); /* IE 9 */
+  -webkit-transform: skewY(-15deg); /* Safari */
+  transform: skewY(-15deg); /* Standard syntax */
+}
+
+.social-icon-container {
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.social-icon-container a {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .see-you-soon-img {
   margin: auto;
   display: block;
+}
+
+.footer-separator {
+  display: block;
+  margin: auto;
+  max-height: 100px;
 }
 
 .info-socialmedia-col .subcribe-btn-custom {
@@ -206,4 +245,8 @@ body {
 
 .homepage-info-entry {
   margin-bottom: 20px;
+}
+
+.enei-social-icon:hover {
+  color: var(--main-third-highlight-blue);
 }
