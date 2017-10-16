@@ -1,0 +1,19 @@
+@keyframes vertical-animation-1 {
+    0%   {left:0px; top:-10px;}
+    50%  {left:0px; top:10px;}
+    100%  {left:0px; top:-10px;}
+}
+
+.anim-vertical-phase1, .anim-vertical-phase2, .anim-vertical-phase3 {
+  animation-name: vertical-animation-1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.anim-vertical-phase1 {
+  animation-delay: -1s;
+}
+
+.anim-vertical-phase2 {
+  animation-delay: -0.5s;
+}

@@ -250,3 +250,54 @@ div.enei-footer {
 .enei-social-icon:hover {
   color: var(--main-third-highlight-blue);
 }
+
+.custom-inline {
+  display: inline-block;
+}
+
+.separator-shapes-1 {
+  width: fit-content;
+  margin: auto !important;
+}
+
+.separator-shapes-2 {
+  width: fit-content !important;
+  margin: auto !important;
+}
+
+.separator-row-secondary {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+.enei-bgd-bgdblue {
+  background-color: var(--main-background-blue);
+}
+
+.enei-bgd-hlghtpink {
+  background-color: var(--main-highlight-pink);
+}
+
+.enei-bgd-hlghtblue {
+  background-color: var(--main-highlight-blue);
+}
+
+.enei-bgd-hlghtpurple {
+  background-color: var(--main-highlight-purple);
+}
+
+.enei-bgd-thrdhlghtblue {
+  background-color: var(--main-third-highlight-blue);
+}
+
+.enei-bgd-secblue {
+  background-color: var(--secondary-blue);
+}
+
+.enei-bgd-secpink {
+  background-color: var(--secondary-pink);
+}
+
+.enei-bgd-secdarkpurple {
+  background-color: var(--secondary-dark-purple);
+}
