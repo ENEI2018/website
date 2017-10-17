@@ -204,3 +204,23 @@ body {
 .navbar .navbar-collapse {
   text-align: center;
 }
+
+.navbar-nav li {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding:0.2em;
+}
+
+#navbar .navbar-nav li > a{
+  color:#0000ff;
+}
+
+#navbar .navbar-nav li:nth-of-type(5) a{
+  color:#c200ff;
+}
+
+@media (max-width: 1000px){
+  .navbar-nav li{
+    font-size: 1em;
+  }
+}
