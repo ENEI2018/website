@@ -52,3 +52,12 @@ var x = setInterval(function() {
     document.getElementById("countdown").innerHTML = "EXPIRED";
   }
 }, 1000);
+var y = setInterval(function() {
+  var heightCountdown = document.getElementById("countdown-row").offsetHeight;
+  var heightLogo = document.getElementById("logo-div").offsetHeight;
+  var newheight = heightCountdown+heightLogo+100;
+  var widthLogoArea = document.getElementById("logo-area").offsetWidth;
+
+  document.getElementById("logo-area").style.backgroundSize = widthLogoArea+"px "+newheight+"px";
+  document.getElementById("logo-area").style.height = newheight+"px";
+},1);
