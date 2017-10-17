@@ -65,6 +65,40 @@ body {
     margin: 0 !important;
 }
 
+
+/* Navbar com Flexbox*/
+
+  nav > div > div > ul{
+    display: flex;
+    float:inherit!important;
+  }
+
+  nav > div > div > ul > li{
+    flex-grow: 1;
+    font-family: "Montserrat";
+    font-weight: 700;
+  }
+
+  nav > div > div > ul > li > a{
+    color:#0000ff!important;
+    font-size:1.2em;
+  }
+
+  /*  Media Queries */
+
+  @media (max-width: 768px){
+    nav > div > div > ul{
+      flex-direction: column;
+    }
+
+    nav > div > div > ul > li{
+      border-left:5px solid #0000ff;
+      /*margin-top:2px;*/
+    }
+  }
+
+/* Fim Flexbox*/
+
 .page-content-container,
 .see-you-soon-footer {
     width: 100% !important;
