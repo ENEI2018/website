@@ -1,0 +1,7 @@
+.shape-square {
+  height: 50px !important;
+  width: 50px !important;
+  margin: auto;
+  margin-left: 6px;
+  margin-right: 6px;
+}

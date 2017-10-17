@@ -4,6 +4,12 @@
   margin-top: 40px;
 }
 
+.panel-body {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 20px;
+}
+
 .custom-tab-container, .panel-heading, .panel-default {
   background-color: transparent !important;
   color: white !important;
@@ -73,7 +79,58 @@
   background-color: var(--main-highlight-blue);
 }
 
+.schedule-entry-separator {
+  height: 30px;
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  border-color: white;
+}
+
+.entry-title {
+  font-weight: bold;
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.panel-body .tab-content .tab-pane .tab-entry {
+  margin-top: 20px;
+}
+
+.entry-row .col-md-6 p {
+  margin: 5px 0 5px 0;
+}
+
+.activity-entry {
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: var(--main-background-blue);
+  background-color: white;
+  margin-top: 10px !important;
+  font-weight: bold;
+}
+
+.schedule-entry-type {
+  color: var(--font-highlight-blue);
+  font-size: 80%;
+}
+
+.schedule-location-box {
+  font-size: 70%;
+  min-height: 56px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: solid;
+  border-color: var(--font-highlight-blue);
+}
+
+/************************/
 /***** TEMPLATE CSS *****/
+/************************/
 
 .panel.with-nav-tabs .panel-heading {
   padding: 5px 5px 0 5px;
