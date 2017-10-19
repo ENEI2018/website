@@ -49,7 +49,7 @@ body {
 
 .logo-area {
   background-image: url("/images/background.jpg");
-  width: 100%;
+  width: 100% !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -162,6 +162,7 @@ div.enei-footer {
 
 .speakers-row {
     margin-bottom: 30px;
+    width: 100% !important;
 }
 
 .separator-shapes-1, .separator-shapes-2 {
