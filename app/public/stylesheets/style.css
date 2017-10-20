@@ -248,6 +248,26 @@ div.enei-footer {
     bottom: 0;
 }
 
+.faqs-area-title {
+    font-size: 300%;
+}
+
+#accordion {
+    width: fit-content;
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#accordion .panel-default, #accordion .panel-default .panel-heading {
+    background-color: transparent;
+}
+
+#accordion .panel-default .panel-heading .panel-title {
+    color: white;
+    font-size: 200%;
+}
+
 
 #countdown-row{
   text-align: center;
