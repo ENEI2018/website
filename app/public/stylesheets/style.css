@@ -130,6 +130,10 @@ div.enei-footer {
     max-height: 100px;
 }
 
+.info-socialmedia-col {
+  margin-top: 30px;
+}
+
 .info-socialmedia-col .subcribe-btn-custom {
     background-color: transparent;
     width: 60%;
@@ -143,6 +147,7 @@ div.enei-footer {
 }
 
 .speakers-row {
+    margin: 0 !important;
     margin-bottom: 30px;
     width: 100% !important;
 }
