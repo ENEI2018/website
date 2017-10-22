@@ -314,6 +314,8 @@ div.enei-footer {
 
 .logo {
     position: absolute;
+    top: calc(50% - 1.5em);
+    left: calc(50% - 1.25em);
     display: flex;
     flex-wrap: wrap;
     border: 0.1em white solid;
