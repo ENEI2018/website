@@ -29,7 +29,7 @@ body {
 
 .logo-area {
     background-image: url("/images/background.jpg");
-    width: 100%;
+    width: 100% !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -142,6 +142,31 @@ div.enei-footer {
 
 .speakers-row {
     margin-bottom: 30px;
+    width: 100% !important;
+}
+
+.separator-shapes-1,
+.separator-shapes-2 {
+    width: fit-content;
+    margin: auto !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.enei-bgd-hlghtpink {
+    background-color: var(--main-highlight-pink);
+}
+
+.enei-bgd-thrdhlghtblue {
+    background-color: var(--main-third-highlight-blue);
+}
+
+.enei-bgd-hlghtpurple {
+    background-color: var(--main-highlight-purple);
+}
+
+.enei-bgd-bgdblue {
+    background-color: var(--main-background-blue);
 }
 
 .page-content-container .separator-row,
@@ -203,8 +228,49 @@ div.enei-footer {
     bottom: 0;
 }
 
+.faqs-area-title {
+    font-size: 300%;
+}
+
+#accordion {
+    width: fit-content;
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#accordion .panel-default,
+#accordion .panel-default .panel-heading {
+    background-color: transparent;
+}
+
+#accordion .panel-default .panel-heading .panel-title {
+    color: white;
+    font-size: 200%;
+}
+
+#accordion .panel {
+    border-width: 0px !important;
+    margin-top: 40px;
+}
+
+#accordion div div.panel-heading {
+    width: fit-content;
+    margin: auto;
+    border-width: 0px;
+    border-radius: 0 !important;
+    background-color: var(--main-highlight-purple) !important;
+}
+
+#accordion .panel .panel-collapse .panel-body {
+    border-style: solid;
+    border-width: 6px;
+    border-color: var(--main-highlight-purple);
+}
+
 #countdown-row {
     text-align: center;
+    width: 100%;
 }
 
 #countdown {
@@ -303,4 +369,69 @@ div.enei-footer {
 .logo>#E_3::before,
 .logo>#I_4::before {
     top: -0.3em;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav li {
+    font-size: 1.8vw;
+    font-weight: bold;
+    padding: 0.2em;
+}
+
+#navbar .navbar-nav li>a {
+    color: #0000ff;
+}
+
+#navbar .navbar-nav li:nth-of-type(5) a {
+    color: #c200ff;
+}
+
+@media (min-width: 1500px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    .navbar-nav li {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1000px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    .navbar-nav li {
+        font-size: 1.4vw;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    .navbar-nav li {
+        font-size: 1.3em;
+        text-align: left;
+        border-left: 5px solid #0000ff;
+        margin-top: 2px;
+    }
+    .navbar-nav li:nth-of-type(5) {
+        border-left: 5px solid #c200ff;
+    }
+    .navbar-nav {
+        float: left!important;
+    }
+    .navbar-collapse {
+        margin-left: 0!important;
+        margin-bottom: -7px;
+        margin-top: -7px;
+    }
+    .navbar-nav li:nth-of-type(1) {
+        margin-top: -5px;
+    }
+    .navbar-nav li:hover {
+        background: rgba(0, 0, 0, 0.5);
+    }
 }
