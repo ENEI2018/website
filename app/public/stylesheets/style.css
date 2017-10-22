@@ -30,6 +30,7 @@ body {
 .logo-area {
     background-image: url("/images/background.jpg");
     width: 100% !important;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -273,6 +274,10 @@ div.enei-footer {
 }
 
 #countdown-row {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     width: 100%;
 }
@@ -313,11 +318,13 @@ div.enei-footer {
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    height: 60vh;
+    height: 100vh;
 }
 
 .logo {
     position: absolute;
+    top: calc(50% - 1.5em);
+    left: calc(50% - 1.25em);
     display: flex;
     flex-wrap: wrap;
     border: 0.1em white solid;
@@ -326,7 +333,7 @@ div.enei-footer {
     height: 3em;
     justify-content: center;
     align-items: center;
-    padding: 0.15em 0.4em;
+    padding: 0.15em 0.2em;
 }
 
 .logo-area canvas {
