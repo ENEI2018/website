@@ -30,6 +30,7 @@ body {
 .logo-area {
     background-image: url("/images/background.jpg");
     width: 100% !important;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -269,6 +270,10 @@ div.enei-footer {
 }
 
 #countdown-row {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     width: 100%;
 }
@@ -309,7 +314,7 @@ div.enei-footer {
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    height: 60vh;
+    height: 100vh;
 }
 
 .logo {
