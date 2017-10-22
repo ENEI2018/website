@@ -106,6 +106,7 @@ div.enei-footer {
 }
 
 .social-icon-container {
+    display: table;
     width: fit-content;
     margin: auto;
     margin-top: 40px;
@@ -147,6 +148,7 @@ div.enei-footer {
 
 .separator-shapes-1,
 .separator-shapes-2 {
+    display: table;
     width: fit-content;
     margin: auto !important;
     padding-top: 20px;
@@ -234,6 +236,7 @@ div.enei-footer {
 
 #accordion {
     width: fit-content;
+    display: table;
     color: white;
     margin: auto;
     margin-top: 30px;
@@ -255,6 +258,7 @@ div.enei-footer {
 }
 
 #accordion div div.panel-heading {
+    display: table;
     width: fit-content;
     margin: auto;
     border-width: 0px;
