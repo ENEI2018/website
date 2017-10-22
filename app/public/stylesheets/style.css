@@ -27,32 +27,12 @@ body {
     font-family: 'Montserrat' !important;
 }
 
-.logo {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100px;
-    background-color: white;
-    font-size: 30px;
-    font-family: Consolas, monaco, monospace;
-    flex-grow: 1;
-}
-
-.logo p {
-    position: relative;
-    margin: 0 0.1em;
-}
-
-.logo>#E_3,
-.logo>#I_4 {
-    top: -0.4em;
-}
-
 .logo-area {
-  background-image: url("/images/background.jpg");
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    background-image: url("/images/background.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .navbar-container-custom {
@@ -207,7 +187,6 @@ div.enei-footer {
 
 .team-title-row img {
     display: block;
-    vertical-align: middle;
     margin: auto;
     height: 200px;
 }
@@ -224,14 +203,13 @@ div.enei-footer {
     bottom: 0;
 }
 
-
-#countdown-row{
-  text-align: center;
+#countdown-row {
+    text-align: center;
 }
 
 #countdown {
-  color: white;
-  padding-top: 4%;
+    color: white;
+    padding-top: 4%;
 }
 
 #countdown div {
@@ -258,14 +236,71 @@ div.enei-footer {
     font-size: 250%;
 }
 
-#logo-div{
-  margin: auto;
+#logo-div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    height: 60vh;
 }
 
-#logo {
-    max-width: 1000px;
-    width: 100%;
-    padding-top: 5%;
-    margin: auto;
-    display:block;
+.logo {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.1em white solid;
+    font-family: Consolas, monaco, monospace;
+    width: 2.5em;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+    padding: 0.15em 0.4em;
+}
+
+.logo-area canvas {
+    width: 60%;
+    height: 4em;
+    transform: skewY(-15deg);
+    -webkit-transform: skewY(-15deg);
+    -moz-transform: skewY(-15deg);
+    -o-transform: skewY(-15deg);
+}
+
+@media (max-width: 1600px) {
+    .logo-area canvas {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .logo-area canvas {
+        width: 80%;
+    }
+}
+
+@media (max-width: 956px) {
+    .logo-area canvas {
+        width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo-area canvas {
+        display: none;
+    }
+}
+
+.logo p {
+    position: relative;
+    margin: 0 0.1em;
+    color: white;
+}
+
+.logo>#E_3,
+.logo>#I_4,
+.logo>#E_3::before,
+.logo>#I_4::before {
+    top: -0.3em;
 }
