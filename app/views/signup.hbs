@@ -1,14 +1,129 @@
 {{> navbar  }}
+
 <div class="container page-content-container">
 
-  <div class="row speakers-row">
+  <div class="row isolated-page-title-row">
     <h1>Inscrição</h1>
   </div>
-    <div class="row separator-row separator-shapes-1">
-      <div class="col-sm-4 shape-square enei-skew enei-bgd-hlghtpink anim-vertical-phase1"></div>
-      <div class="col-sm-4 shape-square enei-skew enei-bgd-thrdhlghtblue anim-vertical-phase2"></div>
-      <div class="col-sm-4 shape-square enei-skew enei-bgd-hlghtpurple anim-vertical-phase3"></div>
-    </div>
+  <div class="row separator-row separator-shapes-1">
+    <div class="col-sm-4 shape-square enei-skew enei-bgd-hlghtpink anim-vertical-phase1"></div>
+    <div class="col-sm-4 shape-square enei-skew enei-bgd-thrdhlghtblue anim-vertical-phase2"></div>
+    <div class="col-sm-4 shape-square enei-skew enei-bgd-hlghtpurple anim-vertical-phase3"></div>
+  </div>
+
+
+  <div class="signup-form-container">
+    <form>
+      <div class="form-section">
+        <label class="form-section-title">Identificação</label>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-name">Nome*:</label>
+          <input type="text" class="form-control" id="signup-name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-email">Email*:</label>
+          <input type="email" class="form-control" id="signup-email" required>
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-phone">Nome*:</label>
+          <input type="tel" class="form-control" id="signup-phone" required>
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-birthdate">Data de nascimento*:</label>
+          <input type="date" class="form-control" id="signup-birthdate" required>
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-school">Instituição de ensino*:</label>
+          <input type="text" class="form-control" id="signup-school" required>
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-course">Curso*:</label>
+          <input type="text" class="form-control" id="signup-course" required>
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-year">Ano*:</label>
+          <input type="number" class="form-control" id="signup-year" required>
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-cv">CV (link):</label>
+          <input type="url" class="form-control" id="signup-cv">
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-linkedin">LinkedIn (link):</label>
+          <input type="url" class="form-control" id="signup-linkedin">
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-github">GitHub/GitLab (link):</label>
+          <input type="url" class="form-control" id="signup-github">
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-website">Website (link):</label>
+          <input type="url" class="form-control" id="signup-website">
+        </div>
+      </div>
+
+      <div class="form-section">
+        <label class="form-section-title">Alojamento</label><br/>
+        <label class="form-entry-title">Em que dias pretendes usufruir do pavilhão disponibilizado?</label>
+        <div class="checkbox-area">
+          <label><input name="signup-night1" type="checkbox">De 23 para 24</label><br/>
+          <label><input name="signup-night2" type="checkbox">De 24 para 25</label><br/>
+          <label><input name="signup-night3" type="checkbox">De 25 para 26</label><br/>
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-stay-comments">Observações:</label>
+          <textarea rows="5" maxlength="400" class="form-control" id="signup-stay-comments"></textarea>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <label class="form-section-title">Alimentação</label><br/>
+        <label class="form-entry-title">Pretendes usufruir de alimentação?*</label>
+        <div class="form-group radio-area">
+          <input type="radio" name="signup-food" value="yes" checked>Sim</input><br/>
+          <input type="radio" name="signup-food" value="no">Não</input>
+        </div>
+        <div class="form-group">
+          <label class="form-entry-title" for="signup-food-comments">Observações:</label>
+          <textarea rows="5" maxlength="400" class="form-control" id="signup-food-comments"></textarea>
+        </div>
+      </div>
+
+      <label class="form-entry-title">* - obrigatório</label><br/><br/>
+
+      <button type="submit" class="btn btn-default">Submeter</button>
+    </form>
+  </div>
 </div>
+
+<!--
+
+Identificação
+Nome*
+Email*
+Número de Telemóvel*
+Data de Nascimento*
+Instituição de Ensino*
+Curso*
+Ano*
+CV
+LinkedIn
+GitHub
+Website
+
+Alojamento
+Em que noites pretendes usufruir do pavilhão disponibilizado?*
+De 23 para 24
+De 24 para 25
+De 25 para 26
+Observações:
+
+Alimentação
+Pretendes usufruir de alimentação?*
+Sim
+Não
+Observações/Restrições alimentares:
+
+-->
 
 {{> footer}}
