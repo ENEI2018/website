@@ -10,6 +10,7 @@ var index = require('./routes/index');
 var team = require('./routes/team');
 var schedule = require('./routes/schedule');
 var signup = require('./routes/signup');
+var signup_complete = require('./routes/signup-complete');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/', index);
 app.use('/team', team);
 app.use('/schedule', schedule);
 app.use('/signup', signup);
+app.use('/signup-complete', signup_complete);
 
 // register path to partials
 hbs.registerPartials(__dirname + '/views/partials');

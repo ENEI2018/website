@@ -505,3 +505,10 @@ div.enei-footer {
   font-weight: bold;
   font-size: 200%;
 }
+
+.signup-complete-container {
+  max-width: 600px;
+  margin: 60px auto !important;
+  color: white;
+  text-align: center;
+}
