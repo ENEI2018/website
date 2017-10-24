@@ -318,11 +318,8 @@ div.enei-footer {
 }
 
 .logo {
-    position: absolute;
-    top: calc(50% - 1.5em);
-    left: calc(50% - 1.25em);
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template: auto auto / auto auto;
     border: 0.1em white solid;
     font-family: Consolas, monaco, monospace;
     width: 2.5em;
@@ -333,29 +330,38 @@ div.enei-footer {
 }
 
 .logo-area canvas {
-    width: 60%;
-    height: 4em;
+    position: relative;
+    width: 30%;
+    height: 5em;
     transform: skewY(-15deg);
     -webkit-transform: skewY(-15deg);
     -moz-transform: skewY(-15deg);
     -o-transform: skewY(-15deg);
 }
 
+.logo-area #canvas1 {
+    top: 0.5em;
+}
+
+.logo-area #canvas2 {
+    top: -0.5em;
+}
+
 @media (max-width: 1600px) {
     .logo-area canvas {
-        width: 70%;
+        width: 35%;
     }
 }
 
 @media (max-width: 1300px) {
     .logo-area canvas {
-        width: 80%;
+        width: 40%;
     }
 }
 
 @media (max-width: 956px) {
     .logo-area canvas {
-        width: 60%;
+        width: 30%;
     }
 }
 
