@@ -17,3 +17,51 @@
 .anim-vertical-phase2 {
   animation-delay: -0.5s;
 }
+
+@keyframes footer-1-animation {
+  0%   {left:-15px; top:20px;}
+  50%  {left:-15px; top:28px;}
+  100%  {left:-15px; top:20px;}
+}
+
+@keyframes footer-2-animation {
+  0%   {left:20px; top:4px;}
+  50%  {left:20px; top:-4px;}
+  100%  {left:20px; top:4px;}
+}
+
+@keyframes footer-3-animation {
+  0%   {left:-7px; top:26px;}
+  50%  {left:-7px; top:34px;}
+  100%  {left:-7px; top:26px;}
+}
+
+@keyframes footer-4-animation {
+  0%   {left:18px; top:-1px;}
+  50%  {left:18px; top:-9px;}
+  100%  {left:18px; top:-1px;}
+}
+
+.enei-footer-piece-1 {
+  animation-name: footer-1-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.enei-footer-piece-2 {
+  animation-name: footer-2-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.enei-footer-piece-3 {
+  animation-name: footer-3-animation;
+  animation-duration: 2.7s;
+  animation-iteration-count: infinite;
+}
+
+.enei-footer-piece-4 {
+  animation-name: footer-4-animation;
+  animation-duration: 2.3s;
+  animation-iteration-count: infinite;
+}
