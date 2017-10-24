@@ -8,6 +8,8 @@
     --secondary-pink: #da75ab;
     --secondary-dark-purple: #221c47;
     --font-highlight-blue: #54cdf0;
+    --shape-blue: #005ffb;
+    --shape-pink: #af59fc;
 }
 
 html,
@@ -45,6 +47,8 @@ body {
 .navbar-container-custom .navbar-custom {
     margin: 0 !important;
 }
+
+
 
 .page-content-container,
 .see-you-soon-footer {
@@ -175,6 +179,14 @@ div.enei-footer {
 
 .enei-bgd-bgdblue {
     background-color: var(--main-background-blue);
+}
+
+.enei-bgd-shapeblue {
+    background-color: var(--shape-blue);
+}
+
+.enei-bgd-shapepink {
+  background-color: var(--shape-pink);
 }
 
 .page-content-container .separator-row,
