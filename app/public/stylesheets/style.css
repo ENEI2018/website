@@ -8,6 +8,8 @@
     --secondary-pink: #da75ab;
     --secondary-dark-purple: #221c47;
     --font-highlight-blue: #54cdf0;
+    --shape-blue: #005ffb;
+    --shape-pink: #af59fc;
 }
 
 html,
@@ -45,6 +47,8 @@ body {
 .navbar-container-custom .navbar-custom {
     margin: 0 !important;
 }
+
+
 
 .page-content-container,
 .see-you-soon-footer {
@@ -107,6 +111,7 @@ div.enei-footer {
 }
 
 .social-icon-container {
+    display: table;
     width: fit-content;
     margin: auto;
     margin-top: 40px;
@@ -129,6 +134,10 @@ div.enei-footer {
     max-height: 100px;
 }
 
+.info-socialmedia-col {
+  margin-top: 30px;
+}
+
 .info-socialmedia-col .subcribe-btn-custom {
     background-color: transparent;
     width: 60%;
@@ -142,12 +151,14 @@ div.enei-footer {
 }
 
 .speakers-row {
+    margin: 0 !important;
     margin-bottom: 30px;
     width: 100% !important;
 }
 
 .separator-shapes-1,
 .separator-shapes-2 {
+    display: table;
     width: fit-content;
     margin: auto !important;
     padding-top: 20px;
@@ -168,6 +179,14 @@ div.enei-footer {
 
 .enei-bgd-bgdblue {
     background-color: var(--main-background-blue);
+}
+
+.enei-bgd-shapeblue {
+    background-color: var(--shape-blue);
+}
+
+.enei-bgd-shapepink {
+  background-color: var(--shape-pink);
 }
 
 .page-content-container .separator-row,
@@ -235,6 +254,7 @@ div.enei-footer {
 
 #accordion {
     width: fit-content;
+    display: table;
     color: white;
     margin: auto;
     margin-top: 30px;
@@ -256,6 +276,7 @@ div.enei-footer {
 }
 
 #accordion div div.panel-heading {
+    display: table;
     width: fit-content;
     margin: auto;
     border-width: 0px;
@@ -276,6 +297,7 @@ div.enei-footer {
     right: 0;
     text-align: center;
     width: 100%;
+    margin: 0;
 }
 
 #countdown {
