@@ -48,8 +48,6 @@ body {
     margin: 0 !important;
 }
 
-
-
 .page-content-container,
 .see-you-soon-footer {
     width: 100% !important;
@@ -135,7 +133,7 @@ div.enei-footer {
 }
 
 .info-socialmedia-col {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .info-socialmedia-col .subcribe-btn-custom {
@@ -186,7 +184,7 @@ div.enei-footer {
 }
 
 .enei-bgd-shapepink {
-  background-color: var(--shape-pink);
+    background-color: var(--shape-pink);
 }
 
 .page-content-container .separator-row,
@@ -340,8 +338,11 @@ div.enei-footer {
 }
 
 .logo {
-    display: grid;
-    grid-template: auto auto / auto auto;
+    position: absolute;
+    left: calc(50% - 1.25em);
+    top: calc(50% - 1.5em);
+    display: flex;
+    flex-wrap: wrap;
     border: 0.1em white solid;
     font-family: Consolas, monaco, monospace;
     width: 2.5em;
@@ -353,7 +354,7 @@ div.enei-footer {
 
 .logo-area canvas {
     position: relative;
-    width: 30%;
+    width: 60%;
     height: 5em;
     transform: skewY(-15deg);
     -webkit-transform: skewY(-15deg);
@@ -371,19 +372,19 @@ div.enei-footer {
 
 @media (max-width: 1600px) {
     .logo-area canvas {
-        width: 35%;
+        width: 70%;
     }
 }
 
 @media (max-width: 1300px) {
     .logo-area canvas {
-        width: 40%;
+        width: 80%;
     }
 }
 
 @media (max-width: 956px) {
     .logo-area canvas {
-        width: 30%;
+        width: 60%;
     }
 }
 
