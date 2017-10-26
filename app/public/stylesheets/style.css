@@ -134,6 +134,8 @@ div.enei-footer {
 
 .info-socialmedia-col {
     margin-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .info-socialmedia-col .subcribe-btn-custom {
@@ -368,6 +370,14 @@ div.enei-footer {
 
 .logo-area #canvas2 {
     top: -0.5em;
+}
+
+@media (max-width: 767px) {
+    .info-socialmedia-col-notlast {
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: white;
+    }
 }
 
 @media (max-width: 1600px) {
