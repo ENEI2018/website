@@ -453,6 +453,14 @@ div.enei-footer {
     }
 }
 
+img.signup-section-img {
+  height: 50px;
+  width: auto;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .signup-form-container {
   max-width: 500px;
   margin: auto;
@@ -461,6 +469,18 @@ div.enei-footer {
 
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.signup-form-container input,
+.signup-form-container textarea {
+  background-color: transparent;
+  border-width: 0 0 3px 0;
+  border-radius: 0;
+  border-color: white;
+  color: white;
+  box-shadow: none;
+  background-color: #020265;
+  border-radius: 8px 8px 0 0;
 }
 
 .signup-form-container form .form-entry-title,
@@ -487,10 +507,15 @@ div.enei-footer {
   font-size: 180%;
   margin-top: 20px;
   margin-bottom: 20px;
+  vertical-align: bottom;
 }
 
 .signup-form-container form .form-section {
   margin-bottom: 30px;
+}
+
+.signup-form-container form .form-section.form-section-not-last {
+  margin-bottom: 50px;
 }
 
 .signup-form-container form button {
