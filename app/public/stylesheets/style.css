@@ -295,6 +295,7 @@ div.enei-footer {
 }
 
 #countdown-row {
+    z-index: 2;
     position: absolute;
     top: 0;
     left: 0;
@@ -334,6 +335,7 @@ div.enei-footer {
 }
 
 #logo-div {
+    z-index: 1;
     position: relative;
     width: 100%;
     display: flex;
