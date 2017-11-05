@@ -2,6 +2,11 @@
 var countDownDate = new Date("Mar 23, 2018 09:00:00").getTime();
 
 $(document).ready(function() {
+    if(document.getElementById("countdown") === null) {
+        // Page doesn't have countdown section
+        return;
+    }
+
     // Get todays date and time
     var now = new Date().getTime();
 
@@ -28,6 +33,10 @@ $(document).ready(function() {
 
 // Update the count down every 1 second
 var x = setInterval(function() {
+    if(document.getElementById("countdown") === null) {
+        // Page doesn't have countdown section
+        return;
+    }
 
     // Get todays date and time
     var now = new Date().getTime();
