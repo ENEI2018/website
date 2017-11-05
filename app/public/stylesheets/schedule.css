@@ -1,0 +1,167 @@
+.custom-tab-container {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.panel-body {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.custom-tab-container, .panel-heading, .panel-default {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.panel-heading {
+  padding: 0 !important;
+  border: 0;
+}
+
+.panel-default {
+  border: 0;
+  box-shadow: 0 0 0 transparent;
+}
+
+.custom-tab-item-odd {
+  width: 25%;
+  color: white;
+  background-color: var(--main-highlight-purple);
+}
+
+.custom-tab-item-even {
+  width: 25%;
+  color: white;
+  background-color: var(--main-highlight-blue);
+}
+
+.custom-tab-item-odd a {
+  border-color: transparent;
+  border-width: 4px 1 1 1px;
+}
+
+.custom-tab-item-even a {
+  border-color: transparent;
+  border-width: 4px 1 1 1px;
+}
+
+.panel-body {
+  background-color: transparent;
+}
+
+.nav-tabs>li>a {
+  border-width: 4px 1px 1px 1px !important;
+  border-radius: 0px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white !important;
+  margin: 0 !important;
+}
+
+.nav-tabs>li>a:hover {
+  background-color: inherit;
+  border-color: transparent;
+  border-top-color: white;
+  border-width: 4px 1px 1px 1px;
+}
+
+.with-nav-tabs.panel-default .nav-tabs>li.custom-tab-item-odd.active>a {
+  border-color: transparent !important;
+  border-top-color: white !important;
+  background-color: var(--main-highlight-purple);
+}
+
+.with-nav-tabs.panel-default .nav-tabs>li.custom-tab-item-even.active>a {
+  border-color: transparent !important;
+  border-top-color: white !important;
+  background-color: var(--main-highlight-blue);
+}
+
+.schedule-entry-separator {
+  height: 30px;
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  border-color: white;
+}
+
+.entry-title {
+  font-weight: bold;
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.panel-body .tab-content .tab-pane .tab-entry {
+  margin-top: 20px;
+}
+
+.entry-row .col-md-6 p {
+  margin: 5px 0 5px 0;
+}
+
+.activity-entry {
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: var(--main-background-blue);
+  background-color: white;
+  margin-top: 10px !important;
+  font-weight: bold;
+}
+
+.schedule-entry-type {
+  color: var(--font-highlight-blue);
+  font-size: 80%;
+}
+
+.schedule-location-box {
+  font-size: 70%;
+  min-height: 56px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: solid;
+  border-color: var(--font-highlight-blue);
+}
+
+/************************/
+/***** TEMPLATE CSS *****/
+/************************/
+
+.panel.with-nav-tabs .panel-heading {
+  padding: 5px 5px 0 5px;
+}
+
+.panel.with-nav-tabs .nav-tabs {
+  border-bottom: none;
+}
+
+.panel.with-nav-tabs .nav-justified {
+  margin-bottom: -1px;
+}
+
+.with-nav-tabs.panel-default .nav-tabs>li>a {
+  color: #777;
+}
+
+.with-nav-tabs.panel-default .nav-tabs>.open>a {
+  color: #777;
+  background-color: #ddd;
+  border-color: transparent;
+}
+
+.with-nav-tabs.panel-default .nav-tabs>li.active>a {
+  color: #555;
+  border-width: 3px 0 0 0;
+  border-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.with-nav-tabs.panel-default .nav-tabs>li.dropdown .dropdown-menu {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}

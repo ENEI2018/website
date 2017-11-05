@@ -1,0 +1,39 @@
+.shape-square {
+  height: 50px !important;
+  width: 50px !important;
+  margin: auto;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.shape-square.enei-footer-piece-1 {
+  height: 40px !important;
+  width: 30px !important;
+  position: relative;
+  top: 24px;
+  left: -15px;
+}
+
+.shape-square.enei-footer-piece-2 {
+  width: 45px !important;
+  position: relative;
+  left: 20px;
+  z-index: 2;
+}
+
+.shape-square.enei-footer-piece-3 {
+  height: 40px !important;
+  width: 30px !important;
+  position: relative;
+  top: 30px;
+  left: -7px;
+  z-index: 1;
+}
+
+.shape-square.enei-footer-piece-4 {
+  height: 40px !important;
+  width: 30px !important;
+  position: relative;
+  top: -5px;
+  left: 18px;
+}
