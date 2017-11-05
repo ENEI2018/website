@@ -155,7 +155,7 @@ div.enei-footer {
     background-color: transparent;
 }
 
-.speakers-row {
+.speakers-row, .isolated-page-title-row {
     margin: 0 !important;
     margin-bottom: 30px;
     width: 100% !important;
@@ -196,7 +196,8 @@ div.enei-footer {
 
 .page-content-container .separator-row,
 .page-content-container .speakers-row,
-.page-content-container .ambassadors-row {
+.page-content-container .ambassadors-row,
+.page-content-container .isolated-page-title-row {
     text-align: center;
     color: white;
     padding: 2em;
@@ -488,4 +489,89 @@ div.enei-footer {
     .navbar-nav li:hover {
         background: rgba(0, 0, 0, 0.5);
     }
+}
+
+img.signup-section-img {
+  height: 50px;
+  width: auto;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.signup-form-container {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.signup-form-container input,
+.signup-form-container textarea {
+  background-color: transparent;
+  border-width: 0 0 3px 0;
+  border-radius: 0;
+  border-color: white;
+  color: white;
+  box-shadow: none;
+  background-color: #020265;
+  border-radius: 8px 8px 0 0;
+}
+
+.signup-form-container form .form-entry-title,
+.signup-form-container form .form-group .form-entry-title,
+.signup-form-container form .form-section .form-entry-title,
+.signup-form-container form .form-section .form-group .form-entry-title,
+.signup-form-container form .form-section .checkbox-area label,
+.signup-form-container form .form-section .radio-area {
+  color: white;
+}
+
+.signup-form-container form .form-section .checkbox-area,
+.signup-form-container form .form-section .radio-area {
+  padding-left: 20px;
+}
+
+.signup-form-container form .form-section .checkbox-area input,
+.signup-form-container form .form-section .radio-area input {
+  margin-right: 20px;
+}
+
+.signup-form-container form .form-section .form-section-title {
+  color: white;
+  font-size: 180%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  vertical-align: bottom;
+}
+
+.signup-form-container form .form-section {
+  margin-bottom: 30px;
+}
+
+.signup-form-container form .form-section.form-section-not-last {
+  margin-bottom: 50px;
+}
+
+.signup-form-container form button {
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: transparent;
+  border-radius: 0;
+  border-width: 6px;
+  border-style: solid;
+  border-color: white;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.signup-complete-container {
+  max-width: 600px;
+  margin: 60px auto !important;
+  color: white;
+  text-align: center;
 }
