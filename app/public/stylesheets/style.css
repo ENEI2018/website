@@ -122,6 +122,10 @@ div.enei-footer {
     margin-right: 20px;
 }
 
+.enei-social-icon:hover {
+    color: var(--main-highlight-pink);
+}
+
 .see-you-soon-img {
     margin: auto;
     display: block;
@@ -287,6 +291,10 @@ div.enei-footer {
     border-width: 0px;
     border-radius: 0 !important;
     background-color: var(--main-highlight-purple) !important;
+}
+
+#accordion .panel-default .panel-heading .panel-title:hover {
+    color: var(--main-third-highlight-blue);
 }
 
 #accordion .panel .panel-collapse .panel-body {
