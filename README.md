@@ -1,5 +1,5 @@
 # Website for Encontro Nacional de Estudantes de Informática
-Website for [Encontro Nacional de Estudantes de Informática](http://www.enei.pt).
+Website for [Encontro Nacional de Estudantes de Informática](https://www.enei.pt).
 
 Development instructions:
 - Install latest version of NodeJS from [here](https://nodejs.org/en/).
