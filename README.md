@@ -1,4 +1,4 @@
-# Website for Encontro Nacional de Estudantes de Informática
+# Website for Encontro Nacional de Estudantes de Informática (ENEI)
 Website for [Encontro Nacional de Estudantes de Informática](https://www.enei.pt).
 
 Development instructions:
