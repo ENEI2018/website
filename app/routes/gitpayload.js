@@ -3,11 +3,6 @@ var router = express.Router();
 var renderer = require('./../util/renderer');
 var execFile = require('child_process').execFile;
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  renderer.render(res, 'index', {});
-});
-
 router.post('/', function(req, res, next) {
   var execOptions = {
     maxBuffer : 1024 * 1024
@@ -17,8 +12,6 @@ router.post('/', function(req, res, next) {
     console.log('Git script executed');
     console.log(error);
   });
-
-  res.sendStatus(200);
 });
 
 module.exports = router;
