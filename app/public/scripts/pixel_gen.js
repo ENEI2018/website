@@ -4,10 +4,16 @@ var layer2ProbOfHidden = 5;
 var layer3ProbOfHidden = 20;
 var RECTANGLE_SCALE = 1 / 4;
 
+var filledPositions = [];
+var rectangleWidth = 0;
+var rectangleHeight = 0;
+var intervals = [];
+
 function draw() {
     var logo = document.getElementById('logo');
-    var rectangleWidth = Math.trunc(logo.offsetWidth * RECTANGLE_SCALE);
-    var rectangleHeight = Math.trunc(logo.offsetHeight * RECTANGLE_SCALE);
+    filledPositions = [];
+    rectangleWidth = Math.trunc(logo.offsetWidth * RECTANGLE_SCALE);
+    rectangleHeight = Math.trunc(logo.offsetHeight * RECTANGLE_SCALE);
 
     var canvas = document.getElementById('canvas');
     var tableX = Math.trunc(canvas.clientWidth / rectangleWidth);
@@ -49,8 +55,31 @@ function draw() {
                 if (rand < colors.length) {
                     ctx.fillStyle = colors[rand];
                     ctx.fillRect(xPos, yPos, rectangleWidth, rectangleHeight);
+                    filledPositions.push([xPos, yPos]);
                 }
             }
         }
     }
+
+   setupIntervalChanges();
+}
+
+function setupIntervalChanges() {
+    for(var i = 0; i < intervals.length; ++i) {
+        clearInterval(intervals[i]);
+    }
+
+    var numIntervals = Math.floor(filledPositions.length * 0.2);
+    console.log(numIntervals);
+    for(var i = 0; i < numIntervals; ++i) {
+        intervals.push(setInterval(changeRandomRectangle, Math.floor(Math.random() * 1000) + 200));
+    }
+}
+
+function changeRandomRectangle() {
+    var posIndex = Math.floor(Math.random() * (filledPositions.length - 1));
+    var colorIndex = Math.floor(Math.random() * (colors.length - 1));
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = colors[colorIndex];
+    ctx.fillRect(filledPositions[posIndex][0], filledPositions[posIndex][1], rectangleWidth, rectangleHeight);
 }
