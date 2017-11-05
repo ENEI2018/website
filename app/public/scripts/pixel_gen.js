@@ -19,10 +19,10 @@ function draw() {
     var offsetY = Math.round((canvas.clientHeight - logo.offsetHeight) / 2) -
         (Math.trunc((canvas.clientHeight - logo.offsetHeight) / (2 * rectangleHeight)) * rectangleHeight);
 
-    var logoXmin = Math.trunc((canvas.clientWidth - logo.offsetWidth) / 2) + offsetX - rectangleWidth / 2;
-    var logoXmax = Math.trunc((canvas.clientWidth + logo.offsetWidth) / 2) + offsetX - rectangleWidth / 2;
-    var logoYmin = Math.trunc((canvas.clientHeight - logo.offsetHeight) / 2) + offsetY - rectangleHeight / 2;
-    var logoYmax = Math.trunc((canvas.clientHeight + logo.offsetHeight) / 2) + offsetY - rectangleHeight / 2;
+    var logoXmin = Math.trunc((canvas.clientWidth - rectangleWidth / RECTANGLE_SCALE) / 2) - 1;
+    var logoXmax = Math.trunc((canvas.clientWidth + rectangleWidth / RECTANGLE_SCALE) / 2) - 1;
+    var logoYmin = Math.trunc((canvas.clientHeight - rectangleHeight / RECTANGLE_SCALE) / 2) - 1;
+    var logoYmax = Math.trunc((canvas.clientHeight + rectangleHeight / RECTANGLE_SCALE) / 2) - 1;
 
     if (canvas.getContext) {
         var ctx = canvas.getContext('2d');
