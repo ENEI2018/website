@@ -11,6 +11,11 @@ var intervals = [];
 
 function draw() {
     var logo = document.getElementById('logo');
+    if(logo === null) {
+        // Page doesn't have pixel canvas
+        return;
+    }
+
     filledPositions = [];
     rectangleWidth = Math.trunc(logo.offsetWidth * RECTANGLE_SCALE);
     rectangleHeight = Math.trunc(logo.offsetHeight * RECTANGLE_SCALE);
@@ -70,7 +75,6 @@ function setupIntervalChanges() {
     }
 
     var numIntervals = Math.floor(filledPositions.length * 0.2);
-    console.log(numIntervals);
     for(var i = 0; i < numIntervals; ++i) {
         intervals.push(setInterval(changeRandomRectangle, Math.floor(Math.random() * 1000) + 200));
     }
