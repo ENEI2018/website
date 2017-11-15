@@ -11,7 +11,7 @@ var team = require('./routes/team');
 var schedule = require('./routes/schedule');
 var signup = require('./routes/signup');
 var gitpayload = require('./routes/gitpayload');
-var signup_complete = require('./routes/signup-complete'); origin/master
+var signup_complete = require('./routes/signup-complete');
 
 var app = express();
 
