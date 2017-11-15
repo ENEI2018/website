@@ -76,7 +76,7 @@ function setupIntervalChanges() {
 
     var numIntervals = Math.floor(filledPositions.length * 0.2);
     for(var i = 0; i < numIntervals; ++i) {
-        intervals.push(setInterval(changeRandomRectangle, Math.floor(Math.random() * 1000) + 200));
+        intervals.push(setInterval(changeRandomRectangle, Math.floor(Math.random() * 1000) + 800));
     }
 }
 
