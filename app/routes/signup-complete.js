@@ -13,8 +13,7 @@ router.post('/', function(req, res, next) {
       appendData(auth, req);
     });
   }
-
-  renderer.render(res, 'signup-complete', {name: req.body.signup_name});
+  res.redirect('/signup-submitted');
 });
 
 // Get current timestamp
