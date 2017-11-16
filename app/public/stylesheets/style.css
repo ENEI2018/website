@@ -581,9 +581,9 @@ div.ticket-box>div>span{
 img.signup-section-img {
   height: 50px;
   width: auto;
-  margin-right: 30px;
+  display: block;
+  margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .signup-form-container {
@@ -630,9 +630,11 @@ img.signup-section-img {
 .signup-form-container form .form-section .form-section-title {
   color: white;
   font-size: 180%;
+  display: block;
+  width: fit-content;
+  margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  vertical-align: bottom;
 }
 
 .signup-form-container form .form-section {
