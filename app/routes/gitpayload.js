@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var renderer = require('./../util/renderer');
+var config = require('./../util/config');
 var execFile = require('child_process').execFile;
 
 router.post('/', function(req, res, next) {
@@ -8,10 +9,12 @@ router.post('/', function(req, res, next) {
     maxBuffer : 1024 * 1024
   }
 
-  execFile('/www/website-enei/hooks/hook.sh', execOptions, function(error, stdout, stderr) {
+  execFile(config.update_script, execOptions, function(error, stdout, stderr) {
     console.log('Git script executed');
     console.log(error);
   });
+
+  res.sendStatus(200);
 });
 
 module.exports = router;
