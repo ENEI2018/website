@@ -6,5 +6,5 @@ Development instructions:
 - Open directory 'app' in a terminal.
 - Run 'npm install' (only required once, or when a module is installed).
 - Run 'npm start' (requires restart on file changes).
-- Open [localhost:3000](http://localhost:3000) on any browser.
+- Open [localhost:8080](http://localhost:8080) on any browser.
 - **OPTIONAL**: use Nodemon (install with 'npm install -g nodemon'), and then run project with 'nodemon app'. This updates the website on file changes, without needing to re-run the command.
