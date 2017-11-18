@@ -664,3 +664,30 @@ img.signup-section-img {
   color: white;
   text-align: center;
 }
+
+.signup-intro-container {
+    max-width: 800px;
+    margin: auto !important;
+    padding: 40px;
+    color: white;
+}
+
+.signup-intro-container p {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 30px !important;
+    font-size: 110%;
+}
+
+.signup-intro-container button {
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: transparent;
+    border-radius: 0;
+    border-width: 6px;
+    border-style: solid;
+    border-color: white;
+    font-weight: bold;
+    font-size: 150%;
+}
