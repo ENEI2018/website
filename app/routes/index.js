@@ -8,17 +8,4 @@ router.get('/', function(req, res, next) {
   renderer.render(res, 'index', {});
 });
 
-router.post('/', function(req, res, next) {
-  var execOptions = {
-    maxBuffer : 1024 * 1024
-  }
-
-  execFile('/www/website-enei/hooks/hook.sh', execOptions, function(error, stdout, stderr) {
-    console.log('Git script executed');
-    console.log(error);
-  });
-
-  res.sendStatus(200);
-});
-
 module.exports = router;
