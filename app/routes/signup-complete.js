@@ -10,7 +10,7 @@ router.post('/', function(req, res, next) {
   // Append data to Google Sheet
   if(req.body.signup_name !== undefined) {
     authentication.authenticate().then((auth)=>{
-      googleutil.appendGroupInfo(auth, req.body);
+      googleutil.appendSignupInfo(auth, req.body);
     });
   }
   res.redirect('/signup-submitted');

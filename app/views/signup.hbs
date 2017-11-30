@@ -14,6 +14,7 @@
 
   <div class="signup-form-container">
     <form action="/signup-complete" method="post">
+      <input type="hidden" name="signup_group" value="{{ group_hash }}">
       <div class="form-section form-section-not-last">
         <img class="signup-section-img" src="images/signup-info-pessoal.png"/>
         <label class="form-section-title">Identificação</label>

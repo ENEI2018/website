@@ -23,7 +23,8 @@ function appendSignupInfo(auth, signup_info) {
     signup_info.signup_night3 != undefined ? 'S' : 'N',
     signup_info.signup_stay_comments,
     signup_info.signup_food,
-    signup_info.signup_food_comments
+    signup_info.signup_food_comments,
+    signup_info.signup_group
   ];
 
   appendData(auth, spreadsheet, range, data);
@@ -34,7 +35,7 @@ function appendGroupInfo(auth, group_info) {
   var range = 'Grupos!A2:B';
   var data = [
     util.getDateTime(),
-    'hasherino'//signup_info.signup_name
+    group_info.group_hash
   ];
 
   appendData(auth, spreadsheet, range, data);

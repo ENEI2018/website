@@ -1,8 +1,8 @@
-{{> navbar  }}
+{{> navbar }}
 
 <div class="container page-content-container">
 
-<br/>
+  <br/>
   <div class="row separator-row separator-shapes-1">
     <div class="col-sm-4 shape-square enei-skew enei-bgd-hlghtpink anim-vertical-phase1"></div>
     <div class="col-sm-4 shape-square enei-skew enei-bgd-thrdhlghtblue anim-vertical-phase2"></div>
@@ -15,26 +15,36 @@
   <div class="row signup-intro-container">
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare sodales mauris, vitae tincidunt purus efficitur eu.
-      Curabitur euismod nisi eros, varius porttitor justo sollicitudin in. Donec id nulla tortor.
-      Nullam et urna at massa mollis suscipit. Nunc sollicitudin ullamcorper faucibus. Vivamus non nibh eget est scelerisque bibendum.
-      Donec sollicitudin vehicula nisi vel scelerisque.
+      Curabitur euismod nisi eros, varius porttitor justo sollicitudin in. Donec id nulla tortor. Nullam et urna at massa
+      mollis suscipit. Nunc sollicitudin ullamcorper faucibus. Vivamus non nibh eget est scelerisque bibendum. Donec sollicitudin
+      vehicula nisi vel scelerisque.
     </p>
     <p>
-      Proin placerat justo volutpat tristique porta. Sed turpis velit, fermentum at arcu in, bibendum laoreet nisl.
-      Donec ipsum tortor, eleifend quis ultricies at, finibus eget sem. Proin at mi vitae nisi placerat fermentum vitae nec diam.
-      Duis consequat lacinia dictum. Fusce elementum dictum nibh, a pulvinar tortor viverra vel. Nulla facilisi.
-      Pellentesque ultrices, dolor vitae tincidunt fermentum, velit justo tincidunt ex, at porttitor leo magna in urna.
+      Proin placerat justo volutpat tristique porta. Sed turpis velit, fermentum at arcu in, bibendum laoreet nisl. Donec ipsum
+      tortor, eleifend quis ultricies at, finibus eget sem. Proin at mi vitae nisi placerat fermentum vitae nec diam. Duis
+      consequat lacinia dictum. Fusce elementum dictum nibh, a pulvinar tortor viverra vel. Nulla facilisi. Pellentesque
+      ultrices, dolor vitae tincidunt fermentum, velit justo tincidunt ex, at porttitor leo magna in urna.
     </p>
     <p>
-      Vestibulum at vehicula urna, ac ornare erat. Ut eget elit vel erat tincidunt ullamcorper. Maecenas a odio at nibh suscipit rhoncus.
-      Nullam sed sem iaculis, condimentum libero vitae, cursus mauris. Proin non nisi tempus, molestie quam nec, consequat nulla.
-      Maecenas dapibus at neque ut elementum. Phasellus vitae odio at turpis accumsan euismod vel ut ante.
+      Vestibulum at vehicula urna, ac ornare erat. Ut eget elit vel erat tincidunt ullamcorper. Maecenas a odio at nibh suscipit
+      rhoncus. Nullam sed sem iaculis, condimentum libero vitae, cursus mauris. Proin non nisi tempus, molestie quam nec,
+      consequat nulla. Maecenas dapibus at neque ut elementum. Phasellus vitae odio at turpis accumsan euismod vel ut ante.
       Duis felis sapien, tristique nec nisi ut, rutrum suscipit urna. Donec et erat ultrices, vehicula leo non, aliquet mauris.
-      Nam ut lacus quis quam tincidunt pretium. In porttitor quam quis lectus dictum, id scelerisque erat finibus.
-      Donec dapibus congue magna, non vestibulum justo varius vitae. Vivamus eu metus orci.
+      Nam ut lacus quis quam tincidunt pretium. In porttitor quam quis lectus dictum, id scelerisque erat finibus. Donec
+      dapibus congue magna, non vestibulum justo varius vitae. Vivamus eu metus orci.
     </p>
-    <br/>
-    <button type="submit" class="btn btn-default">Continuar Inscrição</button>
+    <div class="signup-form-container">
+      <form action="/signup" method="get">
+        <div class="form-section">
+          <div class="form-group">
+            <label class="form-entry-title" for="signup-name">Se já tens um código de grupo, insere-o aqui:</label>
+            <input type="text" name="group" class="form-control" id="signup-info-group">
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-default">Continuar Inscrição</button>
+      </form>
+    </div>
   </div>
 
 </div>
