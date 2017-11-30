@@ -1,5 +1,6 @@
 var google = require('googleapis');
 var config = require('./../util/config');
+var util = require('./../util/util');
 
 function appendSignupInfo(auth, signup_info) {
   var spreadsheet = config.signup_spreadsheet;
@@ -28,6 +29,17 @@ function appendSignupInfo(auth, signup_info) {
   appendData(auth, spreadsheet, range, data);
 }
 
+function appendGroupInfo(auth, group_info) {
+  var spreadsheet = config.signup_spreadsheet;
+  var range = 'Grupos!A2:B';
+  var data = [
+    util.getDateTime(),
+    'hasherino'//signup_info.signup_name
+  ];
+
+  appendData(auth, spreadsheet, range, data);
+}
+
 function appendData(auth, spreadsheet, range, data_values) {
   var sheets = google.sheets('v4');
 
@@ -50,5 +62,6 @@ function appendData(auth, spreadsheet, range, data_values) {
 }
 
 module.exports = {
-  appendSignupInfo: appendSignupInfo
+  appendSignupInfo: appendSignupInfo,
+  appendGroupInfo: appendGroupInfo
 }
