@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var renderer = require('./../util/renderer');
 var config = require('./../util/config');
+var util = require('./../util/util');
 var google = require('googleapis');
 var authentication = require("./../util/authenticate");
 
@@ -16,25 +17,19 @@ router.post('/', function(req, res, next) {
   res.redirect('/signup-submitted');
 });
 
-// Get current timestamp
-function getDateTime() {
-  var moment = require('moment');
-  var now = moment()
-  return now.format('YYYY-MM-DD HH:mm:ss Z')
-}
-
 // Append data to Google Sheet
 function appendData(auth, req) {
   var sheets = google.sheets('v4');
+  
   sheets.spreadsheets.values.append({
     auth: auth,
     spreadsheetId: config.signup_spreadsheet,
-    range: 'Folha1!A2:B',
+    range: 'Inscricoes!A2:B',
     valueInputOption: "USER_ENTERED",
     resource: {
       values: [
         [
-          getDateTime(),
+          util.getDateTime(),
           req.body.signup_name,
           req.body.signup_email,
           req.body.signup_phone,
