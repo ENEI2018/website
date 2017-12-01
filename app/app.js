@@ -12,6 +12,7 @@ var schedule = require('./routes/schedule');
 var signup = require('./routes/signup');
 var gitpayload = require('./routes/gitpayload');
 var signup_intro = require('./routes/signup-intro');
+var signup_group = require('./routes/signup-group');
 var signup_complete = require('./routes/signup-complete');
 var signup_submitted = require('./routes/signup-submitted');
 
@@ -37,6 +38,7 @@ app.use('/gitpayload', gitpayload);
 app.use('/signup-complete', signup_complete);
 app.use('/signup-submitted', signup_submitted);
 app.use('/signup-intro', signup_intro);
+app.use('/signup-group', signup_group);
 
 // register path to partials
 hbs.registerPartials(__dirname + '/views/partials');

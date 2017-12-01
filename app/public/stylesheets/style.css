@@ -691,3 +691,7 @@ img.signup-section-img {
     font-weight: bold;
     font-size: 150%;
 }
+
+.cursor-pointer {
+    cursor: pointer;
+}
