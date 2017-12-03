@@ -1,10 +1,10 @@
 var express = require('express');
 var router = express.Router();
 var renderer = require('./../util/renderer');
+var util = require('./../util/util');
 
 router.get('/', function(req, res, next) {
-  // Get group hash from URL
-  renderer.render(res, 'signup', { group_hash: req.query.group ? req.query.group : '' });
+  renderer.render(res, 'signup-group', { group_hash: util.getRandomHash()});
 });
 
 module.exports = router;

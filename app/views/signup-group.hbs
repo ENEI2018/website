@@ -9,7 +9,7 @@
     <div class="col-sm-4 shape-square enei-skew enei-bgd-hlghtpurple anim-vertical-phase3"></div>
   </div>
   <div class="row isolated-page-title-row">
-    <h1>Instruções para a inscrição:</h1>
+    <h1>Inscrição de grupo:</h1>
   </div>
 
   <div class="row signup-intro-container">
@@ -34,11 +34,15 @@
       dapibus congue magna, non vestibulum justo varius vitae. Vivamus eu metus orci.
     </p>
     <div class="signup-form-container">
-      <form action="/signup" method="get">
+      <form action="/signup-group-create" method="post">
         <div class="form-section">
           <div class="form-group">
-            <label class="form-entry-title" for="signup-name">Se já tens um código de grupo, insere-o aqui:</label>
-            <input type="text" name="group" class="form-control" id="signup-info-group">
+            <label class="form-entry-title" for="signup-name">Clica no link abaixo para o copiar e envia-o para os teus amigos!</label>
+            <p class="cursor-pointer" id="group_url" onclick="copyToClipboard('group_url')" data-toggle="modal" data-target="#copy_modal">
+              https://enei.pt/signup?group={{ group_hash }}
+            </p>
+            <input type="hidden" name="group" class="form-control" value="{{ group_hash }}">
+            <label class="form-entry-title">Atenção: depois de clicares no botão em baixo perdes acesso ao link de inscrição!</label>
           </div>
         </div>
 
@@ -47,6 +51,23 @@
     </div>
   </div>
 
+</div>
+
+<!-- Modal -->
+<div id="copy_modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>O link de grupo foi copiado!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 {{> footer}}

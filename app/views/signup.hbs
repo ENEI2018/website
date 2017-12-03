@@ -14,6 +14,7 @@
 
   <div class="signup-form-container">
     <form action="/signup-complete" method="post">
+      <input type="hidden" name="signup_group" value="{{ group_hash }}">
       <div class="form-section form-section-not-last">
         <img class="signup-section-img" src="images/signup-info-pessoal.png"/>
         <label class="form-section-title">Identificação</label>
@@ -43,7 +44,7 @@
         </div>
         <div class="form-group">
           <label class="form-entry-title" for="signup-year">Ano*:</label>
-          <input type="number" name="signup_year" class="form-control" id="signup-year" required>
+          <input type="number" name="signup_year" class="form-control" id="signup-year" min="1" max="5" required>
         </div>
         <div class="form-group">
           <label class="form-entry-title" for="signup-cv">CV (link):</label>
