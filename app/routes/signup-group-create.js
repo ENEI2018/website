@@ -5,16 +5,16 @@ var config = require('./../util/config');
 var googleutil = require('./../util/googleutil');
 var authentication = require("./../util/authenticate");
 
-/* GET home page. */
 router.post('/', function(req, res, next) {
   // Append data to Google Sheet
-  if(req.body.signup_name !== undefined) {
+  if(req.body.group !== undefined) {
     authentication.authenticate().then((auth)=>{
-      googleutil.appendSignupInfo(auth, req.body);
-      console.log('Signup appended');
+      req.body.group_hash = req.body.group;
+      googleutil.appendGroupInfo(auth, req.body);
+      console.log('Group appended');
     });
   }
-  res.redirect('/signup-submitted');
+  res.redirect('/signup?group=' + req.body.group);
 });
 
 module.exports = router;

@@ -32,7 +32,7 @@ function appendSignupInfo(auth, signup_info) {
 
 function appendGroupInfo(auth, group_info) {
   var spreadsheet = config.signup_spreadsheet;
-  var range = 'Grupos!A2:B';
+  var range = 'Grupos!A2:B2';
   var data = [
     util.getDateTime(),
     group_info.group_hash
@@ -57,7 +57,7 @@ function appendData(auth, spreadsheet, range, data_values) {
       console.log('The Sheets API returned an error: ' + err);
       return;
     } else {
-      console.log("Appended signup info.");
+      console.log("Appended info to GDrive.");
     }
   });
 }
