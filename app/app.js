@@ -16,6 +16,7 @@ var signup_group = require('./routes/signup-group');
 var signup_group_create = require('./routes/signup-group-create');
 var signup_complete = require('./routes/signup-complete');
 var signup_submitted = require('./routes/signup-submitted');
+var signup_error = require('./routes/signup-error');
 
 var app = express();
 
@@ -41,6 +42,7 @@ app.use('/signup-submitted', signup_submitted);
 app.use('/signup-intro', signup_intro);
 app.use('/signup-group', signup_group);
 app.use('/signup-group-create', signup_group_create);
+app.use('/signup-error', signup_error);
 
 // register path to partials
 hbs.registerPartials(__dirname + '/views/partials');
