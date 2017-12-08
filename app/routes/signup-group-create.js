@@ -7,12 +7,12 @@ router.post('/', function(req, res, next) {
   googleutil.appendGroupInfo(req.body, function(success, err) {
     if(success) {
       console.log('Group appended to Google Sheets');
+      res.redirect('/signup?group=' + req.body.group);
     } else {
       console.error('Spreadsheets API error: ' + err);
+      res.redirect('/signup-error');
     }
   });
-  
-  res.redirect('/signup?group=' + req.body.group);
 });
 
 module.exports = router;
