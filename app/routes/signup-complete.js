@@ -8,12 +8,14 @@ var authentication = require("./../util/authenticate");
 /* GET home page. */
 router.post('/', function(req, res, next) {
   // Append data to Google Sheet
-  if(req.body.signup_name !== undefined) {
-    authentication.authenticate().then((auth)=>{
-      googleutil.appendSignupInfo(auth, req.body);
-      console.log('Signup appended');
-    });
-  }
+  googleutil.appendSignupInfo(req.body, function(success, error) {
+    if(success) {
+      console.log('Group appended to Google Sheets');
+    } else {
+      console.error('Spreadsheets API error: ' + err);
+    }
+  });
+  
   res.redirect('/signup-submitted');
 });
 
