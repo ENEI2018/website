@@ -1,11 +1,13 @@
-var google = require('googleapis');
-var config = require('./../util/config');
-var util = require('./../util/util');
+let google = require('googleapis');
+let config = require('./../util/config');
+let util = require('./../util/util');
+let authenticate = require('./../util/authenticate');
 
-function appendSignupInfo(auth, signup_info) {
-  var spreadsheet = config.signup_spreadsheet;
-  var range = 'Inscricoes!A2:B';
-  var data = [
+// Callback receives bool as success
+function appendSignupInfo(signup_info, callback) {
+  let spreadsheet = config.signup_spreadsheet;
+  let range = 'Inscricoes!A2:B';
+  let data = [
     util.getDateTime(),
     signup_info.signup_name,
     signup_info.signup_email,
@@ -27,21 +29,22 @@ function appendSignupInfo(auth, signup_info) {
     signup_info.signup_group
   ];
 
-  appendData(auth, spreadsheet, range, data);
+  appendData(authenticate.authenticate(), spreadsheet, range, data, callback);
 }
 
-function appendGroupInfo(auth, group_info) {
+// Callback receives bool as success
+function appendGroupInfo(group_info, callback) {
   var spreadsheet = config.signup_spreadsheet;
   var range = 'Grupos!A2:B2';
   var data = [
     util.getDateTime(),
-    group_info.group_hash
+    group_info.group
   ];
 
-  appendData(auth, spreadsheet, range, data);
+  appendData(authenticate.authenticate(), spreadsheet, range, data, callback);
 }
 
-function appendData(auth, spreadsheet, range, data_values) {
+function appendData(auth, spreadsheet, range, data_values, callback) {
   var sheets = google.sheets('v4');
 
   sheets.spreadsheets.values.append({
@@ -54,10 +57,9 @@ function appendData(auth, spreadsheet, range, data_values) {
     }
   }, (err, response) => {
     if (err) {
-      console.log('The Sheets API returned an error: ' + err);
-      return;
+      callback(false, err);
     } else {
-      console.log("Appended info to GDrive.");
+      callback(true);
     }
   });
 }

@@ -3,6 +3,7 @@ Website for [Encontro Nacional de Estudantes de Informática](https://www.enei.p
 
 Development instructions:
 - Install latest version of NodeJS from [here](https://nodejs.org/en/).
+- Create Google developer service account with access to Sheets API and place the JSON auth file under '/app/credentials' with the name 'service-creds.json'
 - Open directory 'app' in a terminal.
 - Run 'npm install' (only required once, or when a module is installed).
 - Run 'npm start' (requires restart on file changes).
