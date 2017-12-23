@@ -102,11 +102,11 @@ div.enei-footer {
 }
 
 .enei-skew {
-    -ms-transform: skewY(-15deg);
+    -ms-transform: skewY(-15deg) scaleX(0.925);
     /* IE 9 */
-    -webkit-transform: skewY(-15deg);
+    -webkit-transform: skewY(-15deg) scaleX(0.925);
     /* Safari */
-    transform: skewY(-15deg);
+    transform: skewY(-15deg) scaleX(0.925);
     /* Standard syntax */
 }
 
@@ -156,7 +156,8 @@ div.enei-footer {
     background-color: transparent;
 }
 
-.speakers-row, .isolated-page-title-row {
+.speakers-row,
+.isolated-page-title-row {
     margin: 0 !important;
     margin-bottom: 30px;
     width: 100% !important;
@@ -237,90 +238,88 @@ div.enei-footer {
     max-width: 800px;
 }
 
+
 /*    Tickets    */
 
-
-.ticket-area-title{
+.ticket-area-title {
     margin-bottom: 3em;
 }
 
-i.circle{
-	border-radius: 50%;
-	width: 7em;
-    height: 7em; 
-    display:block;
+i.circle {
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+    display: block;
     border: solid 8px white;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 0;
 }
 
-.ticket-eb i.circle{
+.ticket-eb i.circle {
     background-color: var(--main-third-highlight-blue);
-    margin-top:8em;
+    margin-top: 8em;
 }
 
-.ticket-n i.circle{
+.ticket-n i.circle {
     background-color: #e300ff;
-    margin-bottom:3em;
+    margin-bottom: 3em;
 }
 
-div.ticket-box{
+div.ticket-box {
     background-color: var(--ticket-box-blue);
-    padding:1em;
-    padding-top:3em;
-    border-top:solid 5px white;
+    padding: 1em;
+    padding-top: 3em;
+    border-top: solid 5px white;
     z-index: 10;
 }
 
-.ticket-eb div.ticket-box{
-    margin-top:-5em;
+.ticket-eb div.ticket-box {
+    margin-top: -5em;
 }
 
-div.ticket-box > h3{
-    font-size:2.3em;
+div.ticket-box>h3 {
+    font-size: 2.3em;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.ticket-eb div.ticket-box > h3{
-    color:var(--main-third-highlight-blue);
+.ticket-eb div.ticket-box>h3 {
+    color: var(--main-third-highlight-blue);
 }
 
-.ticket-n div.ticket-box > h3{
-    color:#e300ff;
+.ticket-n div.ticket-box>h3 {
+    color: #e300ff;
 }
 
-div.ticket-box>div{
-    margin-top:3em;
+div.ticket-box>div {
+    margin-top: 3em;
 }
-div.ticket-box>div>span{
+
+div.ticket-box>div>span {
     color: var(--ticket-box-blue);
-    font-size:1.7em;
+    font-size: 1.7em;
     font-weight: 600;
-    padding:0.2em;
-    display:block;
-    margin:0.5em 1em;
+    padding: 0.2em;
+    display: block;
+    margin: 0.5em 1em;
     cursor: default;
 }
 
-.ticket-eb div.ticket-box>div>span{
-    background-color:var(--main-third-highlight-blue);
+.ticket-eb div.ticket-box>div>span {
+    background-color: var(--main-third-highlight-blue);
 }
 
-.ticket-eb div.ticket-box>div>span:hover{
-    background-color:#9af6f9;
+.ticket-eb div.ticket-box>div>span:hover {
+    background-color: #9af6f9;
 }
 
-
-.ticket-n div.ticket-box>div>span{
+.ticket-n div.ticket-box>div>span {
     background-color: #e300ff;
 }
 
-
-.ticket-n div.ticket-box>div>span:hover{
-    background-color:#f599fc;
-    
+.ticket-n div.ticket-box>div>span:hover {
+    background-color: #f599fc;
 }
 
 .team-title-row img {
@@ -447,15 +446,15 @@ div.ticket-box>div>span{
     position: absolute;
     left: calc(50% - 1.25em);
     top: calc(50% - 1.5em);
-    display: flex;
-    flex-wrap: wrap;
-    border: 0.1em white solid;
-    font-family: 'Space Mono', monospace;
     width: 2.5em;
     height: 3em;
-    justify-content: center;
-    align-items: center;
     padding: 0.15em 0.2em;
+    border: 0.09em white solid;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .logo-area canvas {
@@ -501,16 +500,18 @@ div.ticket-box>div>span{
 }
 
 .logo p {
-    position: relative;
     margin: 0 0.1em;
     color: white;
+    font-size: 0.85em;
+    font-weight: bold;
+    transform: scaleY(1.1);
 }
 
-.logo>#E_3,
-.logo>#I_4,
-.logo>#E_3::before,
-.logo>#I_4::before {
-    top: -0.3em;
+.logo #E_3,
+.logo #I_4,
+.logo #E_3::before,
+.logo #I_4::before {
+    margin-top: -0.1em;
 }
 
 .navbar .navbar-nav {
@@ -579,33 +580,32 @@ div.ticket-box>div>span{
 }
 
 img.signup-section-img {
-  height: 50px;
-  width: auto;
-  display: block;
-  margin: auto;
-  margin-top: 20px;
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .signup-form-container {
-  max-width: 500px;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-
-  padding-left: 10px;
-  padding-right: 10px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .signup-form-container input,
 .signup-form-container textarea {
-  background-color: transparent;
-  border-width: 0 0 3px 0;
-  border-radius: 0;
-  border-color: white;
-  color: white;
-  box-shadow: none;
-  background-color: #020265;
-  border-radius: 8px 8px 0 0;
+    background-color: transparent;
+    border-width: 0 0 3px 0;
+    border-radius: 0;
+    border-color: white;
+    color: white;
+    box-shadow: none;
+    background-color: #020265;
+    border-radius: 8px 8px 0 0;
 }
 
 .signup-form-container form .form-entry-title,
@@ -614,55 +614,55 @@ img.signup-section-img {
 .signup-form-container form .form-section .form-group .form-entry-title,
 .signup-form-container form .form-section .checkbox-area label,
 .signup-form-container form .form-section .radio-area {
-  color: white;
+    color: white;
 }
 
 .signup-form-container form .form-section .checkbox-area,
 .signup-form-container form .form-section .radio-area {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .signup-form-container form .form-section .checkbox-area input,
 .signup-form-container form .form-section .radio-area input {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 .signup-form-container form .form-section .form-section-title {
-  color: white;
-  font-size: 180%;
-  display: block;
-  width: fit-content;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+    color: white;
+    font-size: 180%;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .signup-form-container form .form-section {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .signup-form-container form .form-section.form-section-not-last {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .signup-form-container form button {
-  display: block;
-  margin: auto;
-  color: white;
-  background-color: transparent;
-  border-radius: 0;
-  border-width: 6px;
-  border-style: solid;
-  border-color: white;
-  font-weight: bold;
-  font-size: 150%;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: transparent;
+    border-radius: 0;
+    border-width: 6px;
+    border-style: solid;
+    border-color: white;
+    font-weight: bold;
+    font-size: 150%;
 }
 
 .signup-complete-container {
-  max-width: 600px;
-  margin: 60px auto !important;
-  color: white;
-  text-align: center;
+    max-width: 600px;
+    margin: 60px auto !important;
+    color: white;
+    text-align: center;
 }
 
 .signup-intro-container {
