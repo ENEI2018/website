@@ -7,6 +7,12 @@ var authentication = require("./../util/authenticate");
 
 /* GET home page. */
 router.post('/', function(req, res, next) {
+  // Redirect if tickets feature is disabled
+  if(process.env.ENEI_tickets !== '1') {
+    res.redirect('/notfound');
+    return;
+  }
+
   // Append data to Google Sheet
   googleutil.appendSignupInfo(req.body, function(success, error) {
     if(success) {
