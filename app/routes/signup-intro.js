@@ -1,11 +1,15 @@
 var express = require('express');
 var router = express.Router();
 var renderer = require('./../util/renderer');
-var execFile = require('child_process').execFile;
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
-  renderer.render(res, 'index', {footer_include_seeyousoon: 'true'});
+  // Redirect if tickets feature is disabled
+  if(process.env.ENEI_tickets !== '1') {
+    res.redirect('/notfound');
+    return;
+  }
+  
+  renderer.render(res, 'signup-intro');
 });
 
 module.exports = router;

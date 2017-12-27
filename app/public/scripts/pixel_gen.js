@@ -11,16 +11,21 @@ var intervals = [];
 
 function draw() {
     var logo = document.getElementById('logo');
+    if (logo === null) {
+        // Page doesn't have pixel canvas
+        return;
+    }
+
     filledPositions = [];
-    rectangleWidth = Math.trunc(logo.offsetWidth * RECTANGLE_SCALE);
+    rectangleWidth = Math.trunc(logo.clientWidth * RECTANGLE_SCALE);
     rectangleHeight = Math.trunc(logo.offsetHeight * RECTANGLE_SCALE);
 
     var canvas = document.getElementById('canvas');
     var tableX = Math.trunc(canvas.clientWidth / rectangleWidth);
     var tableY = Math.trunc(canvas.clientHeight / rectangleHeight);
 
-    var offsetX = Math.round((canvas.clientWidth - logo.offsetWidth) / 2) -
-        (Math.trunc((canvas.clientWidth - logo.offsetWidth) / (2 * rectangleWidth)) * rectangleWidth);
+    var offsetX = Math.round((canvas.clientWidth - logo.clientWidth) / 2) -
+        (Math.trunc((canvas.clientWidth - logo.clientWidth) / (2 * rectangleWidth)) * rectangleWidth);
 
     var offsetY = Math.round((canvas.clientHeight - logo.offsetHeight) / 2) -
         (Math.trunc((canvas.clientHeight - logo.offsetHeight) / (2 * rectangleHeight)) * rectangleHeight);
@@ -61,17 +66,16 @@ function draw() {
         }
     }
 
-   setupIntervalChanges();
+    setupIntervalChanges();
 }
 
 function setupIntervalChanges() {
-    for(var i = 0; i < intervals.length; ++i) {
+    for (var i = 0; i < intervals.length; ++i) {
         clearInterval(intervals[i]);
     }
 
     var numIntervals = Math.floor(filledPositions.length * 0.2);
-    console.log(numIntervals);
-    for(var i = 0; i < numIntervals; ++i) {
+    for (var i = 0; i < numIntervals; ++i) {
         intervals.push(setInterval(changeRandomRectangle, Math.floor(Math.random() * 1000) + 800));
     }
 }

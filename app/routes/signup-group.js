@@ -1,17 +1,16 @@
 var express = require('express');
 var router = express.Router();
 var renderer = require('./../util/renderer');
-var features = require('./../util/features');
+var util = require('./../util/util');
 
 router.get('/', function(req, res, next) {
   // Redirect if tickets feature is disabled
-  if(!features.tickets) {
+  if(process.env.ENEI_tickets !== '1') {
     res.redirect('/notfound');
     return;
   }
-
-  // Get group hash from URL
-  renderer.render(res, 'signup', { group_hash: req.query.group ? req.query.group : '' });
+  
+  renderer.render(res, 'signup-group', { group_hash: util.getRandomHash()});
 });
 
 module.exports = router;

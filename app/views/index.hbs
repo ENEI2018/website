@@ -15,7 +15,7 @@
     </div>
   </div>
 </div>
-<!--{{> navbar  }}-->
+{{> navbar }}
 <div class="container page-content-container">
   <div class="container subscribe-area-container">
     <div class="row info-socialmedia-row">
@@ -68,15 +68,42 @@
 
   <div class="row join-team-row">
     <h1>Junta-te à equipa!</h1>
-  </div>
+  </div>-->
 
+  {{#if include_tickets}}
   <div class="container tickets-area-container">
     <h1 class="ticket-area-title">Bilhetes</h1>
     <div class="row ticket-categories-row">
-      <div class="col-sm-6 ticket-categories-col">Early bird</div>
-      <div class="col-sm-6 ticket-categories-col">Normal</div>
+      <div class="ticket-eb col-sm-5 ticket-categories-col">
+        <i class="circle"></i>
+        <br/>
+        <div class="ticket-box">
+          <h3>Early bird</h3>
+          <div>
+            <span>Individual</span>
+            <span>Grupo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-1"></div>
+
+      <div class="ticket-n col-sm-6 ticket-categories-col">
+        <i class="circle"></i>
+        <br/>
+        <div class="ticket-box">
+          <h3>Normal</h3>
+          <div>
+            <span>Individual</span>
+            <span>Grupo</span>
+            <span>Individual sem almoço</span>
+            <span>Individual sem almoço &amp; sem alojamento</span>
+          </div>
+        </div>
+      </div>
     </div>
-  </div> -->
+  </div>
+  {{/if}}
 
   <div class="separator-row-secondary">
     <div class="row separator-shapes-2">

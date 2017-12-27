@@ -1,8 +1,10 @@
 <div class="enei-footer">
-  <div class="container see-you-soon-footer">
-    <h3 class="see-you-soon-txt enei-skew">Até breve!</h3>
-  </div>
-  <br/>
+  {{#if footer_include_seeyousoon}}
+    <div class="container see-you-soon-footer">
+      <h3 class="see-you-soon-txt enei-skew">Até breve!</h3>
+    </div>
+    <br/>
+  {{/if}}
   <div class="row separator-row separator-shapes-1">
     <div class="col-xs-3 enei-footer-piece-1 shape-square enei-skew enei-bgd-hlghtpink"></div>
     <div class="col-xs-3 enei-footer-piece-2 shape-square enei-skew enei-bgd-thrdhlghtblue"></div>
