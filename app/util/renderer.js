@@ -5,7 +5,8 @@ function render(res, page, options) {
         title: config.app_title,
         author: config.author,
         description: config.description,
-        layout: 'layout'
+        layout: 'layout',
+        include_tickets: process.env.ENEI_tickets === '1'
     }
 
     res.render(page, Object.assign(new_options, options));
