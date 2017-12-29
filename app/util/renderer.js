@@ -1,5 +1,5 @@
 var config = require('./config');
-var features = require('./../util/features');
+var features = require('../util/features');
 
 function render(res, page, options) {
     var new_options = {
@@ -7,7 +7,8 @@ function render(res, page, options) {
         author: config.author,
         description: config.description,
         layout: 'layout',
-        include_tickets: features.tickets
+        include_tickets: features.tickets,
+        include_sponsors: features.tickets
     }
 
     res.render(page, Object.assign(new_options, options));

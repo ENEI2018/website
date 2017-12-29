@@ -695,3 +695,31 @@ img.signup-section-img {
 .cursor-pointer {
     cursor: pointer;
 }
+
+.sponsor {
+    margin: 20px 0;
+}
+
+.sponsor.main img {
+    max-width: 100%;
+}
+
+.sponsor.gold {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsor.gold img {
+    margin: 2%;
+    height: 100%;
+}
+
+.sponsor.silver {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsor.silver img {
+    margin: 1%;
+    height: 100%;
+}
