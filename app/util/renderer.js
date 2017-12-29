@@ -8,7 +8,7 @@ function render(res, page, options) {
         description: config.description,
         layout: 'layout',
         include_tickets: features.tickets,
-        include_sponsors: features.tickets
+        include_sponsors: features.sponsors
     }
 
     res.render(page, Object.assign(new_options, options));
