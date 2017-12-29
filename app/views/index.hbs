@@ -205,64 +205,43 @@
   {{#if include_sponsors}}
     <div class="sponsors-container">
       <div class="container">
+        <h1 class="sponsor-title">Patrocinadores</h1>
+
         <div class="sponsor main">
-          <a target="_blank" href="//www.sonaeim.com">
-            <img src="images/sponsors/main/SonaeIM.png">
-          </a>
+          {{#each sponsors.main}}
+            {{#if show}}
+              <a target="_blank" href="//{{href}}">
+                <img title="{{name}}" alt="{{name}}" src="images/sponsors/main/{{image}}">
+              </a>
+            {{/if}}
+          {{/each}}
         </div>
         <div class="sponsor gold">
-          <a target="_blank" href="//www.deloitte.com">
-            <img src="images/sponsors/gold/Deloitte.jpg">
-          </a>
-          <a target="_blank" href="//www.efacec.com">
-            <img src="images/sponsors/gold/Efacec.jpg">
-          </a>
-          <a target="_blank" href="//www.natixis.com">
-            <img src="images/sponsors/gold/Natixis.jpg">
-          </a>
-          <a target="_blank" href="//www.wipro.com">
-            <img src="images/sponsors/gold/Wipro.png">
-          </a>
+          {{#each sponsors.gold}}
+            {{#if show}}
+              <a target="_blank" href="//{{href}}">
+                <img title="{{name}}" alt="{{name}}" src="images/sponsors/gold/{{image}}">
+              </a>
+            {{/if}}
+          {{/each}}
         </div>
         <div class="sponsor silver">
-          <a target="_blank" href="//www.aptiv.com">
-            <img src="images/sponsors/silver/aptiv.jpg">
-          </a>
-          <a target="_blank" href="//www..com">
-            <img src="images/sponsors/silver/aptiv.jpg">
-          </a>
-          <a target="_blank" href="//www..com">
-            <img src="images/sponsors/silver/aptiv.jpg">
-          </a>
-          <a target="_blank" href="//www..com">
-            <img src="images/sponsors/silver/aptiv.jpg">
-          </a>
-          <a target="_blank" href="//www..com">
-            <img src="images/sponsors/silver/aptiv.jpg">
-          </a>
-          <a target="_blank" href="//www..com">
-            <img src="images/sponsors/silver/aptiv.jpg">
-          </a>
-          <a target="_blank" href="//www..com">
-            <img src="images/sponsors/silver/aptiv.jpg">
-          </a>
+          {{#each sponsors.silver}}
+            {{#if show}}
+              <a target="_blank" href="//{{href}}">
+                <img title="{{name}}" alt="{{name}}" src="images/sponsors/silver/{{image}}">
+              </a>
+            {{/if}}
+          {{/each}}
         </div>
         <div class="sponsor bronze">
-          <a target="_blank" href="//www.criticalmanufacturing.com">
-            <img src="images/sponsors/bronze/criticalmanufacturing.png">
-          </a>
-          <a target="_blank" href="//www.fabamaq.com">
-            <img src="images/sponsors/bronze/fabamaq.png">
-          </a>
-          <a target="_blank" href="//www.fraunhofer.pt">
-            <img src="images/sponsors/bronze/fraunhofer.jpg">
-          </a>
-          <a target=_blank"" href="//www.lifeonmars.pt">
-            <img src="images/sponsors/bronze/lifeonmars.png">
-          </a>
-          <a target="_blank" href="//www.whitesmith.co">
-            <img src="images/sponsors/bronze/whitesmith.png">
-          </a>
+          {{#each sponsors.bronze}}
+            {{#if show}}
+              <a target="_blank" href="//{{href}}">
+                <img title="{{name}}" alt="{{name}}" src="images/sponsors/bronze/{{image}}">
+              </a>
+            {{/if}}
+          {{/each}}
         </div>
       </div>
     </div>

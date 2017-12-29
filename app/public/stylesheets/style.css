@@ -702,6 +702,18 @@ img.signup-section-img {
     background: white;
 }
 
+@media (min-width: 576px) {
+    .sponsor-title {
+        font-size: 300%;
+    }
+}
+
+.sponsor-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 250%;
+}
+
 .sponsor {
     display: flex;
     justify-content: space-around;
@@ -714,7 +726,7 @@ img.signup-section-img {
 }
 
 .sponsor.main > a {
-    max-width: 80%;
+    max-width: 60%;
 }
 
 .sponsor.gold > a {
