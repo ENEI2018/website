@@ -7,7 +7,8 @@ function render(res, page, options) {
         author: config.author,
         description: config.description,
         layout: 'layout',
-        include_tickets: features.tickets
+        include_tickets: features.tickets,
+        include_navbar: features.nav
     }
 
     res.render(page, Object.assign(new_options, options));
