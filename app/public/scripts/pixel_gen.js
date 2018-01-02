@@ -5,9 +5,12 @@ var layer3ProbOfHidden = 20;
 var RECTANGLE_SCALE = 1 / 4;
 
 var filledPositions = [];
+var unfilledPositions = [];
 var rectangleWidth = 0;
 var rectangleHeight = 0;
 var intervals = [];
+var tableX;
+var tableY;
 
 function draw() {
     var logo = document.getElementById('logo');
@@ -21,8 +24,8 @@ function draw() {
     rectangleHeight = Math.trunc(logo.offsetHeight * RECTANGLE_SCALE);
 
     var canvas = document.getElementById('canvas');
-    var tableX = Math.trunc(canvas.clientWidth / rectangleWidth);
-    var tableY = Math.trunc(canvas.clientHeight / rectangleHeight);
+    tableX = Math.trunc(canvas.clientWidth / rectangleWidth);
+    tableY = Math.trunc(canvas.clientHeight / rectangleHeight);
 
     var offsetX = Math.round((canvas.clientWidth - logo.clientWidth) / 2) -
         (Math.trunc((canvas.clientWidth - logo.clientWidth) / (2 * rectangleWidth)) * rectangleWidth);
@@ -61,6 +64,8 @@ function draw() {
                     ctx.fillStyle = colors[rand];
                     ctx.fillRect(xPos, yPos, rectangleWidth, rectangleHeight);
                     filledPositions.push([xPos, yPos]);
+                }else{
+                    unfilledPositions.push([xPos, yPos]);
                 }
             }
         }
@@ -74,16 +79,42 @@ function setupIntervalChanges() {
         clearInterval(intervals[i]);
     }
 
-    var numIntervals = Math.floor(filledPositions.length * 0.2);
+    var numIntervals = Math.floor(filledPositions.length * 0.1);
     for (var i = 0; i < numIntervals; ++i) {
-        intervals.push(setInterval(changeRandomRectangle, Math.floor(Math.random() * 1000) + 800));
+        intervals.push(setInterval(changeRandomRectangle, Math.floor(Math.random() * 1000) + 300));
     }
 }
 
+
 function changeRandomRectangle() {
-    var posIndex = Math.floor(Math.random() * (filledPositions.length - 1));
-    var colorIndex = Math.floor(Math.random() * (colors.length - 1));
-    var ctx = canvas.getContext('2d');
-    ctx.fillStyle = colors[colorIndex];
-    ctx.fillRect(filledPositions[posIndex][0], filledPositions[posIndex][1], rectangleWidth, rectangleHeight);
+    let posIndex = Math.floor(Math.random() * (filledPositions.length - 1));
+    let newPosIndex = Math.floor(Math.random() * (unfilledPositions.length - 1));
+    let colorIndex = Math.floor(Math.random() * (colors.length - 1));
+    let ctx = canvas.getContext('2d');
+    let tempX = filledPositions[posIndex][0];
+    let tempY = filledPositions[posIndex][1];
+    let newX = unfilledPositions[newPosIndex][0];
+    let newY = unfilledPositions[newPosIndex][1]; 
+    
+    //Use the same probability when selecting new pixel to paint
+    let rand;
+    if ((newX < (tableX / 12) || newX > (tableX - (tableX / 12))) || (newY < (tableY / 12) || newY > (tableY - (tableY / 12))))
+        rand = Math.trunc(Math.random() * (colors.length + layer3ProbOfHidden));
+    else if (newX > (3 * tableX / 12) && newX < (9 * tableX / 12) && newY > (3 * tableY / 12) && newY < (9 * tableY / 12))
+        rand = Math.trunc(Math.random() * (colors.length + layer1ProbOfHidden));
+    else
+        rand = Math.trunc(Math.random() * (colors.length + layer2ProbOfHidden));
+
+    if (rand < colors.length) {
+        ctx.fillStyle = colors[rand];
+        //Remove pixel
+        ctx.clearRect(tempX, tempY, rectangleWidth, rectangleHeight);
+        filledPositions.splice(posIndex,1);
+        ctx.fillRect(unfilledPositions[newPosIndex][0], unfilledPositions[newPosIndex][1], rectangleWidth, rectangleHeight);
+    
+        //Add new pixel to filled list, remove new pixel from unfilled list and add removed pixel to the unfilled list
+        filledPositions.push([unfilledPositions[newPosIndex][0], unfilledPositions[newPosIndex][1]]);
+        unfilledPositions.splice(newPosIndex,1);
+        unfilledPositions.push([tempX,tempY]);
+    }    
 }
