@@ -340,7 +340,7 @@ div.ticket-box>div>span {
     bottom: 0;
 }
 
-.faqs-area-title {
+.section-title {
     font-size: 300%;
 }
 
@@ -711,7 +711,6 @@ img.signup-section-img {
 .sponsor-title {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 250%;
 }
 
 .sponsor {
