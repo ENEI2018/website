@@ -30,14 +30,15 @@ body {
     font-family: 'Montserrat' !important;
 }
 
-.logo-area {
-    background-image: url("/images/background.jpg");
-    width: 100% !important;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
+.logo-area.background {
+    background: url("/images/background.jpg") no-repeat center;
     background-size: cover;
+    height: 100vh;
     min-height: 600px;
+}
+
+.logo-area {
+    width: 100% !important;
 }
 
 .navbar-container-custom {
@@ -60,9 +61,16 @@ body {
 .page-content-container .subscribe-area-container,
 .page-content-container .tickets-area-container,
 .page-content-container .faqs-container,
-.page-content-container .speakers-title-container,
 .page-content-container .team-title-container {
     text-align: center;
+    color: white;
+    width: 100% !important;
+    margin: 0 !important;
+    background-color: var(--main-background-blue);
+    padding: 3em;
+}
+
+.page-content-container .speakers-title-container {
     color: white;
     width: 100% !important;
     margin: 0 !important;
@@ -439,14 +447,14 @@ div.ticket-box>div>span {
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    height: 100vh;
+}
+
+#logo-div.full-height {
     min-height: 6em;
+    height: 100vh;
 }
 
 .logo {
-    position: absolute;
-    left: calc(50% - 1.25em);
-    top: calc(50% - 1.5em);
     width: 2.5em;
     height: 3em;
     padding: 0.15em 0.2em;
@@ -456,6 +464,12 @@ div.ticket-box>div>span {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+
+.logo.center {
+    position: absolute;
+    left: calc(50% - 1.25em);
+    top: calc(50% - 1.5em);
 }
 
 .logo-area canvas {
@@ -756,7 +770,11 @@ img.signup-section-img {
 }
 
 .speakers-title {
+    display: inline-block;
     font-weight: 900;
+    font-size: 400%;
+    margin: 2% 5%;
+    vertical-align: middle;
 }
 
 .speakers-container  {
@@ -789,3 +807,14 @@ img.signup-section-img {
 .speaker-wrapper img:hover + .speaker-overlay, .speaker-overlay:hover {
     display: block;
 }
+
+.logo.medium {
+    font-size: 40px;
+}
+
+.speakers-title-container .logo-wrapper {
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
+}
+
