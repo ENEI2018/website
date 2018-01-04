@@ -16,7 +16,7 @@ module.exports = {
     gold: [
       {
         name: "Deloitte",
-        image: "deloitte.jpg",
+        image: "deloitte.png",
         href: "www.deloitte.com",
         show: true
       },
@@ -56,6 +56,12 @@ module.exports = {
         name: "Novabase",
         image: "novabase.png",
         href: "www.novabase.pt",
+        show: true
+      },
+      {
+        name: "Vodafone",
+        image: "vodafone.jpg",
+        href: "www.vodafone.pt",
         show: true
       }
     ],
