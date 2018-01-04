@@ -1,0 +1,18 @@
+{{#if include_navbar}}
+  {{> navbar }}
+{{/if}}
+<div class="container page-content-container">
+  <div class="container speakers-title-container">
+    <h1 class="speakers-title">Speakers</h1>
+  </div>
+  <div class="speakers-container">
+    {{#each speakers}}
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="speaker-wrapper">
+        <img class="img-responsive" src="images/speakers/{{image}}" alt="{{name}}">
+        <div class="speaker-overlay">Boas</div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>

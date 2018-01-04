@@ -60,6 +60,7 @@ body {
 .page-content-container .subscribe-area-container,
 .page-content-container .tickets-area-container,
 .page-content-container .faqs-container,
+.page-content-container .speakers-title-container,
 .page-content-container .team-title-container {
     text-align: center;
     color: white;
@@ -705,4 +706,32 @@ img.signup-section-img {
     padding-right: 10px;
     color: white;
     text-align: center;
+}
+
+.speakers-title {
+    font-weight: 900;
+}
+
+.speakers-container  {
+    padding: 3%;
+}
+
+.speaker-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 50%;
+    background-color: rgba(0, 0, 1, 0.5);
+}
+
+.speaker-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.speaker-wrapper img:hover + .speaker-overlay, .speaker-overlay:hover {
+    display: block;
 }
