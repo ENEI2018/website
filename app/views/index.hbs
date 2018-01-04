@@ -15,7 +15,9 @@
     </div>
   </div>
 </div>
-{{> navbar }}
+{{#if include_navbar}}
+  {{> navbar }}
+{{/if}}
 <div class="container page-content-container">
   <div class="container subscribe-area-container">
     <div class="row info-socialmedia-row">

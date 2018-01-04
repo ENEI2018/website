@@ -13,5 +13,6 @@ Website for [Encontro Nacional de Estudantes de Informática](https://www.enei.p
 
 ## Management instructions
 
-Feature management is done via environment variables which are read across the application. Variables should be '1' if the feature is to be enabled. Current variables:
-- ENEI_tickets - if true, ticket related sections should be visible
+Feature management is done via environment variables which are read across the application. Variables should be '1' if the feature is to be enabled. See a usage example in 'util/renderer.js'. Current variables:
+- **ENEI_dev** - if true, **ALL** features will be enabled
+- **ENEI_tickets** - if true, ticket related sections should be visible

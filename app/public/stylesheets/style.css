@@ -743,3 +743,13 @@ img.signup-section-img {
     margin: 0 1%;
 }
 
+.notfound-container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-align: center;
+}

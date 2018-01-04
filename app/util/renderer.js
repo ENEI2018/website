@@ -9,7 +9,8 @@ function render(res, page, options) {
         layout: 'layout',
         include_tickets: features.tickets,
         include_sponsors: features.sponsors,
-        sponsors: config.sponsors
+        sponsors: config.sponsors,
+        include_navbar: features.nav
     }
 
     res.render(page, Object.assign(new_options, options));
