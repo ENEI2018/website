@@ -9,7 +9,7 @@ module.exports = {
       {
         name: "Sonae IM",
         image: "sonaeim.png",
-        href: "www.sonaeim.com",
+        href: "http://www.sonaeim.com",
         show: true
       }
     ],
@@ -17,25 +17,25 @@ module.exports = {
       {
         name: "Deloitte",
         image: "deloitte.png",
-        href: "www.deloitte.com",
+        href: "https://www.deloitte.com",
         show: false
       },
       {
         name: "Efacec",
         image: "efacec.jpg",
-        href: "www.efacec.com",
+        href: "http://www.efacec.com",
         show: false
       },
       {
         name: "Natixis",
         image: "natixis.png",
-        href: "www.natixis.com",
+        href: "https://www.natixis.com",
         show: false
       },
       {
         name: "Wipro",
         image: "wipro.jpg",
-        href: "www.wipro.com",
+        href: "https://www.wipro.com",
         show: false
       }
     ],
@@ -43,25 +43,25 @@ module.exports = {
       {
         name: "Aptiv",
         image: "aptiv.jpg",
-        href: "www.aptiv.com",
+        href: "https://www.aptiv.com",
         show: false
       },
       {
         name: "Blip",
         image: "blip.png",
-        href: "www.blip.pt",
+        href: "https://www.blip.pt",
         show: false
       },
       {
         name: "Novabase",
         image: "novabase.png",
-        href: "www.novabase.pt",
+        href: "http://www.novabase.pt",
         show: false
       },
       {
         name: "Vodafone",
         image: "vodafone.jpg",
-        href: "www.vodafone.pt",
+        href: "https://www.vodafone.pt",
         show: false
       }
     ],
@@ -69,49 +69,49 @@ module.exports = {
       {
         name: "Critical Manufacturing",
         image: "criticalmanufacturing.png",
-        href: "www.criticalmanufacturing.com",
+        href: "http://www.criticalmanufacturing.com",
         show: false
       },
       {
         name: "Smart Consulting",
         image: "smartconsulting.jpg",
-        href: "www.smartconsulting.pt",
+        href: "http://www.smartconsulting.pt",
         show: false
       },
       {
         name: "Fabamaq",
         image: "fabamaq.jpg",
-        href: "www.fabamaq.com",
+        href: "https://www.fabamaq.com",
         show: false
       },
       {
         name: "Fraunhofer",
         image: "fraunhofer.jpg",
-        href: "www.fraunhofer.pt",
+        href: "https://www.fraunhofer.pt",
         show: false
       },
       {
         name: "Life on Mars",
         image: "lifeonmars.png",
-        href: "www.lifeonmars.pt",
+        href: "https://www.lifeonmars.pt",
         show: false
       },
       {
         name: "Whitesmith",
         image: "whitesmith.png",
-        href: "www.whitesmith.co",
+        href: "https://www.whitesmith.co",
         show: false
       },
       {
         name: "Bitmaker",
         image: "bitmaker.png",
-        href: "www.wearebitmaker.com",
+        href: "https://www.wearebitmaker.com",
         show: false
       },
       {
         name: "Pixelmatters",
         image: "pixelmatters.png",
-        href: "www.pixelmatters.com",
+        href: "http://www.pixelmatters.com",
         show: false
       }
     ],
