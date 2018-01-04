@@ -1,5 +1,5 @@
 var config = require('./config');
-var features = require('./../util/features');
+var features = require('../util/features');
 
 function render(res, page, options) {
     var new_options = {
@@ -8,6 +8,8 @@ function render(res, page, options) {
         description: config.description,
         layout: 'layout',
         include_tickets: features.tickets,
+        include_sponsors: features.sponsors,
+        sponsors: config.sponsors,
         include_navbar: features.nav
     }
 
