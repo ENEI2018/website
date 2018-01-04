@@ -18,25 +18,25 @@ module.exports = {
         name: "Deloitte",
         image: "deloitte.png",
         href: "www.deloitte.com",
-        show: true
+        show: false
       },
       {
         name: "Efacec",
         image: "efacec.jpg",
         href: "www.efacec.com",
-        show: true
+        show: false
       },
       {
         name: "Natixis",
         image: "natixis.png",
         href: "www.natixis.com",
-        show: true
+        show: false
       },
       {
         name: "Wipro",
         image: "wipro.jpg",
         href: "www.wipro.com",
-        show: true
+        show: false
       }
     ],
     silver: [
@@ -44,25 +44,25 @@ module.exports = {
         name: "Aptiv",
         image: "aptiv.jpg",
         href: "www.aptiv.com",
-        show: true
+        show: false
       },
       {
         name: "Blip",
         image: "blip.png",
         href: "www.blip.pt",
-        show: true
+        show: false
       },
       {
         name: "Novabase",
         image: "novabase.png",
         href: "www.novabase.pt",
-        show: true
+        show: false
       },
       {
         name: "Vodafone",
         image: "vodafone.jpg",
         href: "www.vodafone.pt",
-        show: true
+        show: false
       }
     ],
     bronze: [
@@ -70,49 +70,49 @@ module.exports = {
         name: "Critical Manufacturing",
         image: "criticalmanufacturing.png",
         href: "www.criticalmanufacturing.com",
-        show: true
+        show: false
       },
       {
         name: "Smart Consulting",
         image: "smartconsulting.jpg",
         href: "www.smartconsulting.pt",
-        show: true
+        show: false
       },
       {
         name: "Fabamaq",
         image: "fabamaq.jpg",
         href: "www.fabamaq.com",
-        show: true
+        show: false
       },
       {
         name: "Fraunhofer",
         image: "fraunhofer.jpg",
         href: "www.fraunhofer.pt",
-        show: true
+        show: false
       },
       {
         name: "Life on Mars",
         image: "lifeonmars.png",
         href: "www.lifeonmars.pt",
-        show: true
+        show: false
       },
       {
         name: "Whitesmith",
         image: "whitesmith.png",
         href: "www.whitesmith.co",
-        show: true
+        show: false
       },
       {
         name: "Bitmaker",
         image: "bitmaker.png",
         href: "www.wearebitmaker.com",
-        show: true
+        show: false
       },
       {
         name: "Pixelmatters",
         image: "pixelmatters.png",
         href: "www.pixelmatters.com",
-        show: true
+        show: false
       }
     ],
   }
