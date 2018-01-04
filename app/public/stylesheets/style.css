@@ -770,8 +770,15 @@ img.signup-section-img {
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 50%;
-    background-color: rgba(0, 0, 1, 0.5);
+    background-color: rgba(150, 150, 255, 0.8);
+    padding-top: 75%;
+    padding-left: 7.5%;
+    -webkit-clip-path: polygon(0 64%, 100% 38%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 64%, 100% 38%, 100% 100%, 0% 100%);
+}
+
+.overlay-content {
+    color: white;
 }
 
 .speaker-wrapper {
