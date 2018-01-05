@@ -110,15 +110,6 @@ div.enei-footer {
     height: 50px;
 }
 
-.enei-skew {
-    -ms-transform: skewY(-15deg) scaleX(0.925);
-    /* IE 9 */
-    -webkit-transform: skewY(-15deg) scaleX(0.925);
-    /* Safari */
-    transform: skewY(-15deg) scaleX(0.925);
-    /* Standard syntax */
-}
-
 .social-icon-container {
     display: table;
     width: fit-content;
@@ -739,21 +730,21 @@ img.signup-section-img {
     max-width: 100%;
 }
 
-.sponsor.main > a {
+.sponsor.main>a {
     max-width: 60%;
 }
 
-.sponsor.gold > a {
+.sponsor.gold>a {
     max-width: 25%;
     margin: 0 2.5%;
 }
 
-.sponsor.silver > a {
+.sponsor.silver>a {
     max-width: 14%;
     margin: 0 1%;
 }
 
-.sponsor.bronze > a {
+.sponsor.bronze>a {
     max-width: 10%;
     margin: 0 1%;
 }
@@ -777,22 +768,49 @@ img.signup-section-img {
     vertical-align: middle;
 }
 
-.speakers-container  {
-    padding: 3%;
+.speakers-container {
+    max-width: 1200px;
+    margin: 3em auto !important;
+}
+
+@media (min-width:992px) {
+    .speakers-container>div:nth-child(4n+1) {
+        position: relative;
+        top: 200px;
+    }
+    .speakers-container>div:nth-child(4n+2) {
+        position: relative;
+        top: 0;
+    }
+    .speakers-container>div:nth-child(4n+3) {
+        position: relative;
+        top: 100px;
+    }
+    .speakers-container>div:nth-child(4n+4) {
+        position: relative;
+        top: 150px;
+    }
+}
+
+.img-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .speaker-overlay {
-    display: none;
     position: absolute;
-    top: 0;
+    display: flex;
+    align-items: baseline;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 0;
     background-color: rgba(150, 150, 255, 0.8);
-    padding-top: 75%;
-    padding-left: 7.5%;
-    -webkit-clip-path: polygon(0 64%, 100% 38%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 64%, 100% 38%, 100% 100%, 0% 100%);
+    transform: skewY(-15deg);
+    padding: 1em;
+    overflow: hidden;
+    transition: .5s;
 }
 
 .overlay-content {
@@ -802,10 +820,19 @@ img.signup-section-img {
 .speaker-wrapper {
     display: inline-block;
     position: relative;
+    margin-bottom: -20.0%;
 }
 
-.speaker-wrapper img:hover + .speaker-overlay, .speaker-overlay:hover {
-    display: block;
+.speaker-wrapper:hover .speaker-overlay,
+.speaker-overlay:hover {
+    height: 35%;
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .speaker-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        height: 40%;
+    }
 }
 
 .logo.medium {
@@ -817,4 +844,3 @@ img.signup-section-img {
     float: right;
     margin-right: 15%;
 }
-
