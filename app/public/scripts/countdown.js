@@ -58,6 +58,26 @@ var x = setInterval(function() {
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "EXPIRED";
+        document.getElementById("countdown").innerHTML = "";
     }
 }, 1000);
+
+$(document).ready(function () {
+    $('#myCarousel').carousel({
+        interval: 10000
+    })
+    $('.fdi-Carousel .item').each(function () {
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+
+        if (next.next().length > 0) {
+            next.next().children(':first-child').clone().appendTo($(this));
+        }
+        else {
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+        }
+    });
+});
