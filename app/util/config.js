@@ -114,6 +114,70 @@ module.exports = {
         href: "http://www.pixelmatters.com",
         show: false
       }
-    ],
-  }
+    ]
+  },
+  speakers: [
+    {
+      name: "João Aveiras",
+      shortBio: "Engenharia Informática",
+      image: "josepedrosilva.jpg",
+      linkedin: "//linkedin.com"
+    },
+    {
+      name: "João Aveiras",
+      shortBio: "Engenharia Informática",
+      image: "josepedrosilva.jpg",
+      linkedin: "//linkedin.com"
+    },
+    {
+      name: "João Aveiras",
+      shortBio: "Engenharia Informática",
+      image: "josepedrosilva.jpg",
+      linkedin: "//linkedin.com"
+    },
+    {
+      name: "João Aveiras",
+      shortBio: "Engenharia Informática",
+      image: "josepedrosilva.jpg",
+      linkedin: "//linkedin.com"
+    },
+    {
+      name: "João Aveiras",
+      shortBio: "Engenharia Informática",
+      image: "josepedrosilva.jpg",
+      linkedin: "//linkedin.com"
+    },
+    {
+      name: "João Aveiras",
+      shortBio: "Engenharia Informática",
+      image: "josepedrosilva.jpg",
+      linkedin: "//linkedin.com"
+    },
+    {
+      name: "João Aveiras",
+      shortBio: "Engenharia Informática",
+      image: "josepedrosilva.jpg",
+      linkedin: "//linkedin.com"
+    }
+  ],
+  partners: [
+    {
+      name: "Faculdade de Engenharia da Universidade do Porto",
+      image: "feup.jpg",
+      href: "https://www.fe.up.pt",
+      show: true
+    },
+    {
+      name: "Associação de Estudantes da FEUP",
+      image: "aefeup.jpg",
+      href: "https://www.aefeup.pt",
+      show: true
+    },
+    {
+      name: "Departamento de Engenharia Informática da FEUP",
+      image: "dei.jpg",
+      href: "https://www.dei.fe.up.pt",
+      show: true
+    }
+  ]
 };
