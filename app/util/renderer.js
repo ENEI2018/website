@@ -11,7 +11,8 @@ function render(res, page, options) {
     include_sponsors: features.sponsors,
     sponsors: config.sponsors,
     include_navbar: features.nav,
-    speakers: config.speakers
+    speakers: config.speakers,
+    partners: config.partners
   }
 
   res.render(page, Object.assign(new_options, options));

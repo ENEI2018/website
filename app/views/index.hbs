@@ -246,6 +246,18 @@
           {{/each}}
         </div>
       </div>
+      <div class="container">
+        <h1 class="sponsor-title section-title">Parceiros</h1>
+        <div class="sponsor silver">
+          {{#each partners}}
+            {{#if show}}
+              <a target="_blank" href="//{{href}}">
+                <img title="{{name}}" alt="{{name}}" src="images/{{image}}">
+              </a>
+            {{/if}}
+          {{/each}}
+        </div>
+      </div>
     </div>
   {{/if}}
 
