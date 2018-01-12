@@ -10,8 +10,7 @@ function render(res, page, options) {
         include_tickets: features.tickets,
         include_sponsors: features.sponsors,
         sponsors: config.sponsors,
-        include_navbar: features.nav,
-        partners: config.partners
+        include_navbar: features.nav
     }
 
     res.render(page, Object.assign(new_options, options));
