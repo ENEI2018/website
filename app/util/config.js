@@ -30,7 +30,7 @@ module.exports = {
         name: "Natixis",
         image: "natixis.png",
         href: "https://www.natixis.com",
-        show: false
+        show: true
       },
       {
         name: "Wipro",
