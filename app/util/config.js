@@ -36,7 +36,7 @@ module.exports = {
         name: "Wipro",
         image: "wipro.jpg",
         href: "https://www.wipro.com",
-        show: false
+        show: true
       }
     ],
     silver: [
