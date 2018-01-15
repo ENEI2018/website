@@ -158,17 +158,26 @@ module.exports = {
     {
       name: "Faculdade de Engenharia da Universidade do Porto",
       image: "feup.jpg",
-      href: "www.fe.up.pt"
+      href: "https://www.fe.up.pt",
+	  show: true
     },
     {
       name: "Associação de Estudantes da FEUP",
       image: "aefeup.jpg",
-      href: "www.aefeup.pt"
+      href: "https://www.aefeup.pt",
+	  show: true
     },
     {
       name: "Departamento de Engenharia Informática da FEUP",
       image: "dei.jpg",
-      href: "www.dei.fe.up.pt"
+      href: "https://www.dei.fe.up.pt",
+	  show: true
+    },
+    {
+      name: "FBAUP Design Inc.",
+      image: "fbaup-design-inc.png",
+      href: "https://www.behance.net/fbaupdesigninc",
+	  show: true
     },
   ]
 };
