@@ -24,7 +24,7 @@ module.exports = {
         name: "Efacec",
         image: "efacec.jpg",
         href: "http://www.efacec.com",
-        show: false
+        show: true
       },
       {
         name: "Natixis",
