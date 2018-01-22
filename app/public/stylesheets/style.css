@@ -348,12 +348,57 @@ div.ticket-box>div>span {
     font-size: 150%;
 }
 
-#accordion {
+.info-row .faq-answer {
+    font-size: 100%;
+}
+
+.faqs-container #accordion {
     width: fit-content;
     display: table;
     color: white;
     margin: auto;
     margin-top: 30px;
+}
+
+.faqs-container #accordion .panel-default,
+.faqs-container #accordion .panel-default .panel-heading {
+    background-color: transparent;
+}
+
+.faqs-container #accordion .panel-default .panel-heading .panel-title {
+    color: white;
+    font-size: 200%;
+}
+
+.faqs-container #accordion .panel {
+    border-width: 0px !important;
+    margin-top: 40px;
+}
+
+.faqs-container #accordion div div.panel-heading {
+    display: table;
+    width: fit-content;
+    margin: auto;
+    border-width: 0px;
+    border-radius: 0 !important;
+    background-color: var(--main-highlight-purple) !important;
+}
+
+.faqs-container #accordion .panel-default .panel-heading .panel-title:hover {
+    color: var(--main-third-highlight-blue);
+}
+
+.faqs-container #accordion .panel .panel-collapse .panel-body {
+    border-style: solid;
+    border-width: 6px;
+    border-color: var(--main-highlight-purple);
+}
+
+#accordion {
+    width: fit-content;
+    display: table;
+    color: white;
+    margin: auto;
 }
 
 #accordion .panel-default,
@@ -363,12 +408,13 @@ div.ticket-box>div>span {
 
 #accordion .panel-default .panel-heading .panel-title {
     color: white;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 #accordion .panel {
     border-width: 0px !important;
-    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 #accordion div div.panel-heading {
@@ -388,6 +434,37 @@ div.ticket-box>div>span {
     border-style: solid;
     border-width: 6px;
     border-color: var(--main-highlight-purple);
+}
+
+.talk-col h4, .talk-col h5, .talk-col p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.info-row {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.talk-col {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.speaker-faq #speaker-faq-title {
+    color: white;
+    display: block;
+    width: fit-content;
+    margin: auto;
+
+    border-width: 4px;
+    border-style: solid;
+    padding: 3px;
+    font-weight: bold;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 120%;
+    margin-bottom: 8px;
 }
 
 #countdown-row {
@@ -789,6 +866,25 @@ img.signup-section-img {
     .speakers-container>div:nth-child(4n+7) {
         margin-top: -75px;
     }
+}
+
+div.speaker-container {
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    color: white;
+}
+
+div.speaker-container img {
+    display: block;
+    margin: auto;
+    max-height: 350px;
+    max-width: 350px;
+}
+
+div.speaker-container .info-col {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .img-background {

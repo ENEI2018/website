@@ -114,48 +114,68 @@ module.exports = {
     speakers: [{
             name: "João Aveiras",
             shortBio: "Engenharia Informática",
+            fullBio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem.",
             image: "josepedrosilva.jpg",
             linkedin: "//linkedin.com"
         },
         {
             name: "João Aveiras",
             shortBio: "Engenharia Informática",
+            fullBio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem.",
             image: "josepedrosilva.jpg",
             linkedin: "//linkedin.com"
         },
         {
             name: "João Aveiras",
             shortBio: "Engenharia Informática",
+            fullBio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem.",
+            image: "josepedrosilva.jpg",
+            linkedin: "//linkedin.com",
+            faqs: [
+                {
+                    question: "Onde trabalha atualmente?",
+                    answer: "Em minha casa."
+                },
+                {
+                    question: "O que gosta de fazer?",
+                    answer: "Trabalhar para o site do ENEI! xD"
+                }
+            ],
+            talkDate: "Sexta-feira, 11:42",
+            talkSummary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem."
+        },
+        {
+            name: "João Aveiras",
+            shortBio: "Engenharia Informática",
+            fullBio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem.",
             image: "josepedrosilva.jpg",
             linkedin: "//linkedin.com"
         },
         {
             name: "João Aveiras",
             shortBio: "Engenharia Informática",
+            fullBio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem.",
             image: "josepedrosilva.jpg",
             linkedin: "//linkedin.com"
         },
         {
             name: "João Aveiras",
             shortBio: "Engenharia Informática",
+            fullBio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem.",
             image: "josepedrosilva.jpg",
             linkedin: "//linkedin.com"
         },
         {
             name: "João Aveiras",
             shortBio: "Engenharia Informática",
+            fullBio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem.",
             image: "josepedrosilva.jpg",
             linkedin: "//linkedin.com"
         },
         {
             name: "João Aveiras",
             shortBio: "Engenharia Informática",
-            image: "josepedrosilva.jpg",
-            linkedin: "//linkedin.com"
-        },
-        {
-            name: "João Aveiras",
-            shortBio: "Engenharia Informática",
+            fullBio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem.",
             image: "josepedrosilva.jpg",
             linkedin: "//linkedin.com"
         }

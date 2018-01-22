@@ -1,0 +1,66 @@
+{{#if include_navbar}} {{> navbar }} {{/if}}
+<div class="container page-content-container">
+
+  <div class="container speakers-title-container">
+    <h1 class="speakers-title">Speaker</h1>
+    <div class="logo-wrapper">
+      <div id="logo" class="enei-skew logo medium speaker">
+        <p id="E_1">E</p>
+        <p id="N_2">N</p>
+        <p id="E_3">E</p>
+        <p id="I_4">I</p>
+      </div>
+    </div>
+  </div>
+  <div class="speaker-container row">
+    <div class="bio-row row">
+      <div class="col-md-4">
+        <img src="/images/speakers/{{speaker.image}}" />
+      </div>
+      <div class="col-md-8 info-col">
+        <h2>{{speaker.name}}</h2>
+        <h3>{{speaker.shortBio}}</h3>
+        <p>{{speaker.fullBio}}</p>
+      </div>
+    </div>
+
+
+    <div class="row separator-row separator-shapes-1">
+      <div class="col-xs-4 shape-square enei-skew enei-bgd-hlghtpink anim-vertical-phase1"></div>
+      <div class="col-xs-4 shape-square enei-skew enei-bgd-thrdhlghtblue anim-vertical-phase2"></div>
+      <div class="col-xs-4 shape-square enei-skew enei-bgd-hlghtpurple anim-vertical-phase3"></div>
+    </div>
+
+    <div class="info-row row">
+      <div class="col-md-4 speaker-faq">
+        <div class="speaker-faq-title" id="speaker-faq-title">
+          FAQ
+        </div>
+        <div class="panel-group" id="accordion">
+          {{#each speaker.faqs}}
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
+                  {{question}}</a>
+              </h4>
+            </div>
+            <div id="collapse{{@index}}" class="panel-collapse collapse">
+              <div class="panel-body faq-answer">
+                {{answer}}
+              </div>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <div class="col-md-8 talk-col">
+        <h4>Sobre a palestra</h4>
+        <h5>{{speaker.talkDate}}</h5>
+        <p>{{speaker.talkSummary}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{> footer }}
