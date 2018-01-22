@@ -15,28 +15,8 @@
     </div>
   </div>
   <div class="speakers-container row">
-    {{#each speakers}}
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="speaker-wrapper shape-clip-sketch-4-3 img-ratio-4-3">
-          <div class="img-ratio-wrapper img-background" style="background-image: url(images/speakers/{{image}});">
-            <div class="speaker-overlay">
-              <div class="row overlay-content">
-                <a class="col-md-3 col-lg-2" href="{{linkedin}}" target="_blank">
-                  <img src="images/linkedin.svg" alt="LinkedIn" width="40px" height="40px"/>
-                </a>
-                <div class="col-md-9 col-lg-10">
-                  <div>
-                    {{name}}
-                  </div>
-                  <div>
-                    {{shortBio}}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    {{/each}}
+    {{> speakers}}
   </div>
 </div>
+
+{{> footer }}
