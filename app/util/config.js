@@ -152,6 +152,12 @@ module.exports = {
             shortBio: "Engenharia Informática",
             image: "josepedrosilva.jpg",
             linkedin: "//linkedin.com"
+        },
+        {
+            name: "João Aveiras",
+            shortBio: "Engenharia Informática",
+            image: "josepedrosilva.jpg",
+            linkedin: "//linkedin.com"
         }
     ]
 };

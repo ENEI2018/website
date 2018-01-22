@@ -774,21 +774,20 @@ img.signup-section-img {
 }
 
 @media (min-width:992px) {
-    .speakers-container>div:nth-child(4n+1) {
-        position: relative;
-        top: 200px;
+    .speakers-container>div:nth-child(4) {
+        margin-top: 150px;
     }
-    .speakers-container>div:nth-child(4n+2) {
-        position: relative;
-        top: 0;
+    .speakers-container>div:nth-child(3) {
+        margin-top: 75px;
     }
-    .speakers-container>div:nth-child(4n+3) {
-        position: relative;
-        top: 100px;
+    .speakers-container>div:nth-child(1) {
+        margin-top: 150px;
     }
-    .speakers-container>div:nth-child(4n+4) {
-        position: relative;
-        top: 150px;
+    .speakers-container>div:nth-child(4n+6) {
+        margin-top: -150px;
+    }
+    .speakers-container>div:nth-child(4n+7) {
+        margin-top: -75px;
     }
 }
 
