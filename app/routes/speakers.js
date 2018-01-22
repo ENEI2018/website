@@ -9,4 +9,10 @@ router.get('/', function(req, res, next) {
   });
 });
 
+router.get('/:id', function(req, res, next) {
+  renderer.render(res, 'speakers', {
+    include_navbar: true
+  });
+});
+
 module.exports = router;
