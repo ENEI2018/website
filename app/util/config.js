@@ -18,7 +18,7 @@ module.exports = {
         name: "Deloitte",
         image: "deloitte.png",
         href: "https://www.deloitte.com",
-        show: false
+        show: true
       },
       {
         name: "Efacec",
@@ -44,25 +44,25 @@ module.exports = {
         name: "Aptiv",
         image: "aptiv.jpg",
         href: "https://www.aptiv.com",
-        show: false
+        show: true
       },
       {
         name: "Blip",
         image: "blip.png",
         href: "https://www.blip.pt",
-        show: false
+        show: true
       },
       {
         name: "Novabase",
         image: "novabase.png",
         href: "http://www.novabase.pt",
-        show: false
+        show: true
       },
       {
         name: "Vodafone",
         image: "vodafone.jpg",
         href: "https://www.vodafone.pt",
-        show: false
+        show: true
       }
     ],
     bronze: [
@@ -70,49 +70,49 @@ module.exports = {
         name: "Critical Manufacturing",
         image: "criticalmanufacturing.png",
         href: "http://www.criticalmanufacturing.com",
-        show: false
+        show: true
       },
       {
         name: "Smart Consulting",
         image: "smartconsulting.jpg",
         href: "http://www.smartconsulting.pt",
-        show: false
+        show: true
       },
       {
         name: "Fabamaq",
         image: "fabamaq.jpg",
         href: "https://www.fabamaq.com",
-        show: false
+        show: true
       },
       {
         name: "Fraunhofer",
         image: "fraunhofer.jpg",
         href: "https://www.fraunhofer.pt",
-        show: false
+        show: true
       },
       {
         name: "Life on Mars",
         image: "lifeonmars.png",
         href: "https://www.lifeonmars.pt",
-        show: false
+        show: true
       },
       {
         name: "Whitesmith",
         image: "whitesmith.png",
         href: "https://www.whitesmith.co",
-        show: false
+        show: true
       },
       {
         name: "Bitmaker",
         image: "bitmaker.png",
         href: "https://www.wearebitmaker.com",
-        show: false
+        show: true
       },
       {
         name: "Pixelmatters",
         image: "pixelmatters.png",
         href: "http://www.pixelmatters.com",
-        show: false
+        show: true
       }
     ],
   }
