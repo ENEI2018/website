@@ -533,10 +533,26 @@ div.ticket-box>div>span {
 }
 
 .navbar-nav li {
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     font-weight: bold;
     padding: 0.2em;
 }
+
+
+.navbar-nav li:first-child img {
+    width: 40px;
+    height: 60px;
+}
+
+
+@media (min-width: 767px) {
+    .navbar-nav li:first-child {
+        position: absolute;
+        left: -5px;
+        top: -35%;
+    }
+}
+
 
 #navbar .navbar-nav li>a {
     color: #0000ff;
@@ -547,14 +563,12 @@ div.ticket-box>div>span {
 }
 
 @media (min-width: 1500px) {
-    /* Este é o ponto de viragem para mobile-view*/
     .navbar-nav li {
         font-size: 2em;
     }
 }
 
 @media (max-width: 1000px) {
-    /* Este é o ponto de viragem para mobile-view*/
     .navbar-nav li {
         font-size: 1.4vw;
     }
