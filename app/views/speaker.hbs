@@ -21,10 +21,26 @@
         <h2>{{speaker.name}}</h2>
         <h3>{{speaker.shortBio}}</h3>
         <p>{{speaker.fullBio}}</p>
+
+        {{#if speaker.linkedin}}
+        <a href="{{speaker.linkedin}}">
+          <i class="fa fa-linkedin-square speaker-social-icon" aria-hidden="true"></i>
+        </a>
+        {{/if}}
+        {{#if speaker.instagram}}
+        <a href="{{speaker.instagram}}">
+          <i class="fa fa-instagram speaker-social-icon" aria-hidden="true"></i>
+        </a>
+        {{/if}}
+        {{#if speaker.facebook}}
+        <a href="{{speaker.facebook}}">
+          <i class="fa fa-facebook-square speaker-social-icon" aria-hidden="true"></i>
+        </a>
+        {{/if}}
       </div>
     </div>
 
-
+    {{#if speaker.displayDetails}}
     <div class="row separator-row separator-shapes-1">
       <div class="col-xs-4 shape-square enei-skew enei-bgd-hlghtpink anim-vertical-phase1"></div>
       <div class="col-xs-4 shape-square enei-skew enei-bgd-thrdhlghtblue anim-vertical-phase2"></div>
@@ -33,6 +49,7 @@
 
     <div class="info-row row">
       <div class="col-md-4 speaker-faq">
+        {{#if speaker.faqs.length}}
         <div class="speaker-faq-title" id="speaker-faq-title">
           FAQ
         </div>
@@ -53,13 +70,17 @@
           </div>
           {{/each}}
         </div>
+        {{/if}}
       </div>
       <div class="col-md-8 talk-col">
+        {{#if speaker.talkSummary}}
         <h4>Sobre a palestra</h4>
         <h5>{{speaker.talkDate}}</h5>
         <p>{{speaker.talkSummary}}</p>
+        {{/if}}
       </div>
     </div>
+    {{/if}}
   </div>
 </div>
 

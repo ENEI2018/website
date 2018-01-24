@@ -31,6 +31,16 @@ router.get('/:id', function(req, res, next) {
   }
 
   let speaker = config.speakers[speakerId];
+  if(!speaker.show) {
+    res.redirect('/notfound');
+    return;
+  }
+
+  if(speaker.faqs.length === 0 && speaker.talkSummary !== "") {
+    speaker.displayDetails = false;
+  } else {
+    speaker.displayDetails = true;
+  }
 
   renderer.render(res, 'speaker', {
     include_navbar: true,

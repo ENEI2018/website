@@ -467,6 +467,16 @@ div.ticket-box>div>span {
     margin-bottom: 8px;
 }
 
+.speaker-container .bio-row .speaker-social-icon {
+    font-size: 2em;
+    margin-right: 10px;
+    color: white;
+}
+
+.speaker-container .bio-row .speaker-social-icon:hover {
+    color: var(--main-highlight-pink);
+}
+
 #countdown-row {
     z-index: 2;
     position: absolute;
@@ -916,6 +926,7 @@ div.speaker-container .info-col {
     display: inline-block;
     position: relative;
     margin-bottom: -20.0%;
+    cursor: pointer;
 }
 
 .speaker-wrapper:hover .speaker-overlay,
