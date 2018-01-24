@@ -548,8 +548,8 @@ div.ticket-box>div>span {
 @media (min-width: 767px) {
     .navbar-nav li:first-child {
         position: absolute;
-        left: -5px;
-        top: -35%;
+        left: -15px;
+        top: -33%;
     }
 }
 
