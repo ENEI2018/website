@@ -548,8 +548,11 @@ div.ticket-box>div>span {
 @media (min-width: 767px) {
     .navbar-nav li:first-child {
         position: absolute;
-        left: -15px;
+        left: -5px;
         top: -33%;
+    }
+    .navbar-nav li:nth-child(2) {
+        margin-left:10px;
     }
 }
 
@@ -562,15 +565,15 @@ div.ticket-box>div>span {
     color: #c200ff;
 }
 
-@media (min-width: 1500px) {
+@media (max-width: 1500px) {
     .navbar-nav li {
-        font-size: 2em;
+        font-size: 1.5vw;
     }
 }
 
 @media (max-width: 1000px) {
     .navbar-nav li {
-        font-size: 1.4vw;
+        font-size: 1.2vw;
     }
 }
 
