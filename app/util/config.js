@@ -59,9 +59,27 @@ module.exports = {
         show: true
       },
       {
+        name: "Sonae Bit",
+        image: "sonaebit.jpg",
+        href: "https://www.sonae.pt",
+        show: true
+      },
+      {
         name: "Vodafone",
         image: "vodafone.jpg",
         href: "https://www.vodafone.pt",
+        show: true
+      },
+      {
+        name: "Critical Software",
+        image: "criticalsoftware.png",
+        href: "https://www.criticalsoftware.com",
+        show: true
+      },
+      {
+        name: "Euronext",
+        image: "euronext.jpg",
+        href: "https://www.euronext.com/",
         show: true
       }
     ],
