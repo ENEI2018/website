@@ -14,7 +14,7 @@ var tableY;
 
 function draw() {
     var logo = document.getElementById('logo');
-    if (logo === null) {
+    if (logo === null || document.getElementById('canvas') === null) {
         // Page doesn't have pixel canvas
         return;
     }
@@ -24,8 +24,8 @@ function draw() {
     rectangleHeight = Math.trunc(logo.offsetHeight * RECTANGLE_SCALE);
 
     var canvas = document.getElementById('canvas');
-    tableX = Math.trunc(canvas.clientWidth / rectangleWidth);
-    tableY = Math.trunc(canvas.clientHeight / rectangleHeight);
+    tableX = Math.trunc(( canvas.clientWidth) / rectangleWidth);
+    tableY = Math.trunc(( canvas.clientHeight) / rectangleHeight);
 
     var offsetX = Math.round((canvas.clientWidth - logo.clientWidth) / 2) -
         (Math.trunc((canvas.clientWidth - logo.clientWidth) / (2 * rectangleWidth)) * rectangleWidth);

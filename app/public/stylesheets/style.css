@@ -30,14 +30,15 @@ body {
     font-family: 'Montserrat' !important;
 }
 
-.logo-area {
-    background-image: url("/images/background.jpg");
-    width: 100% !important;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
+.logo-area.background {
+    background: url("/images/background.jpg") no-repeat center;
     background-size: cover;
+    height: 100vh;
     min-height: 600px;
+}
+
+.logo-area {
+    width: 100% !important;
 }
 
 .navbar-container-custom {
@@ -62,6 +63,14 @@ body {
 .page-content-container .faqs-container,
 .page-content-container .team-title-container {
     text-align: center;
+    color: white;
+    width: 100% !important;
+    margin: 0 !important;
+    background-color: var(--main-background-blue);
+    padding: 3em;
+}
+
+.page-content-container .speakers-title-container {
     color: white;
     width: 100% !important;
     margin: 0 !important;
@@ -99,15 +108,6 @@ div.enei-footer {
     vertical-align: middle;
     margin: auto;
     height: 50px;
-}
-
-.enei-skew {
-    -ms-transform: skewY(-15deg) scaleX(0.925);
-    /* IE 9 */
-    -webkit-transform: skewY(-15deg) scaleX(0.925);
-    /* Safari */
-    transform: skewY(-15deg) scaleX(0.925);
-    /* Standard syntax */
 }
 
 .social-icon-container {
@@ -438,14 +438,14 @@ div.ticket-box>div>span {
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    height: 100vh;
+}
+
+#logo-div.full-height {
     min-height: 6em;
+    height: 100vh;
 }
 
 .logo {
-    position: absolute;
-    left: calc(50% - 1.25em);
-    top: calc(50% - 1.5em);
     width: 2.5em;
     height: 3em;
     padding: 0.15em 0.2em;
@@ -455,6 +455,12 @@ div.ticket-box>div>span {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+
+.logo.center {
+    position: absolute;
+    left: calc(50% - 1.25em);
+    top: calc(50% - 1.5em);
 }
 
 .logo-area canvas {
@@ -724,11 +730,11 @@ img.signup-section-img {
     max-width: 100%;
 }
 
-.sponsor.main > a {
+.sponsor.main>a {
     max-width: 60%;
 }
 
-.sponsor.gold > a {
+.sponsor.gold>a {
     max-width: 25%;
     margin: 0 2.5%;
 }
@@ -738,7 +744,7 @@ img.signup-section-img {
     margin: 0 1%;
 }
 
-.sponsor.bronze > a {
+.sponsor.bronze>a {
     max-width: 10%;
     margin: 0 1%;
 }
@@ -752,4 +758,89 @@ img.signup-section-img {
     padding-right: 10px;
     color: white;
     text-align: center;
+}
+
+.speakers-title {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 400%;
+    margin: 2% 5%;
+    vertical-align: middle;
+}
+
+.speakers-container {
+    max-width: 1200px;
+    margin: 3em auto !important;
+}
+
+@media (min-width:992px) {
+    .speakers-container>div:nth-child(4n+1) {
+        position: relative;
+        top: 200px;
+    }
+    .speakers-container>div:nth-child(4n+2) {
+        position: relative;
+        top: 0;
+    }
+    .speakers-container>div:nth-child(4n+3) {
+        position: relative;
+        top: 100px;
+    }
+    .speakers-container>div:nth-child(4n+4) {
+        position: relative;
+        top: 150px;
+    }
+}
+
+.img-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.speaker-overlay {
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(150, 150, 255, 0.8);
+    transform: skewY(-15deg);
+    padding: 1em;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.overlay-content {
+    color: white;
+}
+
+.speaker-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-bottom: -20.0%;
+}
+
+.speaker-wrapper:hover .speaker-overlay,
+.speaker-overlay:hover {
+    height: 35%;
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .speaker-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        height: 40%;
+    }
+}
+
+.logo.medium {
+    font-size: 40px;
+}
+
+.speakers-title-container .logo-wrapper {
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
 }

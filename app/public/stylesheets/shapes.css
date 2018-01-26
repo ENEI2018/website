@@ -1,39 +1,76 @@
 .shape-square {
-  height: 50px !important;
-  width: 50px !important;
-  margin: auto;
-  margin-left: 6px;
-  margin-right: 6px;
+    height: 50px !important;
+    width: 50px !important;
+    margin: auto;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .shape-square.enei-footer-piece-1 {
-  height: 40px !important;
-  width: 30px !important;
-  position: relative;
-  top: 24px;
-  left: -15px;
+    height: 40px !important;
+    width: 30px !important;
+    position: relative;
+    top: 24px;
+    left: -15px;
 }
 
 .shape-square.enei-footer-piece-2 {
-  width: 45px !important;
-  position: relative;
-  left: 20px;
-  z-index: 2;
+    width: 45px !important;
+    position: relative;
+    left: 20px;
+    z-index: 2;
 }
 
 .shape-square.enei-footer-piece-3 {
-  height: 40px !important;
-  width: 30px !important;
-  position: relative;
-  top: 30px;
-  left: -7px;
-  z-index: 1;
+    height: 40px !important;
+    width: 30px !important;
+    position: relative;
+    top: 30px;
+    left: -7px;
+    z-index: 1;
 }
 
 .shape-square.enei-footer-piece-4 {
-  height: 40px !important;
-  width: 30px !important;
-  position: relative;
-  top: -5px;
-  left: 18px;
+    height: 40px !important;
+    width: 30px !important;
+    position: relative;
+    top: -5px;
+    left: 18px;
+}
+
+.enei-skew {
+    -ms-transform: skewY(-15deg) scaleX(0.925);
+    /* IE 9 */
+    -webkit-transform: skewY(-15deg) scaleX(0.925);
+    /* Safari */
+    transform: skewY(-15deg) scaleX(0.925);
+    /* Standard syntax */
+}
+
+.shape-clip-sketch-square {
+    -webkit-shape-outside: polygon(0 26.8%, 100% 0, 100% 73.2%, 0 100%);
+    shape-outside: polygon(0 26.8%, 100% 0, 100% 73.2%, 0 100%);
+    -webkit-clip-path: polygon(0 26.8%, 100% 0, 100% 73.2%, 0 100%);
+    clip-path: polygon(0 26.8%, 100% 0, 100% 73.2%, 0 100%);
+}
+
+.shape-clip-sketch-4-3 {
+    -webkit-shape-outside: polygon(0 20.1%, 100% 0, 100% 79.9%, 0 100%);
+    shape-outside: polygon(0 20.1%, 100% 0, 100% 79.9%, 0 100%);
+    -webkit-clip-path: polygon(0 20.1%, 100% 0, 100% 79.9%, 0 100%);
+    clip-path: polygon(0 20.1%, 100% 0, 100% 79.9%, 0 100%);
+}
+
+.img-ratio-4-3 {
+    width: 100%;
+    padding-top: 133%;
+    position: relative;
+}
+
+.img-ratio-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
