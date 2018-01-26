@@ -739,8 +739,8 @@ img.signup-section-img {
     margin: 0 2.5%;
 }
 
-.sponsor.silver>a {
-    max-width: 14%;
+.sponsor.silver > a {
+    width: 14.28%;
     margin: 0 1%;
 }
 

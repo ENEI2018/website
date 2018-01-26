@@ -139,7 +139,7 @@
               com o mundo empresarial.</p>
             <p>A 12ª edição do evento terá lugar na Faculdade de Engenharia da Universidade do Porto entre os dias 23 e
               26 de
-              março de 2018 e a ornigazação espera contar com 500 estudantes que poderão participar em palestras,
+              março de 2018 e a organização espera contar com 500 estudantes que poderão participar em palestras,
               workshops
               e painéis de discussão, contando com oradores de renome nacional e internacional.</p>
             <p>Esta versão do evento também incluirá os tradicionais momentos de diversão noturnos que muito apelam a
@@ -213,7 +213,7 @@
           {{#each sponsors.main}}
             {{#if show}}
               <a target="_blank" href="{{href}}">
-                <img title="{{name}}" alt="{{name}}" src="images/sponsors/main/{{image}}">
+                <img title="{{name}}" alt="{{name}}" src="images/main/{{image}}">
               </a>
             {{/if}}
           {{/each}}
@@ -222,7 +222,7 @@
           {{#each sponsors.gold}}
             {{#if show}}
               <a target="_blank" href="{{href}}">
-                <img title="{{name}}" alt="{{name}}" src="images/sponsors/gold/{{image}}">
+                <img title="{{name}}" alt="{{name}}" src="images/gold/{{image}}">
               </a>
             {{/if}}
           {{/each}}
@@ -231,7 +231,7 @@
           {{#each sponsors.silver}}
             {{#if show}}
               <a target="_blank" href="{{href}}">
-                <img title="{{name}}" alt="{{name}}" src="images/sponsors/silver/{{image}}">
+                <img title="{{name}}" alt="{{name}}" src="images/silver/{{image}}">
               </a>
             {{/if}}
           {{/each}}
@@ -239,9 +239,11 @@
         <div class="sponsor bronze">
           {{#each sponsors.bronze}}
             {{#if show}}
+            <div class="col-md-3">
               <a target="_blank" href="{{href}}">
-                <img title="{{name}}" alt="{{name}}" src="images/sponsors/bronze/{{image}}">
+                <img title="{{name}}" alt="{{name}}" src="images/bronze/{{image}}">
               </a>
+            </div>
             {{/if}}
           {{/each}}
         </div>
