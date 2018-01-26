@@ -131,6 +131,24 @@ module.exports = {
         image: "pixelmatters.png",
         href: "http://www.pixelmatters.com",
         show: true
+      },
+      {
+        name: "Farfetch",
+        image: "farfetch.png",
+        href: "https://www.farfetch.com/pt/",
+        show: true
+      },
+      {
+        name: "Shiftforward",
+        image: "shiftforward.png",
+        href: "https://www.shiftforward.eu/",
+        show: true
+      },
+      {
+        name: "ITSector",
+        image: "itsector.png",
+        href: "http://www.itsector.pt/pt/",
+        show: true
       }
     ],
   }
