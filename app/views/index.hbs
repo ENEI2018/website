@@ -239,9 +239,11 @@
         <div class="sponsor bronze">
           {{#each sponsors.bronze}}
             {{#if show}}
+            <div class="col-md-3">
               <a target="_blank" href="{{href}}">
                 <img title="{{name}}" alt="{{name}}" src="images/bronze/{{image}}">
               </a>
+            </div>
             {{/if}}
           {{/each}}
         </div>
