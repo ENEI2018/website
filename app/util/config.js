@@ -5,108 +5,149 @@ module.exports = {
   update_script: "/www/website-enei/hooks/hook.sh",
   signup_spreadsheet: "1XQvB1H0EBVpU2_gvbJCl3RWGp1DkpE_Z1AzYiDFcpL8",
   sponsors: {
-    main: [{
-      name: "Sonae IM",
-      image: "sonaeim.png",
-      href: "www.sonaeim.com",
-      show: true
-    }],
-    gold: [{
+    main: [
+      {
+        name: "Sonae IM",
+        image: "sonaeim.png",
+        href: "http://www.sonaeim.com",
+        show: true
+      }
+    ],
+    gold: [
+      {
         name: "Deloitte",
         image: "deloitte.png",
-        href: "www.deloitte.com",
+        href: "https://www.deloitte.com",
         show: true
       },
       {
         name: "Efacec",
         image: "efacec.jpg",
-        href: "www.efacec.com",
+        href: "http://www.efacec.com",
         show: true
       },
       {
         name: "Natixis",
         image: "natixis.png",
-        href: "www.natixis.com",
+        href: "https://www.natixis.com",
         show: true
       },
       {
         name: "Wipro",
         image: "wipro.jpg",
-        href: "www.wipro.com",
+        href: "https://www.wipro.com",
         show: true
       }
     ],
-    silver: [{
+    silver: [
+      {
         name: "Aptiv",
         image: "aptiv.jpg",
-        href: "www.aptiv.com",
+        href: "https://www.aptiv.com",
         show: true
       },
       {
         name: "Blip",
         image: "blip.png",
-        href: "www.blip.pt",
+        href: "https://www.blip.pt",
         show: true
       },
       {
         name: "Novabase",
         image: "novabase.png",
-        href: "www.novabase.pt",
+        href: "http://www.novabase.pt",
+        show: true
+      },
+      {
+        name: "Sonae Bit",
+        image: "sonaebit.jpg",
+        href: "https://www.sonae.pt",
         show: true
       },
       {
         name: "Vodafone",
         image: "vodafone.jpg",
-        href: "www.vodafone.pt",
+        href: "https://www.vodafone.pt",
+        show: true
+      },
+      {
+        name: "Critical Software",
+        image: "criticalsoftware.png",
+        href: "https://www.criticalsoftware.com",
+        show: true
+      },
+      {
+        name: "Euronext",
+        image: "euronext.jpg",
+        href: "https://www.euronext.com/",
         show: true
       }
     ],
-    bronze: [{
+    bronze: [
+      {
         name: "Critical Manufacturing",
         image: "criticalmanufacturing.png",
-        href: "www.criticalmanufacturing.com",
+        href: "http://www.criticalmanufacturing.com",
         show: true
       },
       {
         name: "Smart Consulting",
         image: "smartconsulting.jpg",
-        href: "www.smartconsulting.pt",
+        href: "http://www.smartconsulting.pt",
         show: true
       },
       {
         name: "Fabamaq",
         image: "fabamaq.jpg",
-        href: "www.fabamaq.com",
+        href: "https://www.fabamaq.com",
         show: true
       },
       {
         name: "Fraunhofer",
         image: "fraunhofer.jpg",
-        href: "www.fraunhofer.pt",
+        href: "https://www.fraunhofer.pt",
         show: true
       },
       {
         name: "Life on Mars",
         image: "lifeonmars.png",
-        href: "www.lifeonmars.pt",
+        href: "https://www.lifeonmars.pt",
         show: true
       },
       {
         name: "Whitesmith",
         image: "whitesmith.png",
-        href: "www.whitesmith.co",
+        href: "https://www.whitesmith.co",
         show: true
       },
       {
         name: "Bitmaker",
         image: "bitmaker.png",
-        href: "www.wearebitmaker.com",
+        href: "https://www.wearebitmaker.com",
         show: true
       },
       {
         name: "Pixelmatters",
         image: "pixelmatters.png",
-        href: "www.pixelmatters.com",
+        href: "http://www.pixelmatters.com",
+        show: true
+      },
+      {
+        name: "Farfetch",
+        image: "farfetch.png",
+        href: "https://www.farfetch.com/pt/",
+        show: true
+      },
+      {
+        name: "Shiftforward",
+        image: "shiftforward.png",
+        href: "https://www.shiftforward.eu/",
+        show: true
+      },
+      {
+        name: "ITSector",
+        image: "itsector.png",
+        href: "http://www.itsector.pt/pt/",
         show: true
       }
     ],
@@ -237,5 +278,31 @@ module.exports = {
       talkSummary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor ex non erat ornare, sed aliquet nibh sagittis. Integer ultrices metus eu metus elementum, nec ornare ex gravida. Donec vel nibh sapien. Vestibulum sagittis sagittis libero. Nullam consectetur justo arcu, aliquet viverra elit tincidunt eu. Nunc porttitor viverra tellus eget pulvinar. Cras leo risus, dapibus in leo efficitur, rutrum placerat metus. Nullam est felis, cursus eu ipsum in, auctor suscipit leo. Nulla lobortis fermentum elementum. Ut posuere mollis ipsum, sit amet tempor massa lacinia varius. Ut tempor dictum turpis. Nulla nec euismod tortor. Donec augue nunc, rhoncus facilisis placerat at, fringilla at lorem.",
       show: true
     }
+  ],
+  partners: [
+    {
+      name: "Faculdade de Engenharia da Universidade do Porto",
+      image: "feup.jpg",
+      href: "https://www.fe.up.pt",
+	  show: true
+    },
+    {
+      name: "Associação de Estudantes da FEUP",
+      image: "aefeup.jpg",
+      href: "https://www.aefeup.pt",
+	  show: true
+    },
+    {
+      name: "Departamento de Engenharia Informática da FEUP",
+      image: "dei.jpg",
+      href: "https://www.dei.fe.up.pt",
+	  show: true
+    },
+    {
+      name: "FBAUP Design Inc.",
+      image: "fbaup-design-inc.png",
+      href: "https://www.behance.net/fbaupdesigninc",
+	  show: true
+    },
   ]
 };
