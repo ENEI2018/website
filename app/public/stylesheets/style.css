@@ -234,14 +234,18 @@ div.enei-footer {
 }
 
 .tickets-area-container .ticket-categories-row {
-    margin: auto;
+    margin: 5em auto;
     max-width: 800px;
 }
 
 /*    Tickets    */
 
 .ticket-area-title {
-    margin-bottom: 3em;
+    font-size: 4em;
+}
+
+.ticket-categories-col{
+    margin-top: 3em;
 }
 
 i.circle {
@@ -295,7 +299,11 @@ div.ticket-box>div {
     margin-top: 3em;
 }
 
-div.ticket-box>div>span {
+div.ticket-box>div>div {
+    position: relative;
+}
+
+div.ticket-box div>span:first-child {
     color: var(--ticket-box-blue);
     font-size: 1.7em;
     font-weight: 600;
@@ -305,20 +313,80 @@ div.ticket-box>div>span {
     cursor: default;
 }
 
-.ticket-eb div.ticket-box>div>span {
+.ticket-eb div.ticket-box div>span:first-child {
     background-color: var(--main-third-highlight-blue);
 }
 
-.ticket-eb div.ticket-box>div>span:hover {
+.ticket-eb div.ticket-box div>span:first-child:hover {
     background-color: #9af6f9;
 }
 
-.ticket-n div.ticket-box>div>span {
+.ticket-n div.ticket-box div>span:first-child {
     background-color: #e300ff;
 }
 
-.ticket-n div.ticket-box>div>span:hover {
+.ticket-n div.ticket-box div>span:first-child:hover {
     background-color: #f599fc;
+}
+
+div.ticket-box div>span.price {
+    position: absolute;
+    top: 0;
+    width: 0;
+    overflow: hidden;
+    font-size: 1.7em;
+    font-weight: 600;
+    padding: 0.2em 0;
+    transition: 0.2s ease-in-out;
+}
+
+.ticket-eb div.ticket-box div>span.price{
+    right: calc(100% - 1em);
+}
+
+.ticket-n div.ticket-box div>span.price{
+    left: calc(100% - 1em);
+}
+
+@media (min-width:767px){
+    div.ticket-box div>span:first-child:hover + .price {
+        width: 3.5em;
+        padding: 0.2em;
+    }
+}
+
+.ticket-eb div.ticket-box div>span.price {
+    background-color: #00eaff50;
+}
+
+.ticket-n div.ticket-box div>span.price {
+    background-color: #e100ff50;
+}
+
+@media (max-width:767px){
+    .tickets-area-container .ticket-categories-row {
+        margin: auto;
+        max-width: 800px;
+    }
+    div.ticket-box div>span.price {
+        display: block;
+        margin: 0.5em 1em;
+        position: initial;
+        width: auto;
+        font-size: 1.7em;
+        font-weight: 600;
+        padding: 0.2em;
+    }
+}
+
+.btn.btn-buy-now {
+    border-radius: 0;
+    background-color: var(--main-highlight-purple);
+    color: white;
+    font-size: 200%;
+    font-weight: 500;
+    white-space: normal;
+    margin: 0.5em auto 3em auto;
 }
 
 .team-title-row img {
