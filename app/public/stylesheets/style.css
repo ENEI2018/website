@@ -238,7 +238,6 @@ div.enei-footer {
     max-width: 800px;
 }
 
-
 /*    Tickets    */
 
 .ticket-area-title {
@@ -416,12 +415,57 @@ div.ticket-box div>span.price {
     font-size: 150%;
 }
 
-#accordion {
+.info-row .faq-answer {
+    font-size: 100%;
+}
+
+.faqs-container #accordion {
     width: fit-content;
     display: table;
     color: white;
     margin: auto;
     margin-top: 30px;
+}
+
+.faqs-container #accordion .panel-default,
+.faqs-container #accordion .panel-default .panel-heading {
+    background-color: transparent;
+}
+
+.faqs-container #accordion .panel-default .panel-heading .panel-title {
+    color: white;
+    font-size: 200%;
+}
+
+.faqs-container #accordion .panel {
+    border-width: 0px !important;
+    margin-top: 40px;
+}
+
+.faqs-container #accordion div div.panel-heading {
+    display: table;
+    width: fit-content;
+    margin: auto;
+    border-width: 0px;
+    border-radius: 0 !important;
+    background-color: var(--main-highlight-purple) !important;
+}
+
+.faqs-container #accordion .panel-default .panel-heading .panel-title:hover {
+    color: var(--main-third-highlight-blue);
+}
+
+.faqs-container #accordion .panel .panel-collapse .panel-body {
+    border-style: solid;
+    border-width: 6px;
+    border-color: var(--main-highlight-purple);
+}
+
+#accordion {
+    width: fit-content;
+    display: table;
+    color: white;
+    margin: auto;
 }
 
 #accordion .panel-default,
@@ -431,12 +475,13 @@ div.ticket-box div>span.price {
 
 #accordion .panel-default .panel-heading .panel-title {
     color: white;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 #accordion .panel {
     border-width: 0px !important;
-    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 #accordion div div.panel-heading {
@@ -456,6 +501,48 @@ div.ticket-box div>span.price {
     border-style: solid;
     border-width: 6px;
     border-color: var(--main-highlight-purple);
+}
+
+.talk-col h4,
+.talk-col h5,
+.talk-col p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.info-row {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.talk-col {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.speaker-faq #speaker-faq-title {
+    color: white;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    border-width: 4px;
+    border-style: solid;
+    padding: 3px;
+    font-weight: bold;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 120%;
+    margin-bottom: 8px;
+}
+
+.speaker-container .bio-row .speaker-social-icon {
+    font-size: 2em;
+    margin-right: 10px;
+    color: white;
+}
+
+.speaker-container .bio-row .speaker-social-icon:hover {
+    color: var(--main-highlight-pink);
 }
 
 #countdown-row {
@@ -638,10 +725,10 @@ div.ticket-box div>span.price {
         border-left: 5px solid #c200ff;
     }
     .navbar-nav {
-        float: left!important;
+        float: left !important;
     }
     .navbar-collapse {
-        margin-left: 0!important;
+        margin-left: 0 !important;
         margin-bottom: -7px;
         margin-top: -7px;
     }
@@ -807,7 +894,7 @@ img.signup-section-img {
     margin: 0 2.5%;
 }
 
-.sponsor.silver > a {
+.sponsor.silver>a {
     width: 14.28%;
     margin: 0 1%;
 }
@@ -842,22 +929,40 @@ img.signup-section-img {
 }
 
 @media (min-width:992px) {
-    .speakers-container>div:nth-child(4n+1) {
-        position: relative;
-        top: 200px;
+    .speakers-container>div:nth-child(4) {
+        margin-top: 150px;
     }
-    .speakers-container>div:nth-child(4n+2) {
-        position: relative;
-        top: 0;
+    .speakers-container>div:nth-child(3) {
+        margin-top: 75px;
     }
-    .speakers-container>div:nth-child(4n+3) {
-        position: relative;
-        top: 100px;
+    .speakers-container>div:nth-child(1) {
+        margin-top: 150px;
     }
-    .speakers-container>div:nth-child(4n+4) {
-        position: relative;
-        top: 150px;
+    .speakers-container>div:nth-child(4n+6) {
+        margin-top: -150px;
     }
+    .speakers-container>div:nth-child(4n+7) {
+        margin-top: -75px;
+    }
+}
+
+div.speaker-container {
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    color: white;
+}
+
+div.speaker-container img {
+    display: block;
+    margin: auto;
+    max-height: 350px;
+    max-width: 350px;
+}
+
+div.speaker-container .info-col {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .img-background {
@@ -883,12 +988,14 @@ img.signup-section-img {
 
 .overlay-content {
     color: white;
+    width: 120%;
 }
 
 .speaker-wrapper {
     display: inline-block;
     position: relative;
     margin-bottom: -20.0%;
+    cursor: pointer;
 }
 
 .speaker-wrapper:hover .speaker-overlay,
@@ -911,4 +1018,19 @@ img.signup-section-img {
     display: inline-block;
     float: right;
     margin-right: 15%;
+}
+
+h4.about-talk-title {
+    font-weight: bold;
+}
+
+p.speaker-page-bio a,
+.speaker-page-talk a {
+    color: var(--main-highlight-pink);
+}
+
+@media (max-width: 767px) {
+    .speakers-title-container #logo {
+        display: none;
+    }
 }
