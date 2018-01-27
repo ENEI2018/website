@@ -365,6 +365,10 @@ div.ticket-box div>span.price {
 }
 
 @media (max-width:767px){
+    .tickets-area-container .ticket-categories-row {
+        margin: auto;
+        max-width: 800px;
+    }
     div.ticket-box div>span.price {
         display: block;
         margin: 0.5em 1em;
@@ -374,6 +378,16 @@ div.ticket-box div>span.price {
         font-weight: 600;
         padding: 0.2em;
     }
+}
+
+.btn.btn-buy-now {
+    border-radius: 0;
+    background-color: var(--main-highlight-purple);
+    color: white;
+    font-size: 200%;
+    font-weight: 500;
+    white-space: normal;
+    margin: 0.5em auto 3em auto;
 }
 
 .team-title-row img {
