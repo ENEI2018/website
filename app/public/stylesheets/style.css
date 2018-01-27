@@ -920,6 +920,7 @@ div.speaker-container .info-col {
 
 .overlay-content {
     color: white;
+    width: 120%;
 }
 
 .speaker-wrapper {
@@ -949,4 +950,12 @@ div.speaker-container .info-col {
     display: inline-block;
     float: right;
     margin-right: 15%;
+}
+
+h4.about-talk-title {
+    font-weight: bold;
+}
+
+p.speaker-page-bio a {
+    color: var(--main-highlight-pink);
 }
