@@ -238,7 +238,6 @@ div.enei-footer {
     max-width: 800px;
 }
 
-
 /*    Tickets    */
 
 .ticket-area-title {
@@ -436,7 +435,9 @@ div.ticket-box>div>span {
     border-color: var(--main-highlight-purple);
 }
 
-.talk-col h4, .talk-col h5, .talk-col p {
+.talk-col h4,
+.talk-col h5,
+.talk-col p {
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -456,7 +457,6 @@ div.ticket-box>div>span {
     display: block;
     width: fit-content;
     margin: auto;
-
     border-width: 4px;
     border-style: solid;
     padding: 3px;
@@ -657,10 +657,10 @@ div.ticket-box>div>span {
         border-left: 5px solid #c200ff;
     }
     .navbar-nav {
-        float: left!important;
+        float: left !important;
     }
     .navbar-collapse {
-        margin-left: 0!important;
+        margin-left: 0 !important;
         margin-bottom: -7px;
         margin-top: -7px;
     }
@@ -826,7 +826,7 @@ img.signup-section-img {
     margin: 0 2.5%;
 }
 
-.sponsor.silver > a {
+.sponsor.silver>a {
     width: 14.28%;
     margin: 0 1%;
 }
@@ -956,6 +956,13 @@ h4.about-talk-title {
     font-weight: bold;
 }
 
-p.speaker-page-bio a, .speaker-page-talk a {
+p.speaker-page-bio a,
+.speaker-page-talk a {
     color: var(--main-highlight-pink);
+}
+
+@media (max-width: 767px) {
+    .speakers-title-container #logo {
+        display: none;
+    }
 }
