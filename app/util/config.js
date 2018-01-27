@@ -171,6 +171,24 @@ module.exports = {
       href: "https://www.behance.net/fbaupdesigninc",
       show: true
     },
+    {
+      name: "Continente",
+      image: "continente.png",
+      href: "https://www.continente.pt/pt-pt/public/Pages/homepage.aspx",
+      show: true
+    },
+    {
+      name: "Universidade do Porto",
+      image: "up.jpg",
+      href: "https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=home",
+      show: true
+    },
+    {
+      name: "Santander Universidades",
+      image: "santander.png",
+      href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
+      show: true
+    }
   ],
   speakers: [{
       id: 0,
