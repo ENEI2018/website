@@ -296,7 +296,11 @@ div.ticket-box>div {
     margin-top: 3em;
 }
 
-div.ticket-box>div>span {
+div.ticket-box>div>div {
+    position: relative;
+}
+
+div.ticket-box div>span:first-child {
     color: var(--ticket-box-blue);
     font-size: 1.7em;
     font-weight: 600;
@@ -306,20 +310,52 @@ div.ticket-box>div>span {
     cursor: default;
 }
 
-.ticket-eb div.ticket-box>div>span {
+.ticket-eb div.ticket-box div>span:first-child {
     background-color: var(--main-third-highlight-blue);
 }
 
-.ticket-eb div.ticket-box>div>span:hover {
+.ticket-eb div.ticket-box div>span:first-child:hover {
     background-color: #9af6f9;
 }
 
-.ticket-n div.ticket-box>div>span {
+.ticket-n div.ticket-box div>span:first-child {
     background-color: #e300ff;
 }
 
-.ticket-n div.ticket-box>div>span:hover {
+.ticket-n div.ticket-box div>span:first-child:hover {
     background-color: #f599fc;
+}
+
+div.ticket-box div>span.price {
+    position: absolute;
+    top: 0;
+    width: 0;
+    overflow: hidden;
+    font-size: 1.7em;
+    font-weight: 600;
+    padding: 0.2em 0;
+    transition: 0.2s ease-in-out;
+}
+
+.ticket-eb div.ticket-box div>span.price{
+    right: calc(100% - 1em);
+}
+
+.ticket-n div.ticket-box div>span.price{
+    left: calc(100% - 1em);
+}
+
+div.ticket-box div>span:first-child:hover + .price {
+    width: 3.5em;
+    padding: 0.2em;
+}
+
+.ticket-eb div.ticket-box div>span.price {
+    background-color: #00eaff50;
+}
+
+.ticket-n div.ticket-box div>span.price {
+    background-color: #e100ff50;
 }
 
 .team-title-row img {
