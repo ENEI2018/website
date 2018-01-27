@@ -695,7 +695,7 @@ div.ticket-box div>span.price {
     color: #0000ff;
 }
 
-#navbar .navbar-nav li:nth-of-type(5) a {
+#navbar .navbar-nav li.highlight-nav a {
     color: #c200ff;
 }
 
@@ -721,7 +721,7 @@ div.ticket-box div>span.price {
         border-left: 5px solid #0000ff;
         margin-top: 2px;
     }
-    .navbar-nav li:nth-of-type(5) {
+    .navbar-nav li.highlight-nav {
         border-left: 5px solid #c200ff;
     }
     .navbar-nav {
