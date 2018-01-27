@@ -956,6 +956,6 @@ h4.about-talk-title {
     font-weight: bold;
 }
 
-p.speaker-page-bio a {
+p.speaker-page-bio a, .speaker-page-talk a {
     color: var(--main-highlight-pink);
 }
