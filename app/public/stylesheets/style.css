@@ -234,7 +234,7 @@ div.enei-footer {
 }
 
 .tickets-area-container .ticket-categories-row {
-    margin: auto;
+    margin: 5em auto;
     max-width: 800px;
 }
 
@@ -242,7 +242,11 @@ div.enei-footer {
 /*    Tickets    */
 
 .ticket-area-title {
-    margin-bottom: 3em;
+    font-size: 4em;
+}
+
+.ticket-categories-col{
+    margin-top: 3em;
 }
 
 i.circle {
@@ -345,9 +349,11 @@ div.ticket-box div>span.price {
     left: calc(100% - 1em);
 }
 
-div.ticket-box div>span:first-child:hover + .price {
-    width: 3.5em;
-    padding: 0.2em;
+@media (min-width:767px){
+    div.ticket-box div>span:first-child:hover + .price {
+        width: 3.5em;
+        padding: 0.2em;
+    }
 }
 
 .ticket-eb div.ticket-box div>span.price {
@@ -356,6 +362,18 @@ div.ticket-box div>span:first-child:hover + .price {
 
 .ticket-n div.ticket-box div>span.price {
     background-color: #e100ff50;
+}
+
+@media (max-width:767px){
+    div.ticket-box div>span.price {
+        display: block;
+        margin: 0.5em 1em;
+        position: initial;
+        width: auto;
+        font-size: 1.7em;
+        font-weight: 600;
+        padding: 0.2em;
+    }
 }
 
 .team-title-row img {
