@@ -1,13 +1,13 @@
 <!-- Display the countdown timer in an element -->
-<div class="logo-area" id="logo-area">
+<div class="logo-area background">
   <div class="row" id="countdown-row">
     <div class="col-sm-1 col-md-2 col-lg-3 col-xl-3"></div>
     <div id="countdown" class="col-sm-10 col-md-8 col-lg-6 col-xl-6"></div>
     <div class="col-sm-1 col-md-2 col-lg-3 col-xl-3"></div>
   </div>
-  <div id="logo-div">
+  <div id="logo-div" class="full-height">
     <canvas id="canvas"></canvas>
-    <div id="logo" class="enei-skew logo">
+    <div id="logo" class="enei-skew logo center">
       <p id="E_1">E</p>
       <p id="N_2">N</p>
       <p id="E_3">E</p>
@@ -54,9 +54,9 @@
     <div class="col-xs-4 shape-square enei-skew enei-bgd-hlghtpurple anim-vertical-phase3"></div>
   </div>
 
-  <div class="row speakers-row">
-    <h1>Mais informações em breve!</h1>
-  </div>
+  <!--<div class="row speakers-row">
+    {{>speakers}}
+  </div>-->
 
   <!-- DESCOMENTAR PARA CONTINUAR HOME PAGE
 
@@ -86,28 +86,37 @@
           <div class="ticket-box">
             <h3>Early bird</h3>
             <div>
-              <span>Individual</span>
-              <span>Grupo</span>
+              <div>
+                <span>Individual</span>
+                <span class="price">25€</span>
+              </div>
+              <div>
+                <span>Grupo</span>
+                <span class="price">20€</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-1"></div>
-
-        <div class="ticket-n col-sm-6 ticket-categories-col">
+        <div class="ticket-n col-sm-offset-2 col-sm-5 ticket-categories-col">
           <i class="circle"></i>
           <br/>
           <div class="ticket-box">
             <h3>Normal</h3>
             <div>
-              <span>Individual</span>
-              <span>Grupo</span>
-              <span>Individual sem almoço</span>
-              <span>Individual sem almoço &amp; sem alojamento</span>
+              <div>
+                <span>Individual</span>
+                <span class="price">30€</span>
+              </div>
+              <div>
+                <span>Grupo</span>
+                <span class="price">25€</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <a class="btn btn-buy-now" href="https://goo.gl/XvWmqU">Compra Já o Teu Bilhete</a>
     </div>
   {{/if}}
 
@@ -120,7 +129,7 @@
   </div>
 
   <div id="faqs" class="container faqs-container">
-    <h1 class="section-title">FAQ's</h1>
+    <h1 class="section-title" id="index-faq">FAQ's</h1>
 
     <div class="panel-group" id="accordion">
       <div class="panel panel-default">
@@ -244,6 +253,18 @@
                 <img title="{{name}}" alt="{{name}}" src="images/bronze/{{image}}">
               </a>
             </div>
+            {{/if}}
+          {{/each}}
+        </div>
+      </div>
+      <div class="container">
+        <h1 class="sponsor-title section-title">Parceiros</h1>
+        <div class="sponsor silver">
+          {{#each partners}}
+            {{#if show}}
+              <a target="_blank" href="//{{href}}">
+                <img title="{{name}}" alt="{{name}}" src="images/{{image}}">
+              </a>
             {{/if}}
           {{/each}}
         </div>

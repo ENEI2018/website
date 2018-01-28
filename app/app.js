@@ -8,6 +8,7 @@ var hbs = require('hbs');
 
 var index = require('./routes/index');
 var team = require('./routes/team');
+var speakers = require('./routes/speakers');
 var schedule = require('./routes/schedule');
 var signup = require('./routes/signup');
 var gitpayload = require('./routes/gitpayload');
@@ -35,6 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/team', team);
+app.use('/speakers', speakers);
 app.use('/schedule', schedule);
 app.use('/signup', signup);
 app.use('/gitpayload', gitpayload);

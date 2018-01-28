@@ -30,14 +30,15 @@ body {
     font-family: 'Montserrat' !important;
 }
 
-.logo-area {
-    background-image: url("/images/background.jpg");
-    width: 100% !important;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
+.logo-area.background {
+    background: url("/images/background.jpg") no-repeat center;
     background-size: cover;
+    height: 100vh;
     min-height: 600px;
+}
+
+.logo-area {
+    width: 100% !important;
 }
 
 .navbar-container-custom {
@@ -62,6 +63,14 @@ body {
 .page-content-container .faqs-container,
 .page-content-container .team-title-container {
     text-align: center;
+    color: white;
+    width: 100% !important;
+    margin: 0 !important;
+    background-color: var(--main-background-blue);
+    padding: 3em;
+}
+
+.page-content-container .speakers-title-container {
     color: white;
     width: 100% !important;
     margin: 0 !important;
@@ -99,15 +108,6 @@ div.enei-footer {
     vertical-align: middle;
     margin: auto;
     height: 50px;
-}
-
-.enei-skew {
-    -ms-transform: skewY(-15deg) scaleX(0.925);
-    /* IE 9 */
-    -webkit-transform: skewY(-15deg) scaleX(0.925);
-    /* Safari */
-    transform: skewY(-15deg) scaleX(0.925);
-    /* Standard syntax */
 }
 
 .social-icon-container {
@@ -234,15 +234,18 @@ div.enei-footer {
 }
 
 .tickets-area-container .ticket-categories-row {
-    margin: auto;
+    margin: 5em auto;
     max-width: 800px;
 }
-
 
 /*    Tickets    */
 
 .ticket-area-title {
-    margin-bottom: 3em;
+    font-size: 4em;
+}
+
+.ticket-categories-col{
+    margin-top: 3em;
 }
 
 i.circle {
@@ -264,6 +267,14 @@ i.circle {
 .ticket-n i.circle {
     background-color: #e300ff;
     margin-bottom: 3em;
+}
+
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    .ticket-n i.circle {
+        margin-top: 5em;
+    }
+    
 }
 
 div.ticket-box {
@@ -296,7 +307,11 @@ div.ticket-box>div {
     margin-top: 3em;
 }
 
-div.ticket-box>div>span {
+div.ticket-box>div>div {
+    position: relative;
+}
+
+div.ticket-box div>span:first-child {
     color: var(--ticket-box-blue);
     font-size: 1.7em;
     font-weight: 600;
@@ -306,20 +321,80 @@ div.ticket-box>div>span {
     cursor: default;
 }
 
-.ticket-eb div.ticket-box>div>span {
+.ticket-eb div.ticket-box div>span:first-child {
     background-color: var(--main-third-highlight-blue);
 }
 
-.ticket-eb div.ticket-box>div>span:hover {
+.ticket-eb div.ticket-box div>span:first-child:hover {
     background-color: #9af6f9;
 }
 
-.ticket-n div.ticket-box>div>span {
+.ticket-n div.ticket-box div>span:first-child {
     background-color: #e300ff;
 }
 
-.ticket-n div.ticket-box>div>span:hover {
+.ticket-n div.ticket-box div>span:first-child:hover {
     background-color: #f599fc;
+}
+
+div.ticket-box div>span.price {
+    position: absolute;
+    top: 0;
+    width: 0;
+    overflow: hidden;
+    font-size: 1.7em;
+    font-weight: 600;
+    padding: 0.2em 0;
+    transition: 0.2s ease-in-out;
+}
+
+.ticket-eb div.ticket-box div>span.price{
+    right: calc(100% - 1em);
+}
+
+.ticket-n div.ticket-box div>span.price{
+    left: calc(100% - 1em);
+}
+
+@media (min-width:767px){
+    div.ticket-box div>span:first-child:hover + .price {
+        width: 3.5em;
+        padding: 0.2em;
+    }
+}
+
+.ticket-eb div.ticket-box div>span.price {
+    background-color: #00eaff50;
+}
+
+.ticket-n div.ticket-box div>span.price {
+    background-color: #e100ff50;
+}
+
+@media (max-width:767px){
+    .tickets-area-container .ticket-categories-row {
+        margin: auto;
+        max-width: 800px;
+    }
+    div.ticket-box div>span.price {
+        display: block;
+        margin: 0.5em 1em;
+        position: initial;
+        width: auto;
+        font-size: 1.7em;
+        font-weight: 600;
+        padding: 0.2em;
+    }
+}
+
+.btn.btn-buy-now {
+    border-radius: 0;
+    background-color: var(--main-highlight-purple);
+    color: white;
+    font-size: 200%;
+    font-weight: 500;
+    white-space: normal;
+    margin: 0.5em auto 3em auto;
 }
 
 .team-title-row img {
@@ -348,12 +423,57 @@ div.ticket-box>div>span {
     font-size: 150%;
 }
 
-#accordion {
+.info-row .faq-answer {
+    font-size: 100%;
+}
+
+.faqs-container #accordion {
     width: fit-content;
     display: table;
     color: white;
     margin: auto;
     margin-top: 30px;
+}
+
+.faqs-container #accordion .panel-default,
+.faqs-container #accordion .panel-default .panel-heading {
+    background-color: transparent;
+}
+
+.faqs-container #accordion .panel-default .panel-heading .panel-title {
+    color: white;
+    font-size: 200%;
+}
+
+.faqs-container #accordion .panel {
+    border-width: 0px !important;
+    margin-top: 40px;
+}
+
+.faqs-container #accordion div div.panel-heading {
+    display: table;
+    width: fit-content;
+    margin: auto;
+    border-width: 0px;
+    border-radius: 0 !important;
+    background-color: var(--main-highlight-purple) !important;
+}
+
+.faqs-container #accordion .panel-default .panel-heading .panel-title:hover {
+    color: var(--main-third-highlight-blue);
+}
+
+.faqs-container #accordion .panel .panel-collapse .panel-body {
+    border-style: solid;
+    border-width: 6px;
+    border-color: var(--main-highlight-purple);
+}
+
+#accordion {
+    width: fit-content;
+    display: table;
+    color: white;
+    margin: auto;
 }
 
 #accordion .panel-default,
@@ -363,12 +483,13 @@ div.ticket-box>div>span {
 
 #accordion .panel-default .panel-heading .panel-title {
     color: white;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 #accordion .panel {
     border-width: 0px !important;
-    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 #accordion div div.panel-heading {
@@ -388,6 +509,48 @@ div.ticket-box>div>span {
     border-style: solid;
     border-width: 6px;
     border-color: var(--main-highlight-purple);
+}
+
+.talk-col h4,
+.talk-col h5,
+.talk-col p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.info-row {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.talk-col {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.speaker-faq #speaker-faq-title {
+    color: white;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    border-width: 4px;
+    border-style: solid;
+    padding: 3px;
+    font-weight: bold;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 120%;
+    margin-bottom: 8px;
+}
+
+.speaker-container .bio-row .speaker-social-icon {
+    font-size: 2em;
+    margin-right: 10px;
+    color: white;
+}
+
+.speaker-container .bio-row .speaker-social-icon:hover {
+    color: var(--main-highlight-pink);
 }
 
 #countdown-row {
@@ -438,14 +601,14 @@ div.ticket-box>div>span {
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    height: 100vh;
+}
+
+#logo-div.full-height {
     min-height: 6em;
+    height: 100vh;
 }
 
 .logo {
-    position: absolute;
-    left: calc(50% - 1.25em);
-    top: calc(50% - 1.5em);
     width: 2.5em;
     height: 3em;
     padding: 0.15em 0.2em;
@@ -455,6 +618,12 @@ div.ticket-box>div>span {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+
+.logo.center {
+    position: absolute;
+    left: calc(50% - 1.25em);
+    top: calc(50% - 1.5em);
 }
 
 .logo-area canvas {
@@ -525,30 +694,47 @@ div.ticket-box>div>span {
 }
 
 .navbar-nav li {
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     font-weight: bold;
     padding: 0.2em;
 }
+
+
+.navbar-nav li:first-child img {
+    width: 40px;
+    height: 60px;
+}
+
+
+@media (min-width: 767px) {
+    .navbar-nav li:first-child {
+        position: absolute;
+        left: -5px;
+        top: -33%;
+    }
+    .navbar-nav li:nth-child(2) {
+        margin-left:10px;
+    }
+}
+
 
 #navbar .navbar-nav li>a {
     color: #0000ff;
 }
 
-#navbar .navbar-nav li:nth-of-type(5) a {
+#navbar .navbar-nav li.highlight-nav a {
     color: #c200ff;
 }
 
-@media (min-width: 1500px) {
-    /* Este é o ponto de viragem para mobile-view*/
+@media (max-width: 1500px) {
     .navbar-nav li {
-        font-size: 2em;
+        font-size: 1.5vw;
     }
 }
 
 @media (max-width: 1000px) {
-    /* Este é o ponto de viragem para mobile-view*/
     .navbar-nav li {
-        font-size: 1.4vw;
+        font-size: 1.2vw;
     }
 }
 
@@ -560,14 +746,14 @@ div.ticket-box>div>span {
         border-left: 5px solid #0000ff;
         margin-top: 2px;
     }
-    .navbar-nav li:nth-of-type(5) {
+    .navbar-nav li.highlight-nav {
         border-left: 5px solid #c200ff;
     }
     .navbar-nav {
-        float: left!important;
+        float: left !important;
     }
     .navbar-collapse {
-        margin-left: 0!important;
+        margin-left: 0 !important;
         margin-bottom: -7px;
         margin-top: -7px;
     }
@@ -724,21 +910,21 @@ img.signup-section-img {
     max-width: 100%;
 }
 
-.sponsor.main > a {
+.sponsor.main>a {
     max-width: 60%;
 }
 
-.sponsor.gold > a {
+.sponsor.gold>a {
     max-width: 25%;
     margin: 0 2.5%;
 }
 
-.sponsor.silver > a {
+.sponsor.silver>a {
     width: 14.28%;
     margin: 0 1%;
 }
 
-.sponsor.bronze > a {
+.sponsor.bronze>a {
     max-width: 10%;
     margin: 0 1%;
 }
@@ -752,4 +938,124 @@ img.signup-section-img {
     padding-right: 10px;
     color: white;
     text-align: center;
+}
+
+.speakers-title {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 400%;
+    margin: 2% 5%;
+    vertical-align: middle;
+}
+
+.speakers-container {
+    max-width: 1200px;
+    margin: 3em auto !important;
+}
+
+@media (min-width:992px) {
+    .speakers-container>div:nth-child(4) {
+        margin-top: 150px;
+    }
+    .speakers-container>div:nth-child(3) {
+        margin-top: 75px;
+    }
+    .speakers-container>div:nth-child(1) {
+        margin-top: 150px;
+    }
+    .speakers-container>div:nth-child(4n+6) {
+        margin-top: -150px;
+    }
+    .speakers-container>div:nth-child(4n+7) {
+        margin-top: -75px;
+    }
+}
+
+div.speaker-container {
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    color: white;
+}
+
+div.speaker-container img {
+    display: block;
+    margin: auto;
+    max-height: 350px;
+    max-width: 350px;
+}
+
+div.speaker-container .info-col {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.speaker-overlay {
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(150, 150, 255, 0.8);
+    transform: skewY(-15deg);
+    padding: 1em;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.overlay-content {
+    color: white;
+    width: 120%;
+}
+
+.speaker-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-bottom: -20.0%;
+    cursor: pointer;
+}
+
+.speaker-wrapper:hover .speaker-overlay,
+.speaker-overlay:hover {
+    height: 35%;
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .speaker-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        height: 40%;
+    }
+}
+
+.logo.medium {
+    font-size: 40px;
+}
+
+.speakers-title-container .logo-wrapper {
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
+}
+
+h4.about-talk-title {
+    font-weight: bold;
+}
+
+p.speaker-page-bio a,
+.speaker-page-talk a {
+    color: var(--main-highlight-pink);
+}
+
+@media (max-width: 767px) {
+    .speakers-title-container #logo {
+        display: none;
+    }
 }

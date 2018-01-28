@@ -1,0 +1,24 @@
+{{#if include_navbar}}
+  {{> navbar }}
+{{/if}}
+<div class="container page-content-container">
+
+  <div class="container speakers-title-container">
+    <h1 class="speakers-title">Speakers</h1>
+    <a href="/">
+    <div class="logo-wrapper">
+      <div id="logo" class="enei-skew logo medium speaker">
+        <p id="E_1">E</p>
+        <p id="N_2">N</p>
+        <p id="E_3">E</p>
+        <p id="I_4">I</p>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="speakers-container row">
+    {{> speakers}}
+  </div>
+</div>
+
+{{> footer }}
