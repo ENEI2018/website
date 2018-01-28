@@ -269,6 +269,14 @@ i.circle {
     margin-bottom: 3em;
 }
 
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    .ticket-n i.circle {
+        margin-top: 5em;
+    }
+    
+}
+
 div.ticket-box {
     background-color: var(--ticket-box-blue);
     padding: 1em;
@@ -686,10 +694,29 @@ div.ticket-box div>span.price {
 }
 
 .navbar-nav li {
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     font-weight: bold;
     padding: 0.2em;
 }
+
+
+.navbar-nav li:first-child img {
+    width: 40px;
+    height: 60px;
+}
+
+
+@media (min-width: 767px) {
+    .navbar-nav li:first-child {
+        position: absolute;
+        left: -5px;
+        top: -33%;
+    }
+    .navbar-nav li:nth-child(2) {
+        margin-left:10px;
+    }
+}
+
 
 #navbar .navbar-nav li>a {
     color: #0000ff;
@@ -699,17 +726,15 @@ div.ticket-box div>span.price {
     color: #c200ff;
 }
 
-@media (min-width: 1500px) {
-    /* Este é o ponto de viragem para mobile-view*/
+@media (max-width: 1500px) {
     .navbar-nav li {
-        font-size: 2em;
+        font-size: 1.5vw;
     }
 }
 
 @media (max-width: 1000px) {
-    /* Este é o ponto de viragem para mobile-view*/
     .navbar-nav li {
-        font-size: 1.4vw;
+        font-size: 1.2vw;
     }
 }
 
