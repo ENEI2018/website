@@ -1059,3 +1059,14 @@ p.speaker-page-bio a,
         display: none;
     }
 }
+
+
+.affix {
+    top: 0;
+    z-index:1000;
+}
+
+.page-content-container.affix{
+    position:inherit;
+    margin-top:63px !important;
+}
