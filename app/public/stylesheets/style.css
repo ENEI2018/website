@@ -1070,3 +1070,9 @@ p.speaker-page-bio a,
     position:inherit;
     margin-top:63px !important;
 }
+
+@media (max-width: 767px) {
+    .page-content-container.affix{
+        margin-top:50px !important;
+    }
+}
