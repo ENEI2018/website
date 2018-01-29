@@ -247,11 +247,9 @@ module.exports = {
       shortBio: "Microsoft Portugal",
       role: "Public Safety and National Security Industry Lead",
       company: "Microsoft Portugal",
-      fullBio: "I'm the Public Safety and National Security Industry Lead at Microsoft Portugal. I have the responsibility of supporting Microsoft's client's strategy on their digital transformation and help them to achieve more. I also establish straight collaborations with some of the main Portuguese and International Universities and Research Centers. I hold a PhD in Industrial Engineering and Management from the University of Porto and teach at Porto Polytechnic Institute in the areas of Software Engineering and Management. My current research focuses on new multidisciplinary methods for designing services for complex value networks such as national electronic health records or wildfire fighting. Since 2001, I have been working in the Information Technology Sector. I was member of the Executive Committee of one of the first IT integrators in Portugal, and in 2012 founded Kentra Technologies, a software vendor in the Healthcare sector. My experience working at the public sector started in 2008 helping the Portuguese Ministry of Health to design the National Electronic Health Record.",
+      fullBio: "Nelson é o líder de Segurança Pública e Indústria de Segurança Nacional da Microsoft Portugal. Ele tem a responsabilidade de suportar a estratégia dos clientes da Microsoft a transformar a sua estratégia digital e ajudá-los a conseguir mais. Para além disso, Nelson estabelece colaborações diretas com algumas das principais universidades e centros de investigação portugueses e internacionais. Nelson tem um PhD em Engenharia Industrial e Gestão da Universidade do Porto e ensina no Instituto Politécnico do Porto nas áreas de Engenharia de Software e Gestão. A sua investigação atual centra-se nos novos métodos multidsciplinares para desenhar serviços para redes de valor complexas como os registos eletrónicos nacionais de saúde ou combate a incêndios. Desde 2001 tem trabalhado no setor da tecnologia da informação. Foi um membro do comité executivo de uma das primeiras IT integrators em Portugal, e em 2012 fundou a Kentra Technologies, uma desenvolvedora de software no setor da saúde. A sua experiência no setor público começou em 2008, ajudando o Ministério da Saúde português a desenhar o Registo Eletrónico Nacional para a Saúde.",
       image: "nelson_pinho.png",
-      linkedin: "//nelson_pinho.com",
-      facebook: "//facebook.com",
-      instagram: "//instagram.com",
+      linkedin: "https://www.linkedin.com/in/nelsonpinho/",
       faqs: [],
       /*faqs: [{
           question: "Onde trabalha atualmente?",
