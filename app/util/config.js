@@ -57,7 +57,7 @@ module.exports = {
       {
         name: "Sonae Bit",
         image: "sonaebit.jpg",
-        href: "https://www.sonae.pt",
+        href: "https://www.linkedin.com/showcase/10218457/",
         show: true
       },
       {
