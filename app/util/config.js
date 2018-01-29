@@ -451,21 +451,6 @@ module.exports = {
     },
     {
       id: 14,
-      name: "Sumanth Damarla",
-      shortBio: "Mozilla",
-      company: "Mozilla",
-      role: "Project Engineer at Wipro",
-      fullBio: "Mozilla Tech Speaker and Security evangelist. Skilled at driving Automation in DevOps environments through task automation and configuring management framework. Chocoholic, food lover, traveller, photography, gamer and love to contribute for open source projects.",
-      image: "sumanth_damarla.JPG",
-      linkedin: "https://www.linkedin.com/in/sumanthdamarla/",
-      faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
-      talkTitle: "De Estudante a Engenheiro Informático: Gestão de Carreiras para Tótós",
-      talkSummary: "<p>With the right skills, tools and software, you can protect yourself and remain secure. This session will take attendees from no knowledge of open source web security tools to a deep understanding of how to use them and their growing set of capabilities.</p><p>This session focuses on building Web Security Awareness. Its helps the attendees to build their web applications more securely using open web security tools. With the help of web security tools, People can attack their own designed web applications and check for the vulnerabilities in their applications and code it more securely. For an instance, Assume a coder created Login page, He can use ZAP (Mozilla Security Automation Project) to attack his Login page and sort out the ways to trace out the flaws. In this way ZAP gives the coder chance to build their Web Application more securely. (Though its only one of the many features of ZAP).</p>",
-      show: false
-    },
-    {
-      id: 15,
       name: "Wolfgang Merkt",
       shortBio: "Roboticist & Consultant",
       company: "Roboticist & Consultant",
