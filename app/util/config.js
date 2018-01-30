@@ -239,7 +239,7 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Como podes chegar à Google? Dicas para conseguires o teu emprego de sonho.",
       talkSummary: "",
-      show: false
+      show: true
     },
     {
       id: 2,
