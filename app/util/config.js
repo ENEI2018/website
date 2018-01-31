@@ -389,7 +389,7 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Introdução à Programação Funcional com JavaScript.",
       talkSummary: "Nesta apresentação, vamos introduzir o paradigma da programação funcional usando JavaScript. Tentaremos demonstrar que tratando a computação como a avaliação de funções puras, usando dados imutáveis e preferindo expressões a comandos conseguimos produzir código mais fácil de entender, mais modular e mais fácil de testar.",
-      show: false
+      show: true
     },
     {
       id: 10,
@@ -418,7 +418,7 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "",
       talkSummary: "",
-      show: false
+      show: true
     },
     {
       id: 12,
