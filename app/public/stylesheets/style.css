@@ -1020,7 +1020,6 @@ div.speaker-container .info-col {
     display: inline-block;
     position: relative;
     margin-bottom: -20.0%;
-    cursor: pointer;
 }
 
 .speaker-wrapper:hover .speaker-overlay,
@@ -1030,6 +1029,24 @@ div.speaker-container .info-col {
 
 @media (min-width:992px) and (max-width: 1200px) {
     .speaker-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        height: 40%;
+    }
+}
+
+.team-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-bottom: -20.0%;
+}
+
+.team-wrapper:hover .speaker-overlay,
+.speaker-overlay:hover {
+    height: 35%;
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .team-wrapper:hover .speaker-overlay,
     .speaker-overlay:hover {
         height: 40%;
     }
@@ -1052,6 +1069,10 @@ h4.about-talk-title {
 p.speaker-page-bio a,
 .speaker-page-talk a {
     color: var(--main-highlight-pink);
+}
+
+div.speaker-name, div.team-name {
+    font-weight: bold;
 }
 
 @media (max-width: 767px) {
