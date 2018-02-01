@@ -568,7 +568,7 @@ module.exports = {
       image: "filipa_ramos.jpg",
       role: "cenas",
       facebook: "https://www.facebook.com/filipa.robocop",
-      show: false
+      show: true
     },
     {
       id: 13,
@@ -599,7 +599,7 @@ module.exports = {
       name: "Luís Miguel Sousa",
       image: "luis_sousa.jpg",
       role: "cenas",
-      show: false
+      show: true
     },
     {
       id: 17,
