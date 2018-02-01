@@ -4,5 +4,6 @@ module.exports = {
     tickets : process.env.ENEI_dev === '1' || true,
     speakers : process.env.ENEI_dev === '1' || true,
     nav: process.env.ENEI_dev === '1' || true,
-    schedule: process.env.ENEI_dev === '1' || false
+    schedule: process.env.ENEI_dev === '1' || false,
+    team: process.env.ENEI_dev === '1' || false
 }

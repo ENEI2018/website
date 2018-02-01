@@ -464,5 +464,15 @@ module.exports = {
       talkSummary: "In his talk, Wolfgang will highlight different areas of his journey in the wonderful world of robotics and touch upon challenges and frontiers in the field. In particular, he will highlight recent research successes and open challenges along with implications of an applied field.",
       show: true
     }
+  ],
+  team: [
+    {
+      id: 0,
+      name: "Bernardo Belchior",
+      image: "belchas.jpg",
+      role: "Coordenador Geral",
+      linkedin: "",
+      show: true
+    }
   ]
 };

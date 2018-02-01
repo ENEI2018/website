@@ -2,10 +2,23 @@
   {{> navbar }}
 {{/if}}
 <div class="container page-content-container">
-  <div class="container team-title-container">
-    <div class="row team-title-row">
-      <div class="col-md-6 col-md-push-6"><img src="/images/logo-decorated.png"/></div>
-      <div class="col-md-6 col-md-pull-6"><h1>A nossa equipa</h1></div>
+
+  <div class="container speakers-title-container">
+    <h1 class="speakers-title">Equipa</h1>
+    <a href="/">
+    <div class="logo-wrapper">
+      <div id="logo" class="enei-skew logo medium speaker">
+        <p id="E_1">E</p>
+        <p id="N_2">N</p>
+        <p id="E_3">E</p>
+        <p id="I_4">I</p>
+      </div>
     </div>
+    </a>
+  </div>
+  <div class="speakers-container row">
+    {{> team}}
   </div>
 </div>
+
+{{> footer }}
