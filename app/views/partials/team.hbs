@@ -5,14 +5,16 @@
         <div class="img-ratio-wrapper img-background" style="background-image: url(/images/team/{{image}});">
             <div class="speaker-overlay">
                 <div class="row overlay-content">
+                    {{#if facebook}}
                     <a class="col-md-3 col-lg-2" href="{{linkedin}}" target="_blank">
-                        <img src="/images/linkedin.svg" alt="LinkedIn" width="40px" height="40px" />
+                        <img src="/images/facebook.svg" alt="Facebook" width="40px" height="40px" />
                     </a>
+                    {{/if}}
                     <div class="col-md-9 col-lg-10">
-                        <div class="speaker-name">
+                        <div class="team-name">
                             {{name}}
                         </div>
-                        <div class="speaker-shortbio">
+                        <div class="team-shortbio">
                             {{role}}
                         </div>
                     </div>

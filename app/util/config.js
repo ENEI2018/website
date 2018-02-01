@@ -465,13 +465,188 @@ module.exports = {
       show: true
     }
   ],
-  team: [
+  team: [	
     {
       id: 0,
       name: "Bernardo Belchior",
-      image: "belchas.jpg",
+      image: "bernardo_belchior.jpg",
       role: "Coordenador Geral",
-      linkedin: "",
+      facebook: "https://www.facebook.com/bernardo.belchior",
+      show: true
+    },
+    {
+      id: 1,
+      name: "Rui Vilares",
+      image: "rui_vilares.jpg",
+      role: "Coordenador Geral",
+      facebook: "https://www.facebook.com/RuiVilares1",
+      show: true
+    },
+    {
+      id: 2,
+      name: "Afonso Jorge Ramos",
+      image: "afonso_ramos.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/afonsojramos",
+      show: true
+    },
+    {
+      id: 3,
+      name: "André Lago",
+      image: "andre_lago.jpg",
+      role: "Website",
+      facebook: "https://www.facebook.com/andrelago13",
+      show: true
+    },
+    {
+      id: 4,
+      name: "António Melo",
+      image: "antonio_melo.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/antoniomel0",
+      show: true
+    },
+    {
+      id: 5,
+      name: "Beatriz Henriques",
+      image: "beatriz_henriques.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/tis.henriques",
+      show: true
+    },
+    {
+      id: 6,
+      name: "Daniel Silva",
+      image: "daniel_silva.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/danielpsilva",
+      show: true
+    },
+    {
+      id: 7,
+      name: "David Azevedo",
+      image: "david_azevedo.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/david.azevedo.10",
+      show: true
+    },
+    {
+      id: 8,
+      name: "Diogo Amaral",
+      image: "diogo_amaral.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/diogosilvaamaral",
+      show: true
+    },
+    {
+      id: 9,
+      name: "Edgar Passos",
+      image: "edgar_passos.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/edgarlpassos",
+      show: true
+    },
+    {
+      id: 10,
+      name: "Filipa Barros",
+      image: "filipa_barros.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/anafilipa.sousabarros",
+      show: true
+    },
+    {
+      id: 11,
+      name: "Filipa Crespo",
+      image: "filipa_crespo.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/FilipaCrespo",
+      show: true
+    },
+    {
+      id: 12,
+      name: "Filipa Ramos",
+      image: "filipa_ramos.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/filipa.robocop",
+      show: false
+    },
+    {
+      id: 13,
+      name: "Francisca Paupério",
+      image: "francisca_pauperio.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/francisca.pauperio",
+      show: true
+    },
+    {
+      id: 14,
+      name: "João Carvalho",
+      image: "joao_carvalho.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/profile.php?id=100000291598434",
+      show: true
+    },
+    {
+      id: 15,
+      name: "José Pedro Teles",
+      image: "jose_teles.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/josepedro.teles.5",
+      show: true
+    },
+    {
+      id: 16,
+      name: "Luís Miguel Sousa",
+      image: "luis_sousa.jpg",
+      role: "cenas",
+      show: false
+    },
+    {
+      id: 17,
+      name: "Maria João Mira Paulo",
+      image: "maria_mira_paulo.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/mariajoao.mirapaulo",
+      show: true
+    },
+    {
+      id: 18,
+      name: "Nuno Ramos",
+      image: "runo_namos.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/nuno.ramos.1048",
+      show: true
+    },
+    {
+      id: 19,
+      name: "Patrícia Silva",
+      image: "patricia_silva.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/patricia.areiassilva",
+      show: true
+    },
+    {
+      id: 20,
+      name: "Pedro Costa",
+      image: "pedro_costa.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/pedrodc17",
+      show: true
+    },
+    {
+      id: 21,
+      name: "Rafael Damasceno",
+      image: "rafael_damasceno.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/rafaelricardodamasceno",
+      show: true
+    },
+    {
+      id: 22,
+      name: "Sofia Silva",
+      image: "sofia_silva.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/sofialcfsilva",
       show: true
     }
   ]
