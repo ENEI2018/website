@@ -471,7 +471,8 @@ module.exports = {
       name: "Bernardo Belchior",
       image: "bernardo_belchior.jpg",
       role: "Coordenador Geral",
-      facebook: "https://www.facebook.com/bernardo.belchior",
+      //facebook: "https://www.facebook.com/bernardo.belchior",
+      linkedin: "https://www.linkedin.com/in/bernardobelchior",
       show: true
     },
     {
@@ -479,7 +480,8 @@ module.exports = {
       name: "Rui Vilares",
       image: "rui_vilares.jpg",
       role: "Coordenador Geral",
-      facebook: "https://www.facebook.com/RuiVilares1",
+      //facebook: "https://www.facebook.com/RuiVilares1",
+      linkedin: "www.linkedin.com/in/ruivilares",
       show: true
     },
     {
@@ -487,7 +489,8 @@ module.exports = {
       name: "Afonso Jorge Ramos",
       image: "afonso_ramos.jpg",
       role: "Relações Empresariais",
-      facebook: "https://www.facebook.com/afonsojramos",
+      //facebook: "https://www.facebook.com/afonsojramos",
+      linkedin: "https://www.linkedin.com/in/afonsoramos/",
       show: true
     },
     {
@@ -495,7 +498,8 @@ module.exports = {
       name: "André Lago",
       image: "andre_lago.jpg",
       role: "Informática",
-      facebook: "https://www.facebook.com/andrelago13",
+      //facebook: "https://www.facebook.com/andrelago13",
+      linkedin: "https://www.linkedin.com/in/andre-lago/",
       show: true
     },
     {
@@ -519,7 +523,8 @@ module.exports = {
       name: "Daniel Silva",
       image: "daniel_silva.jpg",
       role: "Informática",
-      facebook: "https://www.facebook.com/danielpsilva",
+      //facebook: "https://www.facebook.com/danielpsilva",
+      linkedin: "https://www.linkedin.com/in/dannyps/",
       show: true
     },
     {
@@ -527,7 +532,8 @@ module.exports = {
       name: "David Azevedo",
       image: "david_azevedo.jpg",
       role: "Programa",
-      facebook: "https://www.facebook.com/david.azevedo.10",
+      //facebook: "https://www.facebook.com/david.azevedo.10",
+      linkedin: "https://www.linkedin.com/in/david-azevedo/",
       show: true
     },
     {
@@ -535,7 +541,8 @@ module.exports = {
       name: "Diogo Amaral",
       image: "diogo_amaral.jpg",
       role: "Programa",
-      facebook: "https://www.facebook.com/diogosilvaamaral",
+      //facebook: "https://www.facebook.com/diogosilvaamaral",
+      linkedin: "https://www.linkedin.com/in/amarald/",
       show: true
     },
     {
@@ -543,7 +550,8 @@ module.exports = {
       name: "Edgar Passos",
       image: "edgar_passos.jpg",
       role: "Relações Empresariais",
-      facebook: "https://www.facebook.com/edgarlpassos",
+      //facebook: "https://www.facebook.com/edgarlpassos",
+      linkedin: "https://www.linkedin.com/in/edgarlpassos/",
       show: true
     },
     {
@@ -583,7 +591,8 @@ module.exports = {
       name: "João Carvalho",
       image: "joao_carvalho.jpg",
       role: "Programa",
-      facebook: "https://www.facebook.com/profile.php?id=100000291598434",
+      //facebook: "https://www.facebook.com/profile.php?id=100000291598434",
+      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
       show: true
     },
     {
@@ -598,15 +607,16 @@ module.exports = {
       id: 16,
       name: "Luís Miguel Sousa",
       image: "luis_sousa.jpg",
-      role: "cenas",
-      show: false
+      role: "Logística",
+      show: true
     },
     {
       id: 17,
       name: "Maria João Mira Paulo",
       image: "maria_mira_paulo.jpg",
       role: "Comunicação e Imagem",
-      facebook: "https://www.facebook.com/mariajoao.mirapaulo",
+      //facebook: "https://www.facebook.com/mariajoao.mirapaulo",
+      linkedin: "https://www.linkedin.com/in/maria-joao-mira-paulo/",
       show: true
     },
     {
@@ -630,7 +640,8 @@ module.exports = {
       name: "Pedro Costa",
       image: "pedro_costa.jpg",
       role: "Tesouraria",
-      facebook: "https://www.facebook.com/pedrodc17",
+      //facebook: "https://www.facebook.com/pedrodc17",
+      linkedin: "https://www.linkedin.com/in/pedrodcosta/",
       show: true
     },
     {
@@ -638,7 +649,8 @@ module.exports = {
       name: "Rafael Damasceno",
       image: "rafael_damasceno.jpg",
       role: "Logística",
-      facebook: "https://www.facebook.com/rafaelricardodamasceno",
+      //facebook: "https://www.facebook.com/rafaelricardodamasceno",
+      linkedin: "https://www.linkedin.com/in/rafaelrdamasceno/",
       show: true
     },
     {
@@ -646,7 +658,8 @@ module.exports = {
       name: "Sofia Silva",
       image: "sofia_silva.jpg",
       role: "Comunicação e Imagem",
-      facebook: "https://www.facebook.com/sofialcfsilva",
+      //facebook: "https://www.facebook.com/sofialcfsilva",
+      linkedin: "https://www.linkedin.com/in/sofialcfsilva/",
       show: true
     }
   ]
