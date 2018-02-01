@@ -486,7 +486,7 @@ module.exports = {
       id: 2,
       name: "Afonso Jorge Ramos",
       image: "afonso_ramos.jpg",
-      role: "cenas",
+      role: "Relações Empresariais",
       facebook: "https://www.facebook.com/afonsojramos",
       show: true
     },
@@ -494,7 +494,7 @@ module.exports = {
       id: 3,
       name: "André Lago",
       image: "andre_lago.jpg",
-      role: "Website",
+      role: "Informática",
       facebook: "https://www.facebook.com/andrelago13",
       show: true
     },
@@ -502,7 +502,7 @@ module.exports = {
       id: 4,
       name: "António Melo",
       image: "antonio_melo.jpg",
-      role: "cenas",
+      role: "Logística",
       facebook: "https://www.facebook.com/antoniomel0",
       show: true
     },
@@ -510,7 +510,7 @@ module.exports = {
       id: 5,
       name: "Beatriz Henriques",
       image: "beatriz_henriques.jpg",
-      role: "cenas",
+      role: "Animação",
       facebook: "https://www.facebook.com/tis.henriques",
       show: true
     },
@@ -518,7 +518,7 @@ module.exports = {
       id: 6,
       name: "Daniel Silva",
       image: "daniel_silva.jpg",
-      role: "cenas",
+      role: "Informática",
       facebook: "https://www.facebook.com/danielpsilva",
       show: true
     },
@@ -526,7 +526,7 @@ module.exports = {
       id: 7,
       name: "David Azevedo",
       image: "david_azevedo.jpg",
-      role: "cenas",
+      role: "Programa",
       facebook: "https://www.facebook.com/david.azevedo.10",
       show: true
     },
@@ -534,7 +534,7 @@ module.exports = {
       id: 8,
       name: "Diogo Amaral",
       image: "diogo_amaral.jpg",
-      role: "cenas",
+      role: "Programa",
       facebook: "https://www.facebook.com/diogosilvaamaral",
       show: true
     },
@@ -542,7 +542,7 @@ module.exports = {
       id: 9,
       name: "Edgar Passos",
       image: "edgar_passos.jpg",
-      role: "cenas",
+      role: "Relações Empresariais",
       facebook: "https://www.facebook.com/edgarlpassos",
       show: true
     },
@@ -550,7 +550,7 @@ module.exports = {
       id: 10,
       name: "Filipa Barros",
       image: "filipa_barros.jpg",
-      role: "cenas",
+      role: "Logística",
       facebook: "https://www.facebook.com/anafilipa.sousabarros",
       show: true
     },
@@ -558,7 +558,7 @@ module.exports = {
       id: 11,
       name: "Filipa Crespo",
       image: "filipa_crespo.jpg",
-      role: "cenas",
+      role: "Programa",
       facebook: "https://www.facebook.com/FilipaCrespo",
       show: true
     },
@@ -568,13 +568,13 @@ module.exports = {
       image: "filipa_ramos.jpg",
       role: "cenas",
       facebook: "https://www.facebook.com/filipa.robocop",
-      show: true
+      show: false
     },
     {
       id: 13,
       name: "Francisca Paupério",
       image: "francisca_pauperio.jpg",
-      role: "cenas",
+      role: "Relações Empresariais",
       facebook: "https://www.facebook.com/francisca.pauperio",
       show: true
     },
@@ -582,7 +582,7 @@ module.exports = {
       id: 14,
       name: "João Carvalho",
       image: "joao_carvalho.jpg",
-      role: "cenas",
+      role: "Programa",
       facebook: "https://www.facebook.com/profile.php?id=100000291598434",
       show: true
     },
@@ -590,7 +590,7 @@ module.exports = {
       id: 15,
       name: "José Pedro Teles",
       image: "jose_teles.jpg",
-      role: "cenas",
+      role: "Programa",
       facebook: "https://www.facebook.com/josepedro.teles.5",
       show: true
     },
@@ -599,13 +599,13 @@ module.exports = {
       name: "Luís Miguel Sousa",
       image: "luis_sousa.jpg",
       role: "cenas",
-      show: true
+      show: false
     },
     {
       id: 17,
       name: "Maria João Mira Paulo",
       image: "maria_mira_paulo.jpg",
-      role: "cenas",
+      role: "Comunicação e Imagem",
       facebook: "https://www.facebook.com/mariajoao.mirapaulo",
       show: true
     },
@@ -613,7 +613,7 @@ module.exports = {
       id: 18,
       name: "Nuno Ramos",
       image: "runo_namos.jpg",
-      role: "cenas",
+      role: "Animação",
       facebook: "https://www.facebook.com/nuno.ramos.1048",
       show: true
     },
@@ -621,7 +621,7 @@ module.exports = {
       id: 19,
       name: "Patrícia Silva",
       image: "patricia_silva.jpg",
-      role: "cenas",
+      role: "Animação",
       facebook: "https://www.facebook.com/patricia.areiassilva",
       show: true
     },
@@ -629,7 +629,7 @@ module.exports = {
       id: 20,
       name: "Pedro Costa",
       image: "pedro_costa.jpg",
-      role: "cenas",
+      role: "Tesouraria",
       facebook: "https://www.facebook.com/pedrodc17",
       show: true
     },
@@ -637,7 +637,7 @@ module.exports = {
       id: 21,
       name: "Rafael Damasceno",
       image: "rafael_damasceno.jpg",
-      role: "cenas",
+      role: "Logística",
       facebook: "https://www.facebook.com/rafaelricardodamasceno",
       show: true
     },
@@ -645,7 +645,7 @@ module.exports = {
       id: 22,
       name: "Sofia Silva",
       image: "sofia_silva.jpg",
-      role: "cenas",
+      role: "Comunicação e Imagem",
       facebook: "https://www.facebook.com/sofialcfsilva",
       show: true
     }
