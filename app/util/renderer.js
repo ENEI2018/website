@@ -1,5 +1,6 @@
 var config = require('./config');
 var features = require('../util/features');
+var schedule = require('../util/schedule');
 
 function render(res, page, options) {
   var new_options = {
@@ -13,7 +14,8 @@ function render(res, page, options) {
     include_navbar: features.nav,
     speakers: config.speakers,
     partners: config.partners,
-    team: config.team
+    team: config.team,
+    schedule: schedule
   }
 
   res.render(page, Object.assign(new_options, options));
