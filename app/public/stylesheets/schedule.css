@@ -90,10 +90,39 @@
   font-weight: bold;
   border-style: solid;
   border-width: 4px;
-  border-color: white;
+  border-color: var(--main-third-highlight-blue);
+  color: var(--main-third-highlight-blue);
   padding-top: 1em;
   padding-left: 1em;
   padding-bottom: 1em;
+}
+
+.entry-title-other-oneline {
+  font-weight: bold;
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  color: white;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.entry-title-talk, .entry-title-workshop, .entry-title-other {
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  padding-top: 0.3em;
+  padding-left: 1em;
+  padding-bottom: 0.3em;
+}
+
+.entry-title-other .talk-title {
+  font-weight: bold;
+}
+
+.entry-title-talk .talk-title, .entry-title-workshop .talk-title {
+  font-weight: bold;
 }
 
 .panel-body .tab-content .tab-pane .tab-entry {
@@ -114,9 +143,20 @@
   font-weight: bold;
 }
 
+a.dis-link-color,
+a.dis-link-color:visited,
+a.dis-link-color:hover,
+a.dis-link-color:active {
+  color:white !important;
+}
+
 .schedule-entry-type {
   color: var(--font-highlight-blue);
   font-size: 80%;
+}
+
+.schedule-entry-type.schedule-talk-location {
+  padding-top: 13px;
 }
 
 .schedule-location-box {

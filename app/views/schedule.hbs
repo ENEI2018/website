@@ -24,13 +24,18 @@
       <div class="panel-body">
         <div class="tab-content">
           {{#each schedule}}
+          {{#if @index}}
+          <div class="tab-pane fade in" id="eneiday{{id}}">
+          {{else}}
           <div class="tab-pane fade in active" id="eneiday{{id}}">
+          {{/if}}
 
             {{#each schedule}}
               {{#if breakBefore}}
                 <div class="tab-entry schedule-entry-separator"></div>
               {{/if}}
               {{#if typeBreak}}
+                {{#if show}}
                 <div class="row tab-entry entry-row entry-break">
                   <div class="col-md-6 col-md-push-6">
                     <p class="schedule-entry-time">{{time}}</p>
@@ -42,7 +47,9 @@
                     </div>
                   </div>
                 </div>
+                {{/if}}
               {{else if typeTalks}}
+                {{#if show}}
                 <div class="row tab-entry entry-row">
                   <div class="col-md-6 col-md-push-6">
                     <p class="schedule-entry-type schedule-talk-location">{{location}}</p>
@@ -54,23 +61,28 @@
                   </div>
                 </div>
                 {{#each slots}}
+                  {{#if show}}
                   <div class="row tab-entry entry-row">
                     <div class="col-md-6 col-md-push-6">
                       <p class="schedule-entry-time">{{time}}</p>
                       <p class="schedule-entry-type">{{location}}</p>
                     </div>
                     <div class="col-md-6 col-md-pull-6">
-                      <div class="entry-title">
+                      {{#if url}}<a class="dis-link-color" href="{{url}}">{{/if}}
+                      <div class="entry-title-talk">
                         <div class="talk-title">{{title}}</div>
                         <div class="talk-speaker">{{speaker}}</div>
                       </div>
+                      {{#if url}}</a>{{/if}}
                     </div>
                   </div>
+                  {{/if}}
                 {{/each}}
+                {{/if}}
               {{else if typeWorkshops}}
+                {{#if show}}
                 <div class="row tab-entry entry-row">
                   <div class="col-md-6 col-md-push-6">
-                    <p class="schedule-entry-type schedule-talk-location">{{location}}</p>
                   </div>
                   <div class="col-md-6 col-md-pull-6">
                     <div class="tab-entry activity-entry">
@@ -79,19 +91,43 @@
                   </div>
                 </div>
                 {{#each slots}}
+                  {{#if show}}
                   <div class="row tab-entry entry-row">
                     <div class="col-md-6 col-md-push-6">
                       <p class="schedule-entry-time">{{time}}</p>
                       <p class="schedule-entry-type">{{location}}</p>
                     </div>
                     <div class="col-md-6 col-md-pull-6">
-                      <div class="entry-title">
+                      {{#if url}}<a class="dis-link-color" href="{{url}}">{{/if}}
+                      <div class="entry-title-workshop">
                         <div class="talk-title">{{title}}</div>
                         <div class="talk-speaker">{{speaker}}</div>
                       </div>
+                      {{#if url}}</a>{{/if}}
                     </div>
                   </div>
+                  {{/if}}
                 {{/each}}
+                {{/if}}
+              {{else if typeOther}}
+                {{#if show}}
+                <div class="row tab-entry entry-row">
+                  <div class="col-md-6 col-md-push-6">
+                    <p class="schedule-entry-time">{{time}}</p>
+                    <p class="schedule-entry-type">{{location}}</p>
+                  </div>
+                  <div class="col-md-6 col-md-pull-6">
+                    {{#if subtitle}}
+                      <div class="entry-title-other">
+                    {{else}}
+                      <div class="entry-title-other-oneline">
+                    {{/if}}
+                      <div class="talk-title">{{title}}</div>
+                      <div class="talk-speaker">{{subtitle}}</div>
+                    </div>
+                  </div>
+                </div>
+                {{/if}}
               {{/if}}
               {{#if breakAfter}}
                 <div class="tab-entry schedule-entry-separator"></div>
