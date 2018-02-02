@@ -1020,7 +1020,6 @@ div.speaker-container .info-col {
     display: inline-block;
     position: relative;
     margin-bottom: -20.0%;
-    cursor: pointer;
 }
 
 .speaker-wrapper:hover .speaker-overlay,
@@ -1086,6 +1085,75 @@ div.speaker-container .info-col {
     }
 }
 
+.team-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-bottom: -20.0%;
+}
+
+.team-wrapper:hover .speaker-overlay,
+.speaker-overlay:hover {
+    height: 35%;
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .team-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        height: 40%;
+    }
+}
+
+@supports (-ms-ime-align: auto) {
+    /* Microsoft EdgeV13&14 CSS styles go here */
+    .speaker-overlay {
+        transform: skewY(0);
+        padding: 0 1em;
+    }    
+
+    .team-wrapper {
+        margin-bottom: 1em;
+    }
+    
+    .team-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        padding: 1em;
+    }
+}
+
+@supports (-ms-accelerator: true) {
+    /* Microsoft EdgeV13 CSS styles go here */
+    .speaker-overlay {
+        transform: skewY(0);
+        padding: 0 1em;
+    }    
+
+    .team-wrapper {
+        margin-bottom: 1em;
+    }
+    
+    .team-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        padding: 1em;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10 & IE11 CSS styles go here */
+    .speaker-overlay {
+        transform: skewY(0);
+        padding: 0 1em;
+    }    
+
+    .team-wrapper {
+        margin-bottom: 1em;
+    }
+    
+    .team-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        padding: 1em;
+    }
+}
+
 .logo.medium {
     font-size: 40px;
 }
@@ -1103,6 +1171,10 @@ h4.about-talk-title {
 p.speaker-page-bio a,
 .speaker-page-talk a {
     color: var(--main-highlight-pink);
+}
+
+div.speaker-name, div.team-name {
+    font-weight: bold;
 }
 
 @media (max-width: 767px) {

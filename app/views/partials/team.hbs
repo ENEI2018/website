@@ -1,18 +1,24 @@
 {{#each team}}
 {{#if show}}
 <div class="col-md-3 col-sm-6 col-xs-12">
-    <div class="speaker-wrapper shape-clip-sketch-4-3 img-ratio-4-3">
+    <div class="team-wrapper shape-clip-sketch-4-3 img-ratio-4-3">
         <div class="img-ratio-wrapper img-background" style="background-image: url(/images/team/{{image}});">
             <div class="speaker-overlay">
                 <div class="row overlay-content">
+                    {{#if linkedin}}
                     <a class="col-md-3 col-lg-2" href="{{linkedin}}" target="_blank">
                         <img src="/images/linkedin.svg" alt="LinkedIn" width="40px" height="40px" />
                     </a>
+                    {{else if facebook}}
+                    <a class="col-md-3 col-lg-2" href="{{linkedin}}" target="_blank">
+                        <img src="/images/facebook.svg" alt="Facebook" width="40px" height="40px" />
+                    </a>
+                    {{/if}}
                     <div class="col-md-9 col-lg-10">
-                        <div class="speaker-name">
+                        <div class="team-name">
                             {{name}}
                         </div>
-                        <div class="speaker-shortbio">
+                        <div class="team-shortbio">
                             {{role}}
                         </div>
                     </div>

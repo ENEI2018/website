@@ -465,13 +465,201 @@ module.exports = {
       show: true
     }
   ],
-  team: [
+  team: [	
     {
       id: 0,
       name: "Bernardo Belchior",
-      image: "belchas.jpg",
+      image: "bernardo_belchior.jpg",
       role: "Coordenador Geral",
-      linkedin: "",
+      //facebook: "https://www.facebook.com/bernardo.belchior",
+      linkedin: "https://www.linkedin.com/in/bernardobelchior",
+      show: true
+    },
+    {
+      id: 1,
+      name: "Rui Vilares",
+      image: "rui_vilares.jpg",
+      role: "Coordenador Geral",
+      //facebook: "https://www.facebook.com/RuiVilares1",
+      linkedin: "www.linkedin.com/in/ruivilares",
+      show: true
+    },
+    {
+      id: 2,
+      name: "Afonso Jorge Ramos",
+      image: "afonso_ramos.jpg",
+      role: "Relações Empresariais",
+      //facebook: "https://www.facebook.com/afonsojramos",
+      linkedin: "https://www.linkedin.com/in/afonsoramos/",
+      show: true
+    },
+    {
+      id: 3,
+      name: "André Lago",
+      image: "andre_lago.jpg",
+      role: "Informática",
+      //facebook: "https://www.facebook.com/andrelago13",
+      linkedin: "https://www.linkedin.com/in/andre-lago/",
+      show: true
+    },
+    {
+      id: 4,
+      name: "António Melo",
+      image: "antonio_melo.jpg",
+      role: "Logística",
+      facebook: "https://www.facebook.com/antoniomel0",
+      show: true
+    },
+    {
+      id: 5,
+      name: "Beatriz Henriques",
+      image: "beatriz_henriques.jpg",
+      role: "Animação",
+      facebook: "https://www.facebook.com/tis.henriques",
+      show: true
+    },
+    {
+      id: 6,
+      name: "Daniel Silva",
+      image: "daniel_silva.jpg",
+      role: "Informática",
+      //facebook: "https://www.facebook.com/danielpsilva",
+      linkedin: "https://www.linkedin.com/in/dannyps/",
+      show: true
+    },
+    {
+      id: 7,
+      name: "David Azevedo",
+      image: "david_azevedo.jpg",
+      role: "Programa",
+      //facebook: "https://www.facebook.com/david.azevedo.10",
+      linkedin: "https://www.linkedin.com/in/david-azevedo/",
+      show: true
+    },
+    {
+      id: 8,
+      name: "Diogo Amaral",
+      image: "diogo_amaral.jpg",
+      role: "Programa",
+      //facebook: "https://www.facebook.com/diogosilvaamaral",
+      linkedin: "https://www.linkedin.com/in/amarald/",
+      show: true
+    },
+    {
+      id: 9,
+      name: "Edgar Passos",
+      image: "edgar_passos.jpg",
+      role: "Relações Empresariais",
+      //facebook: "https://www.facebook.com/edgarlpassos",
+      linkedin: "https://www.linkedin.com/in/edgarlpassos/",
+      show: true
+    },
+    {
+      id: 10,
+      name: "Filipa Barros",
+      image: "filipa_barros.jpg",
+      role: "Logística",
+      facebook: "https://www.facebook.com/anafilipa.sousabarros",
+      show: true
+    },
+    {
+      id: 11,
+      name: "Filipa Crespo",
+      image: "filipa_crespo.jpg",
+      role: "Programa",
+      facebook: "https://www.facebook.com/FilipaCrespo",
+      show: true
+    },
+    {
+      id: 12,
+      name: "Filipa Ramos",
+      image: "filipa_ramos.jpg",
+      role: "cenas",
+      facebook: "https://www.facebook.com/filipa.robocop",
+      show: false
+    },
+    {
+      id: 13,
+      name: "Francisca Paupério",
+      image: "francisca_pauperio.jpg",
+      role: "Relações Empresariais",
+      facebook: "https://www.facebook.com/francisca.pauperio",
+      show: true
+    },
+    {
+      id: 14,
+      name: "João Carvalho",
+      image: "joao_carvalho.jpg",
+      role: "Programa",
+      //facebook: "https://www.facebook.com/profile.php?id=100000291598434",
+      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
+      show: true
+    },
+    {
+      id: 15,
+      name: "José Pedro Teles",
+      image: "jose_teles.jpg",
+      role: "Programa",
+      facebook: "https://www.facebook.com/josepedro.teles.5",
+      show: true
+    },
+    {
+      id: 16,
+      name: "Luís Miguel Sousa",
+      image: "luis_sousa.jpg",
+      role: "Logística",
+      show: true
+    },
+    {
+      id: 17,
+      name: "Maria João Mira Paulo",
+      image: "maria_mira_paulo.jpg",
+      role: "Comunicação e Imagem",
+      //facebook: "https://www.facebook.com/mariajoao.mirapaulo",
+      linkedin: "https://www.linkedin.com/in/maria-joao-mira-paulo/",
+      show: true
+    },
+    {
+      id: 18,
+      name: "Nuno Ramos",
+      image: "runo_namos.jpg",
+      role: "Animação",
+      facebook: "https://www.facebook.com/nuno.ramos.1048",
+      show: true
+    },
+    {
+      id: 19,
+      name: "Patrícia Silva",
+      image: "patricia_silva.jpg",
+      role: "Animação",
+      facebook: "https://www.facebook.com/patricia.areiassilva",
+      show: true
+    },
+    {
+      id: 20,
+      name: "Pedro Costa",
+      image: "pedro_costa.jpg",
+      role: "Tesouraria",
+      //facebook: "https://www.facebook.com/pedrodc17",
+      linkedin: "https://www.linkedin.com/in/pedrodcosta/",
+      show: true
+    },
+    {
+      id: 21,
+      name: "Rafael Damasceno",
+      image: "rafael_damasceno.jpg",
+      role: "Logística",
+      //facebook: "https://www.facebook.com/rafaelricardodamasceno",
+      linkedin: "https://www.linkedin.com/in/rafaelrdamasceno/",
+      show: true
+    },
+    {
+      id: 22,
+      name: "Sofia Silva",
+      image: "sofia_silva.jpg",
+      role: "Comunicação e Imagem",
+      //facebook: "https://www.facebook.com/sofialcfsilva",
+      linkedin: "https://www.linkedin.com/in/sofialcfsilva/",
       show: true
     }
   ]
