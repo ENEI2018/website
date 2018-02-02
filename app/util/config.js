@@ -188,6 +188,12 @@ module.exports = {
       image: "santander.png",
       href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
       show: true
+    },
+    {
+      name: "Talk A Bit Conference",
+      image: "talkabit.png",
+      href: "http://talkabit.org",
+      show: true
     }
   ],
   speakers: [{
@@ -624,7 +630,8 @@ module.exports = {
       name: "Nuno Ramos",
       image: "runo_namos.jpg",
       role: "Animação",
-      facebook: "https://www.facebook.com/nuno.ramos.1048",
+      //facebook: "https://www.facebook.com/nuno.ramos.1048",
+      linkedin: "https://www.linkedin.com/in/nunoramos7/",
       show: true
     },
     {
