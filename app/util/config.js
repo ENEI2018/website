@@ -188,6 +188,12 @@ module.exports = {
       image: "santander.png",
       href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
       show: true
+    },
+    {
+      name: "Talk A Bit Conference",
+      image: "talkabit.png",
+      href: "http://talkabit.org",
+      show: true
     }
   ],
   speakers: [{
