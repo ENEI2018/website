@@ -601,6 +601,7 @@ module.exports = {
       image: "jose_teles.jpg",
       role: "Programa",
       facebook: "https://www.facebook.com/josepedro.teles.5",
+      linkedin: "www.linkedin.com/in/josé-pedro-teles",
       show: true
     },
     {
