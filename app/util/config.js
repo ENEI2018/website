@@ -438,7 +438,7 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "MINIX 3: A Reliable and Secure Operating System",
       talkSummary: "Most computer users nowadays are nontechnical people who have  a mental model of what they expect from a computer based on their experience with TV sets and stereos: you buy it, plug it in, and it works perfectly for the next 10 years. Computers aren't like that, which leads to frustration. Part of the problem is the operating system, which is often millions of lines of kernel code, each of which can potentially bring the system down. As long as we maintain the current structure of the  operating system as a huge single monolithic program full of foreign code (device drivers) and running in kernel mode, the situation will not improve. In an attempt to provide better reliability and security, we have created a new multiserver operating system,  MINIX 3, with only 15,000 lines in kernel and the rest of the operating system split up into small components each running as a separate user-mode processes.  It is available for the x86 and ARM for embedded systems. The talk will discuss the design of the system and some of unique aspects, such as live update--the ability to replace the operating system with a new version while it is running without affecting running applications. The MINIX 3 Website is at <a href='www.minix3.org'>www.minix3.org</a>",
-      show: false
+      show: true
     },
     {
       id: 13,
@@ -607,6 +607,7 @@ module.exports = {
       image: "jose_teles.jpg",
       role: "Programa",
       facebook: "https://www.facebook.com/josepedro.teles.5",
+      linkedin: "www.linkedin.com/in/josé-pedro-teles",
       show: true
     },
     {
