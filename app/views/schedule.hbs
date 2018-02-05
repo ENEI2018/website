@@ -29,6 +29,7 @@
             <div class="tab-pane fade in active" id="eneiday{{id}}">
               {{/if}}
 
+              <div class="table-container">
               <table class="table borderless schedule-table">
                 <thead>
                   <tr>
@@ -41,7 +42,14 @@
                   {{#each schedule}}
                   <tr>
                     <th scope="row">{{start}}</th>
+                    {{#if break}}
+                    <td class="schedule-entry break-entry" colspan="4" rowspan="{{rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{rowspan}}"><span>{{title}} | {{location}}</span></div>
+                    </td>
+                    {{else}}
+                    <!-- COL 1 - TALKS-->
                     {{#if col1}}
+                    {{#if col1.show}}
                     <td class="schedule-entry" colspan="{{col1.colspan}}" rowspan="{{col1.rowspan}}">
                       <div class="schedule-entry-container rowcount-{{col1.rowspan}}">
                       {{#if col1.url}}<a href="{{col1.url}}">{{/if}}
@@ -58,13 +66,76 @@
                       </div>
                     </td>
                     {{/if}}
-                    <td>b</td>
-                    <td>c</td>
-                    <td>d</td>
+                    {{/if}}
+
+                    <!-- COL 2 - WORKSHOPS-->
+                    {{#if col2}}
+                    {{#if col2.show}}
+                    <td class="schedule-entry" colspan="{{col2.colspan}}" rowspan="{{col2.rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{col2.rowspan}}">
+                      {{#if col2.url}}<a href="{{col2.url}}">{{/if}}
+                      <div class="block-title">{{col2.title}}</div>
+                      {{#if col2.subtitle}}
+                      <div class="block-subtitle">{{col2.subtitle}}</div>
+                      {{/if}}
+                      {{#if col2.url}}</a>{{/if}}
+                      {{#if col2.extras}}
+                      <div class="block-extras">{{col2.extras}}</div>
+                      {{else}}
+                      <div class="block-extras">{{col2.time}} | {{col2.location}}</div>
+                      {{/if}}
+                      </div>
+                    </td>
+                    {{/if}}
+                    {{/if}}
+                    
+                    <!-- COL 3 - WORKSHOPS-->
+                    {{#if col3}}
+                    {{#if col3.show}}
+                    <td class="schedule-entry" colspan="{{col3.colspan}}" rowspan="{{col3.rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{col3.rowspan}}">
+                      {{#if col3.url}}<a href="{{col3.url}}">{{/if}}
+                      <div class="block-title">{{col3.title}}</div>
+                      {{#if col3.subtitle}}
+                      <div class="block-subtitle">{{col3.subtitle}}</div>
+                      {{/if}}
+                      {{#if col3.url}}</a>{{/if}}
+                      {{#if col3.extras}}
+                      <div class="block-extras">{{col3.extras}}</div>
+                      {{else}}
+                      <div class="block-extras">{{col3.time}} | {{col3.location}}</div>
+                      {{/if}}
+                      </div>
+                    </td>
+                    {{/if}}
+                    {{/if}}
+
+                    <!-- COL 4 - WORKSHOPS-->
+                    {{#if col4}}
+                    {{#if col4.show}}
+                    <td class="schedule-entry" colspan="{{col4.colspan}}" rowspan="{{col4.rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{col4.rowspan}}">
+                      {{#if col4.url}}<a href="{{col4.url}}">{{/if}}
+                      <div class="block-title">{{col4.title}}</div>
+                      {{#if col4.subtitle}}
+                      <div class="block-subtitle">{{col4.subtitle}}</div>
+                      {{/if}}
+                      {{#if col4.url}}</a>{{/if}}
+                      {{#if col4.extras}}
+                      <div class="block-extras">{{col4.extras}}</div>
+                      {{else}}
+                      <div class="block-extras">{{col4.time}} | {{col4.location}}</div>
+                      {{/if}}
+                      </div>
+                    </td>
+                    {{/if}}
+                    {{/if}}
+                    {{/if}}
                   </tr>
                   {{/each}}
                 </tbody>
               </table>
+              </div>
 
               </div>
               {{/each}}

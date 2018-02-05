@@ -7,30 +7,36 @@ module.exports = [{
                     rowspan: 4,
                     colspan: 1,
                     title: "Prof. Luis Paulo Reis",
-                    subtitle: "Cenas",
                     time: "10:00 - 11:00",
-                    location: "Auditório Nobre FEUP"
+                    location: "Auditório Nobre FEUP",
+                    show: true
                 },
                 col2: {
                     rowspan: 1,
-                    colspan: 1,
+                    colspan: 1
                 },
                 col3: {
-                    rowspan: 1,
+                    rowspan: 10,
                     colspan: 1,
+                    title: "Renato Rodrigues",
+                    subtitle: "Web Security",
+                    time: "10:00 - 12:30",
+                    location: "Sala B456",
+                    show: true
                 },
                 col4: {
-                    rowspan: 1,
+                    rowspan: 10,
                     colspan: 1,
-                }
+                    title: "Renato Rodrigues",
+                    subtitle: "Web Security",
+                    time: "10:00 - 12:30",
+                    location: "Sala B456",
+                    show: true
+                },
             },
             {
                 start: "10:15",
                 col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
                     rowspan: 1,
                     colspan: 1,
                 },
@@ -45,10 +51,6 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col4: {
                     rowspan: 1,
                     colspan: 1,
@@ -57,10 +59,6 @@ module.exports = [{
             {
                 start: "10:45",
                 col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
                     rowspan: 1,
                     colspan: 1,
                 },
@@ -78,13 +76,10 @@ module.exports = [{
                     subtitle: "MINIX 3: A Reliable and Secure Operating System",
                     time: "11:00 - 12:00",
                     location: "Auditório Nobre FEUP",
-                    url: "/speakers/12"
+                    url: "/speakers/12",
+                    show: true
                 },
                 col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
                     rowspan: 1,
                     colspan: 1,
                 },
@@ -99,10 +94,6 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col4: {
                     rowspan: 1,
                     colspan: 1,
@@ -111,10 +102,6 @@ module.exports = [{
             {
                 start: "11:30",
                 col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
                     rowspan: 1,
                     colspan: 1,
                 },
@@ -129,10 +116,6 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col4: {
                     rowspan: 1,
                     colspan: 1,
@@ -141,14 +124,16 @@ module.exports = [{
             {
                 start: "12:00",
                 col1: {
-                    rowspan: 1,
+                    rowspan: 2,
                     colspan: 1,
+                    title: "Ivo Silva",
+                    subtitle: "Contrução de uma pipeline de release para aplicações móveis",
+                    time: "12:00 - 12:30",
+                    location: "Auditório Nobre FEUP",
+                    url: "/speakers/8",
+                    show: true
                 },
                 col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
                     rowspan: 1,
                     colspan: 1,
                 },
@@ -159,15 +144,7 @@ module.exports = [{
             },
             {
                 start: "12:15",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
                     rowspan: 1,
                     colspan: 1,
                 },
@@ -178,98 +155,10 @@ module.exports = [{
             },
             {
                 start: "12:30",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
-            },
-            {
-                start: "12:45",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
-            },
-            {
-                start: "13:00",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
-            },
-            {
-                start: "13:15",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
-            },
-            {
-                start: "13:30",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
+                break: true,
+                title: "Almoço",
+                location: "Cantina de Engenharia",
+                rowspan: 2
             },
             {
                 start: "13:45",
@@ -293,8 +182,14 @@ module.exports = [{
             {
                 start: "14:00",
                 col1: {
-                    rowspan: 1,
+                    rowspan: 3,
                     colspan: 1,
+                    title: "André Silva",
+                    subtitle: "Blockchain",
+                    time: "14:00 - 14:45",
+                    location: "Auditório Nobre FEUP",
+                    url: "/speakers/0",
+                    show: true
                 },
                 col2: {
                     rowspan: 1,
@@ -311,10 +206,6 @@ module.exports = [{
             },
             {
                 start: "14:15",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -330,10 +221,6 @@ module.exports = [{
             },
             {
                 start: "14:30",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -350,8 +237,14 @@ module.exports = [{
             {
                 start: "14:45",
                 col1: {
-                    rowspan: 1,
+                    rowspan: 3,
                     colspan: 1,
+                    title: "Rui Costa",
+                    subtitle: "IoT Sensors",
+                    time: "14:45 - 15:30",
+                    location: "Auditório Nobre FEUP",
+                    url: "/speakers/11",
+                    show: true
                 },
                 col2: {
                     rowspan: 1,
@@ -368,10 +261,6 @@ module.exports = [{
             },
             {
                 start: "15:00",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -387,10 +276,6 @@ module.exports = [{
             },
             {
                 start: "15:15",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -407,8 +292,13 @@ module.exports = [{
             {
                 start: "15:30",
                 col1: {
-                    rowspan: 1,
+                    rowspan: 2,
                     colspan: 1,
+                    title: "Daniel Teixeira",
+                    subtitle: "Cibersegurança",
+                    time: "15:30 - 16:00",
+                    location: "Auditório Nobre FEUP",
+                    show: true
                 },
                 col2: {
                     rowspan: 1,
@@ -425,10 +315,6 @@ module.exports = [{
             },
             {
                 start: "15:45",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -444,41 +330,10 @@ module.exports = [{
             },
             {
                 start: "16:00",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
-            },
-            {
-                start: "16:15",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
+                break: true,
+                title: "Coffee-break",
+                location: "Auditório Nobre FEUP",
+                rowspan: 2
             },
             {
                 start: "16:30",
@@ -502,9 +357,43 @@ module.exports = [{
             {
                 start: "16:45",
                 col1: {
+                    rowspan: 7,
+                    colspan: 1,
+                    title: "Debate",
+                    time: "16:45 - 18:15",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
+                col2: {
                     rowspan: 1,
                     colspan: 1,
                 },
+                col3: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col4: {
+                    rowspan: 1,
+                    colspan: 1,
+                }
+            },
+            {
+                start: "16:30",
+                col2: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col3: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col4: {
+                    rowspan: 1,
+                    colspan: 1,
+                }
+            },
+            {
+                start: "16:45",
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -520,10 +409,6 @@ module.exports = [{
             },
             {
                 start: "17:00",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -539,10 +424,6 @@ module.exports = [{
             },
             {
                 start: "17:15",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -558,10 +439,6 @@ module.exports = [{
             },
             {
                 start: "17:30",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -577,10 +454,6 @@ module.exports = [{
             },
             {
                 start: "17:45",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,

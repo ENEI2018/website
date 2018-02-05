@@ -1,11 +1,11 @@
 .custom-tab-container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
   margin-top: 40px;
 }
 
 .panel-body {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   padding-top: 20px;
 }
@@ -258,10 +258,36 @@ table.schedule-table div.schedule-entry-container {
   padding: 8px;
 }
 
+table.schedule-table div.schedule-entry-container.rowcount-2 {
+  min-height: 60px;
+}
+
 table.schedule-table div.schedule-entry-container.rowcount-3 {
   min-height: 90px;
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-4 {
   min-height: 130px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-7 {
+  min-height: 250px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-10 {
+  min-height: 376px;
+}
+
+table.schedule-table td.break-entry div.schedule-entry-container {
+  width: 100%;
+  border: 2px solid var(--font-highlight-blue);
+  color: var(--font-highlight-blue);
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+table.schedule-table td.break-entry div.schedule-entry-container span {
+  position: relative;
+  top: 10px;
 }
