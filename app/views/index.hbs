@@ -84,15 +84,24 @@
           <i class="circle"></i>
           <br/>
           <div class="ticket-box">
+            {{#if earlybird_soldout}}
+            <h3 class="text-strike">Early bird</h3>
+            <p class="type-note">Esgotado!</p>
+            {{else}}
             <h3>Early bird</h3>
+            {{/if}}
             <div>
               <div>
                 <span>Individual</span>
+                {{#if earlybird_soldout}} {{else}}
                 <span class="price">25€</span>
+                {{/if}}
               </div>
               <div>
                 <span>Grupo</span>
+                {{#if earlybird_soldout}} {{else}}
                 <span class="price">20€</span>
+                {{/if}}
               </div>
             </div>
           </div>
@@ -103,6 +112,9 @@
           <br/>
           <div class="ticket-box">
             <h3>Normal</h3>
+            {{#if earlybird_soldout}}
+            <p class="transparent type-note">.</p>
+            {{/if}}
             <div>
               <div>
                 <span>Individual</span>

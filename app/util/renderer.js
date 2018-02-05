@@ -13,7 +13,8 @@ function render(res, page, options) {
     include_navbar: features.nav,
     speakers: config.speakers,
     partners: config.partners,
-    team: config.team
+    team: config.team,
+    earlybird_soldout: features.earlybird_soldout
   }
 
   res.render(page, Object.assign(new_options, options));
