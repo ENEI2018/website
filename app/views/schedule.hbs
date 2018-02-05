@@ -2,6 +2,21 @@
 <link rel='stylesheet' href='/stylesheets/schedule.css' />
 
 <div class="container page-content-container">
+
+  <div class="container speakers-title-container">
+    <h1 class="speakers-title">Horário</h1>
+    <a href="/">
+    <div class="logo-wrapper">
+      <div id="logo" class="enei-skew logo medium speaker">
+        <p id="E_1">E</p>
+        <p id="N_2">N</p>
+        <p id="E_3">E</p>
+        <p id="I_4">I</p>
+      </div>
+    </div>
+    </a>
+  </div>
+
   <div class="custom-tab-container">
     <div class="panel with-nav-tabs panel-default">
       <div class="panel-heading">
@@ -23,19 +38,20 @@
       </div>
       <div class="panel-body">
         <div class="tab-content">
-          {{#each schedule}} {{#if @index}}
-          <div class="tab-pane fade in" id="eneiday{{id}}">
+          {{#each schedule}} 
+            {{#if @index}}
+              <div class="tab-pane fade in" id="eneiday{{id}}">
             {{else}}
-            <div class="tab-pane fade in active" id="eneiday{{id}}">
-              {{/if}}
+              <div class="tab-pane fade in active" id="eneiday{{id}}">
+            {{/if}}
 
               <div class="table-container">
               <table class="table borderless schedule-table">
                 <thead>
                   <tr>
                     <th scope="col"></th>
-                    <th scope="col">Palestras</th>
-                    <th scope="col" colspan="3">Workshops</th>
+                    <th scope="col">{{colTitle1}}</th>
+                    <th scope="col" colspan="3">{{colTitle2}}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -43,6 +59,7 @@
                   <tr>
                     <th scope="row">{{start}}</th>
                     {{#if break}}
+                    <!-- BREAK-->
                     <td class="schedule-entry break-entry" colspan="4" rowspan="{{rowspan}}">
                       <div class="schedule-entry-container rowcount-{{rowspan}}"><span>{{title}} | {{location}}</span></div>
                     </td>

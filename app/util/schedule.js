@@ -1,6 +1,83 @@
 module.exports = [{
         id: 0,
         day: "23 de Março",
+        colTitle1: "Palestras",
+        colTitle2: "Atividades",
+        schedule: [{
+                start: "14:00",
+                col1: {
+                    rowspan: 7,
+                    colspan: 1,
+                    title: "Boas-vindas",
+                    time: "14:00 - 17:30",
+                    location: "Entrada FEUP",
+                    show: true
+                },
+                col2: {
+                    rowspan: 11,
+                    colspan: 3,
+                    title: "Check-in",
+                    time: "14:00 - 19:30",
+                    location: "Entrada FEUP",
+                    show: true
+                },
+            },
+            {
+                start: "14:30",
+            },
+            {
+                start: "15:00",
+            },
+            {
+                start: "15:30",
+            },
+            {
+                start: "16:00",
+            },
+            {
+                start: "16:30",
+            },
+            {
+                start: "17:00",
+            },
+            {
+                start: "17:30",
+                col1: {
+                    rowspan: 4,
+                    colspan: 1,
+                    title: "Reitor da Universidade do Porto",
+                    subtitle: "Sessão de Abertura",
+                    time: "17:30 - 19:30",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
+            },
+            {
+                start: "18:00",
+            },
+            {
+                start: "18:30",
+            },
+            {
+                start: "19:00",
+            },
+            {
+                start: "19:30",
+                break: true,
+                title: "Jantar",
+                location: "Cantina de Engenharia",
+                rowspan: 2
+            },
+            {
+                start: "20:00",
+            }
+        ]
+    },
+    {
+        id: 1,
+        day: "24 de Março",
+        colTitle1: "Palestras",
+        colTitle2: "Workshops",
         schedule: [{
                 start: "10:00",
                 col1: {
@@ -192,8 +269,14 @@ module.exports = [{
                     show: true
                 },
                 col2: {
-                    rowspan: 1,
+                    rowspan: 8,
                     colspan: 1,
+                    title: "Filipe Carvalho",
+                    subtitle: "Android Testing",
+                    time: "14:00 - 16:00",
+                    location: "Sala B456",
+                    url: "/speakers/7",
+                    show: true
                 },
                 col3: {
                     rowspan: 1,
@@ -206,10 +289,6 @@ module.exports = [{
             },
             {
                 start: "14:15",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col3: {
                     rowspan: 1,
                     colspan: 1,
@@ -221,10 +300,6 @@ module.exports = [{
             },
             {
                 start: "14:30",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col3: {
                     rowspan: 1,
                     colspan: 1,
@@ -246,10 +321,6 @@ module.exports = [{
                     url: "/speakers/11",
                     show: true
                 },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col3: {
                     rowspan: 1,
                     colspan: 1,
@@ -261,10 +332,6 @@ module.exports = [{
             },
             {
                 start: "15:00",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col3: {
                     rowspan: 1,
                     colspan: 1,
@@ -276,10 +343,6 @@ module.exports = [{
             },
             {
                 start: "15:15",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col3: {
                     rowspan: 1,
                     colspan: 1,
@@ -300,10 +363,6 @@ module.exports = [{
                     location: "Auditório Nobre FEUP",
                     show: true
                 },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col3: {
                     rowspan: 1,
                     colspan: 1,
@@ -315,10 +374,6 @@ module.exports = [{
             },
             {
                 start: "15:45",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col3: {
                     rowspan: 1,
                     colspan: 1,
@@ -364,36 +419,6 @@ module.exports = [{
                     location: "Auditório Nobre FEUP",
                     show: true
                 },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
-            },
-            {
-                start: "16:30",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
-            },
-            {
-                start: "16:45",
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -469,10 +494,6 @@ module.exports = [{
             },
             {
                 start: "18:00",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -488,10 +509,6 @@ module.exports = [{
             },
             {
                 start: "18:15",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
@@ -504,97 +521,47 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 }
+            },
+            {
+                start: "18:30",
+                break: true,
+                title: "Deslocamento",
+                location: "FEUP → Campo Alegre",
+                rowspan: 4
+            },
+            {
+                start: "18:45",
+            },
+            {
+                start: "19:00",
+            },
+            {
+                start: "19:15",
             },
             {
                 start: "19:30",
-                col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
-            }
-        ]
-    },
-    {
-        id: 1,
-        day: "24 de Março",
-        schedule: [{
-                type: "break",
-                typeBreak: true,
-                title: "Pequeno-almoço",
-                time: "8:00 - 8:30",
-                location: "Cantina de Engenharia",
-                breakAfter: true,
-                show: true
+                break: true,
+                title: "Jantar",
+                location: "Cantina FLUP",
+                rowspan: 2
             },
             {
-                type: "talks",
-                typeTalks: true,
-                location: "Auditório Nobre da FEUP",
-                slots: [{
-                        type: "talk",
-                        typeTalk: true,
-                        time: "11:00 - 12:00",
-                        title: "MINIX 3: A Reliable and Secure Operating System",
-                        speaker: "Andrew Tanenbaum",
-                        url: "/speakers/12",
-                        show: true
-                    },
-                    {
-                        type: "talk",
-                        typeTalk: true,
-                        time: "12:00 - 12:30",
-                        title: "Contrução de uma pipeline de release para aplicações móveis",
-                        speaker: "Ivo Silva",
-                        url: "/speakers/8",
-                        show: true
-                    }
-                ]
+                start: "19:45",
             },
-            {
-                type: "workshops",
-                typeWorkshops: true,
-                slots: [{
-                    type: "workshop",
-                    typeWorkshop: true,
-                    time: "10:00 - 12:30",
-                    location: "Sala B456",
-                    title: "Web Security",
-                    speaker: "Renato Rodrigues",
-                    show: true
-                }]
-            },
-            {
-                type: "break",
-                typeBreak: true,
-                title: "Almoço",
-                time: "12:30 - 14:00",
-                location: "Cantina de Engenharia",
-                breakBefore: true,
-                breakAfter: true,
-                show: true
-            }
         ]
     },
     {
         id: 2,
         day: "25 de Março",
+        colTitle1: "Palestras",
+        colTitle2: "Workshops",
         schedule: []
     },
     {
         id: 3,
         day: "26 de Março",
+        colTitle1: "Palestras",
+        colTitle2: "Workshops",
         schedule: []
     }
 ]
