@@ -217,6 +217,10 @@ a.dis-link-color:active {
   border-color: #ddd;
 }
 
+table.schedule-table {
+  min-width: 860px;
+}
+
 table.schedule-table tbody tr td,
 table.schedule-table tbody tr th {
   border: none;
@@ -309,3 +313,9 @@ table.schedule-table td.break-entry div.schedule-entry-container.rowcount-4 span
   position: relative;
   top: 42px;
 }
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
