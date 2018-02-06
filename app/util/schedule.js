@@ -555,14 +555,287 @@ module.exports = [{
         day: "25 de Março",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
-        schedule: []
+        schedule: [{
+                start: "10:00",
+                col1: {
+                    rowspan: 2,
+                    colspan: 1,
+                    title: "Wolfgang Merkt",
+                    subtitle: "From Industrial Automation, Disaster Recovery, and Space Exploration: A Journey in Practical Robotics",
+                    time: "10:00 - 10:30",
+                    url: "/speakers/14",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
+            },
+            {
+                start: "10:15",
+            },
+            {
+                start: "10:30",
+                col1: {
+                    rowspan: 3,
+                    colspan: 1,
+                    title: "Eduardo Espinheira",
+                    subtitle: "De Estudante a Engenheiro Informático: Gestão de Carreiras para Tótós",
+                    time: "10:30 - 11:15",
+                    location: "Auditório Nobre FEUP",
+                    url: "/speakers/13",
+                    show: true
+                },
+            },
+            {
+                start: "10:45",
+            },
+            {
+                start: "11:00",
+            },
+            {
+                start: "11:15",
+                col1: {
+                    rowspan: 2,
+                    colspan: 1,
+                    title: "João Azevedo",
+                    subtitle: "Introdução à programação funcional em JavaScript",
+                    time: "11:15 - 11:45",
+                    location: "Auditório Nobre FEUP",
+                    url: "/speakers/9",
+                    show: true
+                },
+            },
+            {
+                start: "11:30",
+            },
+            {
+                start: "11:45",
+                col1: {
+                    rowspan: 3,
+                    colspan: 1,
+                    title: "José Pedro Silva",
+                    subtitle: "Indústria 4.0",
+                    time: "11:45 - 12:30",
+                    location: "Auditório Nobre FEUP",
+                    url: "/speakers/10",
+                    show: true
+                },
+            },
+            {
+                start: "12:00",
+            },
+            {
+                start: "12:15",
+            },
+            {
+                start: "12:30",
+                break: true,
+                title: "Almoço",
+                location: "Cantina de Engenharia",
+                rowspan: 2
+            },
+            {
+                start: "13:45",
+            },
+            {
+                start: "14:00",
+                col1: {
+                    rowspan: 2,
+                    colspan: 1,
+                    title: "João Leal",
+                    subtitle: "De Portugal para a Google",
+                    time: "14:00 - 14:30",
+                    location: "Auditório Nobre FEUP",
+                    url: "/speakers/1",
+                    show: true
+                },
+                col2: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col3: {
+                    rowspan: 8,
+                    colspan: 1,
+                    title: "Henrique Ferrolho",
+                    subtitle: "Robotics Mechanics with ThreeJS",
+                    time: "14:00 - 16:00",
+                    location: "Sala B456",
+                    url: "/speakers/3",
+                    show: true
+                },
+                col4: {
+                    rowspan: 8,
+                    colspan: 1,
+                    title: "André Cruz",
+                    subtitle: "Processos para o Desenvolvimento de Game Assets 3D",
+                    time: "14:00 - 16:00",
+                    location: "Sala B456",
+                    show: true
+                }
+            },
+            {
+                start: "14:15",
+            },
+            {
+                start: "14:30",
+                col1: {
+                    rowspan: 3,
+                    colspan: 1,
+                    title: "Alexey Sidorenko",
+                    subtitle: "The Closure: How Russian Government Seeks to Exert Full Control Over the Net",
+                    time: "14:30 - 15:15",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
+            },
+            {
+                start: "14:45",
+            },
+            {
+                start: "15:00",
+            },
+            {
+                start: "15:15",
+            },
+            {
+                start: "15:30",
+            },
+            {
+                start: "15:45",
+            },
+            {
+                start: "16:00",
+                break: true,
+                title: "Coffee-break",
+                location: "Auditório Nobre FEUP",
+                rowspan: 2
+            },
+            {
+                start: "18:15",
+            },
+            {
+                start: "18:30",
+                break: true,
+                title: "Cocktail Session and Sponsor Showcase",
+                location: "Corredor B da FEUP",
+                rowspan: 2
+            },
+            {
+                start: "20:00",
+            }
+        ]
     },
     {
         id: 3,
         day: "26 de Março",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
-        schedule: []
+        schedule: [
+            {
+                start: "10:00",
+                col1: {
+                    rowspan: 4,
+                    colspan: 1,
+                    title: "Nelson Pinho",
+                    subtitle: "Will You Disrupt or Be Disrupted in 2018? Digital Transformation and the New Face of Business",
+                    time: "10:00 - 11:00",
+                    url: "/speakers/2",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
+                col2: {
+                    rowspan: 10,
+                    colspan: 1,
+                    title: "Pedro Caramez",
+                    subtitle: "Masterclass LinkedIn + apresentação DCOOP",
+                    time: "10:00 - 12:30",
+                    location: "Sala a anunciar",
+                    show: true
+                },
+                col3: {
+                    rowspan: 10,
+                    colspan: 1,
+                    title: "Mário Carneiro e João Gradim",
+                    subtitle: "Internet of Things (Arduino)",
+                    time: "10:00 - 12:30",
+                    location: "Sala a anunciar",
+                    show: true
+                }
+            },
+            {
+                start: "10:15",
+            },
+            {
+                start: "10:30",
+            },
+            {
+                start: "10:45",
+            },
+            {
+                start: "11:00",
+                col1: {
+                    rowspan: 3,
+                    colspan: 1,
+                    title: "Rui Guedes",
+                    subtitle: "Virtual Reality",
+                    time: "10:00 - 11:00",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                }
+            },
+            {
+                start: "11:15",
+            },
+            {
+                start: "11:30",
+            },
+            {
+                start: "11:45",
+                col1: {
+                    rowspan: 3,
+                    colspan: 1,
+                    title: "Leonel Caseiro Morgado",
+                    subtitle: "Jogos Sérios e Mundos Virtuais para ensino e formação: tendências e perspetivas",
+                    time: "11:45 - 12:30",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                }
+            },
+            {
+                start: "12:00",
+            },
+            {
+                start: "12:15",
+            },
+            {
+                start: "12:30",
+                break: true,
+                title: "Almoço",
+                location: "Cantina de Engenharia",
+                rowspan: 2
+            },
+            {
+                start: "13:45"
+            },
+            {
+                start: "14:00",
+                break: true,
+                title: "Sessão de encerramento",
+                location: "Auditório Nobre FEUP",
+                rowspan: 2
+            },
+            {
+                start: "15:15"
+            },
+            {
+                start: "15:30",
+                break: true,
+                title: "Porto de Honra",
+                location: "Auditório Nobre FEUP",
+                rowspan: 2
+            },
+            {
+                start: "17:00"
+            }
+        ]
     }
 ]
 
