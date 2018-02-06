@@ -1195,6 +1195,12 @@ div.speaker-name, div.team-name {
     .speakers-title-container #logo {
         display: none;
     }
+    
+    .speakers-title-container .speakers-title {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 
