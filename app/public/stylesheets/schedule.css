@@ -1,16 +1,18 @@
 .custom-tab-container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
   margin-top: 40px;
 }
 
 .panel-body {
-  max-width: 600px;
+  max-width: 1000px;
   margin: auto;
   padding-top: 20px;
 }
 
-.custom-tab-container, .panel-heading, .panel-default {
+.custom-tab-container,
+.panel-heading,
+.panel-default {
   background-color: transparent !important;
   color: white !important;
 }
@@ -23,6 +25,10 @@
 .panel-default {
   border: 0;
   box-shadow: 0 0 0 transparent;
+}
+
+.custom-tab-item {
+  text-align: center;
 }
 
 .custom-tab-item-odd {
@@ -90,10 +96,42 @@
   font-weight: bold;
   border-style: solid;
   border-width: 4px;
-  border-color: white;
+  border-color: var(--main-third-highlight-blue);
+  color: var(--main-third-highlight-blue);
   padding-top: 1em;
   padding-left: 1em;
   padding-bottom: 1em;
+}
+
+.entry-title-other-oneline {
+  font-weight: bold;
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  color: white;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.entry-title-talk,
+.entry-title-workshop,
+.entry-title-other {
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  padding-top: 0.3em;
+  padding-left: 1em;
+  padding-bottom: 0.3em;
+}
+
+.entry-title-other .talk-title {
+  font-weight: bold;
+}
+
+.entry-title-talk .talk-title,
+.entry-title-workshop .talk-title {
+  font-weight: bold;
 }
 
 .panel-body .tab-content .tab-pane .tab-entry {
@@ -114,9 +152,20 @@
   font-weight: bold;
 }
 
+a.dis-link-color,
+a.dis-link-color:visited,
+a.dis-link-color:hover,
+a.dis-link-color:active {
+  color: white !important;
+}
+
 .schedule-entry-type {
   color: var(--font-highlight-blue);
   font-size: 80%;
+}
+
+.schedule-entry-type.schedule-talk-location {
+  padding-top: 13px;
 }
 
 .schedule-location-box {
@@ -129,7 +178,9 @@
 }
 
 /************************/
+
 /***** TEMPLATE CSS *****/
+
 /************************/
 
 .panel.with-nav-tabs .panel-heading {
@@ -164,4 +215,97 @@
 .with-nav-tabs.panel-default .nav-tabs>li.dropdown .dropdown-menu {
   background-color: #f5f5f5;
   border-color: #ddd;
+}
+
+table.schedule-table tbody tr td,
+table.schedule-table tbody tr th {
+  border: none;
+}
+
+table.schedule-table thead tr th {
+  text-align: center;
+}
+
+table.schedule-table thead tr th {
+  border: none
+}
+
+table.schedule-table thead tr th:nth-child(2) {
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
+
+table.schedule-table thead tr th:nth-child(3) {
+  border-bottom: 2px solid #ddd;
+}
+
+table.schedule-table tbody tr th {
+  text-align: right;
+}
+
+table.schedule-table td.schedule-entry .block-title {
+  font-weight: bold;
+}
+
+table.schedule-table td.schedule-entry .block-extras {
+  font-size: 80%;
+  color: var(--font-highlight-blue);
+}
+
+table.schedule-table td.schedule-entry a div {
+  color: white !important;
+}
+
+table.schedule-table div.schedule-entry-container {
+  width: 100%;
+  border: 2px solid white;
+  padding: 8px;
+  background-color: #00005f;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-2 {
+  min-height: 60px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-3 {
+  min-height: 90px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-4 {
+  min-height: 130px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-7 {
+  min-height: 250px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-8 {
+  min-height: 291px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-10 {
+  min-height: 367px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-11 {
+  min-height: 396px;
+}
+
+table.schedule-table td.break-entry div.schedule-entry-container {
+  width: 100%;
+  border: 2px solid var(--font-highlight-blue);
+  color: var(--font-highlight-blue);
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+table.schedule-table td.break-entry div.schedule-entry-container.rowcount-2 span {
+  position: relative;
+  top: 10px;
+}
+
+table.schedule-table td.break-entry div.schedule-entry-container.rowcount-4 span {
+  position: relative;
+  top: 42px;
 }

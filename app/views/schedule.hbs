@@ -1,151 +1,162 @@
-{{#if include_navbar}}
-  {{> navbar }}
-{{/if}}
+{{#if include_navbar}} {{> navbar }} {{/if}}
 <link rel='stylesheet' href='/stylesheets/schedule.css' />
 
 <div class="container page-content-container">
+
+  <div class="container speakers-title-container">
+    <div class="speakers-title">Horário</div>
+    <a href="/">
+    <div class="logo-wrapper">
+      <div id="logo" class="enei-skew logo medium speaker">
+        <p id="E_1">E</p>
+        <p id="N_2">N</p>
+        <p id="E_3">E</p>
+        <p id="I_4">I</p>
+      </div>
+    </div>
+    </a>
+  </div>
+
   <div class="custom-tab-container">
     <div class="panel with-nav-tabs panel-default">
       <div class="panel-heading">
         <ul class="nav nav-tabs">
-          <li class="active custom-tab-item custom-tab-item-odd"><a href="#tab1default" data-toggle="tab">23 de Março</a></li>
+          {{#each schedule}} {{#if id}}
+          <li class="custom-tab-item custom-tab-item-odd">
+            <a href="#eneiday{{id}}" data-toggle="tab">{{day}}</a>
+          </li>
+          {{else}}
+          <li class="active custom-tab-item custom-tab-item-odd">
+            <a href="#eneiday{{id}}" data-toggle="tab">{{day}}</a>
+          </li>
+          {{/if}} {{/each}}
+          <!--<li class="active custom-tab-item custom-tab-item-odd"><a href="#tab1default" data-toggle="tab">23 de Março</a></li>
           <li class="custom-tab-item custom-tab-item-even"><a href="#tab2default" data-toggle="tab">24 de Março</a></li>
           <li class="custom-tab-item custom-tab-item-odd"><a href="#tab3default" data-toggle="tab">25 de Março</a></li>
-          <li class="custom-tab-item custom-tab-item-even"><a href="#tab4default" data-toggle="tab">26 de Março</a></li>
+          <li class="custom-tab-item custom-tab-item-even"><a href="#tab4default" data-toggle="tab">26 de Março</a></li>-->
         </ul>
       </div>
       <div class="panel-body">
         <div class="tab-content">
-          <!-- Tab 1 -->
-          <div class="tab-pane fade in active" id="tab1default">
-            <div class="tab-entry schedule-entry-separator"></div>
+          {{#each schedule}} 
+            {{#if @index}}
+              <div class="tab-pane fade in" id="eneiday{{id}}">
+            {{else}}
+              <div class="tab-pane fade in active" id="eneiday{{id}}">
+            {{/if}}
 
-            <div class="row tab-entry entry-row">
-              <div class="col-md-6 col-md-push-6">
-                <p class="schedule-entry-time">8h</p>
-                <p class="schedule-entry-type">ENGENHARIA</p>
-              </div>
-              <div class="col-md-6 col-md-pull-6">
-                <div class="entry-title">
-                  Pequeno-almoço
-                </div>
-              </div>
-            </div>
+              <div class="table-container">
+              <table class="table borderless schedule-table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">{{colTitle1}}</th>
+                    <th scope="col" colspan="3">{{colTitle2}}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{#each schedule}}
+                  <tr>
+                    <th scope="row">{{start}}</th>
+                    {{#if break}}
+                    <!-- BREAK-->
+                    <td class="schedule-entry break-entry" colspan="4" rowspan="{{rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{rowspan}}"><span>{{title}} | {{location}}</span></div>
+                    </td>
+                    {{else}}
+                    <!-- COL 1 - TALKS-->
+                    {{#if col1}}
+                    {{#if col1.show}}
+                    <td class="schedule-entry" colspan="{{col1.colspan}}" rowspan="{{col1.rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{col1.rowspan}}">
+                      {{#if col1.url}}<a href="{{col1.url}}">{{/if}}
+                      <div class="block-title">{{col1.title}}</div>
+                      {{#if col1.subtitle}}
+                      <div class="block-subtitle">{{col1.subtitle}}</div>
+                      {{/if}}
+                      {{#if col1.url}}</a>{{/if}}
+                      {{#if col1.extras}}
+                      <div class="block-extras">{{col1.extras}}</div>
+                      {{else}}
+                      <div class="block-extras">{{col1.time}} | {{col1.location}}</div>
+                      {{/if}}
+                      </div>
+                    </td>
+                    {{/if}}
+                    {{/if}}
 
-            <div class="row tab-entry entry-row">
-              <div class="col-md-6 col-md-push-6">
-                <p class="schedule-entry-time">10h</p>
-              </div>
-              <div class="col-md-6 col-md-pull-6">
-                <div class="tab-entry activity-entry">
-                  Workshop Palestras Painéis
-                </div>
-              </div>
-            </div>
+                    <!-- COL 2 - WORKSHOPS-->
+                    {{#if col2}}
+                    {{#if col2.show}}
+                    <td class="schedule-entry" colspan="{{col2.colspan}}" rowspan="{{col2.rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{col2.rowspan}}">
+                      {{#if col2.url}}<a href="{{col2.url}}">{{/if}}
+                      <div class="block-title">{{col2.title}}</div>
+                      {{#if col2.subtitle}}
+                      <div class="block-subtitle">{{col2.subtitle}}</div>
+                      {{/if}}
+                      {{#if col2.url}}</a>{{/if}}
+                      {{#if col2.extras}}
+                      <div class="block-extras">{{col2.extras}}</div>
+                      {{else}}
+                      <div class="block-extras">{{col2.time}} | {{col2.location}}</div>
+                      {{/if}}
+                      </div>
+                    </td>
+                    {{/if}}
+                    {{/if}}
+                    
+                    <!-- COL 3 - WORKSHOPS-->
+                    {{#if col3}}
+                    {{#if col3.show}}
+                    <td class="schedule-entry" colspan="{{col3.colspan}}" rowspan="{{col3.rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{col3.rowspan}}">
+                      {{#if col3.url}}<a href="{{col3.url}}">{{/if}}
+                      <div class="block-title">{{col3.title}}</div>
+                      {{#if col3.subtitle}}
+                      <div class="block-subtitle">{{col3.subtitle}}</div>
+                      {{/if}}
+                      {{#if col3.url}}</a>{{/if}}
+                      {{#if col3.extras}}
+                      <div class="block-extras">{{col3.extras}}</div>
+                      {{else}}
+                      <div class="block-extras">{{col3.time}} | {{col3.location}}</div>
+                      {{/if}}
+                      </div>
+                    </td>
+                    {{/if}}
+                    {{/if}}
 
-            <div class="tab-entry schedule-entry-separator"></div>
+                    <!-- COL 4 - WORKSHOPS-->
+                    {{#if col4}}
+                    {{#if col4.show}}
+                    <td class="schedule-entry" colspan="{{col4.colspan}}" rowspan="{{col4.rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{col4.rowspan}}">
+                      {{#if col4.url}}<a href="{{col4.url}}">{{/if}}
+                      <div class="block-title">{{col4.title}}</div>
+                      {{#if col4.subtitle}}
+                      <div class="block-subtitle">{{col4.subtitle}}</div>
+                      {{/if}}
+                      {{#if col4.url}}</a>{{/if}}
+                      {{#if col4.extras}}
+                      <div class="block-extras">{{col4.extras}}</div>
+                      {{else}}
+                      <div class="block-extras">{{col4.time}} | {{col4.location}}</div>
+                      {{/if}}
+                      </div>
+                    </td>
+                    {{/if}}
+                    {{/if}}
+                    {{/if}}
+                  </tr>
+                  {{/each}}
+                </tbody>
+              </table>
+              </div>
 
-            <div class="row tab-entry entry-row">
-              <div class="col-md-6 col-md-push-6">
-                <p class="schedule-entry-time">12h</p>
               </div>
-              <div class="col-md-6 col-md-pull-6">
-                <div class="entry-title">
-                  Almoço
-                </div>
-              </div>
-            </div>
-
-            <div class="row tab-entry entry-row">
-              <div class="col-md-6 col-md-push-6">
-                <p class="schedule-entry-time">14h</p>
-              </div>
-              <div class="col-md-6 col-md-pull-6">
-                <div class="tab-entry activity-entry">
-                  Workshop Palestras Painéis
-                </div>
-              </div>
-            </div>
-
-            <div class="tab-entry schedule-entry-separator"></div>
-
-            <div class="row tab-entry entry-row">
-              <div class="col-md-6 col-md-push-6">
-                <p class="schedule-entry-time">16h</p>
-              </div>
-              <div class="col-md-6 col-md-pull-6">
-                <div class="entry-title">
-                  Coffee break
-                </div>
-              </div>
-            </div>
-
-            <div class="row tab-entry entry-row">
-              <div class="col-md-6 col-md-push-6">
-                <p class="schedule-entry-time">17h</p>
-              </div>
-              <div class="col-md-6 col-md-pull-6">
-                <div class="tab-entry activity-entry">
-                  Workshop Palestras Painéis
-                </div>
-              </div>
-            </div>
-
-            <div class="tab-entry schedule-entry-separator"></div>
-
-            <div class="row tab-entry entry-row">
-              <div class="col-md-6 col-md-push-6">
-                <div class="row">
-                  <div class="col-md-6">
-                    <p class="schedule-entry-time">19h</p>
-                    <p class="schedule-entry-type">LETRAS ou DIREITO</p>
-                  </div>
-                  <div class="col-md-6 schedule-location-box">
-                    Rua do Campo Alegre, 307
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-md-pull-6">
-                <div class="entry-title">
-                  Jantar
-                </div>
-              </div>
-            </div>
-
-            <div class="row tab-entry entry-row">
-              <div class="col-md-6 col-md-push-6">
-                <p class="schedule-entry-time">22h</p>
-              </div>
-              <div class="col-md-6 col-md-pull-6">
-                <div class="tab-entry activity-entry">
-                  Passeio pela baixa
-                </div>
-              </div>
-            </div>
-
-            <div class="row tab-entry entry-row">
-              <div class="col-md-6 col-md-push-6">
-                <p class="schedule-entry-time">00h</p>
-              </div>
-              <div class="col-md-6 col-md-pull-6">
-                <div class="tab-entry activity-entry">
-                  Visita à rua das Galerias de Paris
-                </div>
-              </div>
+              {{/each}}
             </div>
           </div>
-          <!-- Tab 1 -->
-          <!-- Tab 2 -->
-          <div class="tab-pane fade" id="tab2default">Cal 2</div>
-          <!-- Tab 2 -->
-          <!-- Tab 3 -->
-          <div class="tab-pane fade" id="tab3default">Cal 3</div>
-          <!-- Tab 3 -->
-          <!-- Tab 4 -->
-          <div class="tab-pane fade" id="tab4default">Cal 4</div>
-          <!-- Tab 4 -->
         </div>
       </div>
-    </div>
-  </div>
-</div>

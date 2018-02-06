@@ -1,5 +1,6 @@
 var config = require('./config');
 var features = require('../util/features');
+var schedule = require('../util/schedule');
 
 function render(res, page, options) {
   var new_options = {
@@ -14,6 +15,7 @@ function render(res, page, options) {
     speakers: config.speakers,
     partners: config.partners,
     team: config.team,
+    schedule: schedule,
     earlybird_soldout: features.earlybird_soldout
   }
 
