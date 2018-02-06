@@ -1041,6 +1041,12 @@ div.speaker-container .info-col {
     height: 35%;
 }
 
+@media (max-width: 767px) {
+    .speaker-overlay {
+        height: 40%;
+    }
+}
+
 @media (min-width:992px) and (max-width: 1200px) {
     .speaker-wrapper:hover .speaker-overlay,
     .speaker-overlay:hover {
