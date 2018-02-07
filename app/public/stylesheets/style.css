@@ -938,9 +938,22 @@ img.signup-section-img {
     margin: 0 1%;
 }
 
-.sponsor.bronze>a {
-    max-width: 10%;
+.sponsor.bronze a {
     margin: 0 1%;
+    display: table;
+    margin: 0 auto;
+}
+
+.sponsor.bronze img {
+    max-width: 104px;
+    max-height: 20px;
+}
+
+@media (max-width: 767px) {
+    .sponsor.bronze img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 
 .notfound-container {
@@ -1039,6 +1052,12 @@ div.speaker-container .info-col {
 .speaker-wrapper:hover .speaker-overlay,
 .speaker-overlay:hover {
     height: 35%;
+}
+
+@media (max-width: 767px) {
+    .speaker-overlay {
+        height: 40%;
+    }
 }
 
 @media (min-width:992px) and (max-width: 1200px) {

@@ -146,56 +146,124 @@ module.exports = {
         show: true
       }
     ],
+    bronze_level1: [{
+        name: "Critical Manufacturing",
+        image: "criticalmanufacturing.jpg",
+        href: "http://www.criticalmanufacturing.com",
+        show: true
+      },
+      {
+        name: "Smart Consulting",
+        image: "smartconsulting.jpg",
+        href: "http://www.smartconsulting.pt",
+        show: true
+      },
+      {
+        name: "Fabamaq",
+        image: "fabamaq.jpg",
+        href: "https://www.fabamaq.com",
+        show: true
+      },
+      {
+        name: "Fraunhofer",
+        image: "fraunhofer.jpg",
+        href: "https://www.fraunhofer.pt",
+        show: true
+      },
+      {
+        name: "Life on Mars",
+        image: "lifeonmars.jpg",
+        href: "https://www.lifeonmars.pt",
+        show: true
+      },
+      {
+        name: "Whitesmith",
+        image: "whitesmith.jpg",
+        href: "https://www.whitesmith.co",
+        show: true
+      }
+    ],
+    bronze_level2: [{
+        name: "Bitmaker",
+        image: "bitmaker.jpg",
+        href: "https://www.wearebitmaker.com",
+        show: true
+      },
+      {
+        name: "Pixelmatters",
+        image: "pixelmatters.jpg",
+        href: "http://www.pixelmatters.com",
+        show: true
+      },
+      {
+        name: "Farfetch",
+        image: "farfetch.jpg",
+        href: "https://www.farfetch.com/pt/",
+        show: true
+      },
+      {
+        name: "Shiftforward",
+        image: "shiftforward.jpg",
+        href: "https://www.shiftforward.eu/",
+        show: true
+      },
+      {
+        name: "ITSector",
+        image: "itsector.jpg",
+        href: "http://www.itsector.pt/pt/",
+        show: true
+      }
+    ],
+    partners: [{
+        name: "Faculdade de Engenharia da Universidade do Porto",
+        image: "feup.jpg",
+        href: "https://www.fe.up.pt",
+        show: true
+      },
+      {
+        name: "Associação de Estudantes da FEUP",
+        image: "aefeup.jpg",
+        href: "https://www.aefeup.pt",
+        show: true
+      },
+      {
+        name: "Departamento de Engenharia Informática da FEUP",
+        image: "dei.jpg",
+        href: "https://www.dei.fe.up.pt",
+        show: true
+      },
+      {
+        name: "FBAUP Design Inc.",
+        image: "fbaup-design-inc.png",
+        href: "https://www.behance.net/fbaupdesigninc",
+        show: true
+      },
+      {
+        name: "Continente",
+        image: "continente.png",
+        href: "https://www.continente.pt/pt-pt/public/Pages/homepage.aspx",
+        show: true
+      },
+      {
+        name: "Universidade do Porto",
+        image: "up.jpg",
+        href: "https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=home",
+        show: true
+      },
+      {
+        name: "Santander Universidades",
+        image: "santander.png",
+        href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
+        show: true
+      },
+      {
+        name: "Talk A Bit Conference",
+        image: "talkabit.png",
+        href: "http://talkabit.org",
+        show: true
+      }
+    ],
   },
-  partners: [{
-      name: "Faculdade de Engenharia da Universidade do Porto",
-      image: "feup.jpg",
-      href: "https://www.fe.up.pt",
-      show: true
-    },
-    {
-      name: "Associação de Estudantes da FEUP",
-      image: "aefeup.jpg",
-      href: "https://www.aefeup.pt",
-      show: true
-    },
-    {
-      name: "Departamento de Engenharia Informática da FEUP",
-      image: "dei.jpg",
-      href: "https://www.dei.fe.up.pt",
-      show: true
-    },
-    {
-      name: "FBAUP Design Inc.",
-      image: "fbaup-design-inc.png",
-      href: "https://www.behance.net/fbaupdesigninc",
-      show: true
-    },
-    {
-      name: "Continente",
-      image: "continente.png",
-      href: "https://www.continente.pt/pt-pt/public/Pages/homepage.aspx",
-      show: true
-    },
-    {
-      name: "Universidade do Porto",
-      image: "up.jpg",
-      href: "https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=home",
-      show: true
-    },
-    {
-      name: "Santander Universidades",
-      image: "santander.png",
-      href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
-      show: true
-    },
-    {
-      name: "Talk A Bit Conference",
-      image: "talkabit.png",
-      href: "http://talkabit.org",
-      show: true
-    }
-  ],
   speakers: [{
       id: 0,
       name: "André Silva",
@@ -471,8 +539,7 @@ module.exports = {
       show: true
     }
   ],
-  team: [	
-    {
+  team: [{
       id: 0,
       name: "Bernardo Belchior",
       image: "bernardo_belchior.jpg",
