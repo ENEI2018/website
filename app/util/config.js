@@ -589,7 +589,7 @@ module.exports = {
       name: "Francisca Paupério",
       image: "francisca_pauperio.jpg",
       role: "Relações Empresariais",
-      facebook: "https://www.facebook.com/francisca.pauperio",
+      linkedin: "https://www.linkedin.com/in/franciscapauperio/",
       show: true
     },
     {
