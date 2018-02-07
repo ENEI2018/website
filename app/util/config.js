@@ -214,7 +214,9 @@ module.exports = {
         show: true
       }
     ],
-    partners: [{
+
+  },
+  partners: [{
         name: "Faculdade de Engenharia da Universidade do Porto",
         image: "feup.jpg",
         href: "https://www.fe.up.pt",
@@ -263,7 +265,6 @@ module.exports = {
         show: true
       }
     ],
-  },
   speakers: [{
       id: 0,
       name: "André Silva",
