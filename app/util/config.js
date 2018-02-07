@@ -217,54 +217,54 @@ module.exports = {
 
   },
   partners: [{
-        name: "Faculdade de Engenharia da Universidade do Porto",
-        image: "feup.jpg",
-        href: "https://www.fe.up.pt",
-        show: true
-      },
-      {
-        name: "Associação de Estudantes da FEUP",
-        image: "aefeup.jpg",
-        href: "https://www.aefeup.pt",
-        show: true
-      },
-      {
-        name: "Departamento de Engenharia Informática da FEUP",
-        image: "dei.jpg",
-        href: "https://www.dei.fe.up.pt",
-        show: true
-      },
-      {
-        name: "FBAUP Design Inc.",
-        image: "fbaup-design-inc.png",
-        href: "https://www.behance.net/fbaupdesigninc",
-        show: true
-      },
-      {
-        name: "Continente",
-        image: "continente.png",
-        href: "https://www.continente.pt/pt-pt/public/Pages/homepage.aspx",
-        show: true
-      },
-      {
-        name: "Universidade do Porto",
-        image: "up.jpg",
-        href: "https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=home",
-        show: true
-      },
-      {
-        name: "Santander Universidades",
-        image: "santander.png",
-        href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
-        show: true
-      },
-      {
-        name: "Talk A Bit Conference",
-        image: "talkabit.png",
-        href: "http://talkabit.org",
-        show: true
-      }
-    ],
+      name: "Faculdade de Engenharia da Universidade do Porto",
+      image: "feup.jpg",
+      href: "https://www.fe.up.pt",
+      show: true
+    },
+    {
+      name: "Associação de Estudantes da FEUP",
+      image: "aefeup.jpg",
+      href: "https://www.aefeup.pt",
+      show: true
+    },
+    {
+      name: "Departamento de Engenharia Informática da FEUP",
+      image: "dei.jpg",
+      href: "https://www.dei.fe.up.pt",
+      show: true
+    },
+    {
+      name: "FBAUP Design Inc.",
+      image: "fbaup-design-inc.png",
+      href: "https://www.behance.net/fbaupdesigninc",
+      show: true
+    },
+    {
+      name: "Continente",
+      image: "continente.png",
+      href: "https://www.continente.pt/pt-pt/public/Pages/homepage.aspx",
+      show: true
+    },
+    {
+      name: "Universidade do Porto",
+      image: "up.jpg",
+      href: "https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=home",
+      show: true
+    },
+    {
+      name: "Santander Universidades",
+      image: "santander.png",
+      href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
+      show: true
+    },
+    {
+      name: "Talk A Bit Conference",
+      image: "talkabit.png",
+      href: "http://talkabit.org",
+      show: true
+    }
+  ],
   speakers: [{
       id: 0,
       name: "André Silva",
