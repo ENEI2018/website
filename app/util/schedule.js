@@ -209,7 +209,7 @@ module.exports = [{
                 col1: {
                     rowspan: 2,
                     colspan: 1,
-                    title: "Por definir",
+                    title: "Por anunciar",
                     time: "12:00 - 12:30",
                     location: "Auditório Nobre FEUP",
                     url: "/speakers/8",
