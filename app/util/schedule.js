@@ -45,8 +45,7 @@ module.exports = [{
                 col1: {
                     rowspan: 4,
                     colspan: 1,
-                    title: "Reitor da Universidade do Porto",
-                    subtitle: "Sessão de Abertura",
+                    title: "Sessão de Abertura",
                     time: "17:30 - 19:30",
                     location: "Auditório Nobre FEUP",
                     show: true
@@ -919,7 +918,6 @@ module.exports = [{
                 start: "15:30",
                 break: true,
                 title: "Porto de Honra",
-                location: "Auditório Nobre FEUP",
                 rowspan: 2
             },
             {

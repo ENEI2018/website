@@ -61,7 +61,11 @@
                     {{#if break}}
                     <!-- BREAK-->
                     <td class="schedule-entry break-entry" colspan="4" rowspan="{{rowspan}}">
+                      {{#if location}}
                       <div class="schedule-entry-container rowcount-{{rowspan}}"><span>{{title}} | {{location}}</span></div>
+                      {{else}}
+                      <div class="schedule-entry-container rowcount-{{rowspan}}"><span>{{title}}</span></div>
+                      {{/if}}
                     </td>
                     {{else}}
                     <!-- COL 1 - TALKS-->
