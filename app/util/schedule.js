@@ -47,7 +47,7 @@ module.exports = [{
                     colspan: 1,
                     title: "Sessão de Abertura",
                     time: "17:30 - 19:30",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                 },
             },
@@ -84,13 +84,13 @@ module.exports = [{
                     colspan: 1,
                     title: "Por anunciar",
                     time: "10:00 - 11:00",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                     /*rowspan: 4,
                     colspan: 1,
                     title: "Prof. Luis Paulo Reis",
                     time: "10:00 - 11:00",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true*/
                 },
                 col2: {
@@ -145,7 +145,7 @@ module.exports = [{
                     title: "Andrew Tanenbaum",
                     subtitle: "MINIX 3: A Reliable and Secure Operating System",
                     time: "11:00 - 12:00",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     url: "/speakers/12",
                     show: true
                 },
@@ -166,14 +166,14 @@ module.exports = [{
                     colspan: 1,
                     title: "Por anunciar",
                     time: "12:00 - 12:30",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                     /*rowspan: 2,
                     colspan: 1,
                     title: "Ivo Silva",
                     subtitle: "Contrução de uma pipeline de release para aplicações móveis",
                     time: "12:00 - 12:30",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     url: "/speakers/8",
                     show: true*/
                 },
@@ -215,7 +215,7 @@ module.exports = [{
                     title: "André Silva",
                     subtitle: "Blockchain",
                     time: "14:00 - 14:45",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     url: "/speakers/0",
                     show: true
                 },
@@ -264,7 +264,7 @@ module.exports = [{
                     title: "Rui Costa",
                     subtitle: "IoT Sensors",
                     time: "14:45 - 15:30",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     url: "/speakers/11",
                     show: true
                 },
@@ -282,14 +282,14 @@ module.exports = [{
                     colspan: 1,
                     title: "Por anunciar",
                     time: "15:30 - 16:00",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                     /*rowspan: 2,
                     colspan: 1,
                     title: "Daniel Teixeira",
                     subtitle: "Cibersegurança",
                     time: "15:30 - 16:00",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true*/
                 },
             },
@@ -329,13 +329,13 @@ module.exports = [{
                     colspan: 1,
                     title: "Debate",
                     time: "16:45 - 18:15",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true*/
                     rowspan: 7,
                     colspan: 1,
                     title: "Por anunciar",
                     time: "16:45 - 18:30",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                 },
                 col3: {
@@ -439,7 +439,7 @@ module.exports = [{
                     subtitle: "From Industrial Automation, Disaster Recovery, and Space Exploration: A Journey in Practical Robotics",
                     time: "10:00 - 10:30",
                     url: "/speakers/14",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                 },
                 col2: {
@@ -481,7 +481,7 @@ module.exports = [{
                     title: "Eduardo Espinheira",
                     subtitle: "De Estudante a Engenheiro Informático: Gestão de Carreiras para Tótós",
                     time: "10:30 - 11:15",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     url: "/speakers/13",
                     show: true
                 },
@@ -500,7 +500,7 @@ module.exports = [{
                     title: "João Azevedo",
                     subtitle: "Introdução à programação funcional em JavaScript",
                     time: "11:15 - 11:45",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     url: "/speakers/9",
                     show: true
                 },
@@ -516,7 +516,7 @@ module.exports = [{
                     title: "José Pedro Silva",
                     subtitle: "Indústria 4.0",
                     time: "11:45 - 12:30",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     url: "/speakers/10",
                     show: true
                 },
@@ -545,7 +545,7 @@ module.exports = [{
                     title: "João Leal",
                     subtitle: "De Portugal para a Google",
                     time: "14:00 - 14:30",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     url: "/speakers/1",
                     show: true
                 },
@@ -602,14 +602,14 @@ module.exports = [{
                     colspan: 1,
                     title: "Por anunciar",
                     time: "14:30 - 15:15",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                     /*rowspan: 3,
                     colspan: 1,
                     title: "Alexey Sidorenko",
                     subtitle: "The Closure: How Russian Government Seeks to Exert Full Control Over the Net",
                     time: "14:30 - 15:15",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true*/
                 },
             },
@@ -626,7 +626,7 @@ module.exports = [{
                     colspan: 1,
                     title: "Por anunciar",
                     time: "15:15 - 16:00",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                 },
             },
@@ -653,7 +653,7 @@ module.exports = [{
                     colspan: 1,
                     time: "16:45 - 17:15",
                     title: "Por anunciar",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                 },
                 col2: {
@@ -693,7 +693,7 @@ module.exports = [{
                     colspan: 1,
                     time: "17:15 - 17:45",
                     title: "Por anunciar",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                 },
             },
@@ -707,7 +707,7 @@ module.exports = [{
                     colspan: 1,
                     time: "17:45 - 18:15",
                     title: "Por anunciar",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                 },
             },
@@ -721,15 +721,14 @@ module.exports = [{
                     colspan: 1,
                     time: "18:15 - 18:30",
                     title: "Karaoke Presentation Final",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                 },
             },
             {
                 start: "18:30",
                 break: true,
-                title: "Cocktail Session and Sponsor Showcase",
-                location: "Corredor B da FEUP",
+                title: "Por anunciar",
                 rowspan: 2
             },
             {
@@ -750,7 +749,7 @@ module.exports = [{
                     colspan: 1,
                     title: "Por anunciar",
                     time: "10:00 - 11:00",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                     /*rowspan: 4,
                     colspan: 1,
@@ -758,7 +757,7 @@ module.exports = [{
                     subtitle: "Will You Disrupt or Be Disrupted in 2018? Digital Transformation and the New Face of Business",
                     time: "10:00 - 11:00",
                     url: "/speakers/2",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true*/
                 },
                 col2: {
@@ -819,14 +818,14 @@ module.exports = [{
                     colspan: 1,
                     title: "Por anunciar",
                     time: "10:00 - 11:00",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                     /*rowspan: 3,
                     colspan: 1,
                     title: "Rui Guedes",
                     subtitle: "Virtual Reality",
                     time: "10:00 - 11:00",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true*/
                 }
             },
@@ -843,14 +842,14 @@ module.exports = [{
                     colspan: 1,
                     title: "Por anunciar",
                     time: "11:45 - 12:30",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true
                     /*rowspan: 3,
                     colspan: 1,
                     title: "Leonel Caseiro Morgado",
                     subtitle: "Jogos Sérios e Mundos Virtuais para ensino e formação: tendências e perspetivas",
                     time: "11:45 - 12:30",
-                    location: "Auditório Nobre FEUP",
+                    location: "Auditório FEUP",
                     show: true*/
                 }
             },
@@ -874,7 +873,7 @@ module.exports = [{
                 start: "14:00",
                 break: true,
                 title: "Sessão de encerramento",
-                location: "Auditório Nobre FEUP",
+                location: "Auditório FEUP",
                 rowspan: 2
             },
             {
@@ -901,6 +900,6 @@ col1: {
                     subtitle: "Monsieur Kenobi",
                     url: "/team",
                     time: "10:00 - 10:45",
-                    location: "Auditório Nobre FEUP"
+                    location: "Auditório FEUP"
                 
 */
