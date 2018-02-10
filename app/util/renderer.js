@@ -16,7 +16,9 @@ function render(res, page, options) {
     partners: config.partners,
     team: config.team,
     schedule: schedule,
-    earlybird_soldout: features.earlybird_soldout
+    earlybird_soldout: features.earlybird_soldout,
+    include_ambassadors: features.ambassadors,
+    ambassadors: config.ambassadors
   }
 
   res.render(page, Object.assign(new_options, options));

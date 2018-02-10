@@ -1067,57 +1067,6 @@ div.speaker-container .info-col {
     }
 }
 
-@supports (-ms-ime-align: auto) {
-    /* Microsoft EdgeV13&14 CSS styles go here */
-    .speaker-overlay {
-        transform: skewY(0);
-        padding: 0 1em;
-    }    
-
-    .speaker-wrapper {
-        margin-bottom: 1em;
-    }
-    
-    .speaker-wrapper:hover .speaker-overlay,
-    .speaker-overlay:hover {
-        padding: 1em;
-    }
-}
-
-@supports (-ms-accelerator: true) {
-    /* Microsoft EdgeV13 CSS styles go here */
-    .speaker-overlay {
-        transform: skewY(0);
-        padding: 0 1em;
-    }    
-
-    .speaker-wrapper {
-        margin-bottom: 1em;
-    }
-    
-    .speaker-wrapper:hover .speaker-overlay,
-    .speaker-overlay:hover {
-        padding: 1em;
-    }
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    /* IE10 & IE11 CSS styles go here */
-    .speaker-overlay {
-        transform: skewY(0);
-        padding: 0 1em;
-    }    
-
-    .speaker-wrapper {
-        margin-bottom: 1em;
-    }
-    
-    .speaker-wrapper:hover .speaker-overlay,
-    .speaker-overlay:hover {
-        padding: 1em;
-    }
-}
-
 .team-wrapper {
     display: inline-block;
     position: relative;
@@ -1133,57 +1082,6 @@ div.speaker-container .info-col {
     .team-wrapper:hover .speaker-overlay,
     .speaker-overlay:hover {
         height: 40%;
-    }
-}
-
-@supports (-ms-ime-align: auto) {
-    /* Microsoft EdgeV13&14 CSS styles go here */
-    .speaker-overlay {
-        transform: skewY(0);
-        padding: 0 1em;
-    }    
-
-    .team-wrapper {
-        margin-bottom: 1em;
-    }
-    
-    .team-wrapper:hover .speaker-overlay,
-    .speaker-overlay:hover {
-        padding: 1em;
-    }
-}
-
-@supports (-ms-accelerator: true) {
-    /* Microsoft EdgeV13 CSS styles go here */
-    .speaker-overlay {
-        transform: skewY(0);
-        padding: 0 1em;
-    }    
-
-    .team-wrapper {
-        margin-bottom: 1em;
-    }
-    
-    .team-wrapper:hover .speaker-overlay,
-    .speaker-overlay:hover {
-        padding: 1em;
-    }
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    /* IE10 & IE11 CSS styles go here */
-    .speaker-overlay {
-        transform: skewY(0);
-        padding: 0 1em;
-    }    
-
-    .team-wrapper {
-        margin-bottom: 1em;
-    }
-    
-    .team-wrapper:hover .speaker-overlay,
-    .speaker-overlay:hover {
-        padding: 1em;
     }
 }
 
@@ -1236,5 +1134,123 @@ div.speaker-name, div.team-name {
 @media (max-width: 767px) {
     .page-content-container.affix{
         margin-top:50px !important;
+    }
+}
+
+.ambassadors-area-container{
+    margin: 3em auto;
+}
+
+.ambassadors-title{
+    color: white;
+}
+
+.slick-carousel {
+    margin: 2em;
+}
+
+.ambassador-img {
+    width: 100%;
+}
+
+.ambassador-wrapper {
+    position: relative;
+}
+
+.ambassador-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    width: 100%;
+    height: 0;
+    background-color: rgba(150, 150, 255, 0.8);
+    padding: 0 1em;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.ambassador-wrapper:hover .ambassador-overlay,
+.ambassador-overlay:hover {
+    padding: 1em;
+    height: 50%;
+}
+
+@media (max-width: 767px) {
+    .ambassador-overlay{
+        padding: 1em;
+        height: 50%;
+    }
+}
+
+
+@supports (-ms-ime-align: auto) {
+    /* Microsoft EdgeV13&14 CSS styles go here */
+    .speaker-overlay {
+        transform: skewY(0);
+        padding: 0 1em;
+    }    
+
+    .team-wrapper {
+        margin-bottom: 1em;
+    }
+    
+    .team-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        padding: 1em;
+    }
+
+    .ambassador-wrapper:hover .ambassador-overlay,
+    .ambassador-overlay:hover {
+        padding: 1em;
+        height: 35%;
+    }
+}
+
+@supports (-ms-accelerator: true) {
+    /* Microsoft EdgeV13 CSS styles go here */
+    .speaker-overlay {
+        transform: skewY(0);
+        padding: 0 1em;
+    }    
+
+    .team-wrapper {
+        margin-bottom: 1em;
+    }
+    
+    .team-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        padding: 1em;
+    }
+
+    .ambassador-wrapper:hover .ambassador-overlay,
+    .ambassador-overlay:hover {
+        padding: 1em;
+        height: 35%;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10 & IE11 CSS styles go here */
+    .speaker-overlay {
+        transform: skewY(0);
+        padding: 0 1em;
+    }    
+
+    .team-wrapper {
+        margin-bottom: 1em;
+    }
+    
+    .team-wrapper:hover .speaker-overlay,
+    .speaker-overlay:hover {
+        padding: 1em;
+    }
+
+    .ambassador-wrapper:hover .ambassador-overlay,
+    .ambassador-overlay:hover {
+        padding: 1em;
+        height: 35%;
     }
 }
