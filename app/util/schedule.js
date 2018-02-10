@@ -95,12 +95,18 @@ module.exports = [{
                     show: true*/
                 },
                 col2: {
-                    rowspan: 1,
-                    colspan: 1
+                    rowspan: 10,
+                    colspan: 1,
+                    class: "day-1-fixer",
+                    title: "Por anunciar",
+                    time: "10:00 - 12:30",
+                    location: "Sala por definir",
+                    show: true
                 },
                 col3: {
                     rowspan: 10,
                     colspan: 1,
+                    class: "day-1-fixer",
                     title: "Por anunciar",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
@@ -110,46 +116,27 @@ module.exports = [{
                     title: "Renato Rodrigues",
                     subtitle: "Web Security",
                     time: "10:00 - 12:30",
-                    location: "Sala B456",
+                    location: "Sala por definir",
                     show: true*/
                 },
                 col4: {
-                    rowspan: 1,
+                    rowspan: 10,
                     colspan: 1,
+                    class: "day-1-fixer",
+                    title: "Por anunciar",
+                    time: "10:00 - 12:30",
+                    location: "Sala por definir",
+                    show: true
                 },
             },
             {
                 start: "10:15",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "10:30",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "10:45",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "11:00",
@@ -163,57 +150,24 @@ module.exports = [{
                     url: "/speakers/12",
                     show: true
                 },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "11:15",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "11:30",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "11:45",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "12:00",
                 col1: {
                     rowspan: 2,
                     colspan: 1,
-                    title: "Por definir",
+                    title: "Por anunciar",
                     time: "12:00 - 12:30",
                     location: "Auditório Nobre FEUP",
-                    url: "/speakers/8",
                     show: true
                     /*rowspan: 2,
                     colspan: 1,
@@ -224,25 +178,9 @@ module.exports = [{
                     url: "/speakers/8",
                     show: true*/
                 },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "12:15",
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "12:30",
@@ -285,23 +223,28 @@ module.exports = [{
                 col2: {
                     rowspan: 8,
                     colspan: 1,
+                    class: "day-1-fixer",
                     title: "Por anunciar",
                     time: "14:00 - 16:00",
                     location: "Sala a anunciar",
-                    url: "/speakers/7",
                     show: true
                     /*rowspan: 8,
                     colspan: 1,
                     title: "Filipe Carvalho",
                     subtitle: "Android Testing",
                     time: "14:00 - 16:00",
-                    location: "Sala B456",
+                    location: "Sala por definir",
                     url: "/speakers/7",
                     show: true*/
                 },
                 col3: {
-                    rowspan: 1,
-                    colspan: 1,
+                    rowspan: 8,
+                    colspan: 2,
+                    class: "day-1-fixer",
+                    title: "Por anunciar",
+                    time: "14:00 - 16:00",
+                    location: "Sala a anunciar",
+                    show: true
                 },
                 col4: {
                     rowspan: 1,
@@ -310,25 +253,9 @@ module.exports = [{
             },
             {
                 start: "14:15",
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "14:30",
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "14:45",
@@ -341,45 +268,13 @@ module.exports = [{
                     location: "Auditório Nobre FEUP",
                     url: "/speakers/11",
                     show: true
-                    /*rowspan: 3,
-                    colspan: 1,
-                    title: "Rui Costa",
-                    subtitle: "IoT Sensors",
-                    time: "14:45 - 15:30",
-                    location: "Auditório Nobre FEUP",
-                    url: "/speakers/11",
-                    show: true*/
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "15:00",
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "15:15",
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "15:30",
@@ -398,31 +293,15 @@ module.exports = [{
                     location: "Auditório Nobre FEUP",
                     show: true*/
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "15:45",
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "16:00",
                 break: true,
-                title: "Coffee-break",
-                location: "Auditório Nobre FEUP",
+                title: "Coffee break",
+                location: "Coffee Lounge FEUP",
                 rowspan: 2
             },
             {
@@ -456,21 +335,25 @@ module.exports = [{
                     rowspan: 7,
                     colspan: 1,
                     title: "Por anunciar",
-                    time: "16:45 - 18:15",
+                    time: "16:45 - 18:30",
                     location: "Auditório Nobre FEUP",
                     show: true
                 },
-                col2: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
                 col3: {
-                    rowspan: 1,
+                    rowspan: 7,
                     colspan: 1,
+                    title: "Por anunciar",
+                    time: "16:45 - 18:30",
+                    location: "Sala a anunciar",
+                    show: true
                 },
                 col4: {
-                    rowspan: 1,
-                    colspan: 1,
+                    rowspan: 7,
+                    colspan: 2,
+                    title: "Por anunciar",
+                    time: "16:45 - 18:30",
+                    location: "Sala a anunciar",
+                    show: true
                 }
             },
             {
@@ -479,14 +362,6 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "17:15",
@@ -494,14 +369,6 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "17:30",
@@ -509,14 +376,6 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "17:45",
@@ -524,14 +383,6 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "18:00",
@@ -539,14 +390,6 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "18:15",
@@ -554,14 +397,6 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                 },
-                col3: {
-                    rowspan: 1,
-                    colspan: 1,
-                },
-                col4: {
-                    rowspan: 1,
-                    colspan: 1,
-                }
             },
             {
                 start: "18:30",
@@ -606,6 +441,33 @@ module.exports = [{
                     time: "10:00 - 10:30",
                     url: "/speakers/14",
                     location: "Auditório Nobre FEUP",
+                    show: true
+                },
+                col2: {
+                    rowspan: 10,
+                    colspan: 1,
+                    class: "day-2-fixer",
+                    title: "Por anunciar",
+                    time: "10:00 - 12:30",
+                    location: "Sala por definir",
+                    show: true
+                },
+                col3: {
+                    rowspan: 10,
+                    colspan: 1,
+                    class: "day-2-fixer",
+                    title: "Por anunciar",
+                    time: "10:00 - 12:30",
+                    location: "Sala por definir",
+                    show: true
+                },
+                col4: {
+                    rowspan: 10,
+                    colspan: 1,
+                    class: "day-2-fixer",
+                    title: "Por anunciar",
+                    time: "10:00 - 12:30",
+                    location: "Sala por definir",
                     show: true
                 },
             },
@@ -689,39 +551,45 @@ module.exports = [{
                     show: true
                 },
                 col2: {
-                    rowspan: 1,
+                    rowspan: 8,
                     colspan: 1,
+                    class: "day-2-fixer",
+                    title: "Por anunciar",
+                    time: "14:00 - 16:00",
+                    location: "Sala por definir",
+                    show: true
                 },
                 col3: {
                     rowspan: 8,
                     colspan: 1,
+                    class: "day-2-fixer",
                     title: "Por anunciar",
                     time: "14:00 - 16:00",
-                    location: "Sala B456",
-                    url: "/speakers/3",
+                    location: "Sala por definir",
                     show: true
                     /*rowspan: 8,
                     colspan: 1,
                     title: "Henrique Ferrolho",
                     subtitle: "Robotics Mechanics with ThreeJS",
                     time: "14:00 - 16:00",
-                    location: "Sala B456",
+                    location: "Sala por definir",
                     url: "/speakers/3",
                     show: true*/
                 },
                 col4: {
                     rowspan: 8,
                     colspan: 1,
+                    class: "day-2-fixer",
                     title: "Por anunciar",
                     time: "14:00 - 16:00",
-                    location: "Sala a anunciar",
+                    location: "Sala por definir",
                     show: true
                     /*rowspan: 8,
                     colspan: 1,
                     title: "André Cruz",
                     subtitle: "Processos para o Desenvolvimento de Game Assets 3D",
                     time: "14:00 - 16:00",
-                    location: "Sala B456",
+                    location: "Sala por definir",
                     show: true*/
                 }
             },
@@ -754,6 +622,14 @@ module.exports = [{
             },
             {
                 start: "15:15",
+                col1: {
+                    rowspan: 3,
+                    colspan: 1,
+                    title: "Por anunciar",
+                    time: "15:15 - 16:00",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
             },
             {
                 start: "15:30",
@@ -764,12 +640,91 @@ module.exports = [{
             {
                 start: "16:00",
                 break: true,
-                title: "Coffee-break",
-                location: "Auditório Nobre FEUP",
+                title: "Coffee break",
+                location: "Coffee Lounge FEUP",
                 rowspan: 2
             },
             {
+                start: "16:30",
+            },
+            {
+                start: "16:45",
+                col1: {
+                    rowspan: 2,
+                    colspan: 1,
+                    time: "16:45 - 17:15",
+                    title: "Por anunciar",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
+                col2: {
+                    rowspan: 6,
+                    colspan: 1,
+                    time: "16:45 - 18:15",
+                    title: "Karaoke Presentation",
+                    location: "Sala por definir",
+                    show: true
+                },
+                col3: {
+                    rowspan: 7,
+                    colspan: 1,
+                    class: "day-2-fixer",
+                    time: "16:45 - 18:30",
+                    title: "Por anunciar",
+                    location: "Sala por definir",
+                    show: true
+                },
+                col4: {
+                    rowspan: 7,
+                    colspan: 1,
+                    class: "day-2-fixer",
+                    time: "16:45 - 18:30",
+                    title: "Por anunciar",
+                    location: "Sala por definir",
+                    show: true
+                },
+            },
+            {
+                start: "17:00",
+            },
+            {
+                start: "17:15",
+                col1: {
+                    rowspan: 2,
+                    colspan: 1,
+                    time: "17:15 - 17:45",
+                    title: "Por anunciar",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
+            },
+            {
+                start: "17:30",
+            },
+            {
+                start: "17:45",
+                col1: {
+                    rowspan: 2,
+                    colspan: 1,
+                    time: "17:45 - 18:15",
+                    title: "Por anunciar",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
+            },
+            {
+                start: "18:00",
+            },
+            {
                 start: "18:15",
+                col1: {
+                    rowspan: 1,
+                    colspan: 1,
+                    time: "18:15 - 18:30",
+                    title: "Karaoke Presentation Final",
+                    location: "Auditório Nobre FEUP",
+                    show: true
+                },
             },
             {
                 start: "18:30",
@@ -810,6 +765,7 @@ module.exports = [{
                 col2: {
                     rowspan: 10,
                     colspan: 1,
+                    class: "day-3-fixer",
                     title: "Por anunciar",
                     time: "10:00 - 12:30",
                     location: "Sala a anunciar",
@@ -825,6 +781,7 @@ module.exports = [{
                 col3: {
                     rowspan: 10,
                     colspan: 1,
+                    class: "day-3-fixer",
                     title: "Por anunciar",
                     time: "10:00 - 12:30",
                     location: "Sala a anunciar",
@@ -836,6 +793,15 @@ module.exports = [{
                     time: "10:00 - 12:30",
                     location: "Sala a anunciar",
                     show: true*/
+                },
+                col4: {
+                    rowspan: 10,
+                    colspan: 1,
+                    class: "day-3-fixer",
+                    title: "Por anunciar",
+                    time: "10:00 - 12:30",
+                    location: "Sala por definir",
+                    show: true
                 }
             },
             {

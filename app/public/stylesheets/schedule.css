@@ -279,16 +279,44 @@ table.schedule-table div.schedule-entry-container.rowcount-4 {
   min-height: 130px;
 }
 
+table.schedule-table div.schedule-entry-container.rowcount-6 {
+  min-height: 212px;
+}
+
 table.schedule-table div.schedule-entry-container.rowcount-7 {
   min-height: 250px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-7.day-2-fixer {
+  min-height: 283px;
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-8 {
   min-height: 291px;
 }
 
+table.schedule-table div.schedule-entry-container.rowcount-8.day-1-fixer {
+  min-height: 276px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-8.day-2-fixer {
+  min-height: 289px;
+}
+
 table.schedule-table div.schedule-entry-container.rowcount-10 {
   min-height: 367px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-10.day-1-fixer {
+  min-height: 352px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-10.day-2-fixer {
+  min-height: 403px;
+}
+
+table.schedule-table div.schedule-entry-container.rowcount-10.day-3-fixer {
+  min-height: 344px;
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-11 {
