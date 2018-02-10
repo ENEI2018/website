@@ -738,5 +738,66 @@ module.exports = {
       linkedin: "https://www.linkedin.com/in/sofialcfsilva/",
       show: true
     }
+  ],
+  ambassadors: [{
+      id: 0,
+      name: "João Carvalho",
+      shortBio: "Student @FEUP",
+      company: "FEUP",
+      image: "joao_carvalho.jpg",
+      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
+      github: "https://github.com/jflcarvalho",
+      show: true
+    },
+    {
+      id: 1,
+      name: "João Carvalho",
+      shortBio: "Student @FEUP",
+      company: "FEUP",
+      image: "joao_carvalho.jpg",
+      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
+      github: "https://github.com/jflcarvalho",
+      show: true
+    },
+    {
+      id: 2,
+      name: "João Carvalho",
+      shortBio: "Student @FEUP",
+      company: "FEUP",
+      image: "joao_carvalho.jpg",
+      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
+      github: "https://github.com/jflcarvalho",
+      show: true
+    },
+    {
+      id: 3,
+      name: "João Carvalho",
+      shortBio: "Student @FEUP",
+      company: "FEUP",
+      image: "joao_carvalho.jpg",
+      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
+      github: "https://github.com/jflcarvalho",
+      show: true
+    },
+    {
+      id: 4,
+      name: "João Carvalho",
+      shortBio: "Student @FEUP",
+      company: "FEUP",
+      image: "joao_carvalho.jpg",
+      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
+      github: "https://github.com/jflcarvalho",
+      show: true
+    },
+    {
+      id: 5,
+      name: "João Carvalho",
+      shortBio: "Student @FEUP",
+      company: "FEUP",
+      image: "joao_carvalho.jpg",
+      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
+      github: "https://github.com/jflcarvalho",
+      show: true
+    }
   ]
 };
