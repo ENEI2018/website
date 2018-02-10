@@ -74,3 +74,10 @@
     right: 0;
     bottom: 0;
 }
+
+.ambassador-overlay-shape {
+    -webkit-shape-outside: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
+    shape-outside: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
+}
