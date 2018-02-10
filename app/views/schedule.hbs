@@ -62,7 +62,7 @@
                     <!-- BREAK-->
                     <td class="schedule-entry break-entry" colspan="4" rowspan="{{rowspan}}">
                       {{#if location}}
-                      <div class="schedule-entry-container rowcount-{{rowspan}}"><span>{{title}} | {{location}}</span></div>
+                      <div class="schedule-entry-container {{class}} rowcount-{{rowspan}}"><span>{{title}} | {{location}}</span></div>
                       {{else}}
                       <div class="schedule-entry-container rowcount-{{rowspan}}"><span>{{title}}</span></div>
                       {{/if}}
@@ -72,7 +72,7 @@
                     {{#if col1}}
                     {{#if col1.show}}
                     <td class="schedule-entry" colspan="{{col1.colspan}}" rowspan="{{col1.rowspan}}">
-                      <div class="schedule-entry-container rowcount-{{col1.rowspan}}">
+                      <div class="schedule-entry-container {{col1.class}} rowcount-{{col1.rowspan}}">
                       {{#if col1.url}}<a href="{{col1.url}}">{{/if}}
                       <div class="block-title">{{col1.title}}</div>
                       {{#if col1.subtitle}}
@@ -93,7 +93,7 @@
                     {{#if col2}}
                     {{#if col2.show}}
                     <td class="schedule-entry" colspan="{{col2.colspan}}" rowspan="{{col2.rowspan}}">
-                      <div class="schedule-entry-container rowcount-{{col2.rowspan}}">
+                      <div class="schedule-entry-container {{col2.class}} rowcount-{{col2.rowspan}}">
                       {{#if col2.url}}<a href="{{col2.url}}">{{/if}}
                       <div class="block-title">{{col2.title}}</div>
                       {{#if col2.subtitle}}
@@ -114,7 +114,7 @@
                     {{#if col3}}
                     {{#if col3.show}}
                     <td class="schedule-entry" colspan="{{col3.colspan}}" rowspan="{{col3.rowspan}}">
-                      <div class="schedule-entry-container rowcount-{{col3.rowspan}}">
+                      <div class="schedule-entry-container {{col3.class}} rowcount-{{col3.rowspan}}">
                       {{#if col3.url}}<a href="{{col3.url}}">{{/if}}
                       <div class="block-title">{{col3.title}}</div>
                       {{#if col3.subtitle}}
@@ -135,7 +135,7 @@
                     {{#if col4}}
                     {{#if col4.show}}
                     <td class="schedule-entry" colspan="{{col4.colspan}}" rowspan="{{col4.rowspan}}">
-                      <div class="schedule-entry-container rowcount-{{col4.rowspan}}">
+                      <div class="schedule-entry-container {{col4.class}} rowcount-{{col4.rowspan}}">
                       {{#if col4.url}}<a href="{{col4.url}}">{{/if}}
                       <div class="block-title">{{col4.title}}</div>
                       {{#if col4.subtitle}}
