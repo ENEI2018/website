@@ -1067,57 +1067,6 @@ div.speaker-container .info-col {
     }
 }
 
-@supports (-ms-ime-align: auto) {
-    /* Microsoft EdgeV13&14 CSS styles go here */
-    .speaker-overlay {
-        transform: skewY(0);
-        padding: 0 1em;
-    }    
-
-    .speaker-wrapper {
-        margin-bottom: 1em;
-    }
-    
-    .speaker-wrapper:hover .speaker-overlay,
-    .speaker-overlay:hover {
-        padding: 1em;
-    }
-}
-
-@supports (-ms-accelerator: true) {
-    /* Microsoft EdgeV13 CSS styles go here */
-    .speaker-overlay {
-        transform: skewY(0);
-        padding: 0 1em;
-    }    
-
-    .speaker-wrapper {
-        margin-bottom: 1em;
-    }
-    
-    .speaker-wrapper:hover .speaker-overlay,
-    .speaker-overlay:hover {
-        padding: 1em;
-    }
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    /* IE10 & IE11 CSS styles go here */
-    .speaker-overlay {
-        transform: skewY(0);
-        padding: 0 1em;
-    }    
-
-    .speaker-wrapper {
-        margin-bottom: 1em;
-    }
-    
-    .speaker-wrapper:hover .speaker-overlay,
-    .speaker-overlay:hover {
-        padding: 1em;
-    }
-}
-
 .team-wrapper {
     display: inline-block;
     position: relative;
@@ -1227,6 +1176,13 @@ div.speaker-name, div.team-name {
 .ambassador-overlay:hover {
     padding: 1em;
     height: 50%;
+}
+
+@media (max-width: 767px) {
+    .ambassador-overlay{
+        padding: 1em;
+        height: 50%;
+    }
 }
 
 
