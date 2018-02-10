@@ -132,6 +132,15 @@
     </div>
   {{/if}}
 
+  {{#if include_ambassadors}}
+    <div class="container ambassadors-area-container">
+      <h2 class="ambassadors-title text-center">Embaixadores</h2>
+      <div id="myCarousel" class="slick-carousel">
+        {{> ambassadors}}
+      </div>
+    </div>
+  {{/if}}
+
   <div class="separator-row-secondary">
     <div class="row separator-shapes-2">
       <div class="col-xs-4 shape-square enei-skew enei-bgd-bgdblue anim-vertical-phase1"></div>
