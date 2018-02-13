@@ -69,6 +69,13 @@ module.exports = [{
             },
             {
                 start: "20:00",
+            },
+            {
+                start: "21:00",
+                break: true,
+                title: "Festarola na AE",
+                location: "AEFEUP",
+                rowspan: 1
             }
         ]
     },
