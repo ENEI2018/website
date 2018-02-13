@@ -79,73 +79,6 @@ module.exports = {
         show: true
       }
     ],
-    bronze: [{
-        name: "Critical Manufacturing",
-        image: "criticalmanufacturing.png",
-        href: "http://www.criticalmanufacturing.com",
-        show: true
-      },
-      {
-        name: "Smart Consulting",
-        image: "smartconsulting.jpg",
-        href: "http://www.smartconsulting.pt",
-        show: true
-      },
-      {
-        name: "Fabamaq",
-        image: "fabamaq.jpg",
-        href: "https://www.fabamaq.com",
-        show: true
-      },
-      {
-        name: "Fraunhofer",
-        image: "fraunhofer.jpg",
-        href: "https://www.fraunhofer.pt",
-        show: true
-      },
-      {
-        name: "Life on Mars",
-        image: "lifeonmars.png",
-        href: "https://www.lifeonmars.pt",
-        show: true
-      },
-      {
-        name: "Whitesmith",
-        image: "whitesmith.png",
-        href: "https://www.whitesmith.co",
-        show: true
-      },
-      {
-        name: "Bitmaker",
-        image: "bitmaker.png",
-        href: "https://www.wearebitmaker.com",
-        show: true
-      },
-      {
-        name: "Pixelmatters",
-        image: "pixelmatters.png",
-        href: "http://www.pixelmatters.com",
-        show: true
-      },
-      {
-        name: "Farfetch",
-        image: "farfetch.png",
-        href: "https://www.farfetch.com/pt/",
-        show: true
-      },
-      {
-        name: "Shiftforward",
-        image: "shiftforward.png",
-        href: "https://www.shiftforward.eu/",
-        show: true
-      },
-      {
-        name: "ITSector",
-        image: "itsector.png",
-        href: "http://www.itsector.pt/pt/",
-        show: true
-      }
-    ],
     bronze_level1: [{
         name: "Critical Manufacturing",
         image: "criticalmanufacturing.jpg",
@@ -162,6 +95,12 @@ module.exports = {
         name: "Fabamaq",
         image: "fabamaq.jpg",
         href: "https://www.fabamaq.com",
+        show: false
+      },
+      {
+        name: "Inova Ria",
+        image: "inova-ria.jpg",
+        href: "http://www.inova-ria.pt/",
         show: true
       },
       {
