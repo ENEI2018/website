@@ -213,6 +213,7 @@ module.exports = {
       fullBio: "Andrew S. Tanenbaum was born in New York City and raised in White Plains, NY. He has an S.B.from M.I.T. and a Ph.D. from the University of California at Berkeley.  He is currently a Professor Emeritus of Computer Science at the Vrije Universiteit in Amsterdam. Prof. Tanenbaum is the principal designer of three operating systems: TSS-11, Amoeba, and MINIX. In addition, Tanenbaum is the author or coauthor of five books, which have been translated into 21 languages and appeared in a total of 175 editions. Tanenbaum is a Fellow of the ACM, a Fellow of the IEEE, and a member of the Netherlands Royal Academy of Arts and Sciences. In 1994 he was the recipient of the ACM Karl V. Karlstrom Outstanding Educator Award. In 1997 he won the ACM SIGCSE Award for Outstanding Contributions to Computer Science. In 2007 he won the IEEE James H. Mulligan, Jr., Education Medal. He also received the Lifetime Achievement Award from USENIX and also from Eurosys.",
       image: "andrew_tanenbaum.jpg",
       website: "http://www.cs.vu.nl/~ast",
+      linkedin: "https://www.linkedin.com/in/andrew-tanenbaum-a142b5/",
       faqs: [],
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "MINIX 3: A Reliable and Secure Operating System",
