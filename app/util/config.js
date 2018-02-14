@@ -81,19 +81,19 @@ module.exports = {
     ],
     bronze_level1: [{
         name: "Critical Manufacturing",
-        image: "criticalmanufacturing.jpg",
+        image: "critical-manufacturing.png",
         href: "http://www.criticalmanufacturing.com",
         show: true
       },
       {
         name: "Smart Consulting",
-        image: "smartconsulting.jpg",
+        image: "smart-consulting.png",
         href: "http://www.smartconsulting.pt",
         show: true
       },
       {
         name: "Fabamaq",
-        image: "fabamaq.jpg",
+        image: "fabamaq.png",
         href: "https://www.fabamaq.com",
         show: false
       },
@@ -111,44 +111,44 @@ module.exports = {
       },
       {
         name: "Life on Mars",
-        image: "lifeonmars.jpg",
+        image: "life-on-mars.png",
         href: "https://www.lifeonmars.pt",
         show: true
       },
       {
         name: "Whitesmith",
-        image: "whitesmith.jpg",
+        image: "whitesmith.png",
         href: "https://www.whitesmith.co",
         show: true
       }
     ],
     bronze_level2: [{
         name: "Bitmaker",
-        image: "bitmaker.jpg",
+        image: "bitmaker.png",
         href: "https://www.wearebitmaker.com",
         show: true
       },
       {
         name: "Pixelmatters",
-        image: "pixelmatters.jpg",
+        image: "pixelmatters.png",
         href: "http://www.pixelmatters.com",
         show: true
       },
       {
         name: "Farfetch",
-        image: "farfetch.jpg",
+        image: "farfetch.png",
         href: "https://www.farfetch.com/pt/",
         show: true
       },
       {
         name: "Shiftforward",
-        image: "shiftforward.jpg",
+        image: "shiftforward.png",
         href: "https://www.shiftforward.eu/",
         show: true
       },
       {
         name: "ITSector",
-        image: "itsector.jpg",
+        image: "it-sector.png",
         href: "http://www.itsector.pt/pt/",
         show: true
       }
