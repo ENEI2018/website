@@ -266,23 +266,25 @@
             {{/if}}
           {{/each}}
         </div>
+        <div class="container">
         <div class="sponsor bronze row">
           {{#each sponsors.bronze_level1}}
             {{#if show}}
-            <div class="col-md-3">
-              <a target="_blank" href="{{href}}">
-                <img title="{{name}}" alt="{{name}}" src="images/bronze/{{image}}">
-              </a>
+            <div class="col-md-2" style="background-image: url('images/bronze/logos/{{image}}')">
+              <!--<a target="_blank" href="{{href}}">-->
+                <!--<img title="{{name}}" alt="{{name}}" src="images/bronze/logos/{{image}}">-->
+              <!--</a>-->
             </div>
             {{/if}}
           {{/each}}
         </div>
+        </div>
         <div class="sponsor bronze row ">
           {{#each sponsors.bronze_level2}}
             {{#if show}}
-            <div class="col-md-3">
+            <div class="col-md-2">
               <a target="_blank" href="{{href}}">
-                <img title="{{name}}" alt="{{name}}" src="images/bronze/{{image}}">
+                <img title="{{name}}" alt="{{name}}" src="images/bronze/logos/{{image}}">
               </a>
             </div>
             {{/if}}
@@ -291,8 +293,17 @@
       </div>
       <div class="container">
         <h1 class="sponsor-title section-title">Parceiros</h1>
-        <div class="sponsor silver">
-          {{#each partners}}
+        <div class="sponsor silver partner">
+          {{#each partners1}}
+            {{#if show}}
+              <a target="_blank" href="{{href}}">
+                <img title="{{name}}" alt="{{name}}" src="images/{{image}}">
+              </a>
+            {{/if}}
+          {{/each}}
+        </div>
+        <div class="sponsor silver partner">
+          {{#each partners2}}
             {{#if show}}
               <a target="_blank" href="{{href}}">
                 <img title="{{name}}" alt="{{name}}" src="images/{{image}}">

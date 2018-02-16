@@ -81,19 +81,19 @@ module.exports = {
     ],
     bronze_level1: [{
         name: "Critical Manufacturing",
-        image: "criticalmanufacturing.jpg",
+        image: "critical-manufacturing.png",
         href: "http://www.criticalmanufacturing.com",
         show: true
       },
       {
         name: "Smart Consulting",
-        image: "smartconsulting.jpg",
+        image: "smart-consulting.png",
         href: "http://www.smartconsulting.pt",
         show: true
       },
       {
         name: "Fabamaq",
-        image: "fabamaq.jpg",
+        image: "fabamaq.png",
         href: "https://www.fabamaq.com",
         show: false
       },
@@ -111,51 +111,51 @@ module.exports = {
       },
       {
         name: "Life on Mars",
-        image: "lifeonmars.jpg",
+        image: "life-on-mars.png",
         href: "https://www.lifeonmars.pt",
         show: true
       },
       {
         name: "Whitesmith",
-        image: "whitesmith.jpg",
+        image: "whitesmith.png",
         href: "https://www.whitesmith.co",
         show: true
       }
     ],
     bronze_level2: [{
         name: "Bitmaker",
-        image: "bitmaker.jpg",
+        image: "bitmaker.png",
         href: "https://www.wearebitmaker.com",
         show: true
       },
       {
         name: "Pixelmatters",
-        image: "pixelmatters.jpg",
+        image: "pixelmatters.png",
         href: "http://www.pixelmatters.com",
         show: true
       },
       {
         name: "Farfetch",
-        image: "farfetch.jpg",
+        image: "farfetch.png",
         href: "https://www.farfetch.com/pt/",
         show: true
       },
       {
         name: "Shiftforward",
-        image: "shiftforward.jpg",
+        image: "shiftforward.png",
         href: "https://www.shiftforward.eu/",
         show: true
       },
       {
         name: "ITSector",
-        image: "itsector.jpg",
+        image: "it-sector.png",
         href: "http://www.itsector.pt/pt/",
         show: true
       }
     ],
 
   },
-  partners: [{
+  partners1: [{
       name: "Faculdade de Engenharia da Universidade do Porto",
       image: "feup.jpg",
       href: "https://www.fe.up.pt",
@@ -173,6 +173,26 @@ module.exports = {
       href: "https://www.dei.fe.up.pt",
       show: true
     },
+    {
+      name: "NIAEFEUP",
+      image: "niaefeup.png",
+      href: "http://ni.fe.up.pt/",
+      show: true
+    },
+    {
+      name: "IEEE UP Student Branch",
+      image: "ieee.png",
+      href: "http://up.ieee-pt.org/",
+      show: true
+    },
+    {
+      name: "Santander Universidades",
+      image: "santander.png",
+      href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
+      show: true
+    },
+  ],
+  partners2: [
     {
       name: "FBAUP Design Inc.",
       image: "fbaup-design-inc.png",
@@ -192,15 +212,15 @@ module.exports = {
       show: true
     },
     {
-      name: "Santander Universidades",
-      image: "santander.png",
-      href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
-      show: true
-    },
-    {
       name: "Talk A Bit Conference",
       image: "talkabit.png",
       href: "http://talkabit.org",
+      show: true
+    },
+    {
+      name: "Junta de Freguesia de Paranhos",
+      image: "jfparanhos.jpg",
+      href: "http://www.jfparanhos-porto.pt/",
       show: true
     }
   ],
