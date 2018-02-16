@@ -569,18 +569,12 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
-                    time: "14:00 - 16:00",
-                    location: "Sala por definir",
-                    show: true
-                    /*rowspan: 8,
-                    colspan: 1,
                     title: "Henrique Ferrolho",
                     subtitle: "Robotics Mechanics with ThreeJS",
                     time: "14:00 - 16:00",
-                    location: "Sala por definir",
                     url: "/speakers/3",
-                    show: true*/
+                    location: "Sala por definir",
+                    show: true
                 },
                 col4: {
                     rowspan: 8,
@@ -824,7 +818,7 @@ module.exports = [{
                     rowspan: 3,
                     colspan: 1,
                     title: "Por anunciar",
-                    time: "10:00 - 11:00",
+                    time: "11:00 - 11:45",
                     location: "Auditório FEUP",
                     show: true
                     /*rowspan: 3,
