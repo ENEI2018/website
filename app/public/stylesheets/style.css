@@ -896,12 +896,6 @@ img.signup-section-img {
     cursor: pointer;
 }
 
-.sponsors-container {
-    margin: 50px 0;
-    padding: 30px 0;
-    background: white;
-}
-
 @media (min-width: 576px) {
     .sponsor-title {
         font-size: 300%;
@@ -911,6 +905,12 @@ img.signup-section-img {
 .sponsor-title {
     text-align: center;
     margin-bottom: 50px;
+}
+
+.sponsors-container {
+    margin: 50px 0;
+    padding: 30px 0;
+    background: white;
 }
 
 .sponsor {
@@ -939,6 +939,33 @@ img.signup-section-img {
 }
 
 .sponsor.bronze div {
+    max-width: 100px;
+    min-height: 60px;
+    min-width: 60px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 490px) {
+    .sponsor.bronze div {
+        min-width: 60px;
+    }
+}
+
+@media (max-width: 490px) {
+    .sponsor.bronze div {
+        min-width: 40px;
+    }
+}
+
+.sponsor.partner.silver img {
+    display: block;
+    max-height: 50px;
+    margin: auto;
+}
+
+/*.sponsor.bronze div {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -953,7 +980,11 @@ img.signup-section-img {
         max-width: 100%;
         max-height: 100%;
     }
-}
+
+    .sponsor.bronze div {
+        min-width: unset;
+    }
+}*/
 
 /*.sponsor.bronze a {
     margin: 0 1%;

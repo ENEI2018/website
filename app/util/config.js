@@ -155,7 +155,7 @@ module.exports = {
     ],
 
   },
-  partners: [{
+  partners1: [{
       name: "Faculdade de Engenharia da Universidade do Porto",
       image: "feup.jpg",
       href: "https://www.fe.up.pt",
@@ -173,6 +173,26 @@ module.exports = {
       href: "https://www.dei.fe.up.pt",
       show: true
     },
+    {
+      name: "NIAEFEUP",
+      image: "niaefeup.png",
+      href: "http://ni.fe.up.pt/",
+      show: true
+    },
+    {
+      name: "IEEE UP Student Branch",
+      image: "ieee.png",
+      href: "http://up.ieee-pt.org/",
+      show: true
+    },
+    {
+      name: "Santander Universidades",
+      image: "santander.png",
+      href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
+      show: true
+    },
+  ],
+  partners2: [
     {
       name: "FBAUP Design Inc.",
       image: "fbaup-design-inc.png",
@@ -192,15 +212,15 @@ module.exports = {
       show: true
     },
     {
-      name: "Santander Universidades",
-      image: "santander.png",
-      href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
-      show: true
-    },
-    {
       name: "Talk A Bit Conference",
       image: "talkabit.png",
       href: "http://talkabit.org",
+      show: true
+    },
+    {
+      name: "Junta de Freguesia de Paranhos",
+      image: "jfparanhos.jpg",
+      href: "http://www.jfparanhos-porto.pt/",
       show: true
     }
   ],
