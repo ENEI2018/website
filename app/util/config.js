@@ -136,7 +136,7 @@ module.exports = {
       },
       {
         name: "Farfetch",
-        image: "farfetch.png",
+        image: "farfetch.jpg",
         href: "https://www.farfetch.com/pt/",
         show: true
       },
