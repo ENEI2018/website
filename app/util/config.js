@@ -380,7 +380,7 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Robotics Mechanics with ThreeJS",
       talkSummary: "",
-      show: false
+      show: true
     },
     {
       id: 4,
