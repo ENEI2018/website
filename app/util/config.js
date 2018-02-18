@@ -79,22 +79,28 @@ module.exports = {
         show: true
       }
     ],
-    bronze: [{
+    bronze_level1: [{
         name: "Critical Manufacturing",
-        image: "criticalmanufacturing.png",
+        image: "critical-manufacturing.png",
         href: "http://www.criticalmanufacturing.com",
         show: true
       },
       {
         name: "Smart Consulting",
-        image: "smartconsulting.jpg",
+        image: "smart-consulting.png",
         href: "http://www.smartconsulting.pt",
         show: true
       },
       {
         name: "Fabamaq",
-        image: "fabamaq.jpg",
+        image: "fabamaq.png",
         href: "https://www.fabamaq.com",
+        show: false
+      },
+      {
+        name: "Inova Ria",
+        image: "inova-ria.jpg",
+        href: "http://www.inova-ria.pt/",
         show: true
       },
       {
@@ -105,7 +111,7 @@ module.exports = {
       },
       {
         name: "Life on Mars",
-        image: "lifeonmars.png",
+        image: "life-on-mars.png",
         href: "https://www.lifeonmars.pt",
         show: true
       },
@@ -114,8 +120,9 @@ module.exports = {
         image: "whitesmith.png",
         href: "https://www.whitesmith.co",
         show: true
-      },
-      {
+      }
+    ],
+    bronze_level2: [{
         name: "Bitmaker",
         image: "bitmaker.png",
         href: "https://www.wearebitmaker.com",
@@ -129,7 +136,7 @@ module.exports = {
       },
       {
         name: "Farfetch",
-        image: "farfetch.png",
+        image: "farfetch.jpg",
         href: "https://www.farfetch.com/pt/",
         show: true
       },
@@ -141,82 +148,14 @@ module.exports = {
       },
       {
         name: "ITSector",
-        image: "itsector.png",
-        href: "http://www.itsector.pt/pt/",
-        show: true
-      }
-    ],
-    bronze_level1: [{
-        name: "Critical Manufacturing",
-        image: "criticalmanufacturing.jpg",
-        href: "http://www.criticalmanufacturing.com",
-        show: true
-      },
-      {
-        name: "Smart Consulting",
-        image: "smartconsulting.jpg",
-        href: "http://www.smartconsulting.pt",
-        show: true
-      },
-      {
-        name: "Fabamaq",
-        image: "fabamaq.jpg",
-        href: "https://www.fabamaq.com",
-        show: true
-      },
-      {
-        name: "Fraunhofer",
-        image: "fraunhofer.jpg",
-        href: "https://www.fraunhofer.pt",
-        show: true
-      },
-      {
-        name: "Life on Mars",
-        image: "lifeonmars.jpg",
-        href: "https://www.lifeonmars.pt",
-        show: true
-      },
-      {
-        name: "Whitesmith",
-        image: "whitesmith.jpg",
-        href: "https://www.whitesmith.co",
-        show: true
-      }
-    ],
-    bronze_level2: [{
-        name: "Bitmaker",
-        image: "bitmaker.jpg",
-        href: "https://www.wearebitmaker.com",
-        show: true
-      },
-      {
-        name: "Pixelmatters",
-        image: "pixelmatters.jpg",
-        href: "http://www.pixelmatters.com",
-        show: true
-      },
-      {
-        name: "Farfetch",
-        image: "farfetch.jpg",
-        href: "https://www.farfetch.com/pt/",
-        show: true
-      },
-      {
-        name: "Shiftforward",
-        image: "shiftforward.jpg",
-        href: "https://www.shiftforward.eu/",
-        show: true
-      },
-      {
-        name: "ITSector",
-        image: "itsector.jpg",
+        image: "it-sector.png",
         href: "http://www.itsector.pt/pt/",
         show: true
       }
     ],
 
   },
-  partners: [{
+  partners1: [{
       name: "Faculdade de Engenharia da Universidade do Porto",
       image: "feup.jpg",
       href: "https://www.fe.up.pt",
@@ -234,6 +173,26 @@ module.exports = {
       href: "https://www.dei.fe.up.pt",
       show: true
     },
+    {
+      name: "NIAEFEUP",
+      image: "niaefeup.png",
+      href: "http://ni.fe.up.pt/",
+      show: true
+    },
+    {
+      name: "IEEE UP Student Branch",
+      image: "ieee.png",
+      href: "http://up.ieee-pt.org/",
+      show: true
+    },
+    {
+      name: "Santander Universidades",
+      image: "santander.png",
+      href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
+      show: true
+    },
+  ],
+  partners2: [
     {
       name: "FBAUP Design Inc.",
       image: "fbaup-design-inc.png",
@@ -253,41 +212,32 @@ module.exports = {
       show: true
     },
     {
-      name: "Santander Universidades",
-      image: "santander.png",
-      href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
-      show: true
-    },
-    {
       name: "Talk A Bit Conference",
       image: "talkabit.png",
       href: "http://talkabit.org",
       show: true
+    },
+    {
+      name: "Junta de Freguesia de Paranhos",
+      image: "jfparanhos.jpg",
+      href: "http://www.jfparanhos-porto.pt/",
+      show: true
     }
   ],
-  speakers: [{
-      id: 0,
-      name: "André Silva",
-      shortBio: "Parity Technologies",
-      company: "Parity Technologies",
-      role: "Core Developer",
-      fullBio: "Engenheiro de Software formado em 2011 pela Faculdade de Engenharia da Universidade do Porto. Nos últimos anos trabalhou na <a href='https://shiftforward.eu'>ShiftForward</a> onde desenvolveu tecnologia para online marketing. Atualmente é colaborador do projecto <a href= 'https://github.com/paritytech/parity'>parity</a>, uma das implementações do Ethereum.",
-      image: "andre_silva.jpg",
-      linkedin: "https://www.linkedin.com/in/andrerfosilva/",
-      github: "https://github.com/andresilva",
+  speakers: [
+    {
+      id: 12,
+      name: "Andrew Tanenbaum",
+      shortBio: "Vrije Universiteit",
+      company: "Vrije Universiteit",
+      fullBio: "Andrew S. Tanenbaum was born in New York City and raised in White Plains, NY. He has an S.B.from M.I.T. and a Ph.D. from the University of California at Berkeley.  He is currently a Professor Emeritus of Computer Science at the Vrije Universiteit in Amsterdam. Prof. Tanenbaum is the principal designer of three operating systems: TSS-11, Amoeba, and MINIX. In addition, Tanenbaum is the author or coauthor of five books, which have been translated into 21 languages and appeared in a total of 175 editions. Tanenbaum is a Fellow of the ACM, a Fellow of the IEEE, and a member of the Netherlands Royal Academy of Arts and Sciences. In 1994 he was the recipient of the ACM Karl V. Karlstrom Outstanding Educator Award. In 1997 he won the ACM SIGCSE Award for Outstanding Contributions to Computer Science. In 2007 he won the IEEE James H. Mulligan, Jr., Education Medal. He also received the Lifetime Achievement Award from USENIX and also from Eurosys.",
+      image: "andrew_tanenbaum.jpg",
+      website: "http://www.cs.vu.nl/~ast",
+      linkedin: "https://www.linkedin.com/in/andrew-tanenbaum-a142b5/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "A definir.",
-      talkTitle: "",
-      talkSummary: "A palestra será uma introdução a tecnologia blockchain, onde se irá descrever como funciona um sistema como Bitcoin e o que assegura a segurança do mesmo. Durante a palestra iremos começar por descrever o problema que estamos a tentar resolver (distributed ledger) e iterativamente construir uma solução que no final deverá ser semelhante a Bitcoin (não irá ser 100% semelhante para evitar descrever detalhes de implementação). Por fim irei também fazer uma pequena menção a outros sistema como o Ethereum.",
+      //talkDate: "Sexta-feira, 11:42",
+      talkTitle: "MINIX 3: A Reliable and Secure Operating System",
+      talkSummary: "Most computer users nowadays are nontechnical people who have  a mental model of what they expect from a computer based on their experience with TV sets and stereos: you buy it, plug it in, and it works perfectly for the next 10 years. Computers aren't like that, which leads to frustration. Part of the problem is the operating system, which is often millions of lines of kernel code, each of which can potentially bring the system down. As long as we maintain the current structure of the  operating system as a huge single monolithic program full of foreign code (device drivers) and running in kernel mode, the situation will not improve. In an attempt to provide better reliability and security, we have created a new multiserver operating system,  MINIX 3, with only 15,000 lines in kernel and the rest of the operating system split up into small components each running as a separate user-mode processes.  It is available for the x86 and ARM for embedded systems. The talk will discuss the design of the system and some of unique aspects, such as live update--the ability to replace the operating system with a new version while it is running without affecting running applications. The MINIX 3 Website is at <a href='http://www.minix3.org'>www.minix3.org</a>",
       show: true
     },
     {
@@ -314,6 +264,70 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Como podes chegar à Google? Dicas para conseguires o teu emprego de sonho.",
       talkSummary: "",
+      show: true
+    },
+    {
+      id: 15,
+      name: "Alexey Sidorenko",
+      shortBio: "Teplitsa",
+      company: "Teplitsa: Tecnologias para o Bem Social",
+      role: "Project Director",
+      fullBio: "Alexey é um membro ativo da sociedade civil e lidera um coletivo de mais de 30 indivíduos em várias regiões da Rússia que divulgam conhecimentos sobre novas ferramentas para organizações da sociedade civil e empreendedores sociais. Ao longo de sua carreira, Alexey colaborou com vários grupos civis, grupos de reflexão e comunidades internacionais, incluindo Carnegie Moscow Centre, Global Voices Online, Freedom House e Reporters Without Borders. Em 2010, ele desenvolveu o projeto \"Help Map\", uma iniciativa premiada de crowdsourcing para ajudar as vítimas dos incêndios florestais do verão. Desde 2012, dirige a Teplitsa, um projeto para ajudar as ONGs russas com IT e formas inovadoras de engajamento cívico. A Teplitsa administra o maior portal de tecnologia cívica de língua russa, atraindo mais de 10 mil leitores únicos por dia. Também organiza hackathons e meetups e desenvolve software de código aberto. Alexey regularmente apresenta no Fórum de Democracia Pessoal da Europa Central e Oriental. Alexey possui um Ph.D. em Geografia (Moscow State University, 2010) e fala polonês, inglês e russo.",
+      image: "alexey_sidorenko.jpg",
+      linkedin: "https://www.linkedin.com/in/alexeysidorenko/",
+      faqs: [],
+      /*faqs: [{
+          question: "Onde trabalha atualmente?",
+          answer: "Em minha casa."
+        },
+        {
+          question: "O que gosta de fazer?",
+          answer: "Trabalhar para o site do ENEI! xD"
+        }
+      ],*/
+      //talkDate: "Sexta-feira, 11:42",
+      talkTitle: "The Closure: Como o governo Russo procura exercer controlo total na internet",
+      talkSummary: "\"A Internet foi criada como um projeto da CIA e continua a ser desenvolvida como tal\", uma citação infame (e longe de ser correta) do presidente russo, Putin, de abril de 2014, pode descrever de melhor forma a atitude do governo russo contemporâneo em relação à Net. Sendo geralmente céticas da Net, as autoridades russas nunca confiaram no meio. Mas, após os protestos pós-eleição de 2011-2012 e as revelações de Snowden, o Kremlin abriu uma nova frente contra ela, implementando um plano coordenado para exercer tanto controlo online como atualmente tem offline. Alexey Sidorenko, observador de longo prazo deste processo, compartilhará uma história ainda em andamento de The Closure - um lento processo de privação de liberdades para se comunicar e expressar online na Rússia.",
+      show: true
+    },
+    {
+      id: 14,
+      name: "Wolfgang Merkt",
+      shortBio: "Roboticist & Consultant",
+      company: "Roboticist & Consultant",
+      fullBio: "Wolfgang is a roboticist and consultant. He holds first class degrees in Mechanical Engineering with Management and Robotics and Autonomous Systems and currently works on optimisation-based control for human size (6ft) humanoid robots in collaboration with NASA. Wolfgang previously completed research in industrial robotics applications for small and medium enterprises. He founded a service robotics research institute constructing a kitchen robot aged 14, and raised a six digit figure in funding to enable high school students to research and participate in competitions internationally. He is a startup accelerator graduate and mentor at entrepreneurship events. As a consultant and startup founder, he has developed and deployed software in government, law enforcement, legal document handling, education, and entertainment with numerous household brands. He's advising quickly growing ventures on technology and business strategy as well as Fortune 2000 corporations on digital transformation.",
+      image: "wolfgang_merkt.jpg",
+      linkedin: "https://www.linkedin.com/in/wolfgangmerkt/",
+      website: "",
+      faqs: [],
+      //talkDate: "Sexta-feira, 11:42",
+      talkTitle: "From Industrial Automation, Disaster Recovery, and Space Exploration: A Journey in Practical Robotics",
+      talkSummary: "In his talk, Wolfgang will highlight different areas of his journey in the wonderful world of robotics and touch upon challenges and frontiers in the field. In particular, he will highlight recent research successes and open challenges along with implications of an applied field.",
+      show: true
+    },
+    {
+      id: 0,
+      name: "André Silva",
+      shortBio: "Parity Technologies",
+      company: "Parity Technologies",
+      role: "Core Developer",
+      fullBio: "Engenheiro de Software formado em 2011 pela Faculdade de Engenharia da Universidade do Porto. Nos últimos anos trabalhou na <a href='https://shiftforward.eu'>ShiftForward</a> onde desenvolveu tecnologia para online marketing. Atualmente é colaborador do projecto <a href= 'https://github.com/paritytech/parity'>parity</a>, uma das implementações do Ethereum.",
+      image: "andre_silva.jpg",
+      linkedin: "https://www.linkedin.com/in/andrerfosilva/",
+      github: "https://github.com/andresilva",
+      faqs: [],
+      /*faqs: [{
+          question: "Onde trabalha atualmente?",
+          answer: "Em minha casa."
+        },
+        {
+          question: "O que gosta de fazer?",
+          answer: "Trabalhar para o site do ENEI! xD"
+        }
+      ],*/
+      //talkDate: "A definir.",
+      talkTitle: "",
+      talkSummary: "A palestra será uma introdução a tecnologia blockchain, onde se irá descrever como funciona um sistema como Bitcoin e o que assegura a segurança do mesmo. Durante a palestra iremos começar por descrever o problema que estamos a tentar resolver (distributed ledger) e iterativamente construir uma solução que no final deverá ser semelhante a Bitcoin (não irá ser 100% semelhante para evitar descrever detalhes de implementação). Por fim irei também fazer uma pequena menção a outros sistema como o Ethereum.",
       show: true
     },
     {
@@ -458,7 +472,7 @@ module.exports = {
       company: "Shiftforward",
       role: "Software Engineer",
       fullBio: "João é Engenheiro de Software formado em 2010 pela Faculdade de Engenharia da Universidade do Porto. Desde 2012 que trabalha na <a href='http://www.shiftforward.eu'>ShiftForward</a>, onde desenvolve software de apoio à publicidade digital.",
-      image: "joao_azevedo.jpeg",
+      image: "joao_azevedo.jpg",
       linkedin: "https://www.linkedin.com/in/jcazevedo/",
       faqs: [],
       //talkDate: "Sexta-feira, 11:42",
@@ -496,20 +510,6 @@ module.exports = {
       show: true
     },
     {
-      id: 12,
-      name: "Andrew Tanenbaum",
-      shortBio: "Vrije Universiteit",
-      company: "Vrije Universiteit",
-      fullBio: "Andrew S. Tanenbaum was born in New York City and raised in White Plains, NY. He has an S.B.from M.I.T. and a Ph.D. from the University of California at Berkeley.  He is currently a Professor Emeritus of Computer Science at the Vrije Universiteit in Amsterdam. Prof. Tanenbaum is the principal designer of three operating systems: TSS-11, Amoeba, and MINIX. In addition, Tanenbaum is the author or coauthor of five books, which have been translated into 21 languages and appeared in a total of 175 editions. Tanenbaum is a Fellow of the ACM, a Fellow of the IEEE, and a member of the Netherlands Royal Academy of Arts and Sciences. In 1994 he was the recipient of the ACM Karl V. Karlstrom Outstanding Educator Award. In 1997 he won the ACM SIGCSE Award for Outstanding Contributions to Computer Science. In 2007 he won the IEEE James H. Mulligan, Jr., Education Medal. He also received the Lifetime Achievement Award from USENIX and also from Eurosys.",
-      image: "andrew_tanenbaum.jpg",
-      website: "http://www.cs.vu.nl/~ast",
-      faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
-      talkTitle: "MINIX 3: A Reliable and Secure Operating System",
-      talkSummary: "Most computer users nowadays are nontechnical people who have  a mental model of what they expect from a computer based on their experience with TV sets and stereos: you buy it, plug it in, and it works perfectly for the next 10 years. Computers aren't like that, which leads to frustration. Part of the problem is the operating system, which is often millions of lines of kernel code, each of which can potentially bring the system down. As long as we maintain the current structure of the  operating system as a huge single monolithic program full of foreign code (device drivers) and running in kernel mode, the situation will not improve. In an attempt to provide better reliability and security, we have created a new multiserver operating system,  MINIX 3, with only 15,000 lines in kernel and the rest of the operating system split up into small components each running as a separate user-mode processes.  It is available for the x86 and ARM for embedded systems. The talk will discuss the design of the system and some of unique aspects, such as live update--the ability to replace the operating system with a new version while it is running without affecting running applications. The MINIX 3 Website is at <a href='http://www.minix3.org'>www.minix3.org</a>",
-      show: true
-    },
-    {
       id: 13,
       name: "Eduardo Espinheira",
       shortBio: "QAValue",
@@ -522,21 +522,6 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "De Estudante a Engenheiro Informático: Gestão de Carreiras para Tótós",
       talkSummary: "Nesta palestra o Eduardo vai apresentar a perspectiva de um engenheiro na gestão de carreiras e recrutamento. Em particular vai indicar 3 ferramentas fundamentais a utilizar, salientando dicas e armadilhas dos desafios dos engenheiros informáticos hoje em dia.",
-      show: true
-    },
-    {
-      id: 14,
-      name: "Wolfgang Merkt",
-      shortBio: "Roboticist & Consultant",
-      company: "Roboticist & Consultant",
-      fullBio: "Wolfgang is a roboticist and consultant. He holds first class degrees in Mechanical Engineering with Management and Robotics and Autonomous Systems and currently works on optimisation-based control for human size (6ft) humanoid robots in collaboration with NASA. Wolfgang previously completed research in industrial robotics applications for small and medium enterprises. He founded a service robotics research institute constructing a kitchen robot aged 14, and raised a six digit figure in funding to enable high school students to research and participate in competitions internationally. He is a startup accelerator graduate and mentor at entrepreneurship events. As a consultant and startup founder, he has developed and deployed software in government, law enforcement, legal document handling, education, and entertainment with numerous household brands. He's advising quickly growing ventures on technology and business strategy as well as Fortune 2000 corporations on digital transformation.",
-      image: "wolfgang_merkt.jpeg",
-      linkedin: "https://www.linkedin.com/in/wolfgangmerkt/",
-      website: "",
-      faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
-      talkTitle: "From Industrial Automation, Disaster Recovery, and Space Exploration: A Journey in Practical Robotics",
-      talkSummary: "In his talk, Wolfgang will highlight different areas of his journey in the wonderful world of robotics and touch upon challenges and frontiers in the field. In particular, he will highlight recent research successes and open challenges along with implications of an applied field.",
       show: true
     }
   ],
@@ -674,8 +659,7 @@ module.exports = {
       name: "José Pedro Teles",
       image: "jose_teles.jpg",
       role: "Programa",
-      facebook: "https://www.facebook.com/josepedro.teles.5",
-      linkedin: "www.linkedin.com/in/josé-pedro-teles",
+      linkedin: "www.linkedin.com/in/jose-pedro-teles",
       show: true
     },
     {

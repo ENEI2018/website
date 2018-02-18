@@ -20,7 +20,7 @@
 {{/if}}
 <div class="container page-content-container">
   <div class="container subscribe-area-container">
-    <div class="row info-socialmedia-row">
+    <div id="index-info" class="row info-socialmedia-row">
       <div class="col-sm-4 info-socialmedia-col info-socialmedia-col-notlast font-verylarge font-bold homepage-info-small homepage-info-entry">
         23 a 26 de Março
       </div>
@@ -111,7 +111,7 @@
           <i class="circle"></i>
           <br/>
           <div class="ticket-box">
-            <h3>Normal</h3>
+            <h3>Regular</h3>
             {{#if earlybird_soldout}}
             <p class="transparent type-note">.</p>
             {{/if}}
@@ -266,21 +266,23 @@
             {{/if}}
           {{/each}}
         </div>
+        <div class="container">
         <div class="sponsor bronze row">
           {{#each sponsors.bronze_level1}}
             {{#if show}}
-            <div class="col-md-3">
-              <a target="_blank" href="{{href}}">
-                <img title="{{name}}" alt="{{name}}" src="images/bronze/{{image}}">
-              </a>
+            <div class="col-md-2" style="background-image: url('images/bronze/{{image}}')">
+              <!--<a target="_blank" href="{{href}}">-->
+                <!--<img title="{{name}}" alt="{{name}}" src="images/bronze/logos/{{image}}">-->
+              <!--</a>-->
             </div>
             {{/if}}
           {{/each}}
         </div>
+        </div>
         <div class="sponsor bronze row ">
           {{#each sponsors.bronze_level2}}
             {{#if show}}
-            <div class="col-md-3">
+            <div class="col-md-2">
               <a target="_blank" href="{{href}}">
                 <img title="{{name}}" alt="{{name}}" src="images/bronze/{{image}}">
               </a>
@@ -291,8 +293,17 @@
       </div>
       <div class="container">
         <h1 class="sponsor-title section-title">Parceiros</h1>
-        <div class="sponsor silver">
-          {{#each partners}}
+        <div class="sponsor silver partner">
+          {{#each partners1}}
+            {{#if show}}
+              <a target="_blank" href="{{href}}">
+                <img title="{{name}}" alt="{{name}}" src="images/{{image}}">
+              </a>
+            {{/if}}
+          {{/each}}
+        </div>
+        <div class="sponsor silver partner">
+          {{#each partners2}}
             {{#if show}}
               <a target="_blank" href="{{href}}">
                 <img title="{{name}}" alt="{{name}}" src="images/{{image}}">
