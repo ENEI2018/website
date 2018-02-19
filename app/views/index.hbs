@@ -270,11 +270,12 @@
         <div class="sponsor bronze row">
           {{#each sponsors.bronze_level1}}
             {{#if show}}
-            <div class="col-md-2" style="background-image: url('images/bronze/{{image}}')">
+            <a href="{{href}}">
+            <div class="col-md-2" style="background-image: url('images/bronze/{{image}}')"></div>
+            </a>
               <!--<a target="_blank" href="{{href}}">-->
                 <!--<img title="{{name}}" alt="{{name}}" src="images/bronze/logos/{{image}}">-->
               <!--</a>-->
-            </div>
             {{/if}}
           {{/each}}
         </div>
@@ -282,7 +283,9 @@
         <div class="sponsor bronze row ">
           {{#each sponsors.bronze_level2}}
             {{#if show}}
+            <a href="{{href}}">
             <div class="col-md-2" style="background-image: url('images/bronze/{{image}}')"></div>
+            </a>
             {{/if}}
           {{/each}}
         </div>
