@@ -222,6 +222,12 @@ module.exports = {
       image: "jfparanhos.jpg",
       href: "http://www.jfparanhos-porto.pt/",
       show: true
+    },
+    {
+      name: "ScaleUp Porto",
+      image: "scaleup.png",
+      href: "http://scaleupporto.pt/",
+      show: true
     }
   ],
   speakers: [
