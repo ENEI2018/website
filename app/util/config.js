@@ -4,6 +4,7 @@ module.exports = {
   author: "NIAEFEUP+IEEE FEUP",
   update_script: "/www/website-enei/hooks/hook.sh",
   signup_spreadsheet: "1XQvB1H0EBVpU2_gvbJCl3RWGp1DkpE_Z1AzYiDFcpL8",
+  android_page: "https://play.google.com/store/apps/details?id=com.enei.eneimobile",
   sponsors: {
     main: [{
       name: "Sonae IM",
