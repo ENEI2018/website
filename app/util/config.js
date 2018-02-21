@@ -231,6 +231,12 @@ module.exports = {
       show: true
     }
   ],
+  workshops: [
+    {
+      id: 0,
+      speakers: [],
+    }
+  ],
   speakers: [
     {
       id: 12,
@@ -245,7 +251,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "MINIX 3: A Reliable and Secure Operating System",
       talkSummary: "Most computer users nowadays are nontechnical people who have  a mental model of what they expect from a computer based on their experience with TV sets and stereos: you buy it, plug it in, and it works perfectly for the next 10 years. Computers aren't like that, which leads to frustration. Part of the problem is the operating system, which is often millions of lines of kernel code, each of which can potentially bring the system down. As long as we maintain the current structure of the  operating system as a huge single monolithic program full of foreign code (device drivers) and running in kernel mode, the situation will not improve. In an attempt to provide better reliability and security, we have created a new multiserver operating system,  MINIX 3, with only 15,000 lines in kernel and the rest of the operating system split up into small components each running as a separate user-mode processes.  It is available for the x86 and ARM for embedded systems. The talk will discuss the design of the system and some of unique aspects, such as live update--the ability to replace the operating system with a new version while it is running without affecting running applications. The MINIX 3 Website is at <a href='http://www.minix3.org'>www.minix3.org</a>",
-      show: true
+      show: true,
+      speaker: true
     },
     {
       id: 1,
@@ -271,7 +278,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Como podes chegar à Google? Dicas para conseguires o teu emprego de sonho.",
       talkSummary: "",
-      show: true
+      show: true,
+      speaker: true
     },
     {
       id: 15,
@@ -295,7 +303,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "The Closure: Como o governo Russo procura exercer controlo total na internet",
       talkSummary: "\"A Internet foi criada como um projeto da CIA e continua a ser desenvolvida como tal\", uma citação infame (e longe de ser correta) do presidente russo, Putin, de abril de 2014, pode descrever de melhor forma a atitude do governo russo contemporâneo em relação à Net. Sendo geralmente céticas da Net, as autoridades russas nunca confiaram no meio. Mas, após os protestos pós-eleição de 2011-2012 e as revelações de Snowden, o Kremlin abriu uma nova frente contra ela, implementando um plano coordenado para exercer tanto controlo online como atualmente tem offline. Alexey Sidorenko, observador de longo prazo deste processo, compartilhará uma história ainda em andamento de The Closure - um lento processo de privação de liberdades para se comunicar e expressar online na Rússia.",
-      show: true
+      show: true,
+      speaker: true
     },
     {
       id: 14,
@@ -310,7 +319,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "From Industrial Automation, Disaster Recovery, and Space Exploration: A Journey in Practical Robotics",
       talkSummary: "In his talk, Wolfgang will highlight different areas of his journey in the wonderful world of robotics and touch upon challenges and frontiers in the field. In particular, he will highlight recent research successes and open challenges along with implications of an applied field.",
-      show: true
+      show: true,
+      speaker: true
     },
     {
       id: 0,
@@ -335,7 +345,8 @@ module.exports = {
       //talkDate: "A definir.",
       talkTitle: "",
       talkSummary: "A palestra será uma introdução a tecnologia blockchain, onde se irá descrever como funciona um sistema como Bitcoin e o que assegura a segurança do mesmo. Durante a palestra iremos começar por descrever o problema que estamos a tentar resolver (distributed ledger) e iterativamente construir uma solução que no final deverá ser semelhante a Bitcoin (não irá ser 100% semelhante para evitar descrever detalhes de implementação). Por fim irei também fazer uma pequena menção a outros sistema como o Ethereum.",
-      show: true
+      show: true,
+      speaker: true
     },
     {
       id: 2,
@@ -359,7 +370,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Will You Disrupt or Be Disrupted in 2018? Digital Transformation and the New Face of Business",
       talkSummary: "A Transformação Digital não é uma buzzword, é uma inevitabilidade. Temas como IoT, blockchain, quantum computing, ou Inteligência Artificial já fazem parte dos nossos dias. Esta sessão pretende fomentar o debate acerca de como a transformação digital está a alterar paradigmas e como poderá ser aplicada a 4 pilares: A co-criação com o cliente; A capacitação do colaborador; A optimização das operações e a Transformação dos produtos.",
-      show: false
+      show: false,
+      speaker: true
     },
     {
       id: 3,
@@ -387,7 +399,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Robotics Mechanics with ThreeJS",
       talkSummary: "",
-      show: true
+      show: true,
+      speaker: false
     },
     {
       id: 4,
@@ -470,7 +483,8 @@ module.exports = {
       faqs: [],
       //talkDate: "Sexta-feira, 11:42",
       talkSummary: "No desenvolvimento de um produto existe a necessidade de ter diferentes ambientes que se destinam a finalidades distintas. De forma a agilizar este processo, a disponibilização das diferentes versões de uma aplicação pode ser automatizada, utilizando um conjunto de tecnologias de continuous delivery. Esta palestra consiste numa descrição do nosso processo no Finta (uma app mobile direcionada a fãs de futebol: <a href='http://getfinta.pt/'>http://getfinta.pt/</a>) e das ferramentas usadas.",
-      show: false
+      show: false,
+      speaker: true
     },
     {
       id: 9,
@@ -485,7 +499,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Introdução à Programação Funcional com JavaScript.",
       talkSummary: "Nesta apresentação, vamos introduzir o paradigma da programação funcional usando JavaScript. Tentaremos demonstrar que tratando a computação como a avaliação de funções puras, usando dados imutáveis e preferindo expressões a comandos conseguimos produzir código mais fácil de entender, mais modular e mais fácil de testar.",
-      show: true
+      show: true,
+      speaker: true
     },
     {
       id: 10,
@@ -499,7 +514,8 @@ module.exports = {
       faqs: [],
       //talkDate: "Sexta-feira, 11:42",
       talkSummary: "Ever heard of the 4th Industrial revolution or the Industry 4.0? It's not all about the hardware. In fact, most of the hardware is already here, what we are missing is the software that will make this vision a reality. In this talk we are going to talk about the technologies driving the industry to its 4th revolution and about what we are still missing to achieve I4.0. If you want to be prepared for the next big thing in the enterprise world, join us to find more!",
-      show: true
+      show: true,
+      speaker: true
     },
     {
       id: 11,
@@ -514,7 +530,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "",
       talkSummary: "",
-      show: true
+      show: true,
+      speaker: true
     },
     {
       id: 13,
@@ -529,7 +546,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "De Estudante a Engenheiro Informático: Gestão de Carreiras para Tótós",
       talkSummary: "Nesta palestra o Eduardo vai apresentar a perspectiva de um engenheiro na gestão de carreiras e recrutamento. Em particular vai indicar 3 ferramentas fundamentais a utilizar, salientando dicas e armadilhas dos desafios dos engenheiros informáticos hoje em dia.",
-      show: true
+      show: true,
+      speaker: true
     }
   ],
   team: [{
