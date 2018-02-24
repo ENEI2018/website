@@ -92,6 +92,13 @@
   border-color: white;
 }
 
+.schedule-entry .schedule-talk-lang {
+  max-width: 1.3em;
+  max-height: 1.3em;
+  display: inline;
+  margin: -0.2em 0 0 0;
+}
+
 .entry-title {
   font-weight: bold;
   border-style: solid;

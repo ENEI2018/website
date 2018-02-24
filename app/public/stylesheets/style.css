@@ -1004,6 +1004,13 @@ img.signup-section-img {
     }
 }*/
 
+div.info-row div p .talk-lang-icon {
+    max-width: 1.6em;
+    max-height: 1.6em;
+    display: inline;
+    margin: -0.3em 0 0 1em;
+}
+
 .notfound-container {
     max-width: 800px;
     margin: auto;

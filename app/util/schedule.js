@@ -154,7 +154,8 @@ module.exports = [{
                     time: "11:00 - 12:00",
                     location: "Auditório FEUP",
                     url: "/speakers/12",
-                    show: true
+                    show: true,
+                    lang: "en"
                 },
             },
             {
@@ -224,7 +225,8 @@ module.exports = [{
                     time: "14:00 - 14:45",
                     location: "Auditório FEUP",
                     url: "/speakers/0",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col2: {
                     rowspan: 8,
@@ -273,7 +275,8 @@ module.exports = [{
                     time: "14:45 - 15:30",
                     location: "Auditório FEUP",
                     url: "/speakers/11",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -447,7 +450,8 @@ module.exports = [{
                     time: "10:00 - 10:30",
                     url: "/speakers/14",
                     location: "Auditório FEUP",
-                    show: true
+                    show: true,
+                    lang: "en"
                 },
                 col2: {
                     rowspan: 10,
@@ -490,7 +494,8 @@ module.exports = [{
                     time: "10:30 - 11:15",
                     location: "Auditório FEUP",
                     url: "/speakers/13",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -509,7 +514,8 @@ module.exports = [{
                     time: "11:15 - 11:45",
                     location: "Auditório FEUP",
                     url: "/speakers/9",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -525,7 +531,8 @@ module.exports = [{
                     time: "11:45 - 12:30",
                     location: "Auditório FEUP",
                     url: "/speakers/10",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -554,7 +561,8 @@ module.exports = [{
                     time: "14:00 - 14:30",
                     location: "Auditório FEUP",
                     url: "/speakers/1",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col2: {
                     rowspan: 8,
@@ -574,7 +582,8 @@ module.exports = [{
                     time: "14:00 - 16:00",
                     url: "/speakers/3",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col4: {
                     rowspan: 8,
@@ -841,17 +850,13 @@ module.exports = [{
                 col1: {
                     rowspan: 3,
                     colspan: 1,
-                    title: "Por anunciar",
-                    time: "11:45 - 12:30",
-                    location: "Auditório FEUP",
-                    show: true
-                    /*rowspan: 3,
-                    colspan: 1,
-                    title: "Leonel Caseiro Morgado",
+                    title: "Leonel Morgado",
                     subtitle: "Jogos Sérios e Mundos Virtuais para ensino e formação: tendências e perspetivas",
                     time: "11:45 - 12:30",
                     location: "Auditório FEUP",
-                    show: true*/
+                    show: true,
+                    url: "/speakers/17",
+                    lang: "pt"
                 }
             },
             {
@@ -892,15 +897,3 @@ module.exports = [{
         ]
     }
 ]
-
-/*
-col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                    title: "Hello There",
-                    subtitle: "Monsieur Kenobi",
-                    url: "/team",
-                    time: "10:00 - 10:45",
-                    location: "Auditório FEUP"
-                
-*/
