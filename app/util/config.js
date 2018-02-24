@@ -323,6 +323,22 @@ module.exports = {
       speaker: true
     },
     {
+      id: 16,
+      name: "Job van der Voort",
+      shortBio: "GitLab",
+      company: "GitLab",
+      role: "VP of Product",
+      fullBio: "Vindo da neurociência, Job van der Voort deu os primeiros passos no mundo da tecnologia ao criar uma startup. Mais tarde trabalhou numa infraestrutura de IT holandesa, acabando por se juntar ao GitLab. No GitLab, teve várias responsabilidades, desde suporte, engenharia até ao marketing, mas acabou a liderar a direção do produto como VP de Produto. No seu tempo livre, Job gosta de criar pequenas e úteis aplicações e jogar jogos de tabuleiro.",
+      image: "job_voort.jpg",
+      linkedin: "https://www.linkedin.com/in/jobvo/",
+      faqs: [],
+      //talkDate: "Sexta-feira, 11:42",
+      talkTitle: "GitLab",
+      talkSummary: "O GitLab iniciou-se como um projeto open source. Com o passar dos ano, cresceu e tornou-se num empresa constituída por cerca de 250 pessoas. Em vez de abrir um escritório em São Francisco, o GitLab fez tudo remotamente: 0 escritórios. Além disso, todo o trabalho desenvolvido pelo GitLab é aberto. Nesta talk, Job examinará como o GitLab gere o seu crescimento como empresa, onde todos podem trabalhar com os seus pijamas e onde todo o trabalho é público.",
+      show: false,
+      speaker: true
+    },
+    {
       id: 0,
       name: "André Silva",
       shortBio: "Parity Technologies",
@@ -478,7 +494,7 @@ module.exports = {
       company: "Pixelmatters",
       role: "Mobile Developer",
       fullBio: "Concluí o mestrado em Engenharia de Computadores e Telemática pela Universidade de Aveiro em 2016. Fui iOS e backend developer numa aplicação de apostas amigáveis de futebol para o Euro 2016 (Kiss my score). Desde Julho de 2016 sou mobile developer na Pixelmatters. Foco-me em construir boas experiências de utilização e arquiteturas modulares e escaláveis.",
-      image: "ivo_silva.png",
+      image: "ivo_silva.jpg",
       linkedin: "https://www.linkedin.com/in/ivopintodasilva/",
       faqs: [],
       //talkDate: "Sexta-feira, 11:42",
@@ -546,6 +562,23 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "De Estudante a Engenheiro Informático: Gestão de Carreiras para Tótós",
       talkSummary: "Nesta palestra o Eduardo vai apresentar a perspectiva de um engenheiro na gestão de carreiras e recrutamento. Em particular vai indicar 3 ferramentas fundamentais a utilizar, salientando dicas e armadilhas dos desafios dos engenheiros informáticos hoje em dia.",
+      show: true,
+      speaker: true
+    },
+    {
+      id: 17,
+      name: "Leonel Morgado",
+      shortBio: "INESC TEC",
+      company: "INESC TEC",
+      role: "Researcher",
+      fullBio: "Leonel Morgado é Professor Auxiliar com Agregação na Universidade Aberta. Leciona nos cursos da secção de informática, nas áreas de métodos de investigação, mundos virtuais e programação. Desenvolve trabalho de investigação científica e desenvolvimento tecnológico sobre mundos virtuais desde 2000, em especial no apoio tecnológico ao ensino e à aprendizagem, tendo vindo a concentrar-se nas plataformas multi utilizador desde 2006. É autor de mais de 100 publicações científicas, incluindo artigos em revistas, comunicações em conferências e capítulos de livros. Antes de abraçar a carreira académica foi diretor técnico-comercial de uma empresa de importação, distribuição e venda de hardware, terminologista da localização do MS Office 97 e do Oracle InterOffice, consultor linguístico da IBM/Lotus, coordenador de equipas de desenvolvimento Web e de implantação de software, e gestor de equipas de combate à infoexclusão.",
+      image: "leonel.jpg",
+      linkedin: "https://www.linkedin.com/in/leonel-morgado/",
+      website: "http://www.degois.pt/visualizador/cv.jsp?key=5033201325101998",
+      faqs: [],
+      //talkDate: "Sexta-feira, 11:42",
+      talkTitle: "Jogos Sérios e Mundos Virtuais para ensino e formação: tendências e perspetivas.",
+      talkSummary: "",
       show: true,
       speaker: true
     }
