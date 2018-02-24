@@ -88,6 +88,9 @@
         <h4 class="about-talk-title">Sobre a palestra</h3>
         <h5>{{speaker.talkDate}}</h5>
         <h4>{{speaker.talkTitle}}</h4>
+        {{#if speaker.lang}}
+        <p class="speaker-page-talk">Idioma: <img class="talk-lang-icon" src="/images/{{speaker.lang}}-flag.png"/></p>
+        {{/if}}
         <p class="speaker-page-talk">{{{speaker.talkSummary}}}</p>
         {{/if}}
       </div>
