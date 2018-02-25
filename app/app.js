@@ -22,6 +22,7 @@ var notfound = require('./routes/notfound');
 var android = require('./routes/android');
 var tickets = require('./routes/tickets');
 var workshops = require('./routes/workshops');
+var talks = require('./routes/talks');
 
 var app = express();
 
@@ -54,6 +55,7 @@ app.use('/android', android);
 app.use('/tickets', tickets);
 app.use('/bilhetes', tickets);
 app.use('/workshops', workshops);
+app.use('/talks', talks);
 
 // register path to partials
 hbs.registerPartials(__dirname + '/views/partials');

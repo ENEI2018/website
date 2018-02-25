@@ -601,6 +601,38 @@ module.exports = {
       lang: "pt"
     }
   ],
+  talks: [
+    {
+      id: 0,
+      title: "Sessão de Networking",
+      desc: "<p>Esta atividade é focada na resolução, por parte dos participantes, de problemas propostos pelos nossos patrocinadores. O objetivo é que os estudantes apresentem soluções num curto espaço de tempo para uma problemática relacionada com informática. Estes problemas poderão ser a melhor tecnologia a utilizar para uma determinada tarefa, como arquiteturar um sistema com os componentes especificados pela empresa, etc.</p><p>A organização da atividade passa pela colocação de várias empresas em mesas diferentes que serão visitadas durante cerca de 5 minutos por grupo de 3 a 5 participantes para resolverem o desafio proposto pela equipa lá presente.</p><p>A Sessão de Networking é importante para participantes que estejam à procura quer de trabalho a tempo inteiro, quer estágios (de verão ou não). Após a sessão espera-se que os representantes dos nossos patrocinadores na sessão façam uma avaliação e contactem os estudantes com melhores soluções!</p>",
+      image: "/images/sessao_networking.svg",
+      date: "25 de Março | 15:00 - 16:00",
+      //location: "Auditório FEUP",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 1,
+      title: "Sessão de Cocktails",
+      desc: "<p>A Sessão de Cocktails é uma atividade focada no conhecimento dos nossos patrocinadores e no networking. Esta sessão é constituída por pequenos pitches (entre 2 a 5 minutos) das empresas presentes que tentarão apresentar o seu trabalho, objetivo e quais vagas têm atualmente abertas para estudantes, recém-licenciados ou recém-mestres.</p><p>Após uma série de apresentações, haverá um intervalo em que os participantes poderão contactar os nossos patrocinadores pelos quais poderão ter ficado interessados e preparar, então, o seu futuro.</p>",
+      image: "/images/sessao_cocktails.svg",
+      date: "25 de Março | 18:30 - 20:15",
+      //location: "Auditório FEUP",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 2,
+      title: "Jantar com Patrocinadores",
+      desc: "<p>O Jantar com Patrocinadores é uma atividade inovadora que visa criar uma maior relação entre participantes e o mundo empresarial. O objetivo principal é permitir que estudantes comuniquem com representantes de alguns dos nossos patrocinadores a fim de obter mais informações sobre a empresa, o seu funcionamento, se estão a recrutar, etc.</p><p>Esta atividade ocorre em simultâneo com a Mega Febrada.</p><p>Para participação neste Jantar, os participantes deverão enviar o seu Curriculum Vitae e este será o critério de seleção de modo a tentar criar laços comuns entre a experiência dos estudantes e os interesses de cada patrocinador presente.</p>",
+      image: "/images/sessao_networking.svg",
+      date: "25 de Março | 20:30 - 23:45",
+      location: "Quinta de Santo António",
+      faqs: [],
+      show: true
+    }
+  ],
   team: [{
       id: 0,
       name: "Bernardo Belchior",
