@@ -231,6 +231,20 @@
           </div>
         </div>
       </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+              Como posso chegar ao ENEI?</a>
+          </h4>
+        </div>
+        <div id="collapse6" class="panel-collapse collapse">
+          <div class="panel-body faq-answer">
+            A maior parte das atividades do ENEI vão-se realizar na FEUP, e terás transporte a partir de lá para aquelas que são noutros locais.
+            Podes ver como chegar à FEUP <a href="https://sigarra.up.pt/feup/pt/web_base.gera_pagina?p_pagina=*localiza%C3%A7%C3%A3o">aqui</a>.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -270,11 +284,12 @@
         <div class="sponsor bronze row">
           {{#each sponsors.bronze_level1}}
             {{#if show}}
-            <div class="col-md-2" style="background-image: url('images/bronze/{{image}}')">
+            <a href="{{href}}">
+            <div class="col-md-2" style="background-image: url('images/bronze/{{image}}')"></div>
+            </a>
               <!--<a target="_blank" href="{{href}}">-->
                 <!--<img title="{{name}}" alt="{{name}}" src="images/bronze/logos/{{image}}">-->
               <!--</a>-->
-            </div>
             {{/if}}
           {{/each}}
         </div>
@@ -282,11 +297,9 @@
         <div class="sponsor bronze row ">
           {{#each sponsors.bronze_level2}}
             {{#if show}}
-            <div class="col-md-2">
-              <a target="_blank" href="{{href}}">
-                <img title="{{name}}" alt="{{name}}" src="images/bronze/{{image}}">
-              </a>
-            </div>
+            <a href="{{href}}">
+            <div class="col-md-2" style="background-image: url('images/bronze/{{image}}')"></div>
+            </a>
             {{/if}}
           {{/each}}
         </div>

@@ -73,7 +73,7 @@
   border-width: 4px 1px 1px 1px;
 }
 
-.with-nav-tabs.panel-default .nav-tabs>li.custom-tab-item-odd.active>a {
+.with-nav-tabs.panel-default .nav-tabs>li.custom-tab-item.active>a {
   border-color: transparent !important;
   border-top-color: white !important;
   background-color: var(--main-highlight-purple);
@@ -90,6 +90,13 @@
   border-style: solid;
   border-width: 0 0 0 2px;
   border-color: white;
+}
+
+.schedule-entry .schedule-talk-lang {
+  max-width: 1.3em;
+  max-height: 1.3em;
+  display: inline;
+  margin: -0.2em 0 0 0;
 }
 
 .entry-title {
