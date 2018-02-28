@@ -949,13 +949,13 @@ img.signup-section-img {
 
 @media (min-width: 490px) {
     .sponsor.bronze div {
-        min-width: 60px;
+        min-width: 70px;
     }
 }
 
 @media (max-width: 490px) {
     .sponsor.bronze div {
-        min-width: 40px;
+        min-width: 45px;
     }
 }
 
