@@ -75,7 +75,10 @@ module.exports = [{
                 break: true,
                 title: "Festarola",
                 location: "AEFEUP",
-                rowspan: 1
+                rowspan: 2
+            },
+            {
+                start: "02:45",
             }
         ]
     },
@@ -84,7 +87,59 @@ module.exports = [{
         day: "24 de Março",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
-        schedule: [{
+        schedule: [
+            {
+                start: "08:00",
+                break: true,
+                title: "Alvorada",
+                rowspan: 2
+            },
+            {
+                start: "08:30",
+                col1: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col2: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col3: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col4: {
+                    rowspan: 1,
+                    colspan: 1,
+                }
+            },
+            {
+                start: "08:45",
+                break: true,
+                title: "Pequeno-almoço",
+                location: "Cantina de Engenharia",
+                rowspan: 2
+            },
+            {
+                start: "09:45",
+                col1: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col2: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col3: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col4: {
+                    rowspan: 1,
+                    colspan: 1,
+                }
+            },
+            {
                 start: "10:00",
                 col1: {
                     rowspan: 4,
@@ -434,13 +489,40 @@ module.exports = [{
                 start: "20:45",
             },
             {
+                special: true,
                 start: "21:00",
+                col1: {
+                    title: "Rally das Tascas",
+                    rowspan: 2,
+                    colspan: 2,
+                },
+                col2: {
+                    title: "Peddy Paper",
+                    rowspan: 2,
+                    colspan: 2,
+                },
                 break: true,
-                title: "Rally das Tascas e Peddy Paper",
-                rowspan: 2
             },
             {
                 start: "23:45",
+            },
+            {
+                special: true,
+                start: "00:00",
+                col1: {
+                    title: "Discoteca na Baixa",
+                    rowspan: 2,
+                    colspan: 2,
+                },
+                col2: {
+                    title: "Deslocamento (Baixa → Engenharia)",
+                    rowspan: 2,
+                    colspan: 2,
+                },
+                break: true,
+            },
+            {
+                start: "03:45",
             }
         ]
     },
@@ -449,7 +531,59 @@ module.exports = [{
         day: "25 de Março",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
-        schedule: [{
+        schedule: [
+            {
+                start: "08:00",
+                break: true,
+                title: "Alvorada",
+                rowspan: 2
+            },
+            {
+                start: "08:30",
+                col1: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col2: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col3: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col4: {
+                    rowspan: 1,
+                    colspan: 1,
+                }
+            },
+            {
+                start: "08:45",
+                break: true,
+                title: "Pequeno-almoço",
+                location: "Cantina de Engenharia",
+                rowspan: 2
+            },
+            {
+                start: "09:45",
+                col1: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col2: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col3: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col4: {
+                    rowspan: 1,
+                    colspan: 1,
+                }
+            },
+            {
                 start: "10:00",
                 col1: {
                     rowspan: 2,
@@ -745,14 +879,32 @@ module.exports = [{
                 },
             },
             {
-                start: "18:30",
+                special: true,
+                start: "18:45",
+                col1: {
+                    title: "Sessão de Cocktails",
+                    rowspan: 2,
+                    colspan: 2,
+                },
+                col2: {
+                    title: "Sponsor Showcase",
+                    rowspan: 2,
+                    colspan: 2,
+                },
+                break: true,
+            },
+            {
+                start: "20:15",
+            },
+            {
+                start: "20:30",
                 break: true,
                 title: "Mega febrada",
                 location: "AEFEUP",
                 rowspan: 2
             },
             {
-                start: "20:00",
+                start: "02:45",
             }
         ]
     },
@@ -762,6 +914,57 @@ module.exports = [{
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
+            {
+                start: "08:00",
+                break: true,
+                title: "Alvorada",
+                rowspan: 2
+            },
+            {
+                start: "08:30",
+                col1: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col2: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col3: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col4: {
+                    rowspan: 1,
+                    colspan: 1,
+                }
+            },
+            {
+                start: "08:45",
+                break: true,
+                title: "Pequeno-almoço",
+                location: "Cantina de Engenharia",
+                rowspan: 2
+            },
+            {
+                start: "09:45",
+                col1: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col2: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col3: {
+                    rowspan: 1,
+                    colspan: 1,
+                },
+                col4: {
+                    rowspan: 1,
+                    colspan: 1,
+                }
+            },
             {
                 start: "10:00",
                 col1: {
