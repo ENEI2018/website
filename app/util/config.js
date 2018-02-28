@@ -767,6 +767,7 @@ module.exports = {
       shortBio: "Student @IPL ESTG",
       company: "IPLeiria - Escola Superior de Tecnologia e Gestão",
       image: "bruno_oliveira.jpg",
+      facebook: "https://www.facebook.com/bruno.oliveira.5680899",
       show: true
     },
     {
@@ -859,6 +860,7 @@ module.exports = {
       company: "Universidade de Trás os Montes e Alto Douro , UTAD",
       image: "pedro_alves.jpg",
       linkedin: "www.linkedin.com/in/pedro-alves-ba4589b0",
+      facebook: "https://www.facebook.com/pedro.alves.3762",
       show: true
     },
     {
@@ -879,7 +881,6 @@ module.exports = {
       shortBio: "Student @UBI",
       company: "Universidade da Beira Interior",
       image: "americo_sa.jpg",
-      linkedin: "https://www.linkedin.com/in/pedro-alves-ba4589b0",
       facebook: "https://www.facebook.com/americo.pereira.31?ref=br_rs",
       show: false
     },
