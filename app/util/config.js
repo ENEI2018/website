@@ -339,9 +339,25 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "GitLab",
       talkSummary: "O GitLab iniciou-se como um projeto open source. Com o passar dos ano, cresceu e tornou-se num empresa constituída por cerca de 250 pessoas. Em vez de abrir um escritório em São Francisco, o GitLab fez tudo remotamente: 0 escritórios. Além disso, todo o trabalho desenvolvido pelo GitLab é aberto. Nesta talk, Job examinará como o GitLab gere o seu crescimento como empresa, onde todos podem trabalhar com os seus pijamas e onde todo o trabalho é público.",
-      show: false,
+      show: true,
       speaker: true,
       lang: "en"
+    },
+    {
+      id: 18,
+      name: "Guilherme Duarte",
+      shortBio: "Por Falar Noutra Coisa",
+      company: "Por Falar Noutra Coisa",
+      role: "Humourist",
+      fullBio: "Nascido na Buraca, engenheiro informático de formação, curso que, para desgosto dos seus pais, apenas utiliza para atualizar o seu site.<br/>Cedo percebeu que fazer humor era a melhor forma de desarmar assaltantes e em 2014 decidiu criar um blogue, Por Falar Noutra Coisa, para escrever opiniões raramente sérias, muitas vezes parvas.<br/>Faz stand up comedy. Faz vídeos e sketches. Faz um podcast. Faz crónicas para o SAPO 24. Faz o jantar e lava a loiça enquanto a sua namorada vê a novela.",
+      image: "guilherme_duarte.png",
+      linkedin: "https://www.linkedin.com/in/guilhermercd/",
+      website: "http://guilhermeduarte.pt/",
+      faqs: [],
+      talkTitle: "",
+      talkSummary: "",
+      show: true,
+      speaker: true,
     },
     {
       id: 0,
@@ -638,7 +654,6 @@ module.exports = {
       name: "Bernardo Belchior",
       image: "bernardo_belchior.jpg",
       role: "Coordenador Geral",
-      //facebook: "https://www.facebook.com/bernardo.belchior",
       linkedin: "https://www.linkedin.com/in/bernardobelchior",
       show: true
     },
@@ -647,7 +662,6 @@ module.exports = {
       name: "Rui Vilares",
       image: "rui_vilares.jpg",
       role: "Coordenador Geral",
-      //facebook: "https://www.facebook.com/RuiVilares1",
       linkedin: "www.linkedin.com/in/ruivilares",
       show: true
     },
@@ -656,7 +670,6 @@ module.exports = {
       name: "Afonso Jorge Ramos",
       image: "afonso_ramos.jpg",
       role: "Relações Empresariais",
-      //facebook: "https://www.facebook.com/afonsojramos",
       linkedin: "https://www.linkedin.com/in/afonsoramos/",
       show: true
     },
