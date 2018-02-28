@@ -60,8 +60,16 @@
                   {{#each schedule}}
                   <tr>
                     <th scope="row">{{start}}</th>
-                    {{#if break}}
-                    <!-- BREAK-->
+                    {{#if special}}
+                    <td class="schedule-entry break-entry" colspan="2" rowspan="{{col1.rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{col1.rowspan}}"><span>{{col1.title}}</span></div>
+                    </td>
+                    <td class="schedule-entry break-entry" colspan="2" rowspan="{{col2.rowspan}}">
+                      <div class="schedule-entry-container rowcount-{{col2.rowspan}}"><span>{{col2.title}}</span></div>
+                    </td>
+                    <!-- SPECIAL -->
+                    {{else if break}}
+                    <!-- BREAK -->
                     <td class="schedule-entry break-entry" colspan="4" rowspan="{{rowspan}}">
                       {{#if location}}
                       <div class="schedule-entry-container {{class}} rowcount-{{rowspan}}"><span>{{title}} | {{location}}</span></div>
@@ -69,8 +77,8 @@
                       <div class="schedule-entry-container rowcount-{{rowspan}}"><span>{{title}}</span></div>
                       {{/if}}
                     </td>
-                    {{else}}
                     <!-- COL 1 - TALKS-->
+                    {{else}}
                     {{#if col1}}
                     {{#if col1.show}}
                     <td class="schedule-entry" colspan="{{col1.colspan}}" rowspan="{{col1.rowspan}}">
