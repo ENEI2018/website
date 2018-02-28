@@ -431,8 +431,17 @@ module.exports = [{
                 rowspan: 2
             },
             {
-                start: "19:45",
+                start: "20:45",
             },
+            {
+                start: "21:00",
+                break: true,
+                title: "Rally das Tascas e Peddy Paper",
+                rowspan: 2
+            },
+            {
+                start: "23:45",
+            }
         ]
     },
     {
@@ -738,7 +747,8 @@ module.exports = [{
             {
                 start: "18:30",
                 break: true,
-                title: "Por anunciar",
+                title: "Mega febrada",
+                location: "AEFEUP",
                 rowspan: 2
             },
             {

@@ -73,7 +73,7 @@
   border-width: 4px 1px 1px 1px;
 }
 
-.with-nav-tabs.panel-default .nav-tabs>li.custom-tab-item-odd.active>a {
+.with-nav-tabs.panel-default .nav-tabs>li.custom-tab-item.active>a {
   border-color: transparent !important;
   border-top-color: white !important;
   background-color: var(--main-highlight-purple);
