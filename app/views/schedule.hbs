@@ -21,7 +21,8 @@
     <div class="panel with-nav-tabs panel-default">
       <div class="panel-heading">
         <ul class="nav nav-tabs">
-          {{#each schedule}} {{#if id}}
+          {{#each schedule}}
+          {{#if @index}}
           <li class="custom-tab-item custom-tab-item-odd">
             <a href="#eneiday{{id}}" data-toggle="tab">{{day}}</a>
           </li>
@@ -29,7 +30,8 @@
           <li class="active custom-tab-item custom-tab-item-odd">
             <a href="#eneiday{{id}}" data-toggle="tab">{{day}}</a>
           </li>
-          {{/if}} {{/each}}
+          {{/if}}
+          {{/each}}
           <!--<li class="active custom-tab-item custom-tab-item-odd"><a href="#tab1default" data-toggle="tab">23 de Março</a></li>
           <li class="custom-tab-item custom-tab-item-even"><a href="#tab2default" data-toggle="tab">24 de Março</a></li>
           <li class="custom-tab-item custom-tab-item-odd"><a href="#tab3default" data-toggle="tab">25 de Março</a></li>
