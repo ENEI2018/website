@@ -732,6 +732,7 @@ module.exports = {
       company: "Departamento de Engenharia Informática - FCTUC",
       image: "cesario_silva.jpg",
       linkedin: "https://www.linkedin.com/in/ces%C3%A1rio-silva-47382a138/",
+      facebook: "https://www.facebook.com/cesario.silva.35?ref=br_rs",
       show: true
     },
     {
@@ -743,6 +744,7 @@ module.exports = {
       company: "Universidade Fernando Pessoa",
       image: "rafael_almeida.jpg",
       linkedin: "https://www.linkedin.com/in/rafaelcpalmeida/",
+      facebook: "https://www.facebook.com/rafaelcpalmeida?ref=br_rs",
       show: true
     },
     {
@@ -754,6 +756,7 @@ module.exports = {
       company: "IPLeiria - Escola Superior de Tecnologia e Gestão",
       image: "rute_ferreira.jpg",
       linkedin: "www.linkedin.com/in/rute-leite-ferreira",
+      facebook: "https://www.facebook.com/profile.php?id=100009992556919&ref=br_rs",
       show: true
     },
     {
@@ -775,6 +778,7 @@ module.exports = {
       company: "Instituto Superior de Engenharia do Porto",
       image: "tiago_rios.jpg",
       linkedin: "https://www.linkedin.com/in/tiagojsrios/",
+      facebook: "https://www.facebook.com/joaotiagow?ref=br_rs",
       show: true
     },
     {
@@ -786,6 +790,7 @@ module.exports = {
       company: "Universidade da Beira Interior",
       image: "vasco_lopes.jpg",
       linkedin: "https://www.linkedin.com/in/vasco-lopes",
+      facebook: "https://www.facebook.com/vasco.ferrinholopes?ref=br_rs",
       show: true
     },
     {
@@ -796,6 +801,7 @@ module.exports = {
       shortBio: "Student @ISCAC",
       company: "Instituto Superior de Contabilidade e Administração de Coimbra",
       image: "claudia_pimenta.jpg",
+      facebook: "https://www.facebook.com/profile.php?id=100001543608308&ref=br_rs",
       show: true
     },
     {
@@ -806,6 +812,7 @@ module.exports = {
       shortBio: "Student @ISCAC",
       company: "Universidade de Aveiro",
       image: "filipe_vale.jpg",
+      facebook: "https://www.facebook.com/FilipeMiguelVale?ref=br_rs",
       show: true
     },
     {
@@ -816,6 +823,7 @@ module.exports = {
       shortBio: "Student @IPVC-ESTG",
       company: "IPVC - Escola Superior de Tecnologia e Gestão",
       image: "ana_longras.jpg",
+      facebook: "https://www.facebook.com/ana.longras?ref=br_rs",
       show: true
     },
     {
@@ -827,6 +835,7 @@ module.exports = {
       company: "Universidade de Aveiro",
       image: "joao_fonseca.jpg",
       linkedin: "https://pt.linkedin.com/in/jpedrofonseca",
+      facebook: "https://www.facebook.com/jpedrocfonseca",
       show: true
     },
     {
@@ -838,6 +847,7 @@ module.exports = {
       company: "Instituto Superior de Engenharia de Coimbra (ISEC)",
       image: "sergio_ramos.jpg",
       linkedin: "https://www.linkedin.com/in/sergioramosxvii/",
+      facebook: "https://www.facebook.com/sergio.ramos.XVII?ref=br_rs",
       show: true
     },
     {
@@ -869,8 +879,33 @@ module.exports = {
       shortBio: "Student @UBI",
       company: "Universidade da Beira Interior",
       image: "americo_sa.jpg",
-      linkedin: "www.linkedin.com/in/pedro-alves-ba4589b0",
+      linkedin: "https://www.linkedin.com/in/pedro-alves-ba4589b0",
+      facebook: "https://www.facebook.com/americo.pereira.31?ref=br_rs",
       show: false
+    },
+    {
+      id: 14,
+      name: "Adriana Guedes",
+      email: "adrianaguedes13@gmail.com",
+      phone: 938900496,
+      shortBio: "Student @UM",
+      company: "Universidade do Minho",
+      image: "adriana_guedes.jpg",
+      linkedin: "https://www.linkedin.com/in/adriana-guedes-b47632134/",
+      facebook: "https://www.facebook.com/adrianasg122?ref=br_rs",
+      show: true
+    },
+    {
+      id: 15,
+      name: "Sérgio Costa",
+      email: "asergioalvesc@gmail.com",
+      phone: 913290141,
+      shortBio: "Student @UM",
+      company: "Universidade do Minho",
+      image: "sergio_costa.jpg",
+      linkedin: "https://www.linkedin.com/in/asergioacosta",
+      facebook: "https://www.facebook.com/asergioalvesc",
+      show: true
     }
   ]
 };

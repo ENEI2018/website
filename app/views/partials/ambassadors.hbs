@@ -5,9 +5,17 @@
         <div class="img-ratio-wrapper img-background" style="background-image: url(/images/ambassadors/{{image}});">
             <div class="speaker-overlay">
                 <div class="row overlay-content">
-                    <a class="col-md-3 col-lg-2" href="{{linkedin}}" target="_blank">
-                        <img src="/images/linkedin.svg" alt="LinkedIn" width="40px" height="40px" />
+                    {{#if facebook}}
+                    <a class="col-md-3 col-lg-2" href="{{facebook}}" target="_blank">
+                        <img src="/images/facebook.svg" alt="LinkedIn" width="40px" height="40px" />
                     </a>
+                    {{else}}
+                        {{#if linkedin}}
+                        <a class="col-md-3 col-lg-2" href="{{linkedin}}" target="_blank">
+                            <img src="/images/linkedin.svg" alt="LinkedIn" width="40px" height="40px" />
+                        </a>
+                        {{/if}}
+                    {{/if}}
                     <div class="col-md-9 col-lg-10">
                         <div class="speaker-name">
                             {{name}}
