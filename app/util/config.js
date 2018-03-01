@@ -887,7 +887,7 @@ module.exports = {
       phone: 914006473, 
       shortBio: "Student @IPL ESTG",
       company: "IPLeiria - Escola Superior de Tecnologia e Gestão",
-      image: "bruno_oliveira.jpg",
+      image: "bruno_oliveira.JPG",
       facebook: "https://www.facebook.com/bruno.oliveira.5680899",
       show: true
     },
