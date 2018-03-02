@@ -1030,6 +1030,14 @@ div.info-row div p .talk-lang-icon {
     vertical-align: middle;
 }
 
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    h1.speakers-title {
+        font-size: 250%;
+    }
+    
+}
+
 .speakers-container {
     max-width: 1200px;
     margin: 3em auto !important;

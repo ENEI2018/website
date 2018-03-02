@@ -7,8 +7,7 @@ module.exports = {
     schedule: process.env.ENEI_dev === '1' || true,
     team: process.env.ENEI_dev === '1' || true,
     earlybird_soldout: process.env.ENEI_dev === '1' || true,
-    ambassadors: process.env.ENEI_dev === '1' || true
-    ambassadors: process.env.ENEI_dev === '1' || false,
+    ambassadors: process.env.ENEI_dev === '1' || true,
     workshops: process.env.ENEI_dev === '1' || false,
     talks: process.env.ENEI_dev === '1' || true
 }
