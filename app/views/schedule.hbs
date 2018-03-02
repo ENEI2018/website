@@ -63,7 +63,7 @@
                     {{#if special}}
                     <!-- SPECIAL -->
                     <td class="schedule-entry break-entry" colspan="2" rowspan="{{col1.rowspan}}">
-                      <div class="schedule-entry-container rowcount-{{col1.rowspan}}"><span>{{col1.title}}</span></div>
+                      <div class="schedule-entry-container rowcount-{{col1.rowspan}}"><span>{{{col1.title}}}</span></div>
                     </td>
                     <td class="schedule-entry break-entry" colspan="2" rowspan="{{col2.rowspan}}">
                       <div class="schedule-entry-container rowcount-{{col2.rowspan}}"><span>{{col2.title}}</span></div>
@@ -113,7 +113,7 @@
                       {{#if col2.subtitle}}
                       <div class="block-subtitle">{{{col2.subtitle}}}
                         {{#if col2.lang}}
-                          <img class="schedule-talk-lang" src="/images/{{col1.lang}}-flag.png"/>
+                          <img class="schedule-talk-lang" src="/images/{{col2.lang}}-flag.png"/>
                         {{/if}}
                       </div>
                       {{/if}}

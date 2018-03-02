@@ -1,6 +1,6 @@
 module.exports = [{
         id: 0,
-        day: "23 de Março",
+        day: "23 de Março (6ªF)",
         colTitle1: "Palestras",
         colTitle2: "Atividades",
         schedule: [{
@@ -84,7 +84,7 @@ module.exports = [{
     },
     {
         id: 1,
-        day: "24 de Março",
+        day: "24 de Março (Sab)",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
@@ -163,6 +163,7 @@ module.exports = [{
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
+                    url: "/talks/3",
                     lang: "pt"
                 },
                 col3: {
@@ -170,11 +171,12 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Renato Rodrigues",
-                    subtitle: "Web Security",
+                    title: "Renato Rodrigues e César Silva",
+                    subtitle: "Web Security Foundations - Hands-on!",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
+                    url: "/talks/4",
                     lang: "pt"
                 },
                 col4: {
@@ -187,6 +189,7 @@ module.exports = [{
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
+                    url: "/talks/5",
                     lang: "pt"
                 },
             },
@@ -282,9 +285,9 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Filipe Carvalho",
-                    subtitle: "Android Testing",
-                    url: "/speakers/7",
+                    title: "Filipe Carvalho e Fábio Barbosa",
+                    subtitle: "Espresso The Android Way",
+                    url: "/talks/6",
                     time: "14:00 - 16:00",
                     location: "Sala a anunciar",
                     show: true,
@@ -297,6 +300,7 @@ module.exports = [{
                     title: "Sessão de Networking",
                     time: "14:00 - 16:00",
                     location: "Sala a anunciar",
+                    url: "/talks/0",
                     show: true
                 },
                 col4: {
@@ -509,7 +513,7 @@ module.exports = [{
     },
     {
         id: 2,
-        day: "25 de Março",
+        day: "25 de Março (Dom)",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
@@ -582,11 +586,12 @@ module.exports = [{
                     colspan: 1,
                     class: "day-2-fixer",
                     title: "Paulo Patrício e Sandra Simões",
-                    subtitle: "Internet of Things",
+                    subtitle: "Internet Of Things – Da Conceptualização À Criação",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
-                    lang: "pt"
+                    lang: "pt",
+                    url: "/talks/7"
                 },
                 col3: {
                     rowspan: 10,
@@ -597,7 +602,8 @@ module.exports = [{
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
-                    lang: "pt"
+                    lang: "pt",
+                    url: "/talks/8"
                 },
                 col4: {
                     rowspan: 10,
@@ -703,7 +709,8 @@ module.exports = [{
                     time: "14:00 - 16:00",
                     location: "Sala por definir",
                     show: true,
-                    lang: "pt"
+                    lang: "pt",
+                    url: "/talks/10"
                 },
                 col3: {
                     rowspan: 8,
@@ -726,7 +733,8 @@ module.exports = [{
                     time: "14:00 - 16:00",
                     location: "Sala por definir",
                     show: true,
-                    lang: "pt"
+                    lang: "pt",
+                    url: "/talks/11"
                 }
             },
             {
@@ -862,9 +870,10 @@ module.exports = [{
                 special: true,
                 start: "18:45",
                 col1: {
-                    title: "Sessão de Cocktails",
+                    title: "<a href=\"/talks/1\">Sessão de Cocktails</a>",
                     rowspan: 2,
                     colspan: 2,
+                    url: "/talks/1",
                 },
                 col2: {
                     title: "Sponsor Showcase",
@@ -890,7 +899,7 @@ module.exports = [{
     },
     {
         id: 3,
-        day: "26 de Março",
+        day: "26 de Março (2ªF)",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
@@ -967,7 +976,8 @@ module.exports = [{
                     time: "10:00 - 12:30",
                     location: "Sala a anunciar",
                     show: true,
-                    lang: "pt"
+                    lang: "pt",
+                    url: "/talks/12"
                 },
                 col3: {
                     rowspan: 10,
@@ -989,7 +999,8 @@ module.exports = [{
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
-                    lang: "pt"
+                    lang: "pt",
+                    url: "/talks/13"
                 }
             },
             {

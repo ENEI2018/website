@@ -391,16 +391,7 @@ module.exports = {
       github: "https://github.com/ferrolho",
       website: "https://ferrolho.github.io/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 14:00 - 16:00",
       talkTitle: "Robotics Mechanics with ThreeJS",
       talkSummary: "",
       show: true,
@@ -417,19 +408,11 @@ module.exports = {
       image: "mario_carneiro.jpg",
       linkedin: "https://www.linkedin.com/in/mariocarneiro/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
-      talkTitle: "Introduction to the Arduino ecosystem and the internet of things.",
-      talkSummary: "Developments in microcontroller technology have made it easier than ever to empower electronics projects with internet connectivity. Armed with very basic notions of electronics, programming and networking every junior engineering student has, this workshop will show you how to consolidate all that knowledge and put it to use to build and connect real-world circuits and devices to the internet. We will build simple circuits using Arduino-like platforms and electronic components, like using temperature and humidity sensors and displaying its readings on a character LCD screen or using a relay switch to control a light bulb. We’ll then use the networking capabilities of the ESP8266 microcontroller to do prototypical Internet of Things tasks, like logging the sensor data with the help of a cloud service, or how to control your physical circuit’s on/off state from a web page. You have to bring your own computer for this, but we’ll provide all the electronic components you’ll need.",
-      show: false,
+      talkDate: "Segunda-feira 26/03 | 10:00 - 12:00",
+      talkTitle: "Introdução ao ecossistema do Arduino e às IoT.",
+      talkSummary: "<p>Avanços na tecnologia de microprocessadores tornaram mais fácil do que nunca potenciar projectos electrónicos com ligação à internet. Através de noções básicas de electrónica, programação e redes que todos os novos estudantes engenheiros possuem, este workshop irá demonstrar como consolidar esse conhecimento e colocá-lo em prática para construir e ligar circuitos e dispositivos à internet.</p><p>Iremos construir pequenos circuitos usando plataformas da família Arduino e componentes eletrônicos, como sensores de temperatura e humidade e apresentar as leituras em um ecrã LCD ou usando um interruptor para controlar uma lâmpada. Iremos depois usar as interfaces de redes do micro-controlador ESP8266 para prototipar tarefas de IoT como logar dados dos sensores com a ajudar de serviços da cloud, ou como controlar o estado on/off de circuitos físicos através de uma página web.</p><p>Terás de trazer o teu próprio computador para este workshop, iremos fornecer todos os componentes electrónicos necessários.</p>",
+      show: true,
+      speaker: false,
       lang: "pt"
     },
     {
@@ -442,10 +425,11 @@ module.exports = {
       image: "joao_gradim.jpg",
       linkedin: "https://www.linkedin.com/in/jo%C3%A3o-gradim-b41770150/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
-      talkTitle: "Introduction to the Arduino ecosystem and the internet of things.",
-      talkSummary: "Developments in microcontroller technology have made it easier than ever to empower electronics projects with internet connectivity. Armed with very basic notions of electronics, programming and networking every junior engineering student has, this workshop will show you how to consolidate all that knowledge and put it to use to build and connect real-world circuits and devices to the internet. We will build simple circuits using Arduino-like platforms and electronic components, like using temperature and humidity sensors and displaying its readings on a character LCD screen or using a relay switch to control a light bulb. We’ll then use the networking capabilities of the ESP8266 microcontroller to do prototypical Internet of Things tasks, like logging the sensor data with the help of a cloud service, or how to control your physical circuit’s on/off state from a web page. You have to bring your own computer for this, but we’ll provide all the electronic components you’ll need.",
-      show: false,
+      talkDate: "Segunda-feira 26/03 | 10:00 - 12:00",
+      talkTitle: "Introdução ao ecossistema do Arduino e às IoT.",
+      talkSummary: "<p>Avanços na tecnologia de microprocessadores tornaram mais fácil do que nunca potenciar projectos electrónicos com ligação à internet. Através de noções básicas de electrónica, programação e redes que todos os novos estudantes engenheiros possuem, este workshop irá demonstrar como consolidar esse conhecimento e colocá-lo em prática para construir e ligar circuitos e dispositivos à internet.</p><p>Iremos construir pequenos circuitos usando plataformas da família Arduino e componentes eletrônicos, como sensores de temperatura e humidade e apresentar as leituras em um ecrã LCD ou usando um interruptor para controlar uma lâmpada. Iremos depois usar as interfaces de redes do micro-controlador ESP8266 para prototipar tarefas de IoT como logar dados dos sensores com a ajudar de serviços da cloud, ou como controlar o estado on/off de circuitos físicos através de uma página web.</p><p>Terás de trazer o teu próprio computador para este workshop, iremos fornecer todos os componentes electrónicos necessários.</p>",
+      show: true,
+      speaker: false,
       lang: "pt"
     },
     {
@@ -657,6 +641,138 @@ module.exports = {
       image: "/images/sessao_networking.svg",
       date: "25 de Março | 20:30 - 23:45",
       location: "Quinta de Santo António",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 3,
+      title: "Modern Graph Analysis using opensource tools like Tinkerpop and Janusgraph",
+      desc: "<p>Graph databases are worth talking about in the big data and analytics context because, behind the scenes, the capabilities of graph databases improve the ability to analyze complex data relationships; these databases also give organizations greater ability to move reporting into a real-time or near-real-time mode.</p><p>In this workshop, everyone will be able to: understand the difference between the graph data and the traversal process; know the elements of a TinkerPop property graph; be able to write basic traversals through the graph; be able to perform common mutations of the graph (insert, change and remove data); be exposed to simple data transformations such as grouping, ordering, and aggregations.</p><p>To get the maximum from the workshop you should bring your own laptop. As software requirements, every participant must have internet connection and Docker installed.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 10:00 - 12:30",
+      location: "Ricardo Faria e Pedro Pires",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 4,
+      title: "Web Security Foundations - Hands-on!",
+      desc: "<p>Security nowadays is a hot topic. Everyone is on alert for the latest database leak, closely tracking the updates on the business losing millions on a hack and digging deep on the web to find ways to stay protected. In this workshop, we will dig in the most well-known vulnerabilities that exist in the wild and have a look at some tricks that will help you during security assessments.</p>" + 
+      "<p>Mandatory: Laptop.</p>" + 
+      "<p>Renato Rodrigues: Holder of a MSc in Informatics Engineering, with high interest in security issues, working in the AppSec world for a while. Curator of an AppSec Ezine and promoter of a security enthusiasts group (0xOPOSEC Meetup) – more than breaking through challenges, it is all about sharing the knowledge. Speaker at conferences like BSides, OWASP and others security and IT related. Find him on <a href=\"https://github.com/Simpsonpt/\">GitHub</a> and <a href=\"https://twitter.com/simps0n\">Twitter</a>.</p>" + 
+      "<p>César Silva: César comes from Braga and completed his graduation in Informatics at ISEP in 2016. Then he started working at Farfetch as a Developer, mainly in authentication problems. Later he moved to the Security team, focusing on Application Security. He also had some training in Networking, as this is one of his areas of interest. He likes to listen to music and try to sniff bugs. When there are no keyboards around, he watches some movies or reads some books. Find him on <a href=\"https://twitter.com/Apl3b\">Twitter</a>.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 10:00 - 12:30",
+      location: "Renato Rodrigues e César Silva",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 5,
+      title: "Capture the Flag: CTF 101",
+      desc: "<p>Capture the Flag (CTF) são competições de segurança informática. \"It's like the hacker Olympics.\" - Elliot Alderson, Mr. Robot S03E01 Nestes competições, equipas de todo o mundo tentam resolver desafios de modo a conseguir obter o maior número de pontos possível. Os desafios podem-se inserir em diversas categorias: exploitation, reverse engineering, web hacking, criptografia e forensics. Participar em CTFs é excelente para desenvolver novas skills, como por exemplo desenvolvimento de exploits, descoberta de vulnerabilidades e criação de ferramentas. É uma área próxima do mundo profissional da segurança informática e que permite avaliar conhecimentos através de desafios práticos e objetivamente mensuráveis. Neste workshop terás oportunidade de conhecer algumas ferramentas e técnicas que podem ser utilizadas em CTFs e ainda colocar à prova os teus conhecimentos num mini CTF. Gostas de jogos e tens interesse pela área da segurança? Este é o teu workshop!</p>" + 
+      "<p>André Batista é mestre em Segurança Informática pela FCUP, investigador no INESC TEC, capitão da xSTF CTF team e membro do Center of Competence in Cyber Security and Privacy (C3P).</p>" + 
+      "<p>José Sousa tem o cargo de Information Security Officer da Universidade do Porto, e é co-capitão da xSTF CTF team.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 10:00 - 12:30",
+      location: "André Batista e José Sousa",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 6,
+      title: "Espresso The Android Way",
+      desc: "<p>Os testes automáticos são uma das formas de potenciar o escalar das equipas e ao mesmo tempo assegurar que se consegue manter uma boa qualidade e cadência de release dos produtos. Neste workshop iremos mostrar como podemos fazer isto para uma aplicação nativa de Android usando Espresso e criar alguns testes para automatizar uma aplicação.</p>" + 
+      "<p>Fábio Barbosa: Licenciado em Engenharia de Informática no Instituto Superior de Engenharia do Porto. Com alguns anos de experiência na área de automação de Android. Membro activo na comunidade, a criar oportunidades para partilha de conhecimento através do Porto Testers Meetup. Actualmente trabalha na Farfetch como Test Automation Engineer para a equipa de Mobile.</p>" + 
+      "<p>Filipe Carvalho: Estudou no Mestrado Integrado em Engenharia Informática na FEUP. Tem já alguns anos de experiência nas áreas de automação de testes e Continuous Delivery, principalmente em Mobile. Contribuidor assíduo na comunidade, organiza o Porto Testers Meetup para fomentar a partilha de conhecimento. É neste momento QA Automation Engineer na Talkdesk.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 14:00 - 16:00",
+      location: "André Batista e José Sousa",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 7,
+      title: "Internet Of Things – Da Conceptualização À Criação",
+      desc: "<p>O mundo do IoT está a crescer rapidamente, respondendo a diferentes necessidades de sociedades e empresas todos os dias. Este workshop serve para ajudar-te a entrar no IoT mind-set e, através de exercícios práticos, encontrar novas soluções aos desafios do dia.</p>" + 
+      "<p>Será necessário que os alunos inscritos tragam os seus computadores pessoais.</p>" + 
+      "<p>Paulo Patrício (Solution Manager, Novabase): Com 15 anos de experiência na industria das Telecomunicações, uma Licenciatura em Eng. Eletrotécnica e um Mestrado em Software Engineering, sou um apaixonado pela Robótica, Domótica e tudo o que se relacione com inovação em geral.</p>" + 
+      "<p>Sandra Simões (Senior UX Designer, Novabase): Há 7 anos na Celfocus, com expecial foco no mercado de Telco, com focos de UX&Strategy design. Atualmente estou como CX SME no IoT colaborando com diferentes stakeholders focando-me essencialmente no user final.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 10:00 - 12:00",
+      location: "Paulo Patrício e Sandra Simões",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 8,
+      title: "101 Blockchain",
+      desc: "<p>Tópicos:<br/>- Blockchain fundamentals<br/>- Mining and incentives<br/>- How it works (tech session)<br/>- Smart contracts and trusted computing<br/>- Lightning networks<br/>- Other DLTs: DAGs<br/>- Industry applications<br/>- Q&A</p>" + 
+      "<p>Celso Martinho: procura-o no seu <a href=\"https://www.linkedin.com/in/celsomartinho/\">Linkedin</a> ou <a href=\"mailto:celso@brpx.com\">email</a>.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 10:00 - 12:00",
+      location: "Celso Martinho",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 9,
+      title: "101 Blockchain",
+      desc: "<p>Tópicos:<br/>- Blockchain fundamentals<br/>- Mining and incentives<br/>- How it works (tech session)<br/>- Smart contracts and trusted computing<br/>- Lightning networks<br/>- Other DLTs: DAGs<br/>- Industry applications<br/>- Q&A</p>" + 
+      "<p>Celso Martinho: procura-o no seu <a href=\"https://www.linkedin.com/in/celsomartinho/\">Linkedin</a> ou <a href=\"mailto:celso@brpx.com\">email</a>.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 10:00 - 12:00",
+      location: "Celso Martinho",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 10,
+      title: "Criação de recursos 3D para Motores a tempo real",
+      desc: "<p>Neste workshop serão apresentados conceitos e metodologias para o desenvolvimento de recursos 3D direcionados para motores gráficos a tempo real. Existirá uma componente prática durante a sessão e os participantes que quiserem acompanhar poderão trazer os seus portáteis com a instalação prévia do programa Autodesk Maya (versão de estudante). O software poderá ser descarregado a partir do seguinte url: <a href=\"https://www.autodesk.com/education/free-software/maya\">https://www.autodesk.com/education/free-software/maya</a>.</p>" + 
+      "<p>André Cruz: Mestre em Tecnologia Multimédia pela Faculdade de Engenharia da Universidade do Porto, André Cruz é consultor no Centro de Serviços e Apoio às Empresas da Associação Empresarial de Portugal e docente no Instituto Superior de Tecnologias Avançadas do Porto e na Lisbon School of Design, tendo entretanto desenvolvido vários projetos para clientes como Europarque, Unicer, Civec, Eurocid, Exponor e Nimco.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 14:00 - 16:00",
+      location: "André Cruz",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 11,
+      title: "Cibersegurança S21sec",
+      desc: "<p>Tópicos:<br/>- Recon (port mapping, DNS recon, etc.)<br/>- Web Application Security<br/>- Mobile Security<br/>- Como participar num bug bounty e reportar uma vulnerabilidade</p>" + 
+      "<p>Requisitos:<br/>- Tenha alguma experiência em Linux, e que venha com uma PEN USB com o Kali Linux, que será utilizado durante o workshop<br/>- Trazer portátil.</p>" + 
+      "<p>Sobre o Luís Grangeia (lgrangeia@s21sec.com):</p>" + 
+      "<p>I’m an information security professional working in the field for about 17 years, mostly doing security audits and pen-tests.</p>" + 
+      "<p>I do information security auditing and testing to major portuguese and european companies (retail, banking, insurance, telcos). I sometimes speak about information security at conferences and meetings. Some stuff I did of interest: In 2015 I found and exploited a memory corruption vulnerability on a TomTom GPS sportswatch, bypassing several security measures, including encrypted firmware updates. All without touching a screwdriver; I wrote Cupid, an implementation of the heartbleed attack for wireless networks, implemented as patches for hostapd and wpa_supplicant; I authored a Burp Suite extension to handle and inject inside AES encrypted payloads; I wrote the original paper for DNS Cache Snooping; In another millenium I’ve co-authored a phrack article that, among other things, implemented a covert TCP sniffer inside the Linux kernel.</p>" + 
+      "<p>All my recent slide decks are available on slideshare.net. I’m mostly interested in security research, covering the usual topics: Operation System design models (trusted path computing, security models, etc.); Web and Mobile Application security; Low level protocols design and implementation; Debugging & disassembling software & hardware; Mobility and embedded systems, Android/IOS, wearables, IoT; Futurology, new uses for technology, new forms of interaction.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 14:00 - 16:00",
+      location: "Luís Grangeia",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 12,
+      title: "{H}API Day - Open architectures",
+      desc: "<p>Introdução sobre as boas práticas de desenvolvimento de uma API REST.</p>" + 
+      "<p>Business Case sobre a aplicação de APIs na SONAE MC.</p>" + 
+      "<p>Aplicação prática: Especificar uma API REST de um caso real.</p>" + 
+      "<p>Todos os participantes devem levar o seu computador.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      location: "João Riqueza, Ernesto Costa e Marcelo Barroso",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 13,
+      title: "Introdução ao ecossistema do Arduino e às IoT",
+      desc: "<p>Avanços na tecnologia de microprocessadores tornaram mais fácil do que nunca potenciar projectos electrónicos com ligação à internet. Através de noções básicas de electrónica, programação e redes que todos os novos estudantes engenheiros possuem, este workshop irá demonstrar como consolidar esse conhecimento e colocá-lo em prática para construir e ligar circuitos e dispositivos à internet.</p><p>Iremos construir pequenos circuitos usando plataformas da família Arduino e componentes eletrônicos, como sensores de temperatura e humidade e apresentar as leituras em um ecrã LCD ou usando um interruptor para controlar uma lâmpada. Iremos depois usar as interfaces de redes do micro-controlador ESP8266 para prototipar tarefas de IoT como logar dados dos sensores com a ajudar de serviços da cloud, ou como controlar o estado on/off de circuitos físicos através de uma página web.</p><p>Terás de trazer o teu próprio computador para este workshop, iremos fornecer todos os componentes electrónicos necessários.</p>" + 
+      "<p></p>",
+      image: "/images/Ativo 4.svg",
+      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      location: "<a href=\"/speakers/5\">João Gradim</a> e <a href=\"/speakers/4\">Mário Carneiro</a>",
       faqs: [],
       show: true
     }
