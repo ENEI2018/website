@@ -4,6 +4,7 @@ module.exports = {
   author: "NIAEFEUP+IEEE FEUP",
   update_script: "/www/website-enei/hooks/hook.sh",
   signup_spreadsheet: "1XQvB1H0EBVpU2_gvbJCl3RWGp1DkpE_Z1AzYiDFcpL8",
+  android_page: "https://play.google.com/store/apps/details?id=com.enei.eneimobile",
   sponsors: {
     main: [{
       name: "Sonae IM",
@@ -222,6 +223,18 @@ module.exports = {
       image: "jfparanhos.jpg",
       href: "http://www.jfparanhos-porto.pt/",
       show: true
+    },
+    {
+      name: "ScaleUp Porto",
+      image: "scaleup.png",
+      href: "http://scaleupporto.pt/",
+      show: true
+    }
+  ],
+  workshops: [
+    {
+      id: 0,
+      speakers: [],
     }
   ],
   speakers: [
@@ -238,7 +251,9 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "MINIX 3: A Reliable and Secure Operating System",
       talkSummary: "Most computer users nowadays are nontechnical people who have  a mental model of what they expect from a computer based on their experience with TV sets and stereos: you buy it, plug it in, and it works perfectly for the next 10 years. Computers aren't like that, which leads to frustration. Part of the problem is the operating system, which is often millions of lines of kernel code, each of which can potentially bring the system down. As long as we maintain the current structure of the  operating system as a huge single monolithic program full of foreign code (device drivers) and running in kernel mode, the situation will not improve. In an attempt to provide better reliability and security, we have created a new multiserver operating system,  MINIX 3, with only 15,000 lines in kernel and the rest of the operating system split up into small components each running as a separate user-mode processes.  It is available for the x86 and ARM for embedded systems. The talk will discuss the design of the system and some of unique aspects, such as live update--the ability to replace the operating system with a new version while it is running without affecting running applications. The MINIX 3 Website is at <a href='http://www.minix3.org'>www.minix3.org</a>",
-      show: true
+      show: true,
+      speaker: true,
+      lang: "en"
     },
     {
       id: 1,
@@ -264,7 +279,9 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Como podes chegar à Google? Dicas para conseguires o teu emprego de sonho.",
       talkSummary: "",
-      show: true
+      show: true,
+      speaker: true,
+      lang: "pt"
     },
     {
       id: 15,
@@ -288,7 +305,9 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "The Closure: Como o governo Russo procura exercer controlo total na internet",
       talkSummary: "\"A Internet foi criada como um projeto da CIA e continua a ser desenvolvida como tal\", uma citação infame (e longe de ser correta) do presidente russo, Putin, de abril de 2014, pode descrever de melhor forma a atitude do governo russo contemporâneo em relação à Net. Sendo geralmente céticas da Net, as autoridades russas nunca confiaram no meio. Mas, após os protestos pós-eleição de 2011-2012 e as revelações de Snowden, o Kremlin abriu uma nova frente contra ela, implementando um plano coordenado para exercer tanto controlo online como atualmente tem offline. Alexey Sidorenko, observador de longo prazo deste processo, compartilhará uma história ainda em andamento de The Closure - um lento processo de privação de liberdades para se comunicar e expressar online na Rússia.",
-      show: true
+      show: true,
+      speaker: true,
+      lang: "en"
     },
     {
       id: 14,
@@ -303,7 +322,26 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "From Industrial Automation, Disaster Recovery, and Space Exploration: A Journey in Practical Robotics",
       talkSummary: "In his talk, Wolfgang will highlight different areas of his journey in the wonderful world of robotics and touch upon challenges and frontiers in the field. In particular, he will highlight recent research successes and open challenges along with implications of an applied field.",
-      show: true
+      show: true,
+      speaker: true,
+      lang: "en"
+    },
+    {
+      id: 16,
+      name: "Job van der Voort",
+      shortBio: "GitLab",
+      company: "GitLab",
+      role: "VP of Product",
+      fullBio: "Vindo da neurociência, Job van der Voort deu os primeiros passos no mundo da tecnologia ao criar uma startup. Mais tarde trabalhou numa infraestrutura de IT holandesa, acabando por se juntar ao GitLab. No GitLab, teve várias responsabilidades, desde suporte, engenharia até ao marketing, mas acabou a liderar a direção do produto como VP de Produto. No seu tempo livre, Job gosta de criar pequenas e úteis aplicações e jogar jogos de tabuleiro.",
+      image: "job_voort.jpg",
+      linkedin: "https://www.linkedin.com/in/jobvo/",
+      faqs: [],
+      //talkDate: "Sexta-feira, 11:42",
+      talkTitle: "GitLab",
+      talkSummary: "O GitLab iniciou-se como um projeto open source. Com o passar dos ano, cresceu e tornou-se num empresa constituída por cerca de 250 pessoas. Em vez de abrir um escritório em São Francisco, o GitLab fez tudo remotamente: 0 escritórios. Além disso, todo o trabalho desenvolvido pelo GitLab é aberto. Nesta talk, Job examinará como o GitLab gere o seu crescimento como empresa, onde todos podem trabalhar com os seus pijamas e onde todo o trabalho é público.",
+      show: false,
+      speaker: true,
+      lang: "en"
     },
     {
       id: 0,
@@ -328,7 +366,9 @@ module.exports = {
       //talkDate: "A definir.",
       talkTitle: "",
       talkSummary: "A palestra será uma introdução a tecnologia blockchain, onde se irá descrever como funciona um sistema como Bitcoin e o que assegura a segurança do mesmo. Durante a palestra iremos começar por descrever o problema que estamos a tentar resolver (distributed ledger) e iterativamente construir uma solução que no final deverá ser semelhante a Bitcoin (não irá ser 100% semelhante para evitar descrever detalhes de implementação). Por fim irei também fazer uma pequena menção a outros sistema como o Ethereum.",
-      show: true
+      show: true,
+      speaker: true,
+      lang: "pt"
     },
     {
       id: 2,
@@ -352,7 +392,9 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Will You Disrupt or Be Disrupted in 2018? Digital Transformation and the New Face of Business",
       talkSummary: "A Transformação Digital não é uma buzzword, é uma inevitabilidade. Temas como IoT, blockchain, quantum computing, ou Inteligência Artificial já fazem parte dos nossos dias. Esta sessão pretende fomentar o debate acerca de como a transformação digital está a alterar paradigmas e como poderá ser aplicada a 4 pilares: A co-criação com o cliente; A capacitação do colaborador; A optimização das operações e a Transformação dos produtos.",
-      show: false
+      show: false,
+      speaker: true,
+      lang: "pt"
     },
     {
       id: 3,
@@ -380,7 +422,9 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Robotics Mechanics with ThreeJS",
       talkSummary: "",
-      show: false
+      show: true,
+      speaker: false,
+      lang: "pt"
     },
     {
       id: 4,
@@ -404,7 +448,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Introduction to the Arduino ecosystem and the internet of things.",
       talkSummary: "Developments in microcontroller technology have made it easier than ever to empower electronics projects with internet connectivity. Armed with very basic notions of electronics, programming and networking every junior engineering student has, this workshop will show you how to consolidate all that knowledge and put it to use to build and connect real-world circuits and devices to the internet. We will build simple circuits using Arduino-like platforms and electronic components, like using temperature and humidity sensors and displaying its readings on a character LCD screen or using a relay switch to control a light bulb. We’ll then use the networking capabilities of the ESP8266 microcontroller to do prototypical Internet of Things tasks, like logging the sensor data with the help of a cloud service, or how to control your physical circuit’s on/off state from a web page. You have to bring your own computer for this, but we’ll provide all the electronic components you’ll need.",
-      show: false
+      show: false,
+      lang: "pt"
     },
     {
       id: 5,
@@ -419,7 +464,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Introduction to the Arduino ecosystem and the internet of things.",
       talkSummary: "Developments in microcontroller technology have made it easier than ever to empower electronics projects with internet connectivity. Armed with very basic notions of electronics, programming and networking every junior engineering student has, this workshop will show you how to consolidate all that knowledge and put it to use to build and connect real-world circuits and devices to the internet. We will build simple circuits using Arduino-like platforms and electronic components, like using temperature and humidity sensors and displaying its readings on a character LCD screen or using a relay switch to control a light bulb. We’ll then use the networking capabilities of the ESP8266 microcontroller to do prototypical Internet of Things tasks, like logging the sensor data with the help of a cloud service, or how to control your physical circuit’s on/off state from a web page. You have to bring your own computer for this, but we’ll provide all the electronic components you’ll need.",
-      show: false
+      show: false,
+      lang: "pt"
     },
     {
       id: 6,
@@ -434,7 +480,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Espresso the Android way.",
       //talkSummary: "Developments in microcontroller technology have made it easier than ever to empower electronics projects with internet connectivity. Armed with very basic notions of electronics, programming and networking every junior engineering student has, this workshop will show you how to consolidate all that knowledge and put it to use to build and connect real-world circuits and devices to the internet. We will build simple circuits using Arduino-like platforms and electronic components, like using temperature and humidity sensors and displaying its readings on a character LCD screen or using a relay switch to control a light bulb. We’ll then use the networking capabilities of the ESP8266 microcontroller to do prototypical Internet of Things tasks, like logging the sensor data with the help of a cloud service, or how to control your physical circuit’s on/off state from a web page. You have to bring your own computer for this, but we’ll provide all the electronic components you’ll need.",
-      show: false
+      show: false,
+      lang: "pt"
     },
     {
       id: 7,
@@ -449,7 +496,8 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Espresso the Android way.",
       //talkSummary: "Developments in microcontroller technology have made it easier than ever to empower electronics projects with internet connectivity. Armed with very basic notions of electronics, programming and networking every junior engineering student has, this workshop will show you how to consolidate all that knowledge and put it to use to build and connect real-world circuits and devices to the internet. We will build simple circuits using Arduino-like platforms and electronic components, like using temperature and humidity sensors and displaying its readings on a character LCD screen or using a relay switch to control a light bulb. We’ll then use the networking capabilities of the ESP8266 microcontroller to do prototypical Internet of Things tasks, like logging the sensor data with the help of a cloud service, or how to control your physical circuit’s on/off state from a web page. You have to bring your own computer for this, but we’ll provide all the electronic components you’ll need.",
-      show: false
+      show: false,
+      lang: "pt"
     },
     {
       id: 8,
@@ -458,12 +506,14 @@ module.exports = {
       company: "Pixelmatters",
       role: "Mobile Developer",
       fullBio: "Concluí o mestrado em Engenharia de Computadores e Telemática pela Universidade de Aveiro em 2016. Fui iOS e backend developer numa aplicação de apostas amigáveis de futebol para o Euro 2016 (Kiss my score). Desde Julho de 2016 sou mobile developer na Pixelmatters. Foco-me em construir boas experiências de utilização e arquiteturas modulares e escaláveis.",
-      image: "ivo_silva.png",
+      image: "ivo_silva.jpg",
       linkedin: "https://www.linkedin.com/in/ivopintodasilva/",
       faqs: [],
       //talkDate: "Sexta-feira, 11:42",
       talkSummary: "No desenvolvimento de um produto existe a necessidade de ter diferentes ambientes que se destinam a finalidades distintas. De forma a agilizar este processo, a disponibilização das diferentes versões de uma aplicação pode ser automatizada, utilizando um conjunto de tecnologias de continuous delivery. Esta palestra consiste numa descrição do nosso processo no Finta (uma app mobile direcionada a fãs de futebol: <a href='http://getfinta.pt/'>http://getfinta.pt/</a>) e das ferramentas usadas.",
-      show: false
+      show: true,
+      speaker: true,
+      lang: "pt"
     },
     {
       id: 9,
@@ -478,7 +528,9 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Introdução à Programação Funcional com JavaScript.",
       talkSummary: "Nesta apresentação, vamos introduzir o paradigma da programação funcional usando JavaScript. Tentaremos demonstrar que tratando a computação como a avaliação de funções puras, usando dados imutáveis e preferindo expressões a comandos conseguimos produzir código mais fácil de entender, mais modular e mais fácil de testar.",
-      show: true
+      show: true,
+      speaker: true,
+      lang: "pt"
     },
     {
       id: 10,
@@ -492,7 +544,9 @@ module.exports = {
       faqs: [],
       //talkDate: "Sexta-feira, 11:42",
       talkSummary: "Ever heard of the 4th Industrial revolution or the Industry 4.0? It's not all about the hardware. In fact, most of the hardware is already here, what we are missing is the software that will make this vision a reality. In this talk we are going to talk about the technologies driving the industry to its 4th revolution and about what we are still missing to achieve I4.0. If you want to be prepared for the next big thing in the enterprise world, join us to find more!",
-      show: true
+      show: true,
+      speaker: true,
+      lang: "pt"
     },
     {
       id: 11,
@@ -507,7 +561,9 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "",
       talkSummary: "",
-      show: true
+      show: true,
+      speaker: true,
+      lang: "pt"
     },
     {
       id: 13,
@@ -522,6 +578,58 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "De Estudante a Engenheiro Informático: Gestão de Carreiras para Tótós",
       talkSummary: "Nesta palestra o Eduardo vai apresentar a perspectiva de um engenheiro na gestão de carreiras e recrutamento. Em particular vai indicar 3 ferramentas fundamentais a utilizar, salientando dicas e armadilhas dos desafios dos engenheiros informáticos hoje em dia.",
+      show: true,
+      speaker: true,
+      lang: "pt"
+    },
+    {
+      id: 17,
+      name: "Leonel Morgado",
+      shortBio: "INESC TEC",
+      company: "INESC TEC",
+      role: "Researcher",
+      fullBio: "Leonel Morgado é Professor Auxiliar com Agregação na Universidade Aberta. Leciona nos cursos da secção de informática, nas áreas de métodos de investigação, mundos virtuais e programação. Desenvolve trabalho de investigação científica e desenvolvimento tecnológico sobre mundos virtuais desde 2000, em especial no apoio tecnológico ao ensino e à aprendizagem, tendo vindo a concentrar-se nas plataformas multi utilizador desde 2006. É autor de mais de 100 publicações científicas, incluindo artigos em revistas, comunicações em conferências e capítulos de livros. Antes de abraçar a carreira académica foi diretor técnico-comercial de uma empresa de importação, distribuição e venda de hardware, terminologista da localização do MS Office 97 e do Oracle InterOffice, consultor linguístico da IBM/Lotus, coordenador de equipas de desenvolvimento Web e de implantação de software, e gestor de equipas de combate à infoexclusão.",
+      image: "leonel.jpg",
+      linkedin: "https://www.linkedin.com/in/leonel-morgado/",
+      website: "http://www.degois.pt/visualizador/cv.jsp?key=5033201325101998",
+      faqs: [],
+      //talkDate: "Sexta-feira, 11:42",
+      talkTitle: "Jogos Sérios e Mundos Virtuais para ensino e formação: tendências e perspetivas.",
+      talkSummary: "",
+      show: true,
+      speaker: true,
+      lang: "pt"
+    }
+  ],
+  talks: [
+    {
+      id: 0,
+      title: "Sessão de Networking",
+      desc: "<p>Esta atividade é focada na resolução, por parte dos participantes, de problemas propostos pelos nossos patrocinadores. O objetivo é que os estudantes apresentem soluções num curto espaço de tempo para uma problemática relacionada com informática. Estes problemas poderão ser a melhor tecnologia a utilizar para uma determinada tarefa, como arquiteturar um sistema com os componentes especificados pela empresa, etc.</p><p>A organização da atividade passa pela colocação de várias empresas em mesas diferentes que serão visitadas durante cerca de 5 minutos por grupo de 3 a 5 participantes para resolverem o desafio proposto pela equipa lá presente.</p><p>A Sessão de Networking é importante para participantes que estejam à procura quer de trabalho a tempo inteiro, quer estágios (de verão ou não). Após a sessão espera-se que os representantes dos nossos patrocinadores na sessão façam uma avaliação e contactem os estudantes com melhores soluções!</p>",
+      image: "/images/sessao_networking.svg",
+      date: "25 de Março | 15:00 - 16:00",
+      //location: "Auditório FEUP",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 1,
+      title: "Sessão de Cocktails",
+      desc: "<p>A Sessão de Cocktails é uma atividade focada no conhecimento dos nossos patrocinadores e no networking. Esta sessão é constituída por pequenos pitches (entre 2 a 5 minutos) das empresas presentes que tentarão apresentar o seu trabalho, objetivo e quais vagas têm atualmente abertas para estudantes, recém-licenciados ou recém-mestres.</p><p>Após uma série de apresentações, haverá um intervalo em que os participantes poderão contactar os nossos patrocinadores pelos quais poderão ter ficado interessados e preparar, então, o seu futuro.</p>",
+      image: "/images/sessao_cocktails.svg",
+      date: "25 de Março | 18:30 - 20:15",
+      //location: "Auditório FEUP",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 2,
+      title: "Jantar com Patrocinadores",
+      desc: "<p>O Jantar com Patrocinadores é uma atividade inovadora que visa criar uma maior relação entre participantes e o mundo empresarial. O objetivo principal é permitir que estudantes comuniquem com representantes de alguns dos nossos patrocinadores a fim de obter mais informações sobre a empresa, o seu funcionamento, se estão a recrutar, etc.</p><p>Esta atividade ocorre em simultâneo com a Mega Febrada.</p><p>Para participação neste Jantar, os participantes deverão enviar o seu Curriculum Vitae e este será o critério de seleção de modo a tentar criar laços comuns entre a experiência dos estudantes e os interesses de cada patrocinador presente.</p>",
+      image: "/images/sessao_networking.svg",
+      date: "25 de Março | 20:30 - 23:45",
+      location: "Quinta de Santo António",
+      faqs: [],
       show: true
     }
   ],
@@ -725,62 +833,187 @@ module.exports = {
   ],
   ambassadors: [{
       id: 0,
-      name: "João Carvalho",
-      shortBio: "Student @FEUP",
-      company: "FEUP",
-      image: "joao_carvalho.jpg",
-      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
-      github: "https://github.com/jflcarvalho",
+      name: "Cesário Silva",
+      email: "cesario1997@gmail.com",
+      phone: 912443056, 
+      shortBio: "Student @DEI-FCTUC",
+      company: "Departamento de Engenharia Informática - FCTUC",
+      image: "cesario_silva.jpg",
+      linkedin: "https://www.linkedin.com/in/ces%C3%A1rio-silva-47382a138/",
+      facebook: "https://www.facebook.com/cesario.silva.35?ref=br_rs",
       show: true
     },
     {
       id: 1,
-      name: "João Carvalho",
-      shortBio: "Student @FEUP",
-      company: "FEUP",
-      image: "joao_carvalho.jpg",
-      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
-      github: "https://github.com/jflcarvalho",
+      name: "Rafael Almeida",
+      email: "rafaelcpalmeida@gmail.com",
+      phone: 915020124, 
+      shortBio: "Student @UFP",
+      company: "Universidade Fernando Pessoa",
+      image: "rafael_almeida.jpg",
+      linkedin: "https://www.linkedin.com/in/rafaelcpalmeida/",
+      facebook: "https://www.facebook.com/rafaelcpalmeida?ref=br_rs",
       show: true
     },
     {
       id: 2,
-      name: "João Carvalho",
-      shortBio: "Student @FEUP",
-      company: "FEUP",
-      image: "joao_carvalho.jpg",
-      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
-      github: "https://github.com/jflcarvalho",
+      name: "Rute Leite Ferreira",
+      email: "leiteferreirarute@gmail.com",
+      phone: 917795137, 
+      shortBio: "Student @IPL ESTG",
+      company: "IPLeiria - Escola Superior de Tecnologia e Gestão",
+      image: "rute_ferreira.jpg",
+      linkedin: "www.linkedin.com/in/rute-leite-ferreira",
+      facebook: "https://www.facebook.com/profile.php?id=100009992556919&ref=br_rs",
       show: true
     },
     {
       id: 3,
-      name: "João Carvalho",
-      shortBio: "Student @FEUP",
-      company: "FEUP",
-      image: "joao_carvalho.jpg",
-      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
-      github: "https://github.com/jflcarvalho",
+      name: "Bruno Oliveira",
+      email: "brnonm@hotmail.com",
+      phone: 914006473, 
+      shortBio: "Student @IPL ESTG",
+      company: "IPLeiria - Escola Superior de Tecnologia e Gestão",
+      image: "bruno_oliveira.jpg",
+      facebook: "https://www.facebook.com/bruno.oliveira.5680899",
       show: true
     },
     {
       id: 4,
-      name: "João Carvalho",
-      shortBio: "Student @FEUP",
-      company: "FEUP",
-      image: "joao_carvalho.jpg",
-      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
-      github: "https://github.com/jflcarvalho",
+      name: "Tiago Santos Rios",
+      email: "tiagorios.6@gmail.com",
+      phone: 915421837, 
+      shortBio: "Student @ISEP",
+      company: "Instituto Superior de Engenharia do Porto",
+      image: "tiago_rios.jpg",
+      linkedin: "https://www.linkedin.com/in/tiagojsrios/",
+      facebook: "https://www.facebook.com/joaotiagow?ref=br_rs",
       show: true
     },
     {
       id: 5,
-      name: "João Carvalho",
-      shortBio: "Student @FEUP",
-      company: "FEUP",
-      image: "joao_carvalho.jpg",
-      linkedin: "https://www.linkedin.com/in/jflcarvalho/",
-      github: "https://github.com/jflcarvalho",
+      name: "Vasco Lopes",
+      email: "vascoferrinholopes@gmail.com",
+      phone: 926472722,
+      shortBio: "Student @UBI",
+      company: "Universidade da Beira Interior",
+      image: "vasco_lopes.jpg",
+      linkedin: "https://www.linkedin.com/in/vasco-lopes",
+      facebook: "https://www.facebook.com/vasco.ferrinholopes?ref=br_rs",
+      show: true
+    },
+    {
+      id: 6,
+      name: "Cláudia Pimenta",
+      email: "claudia-maria@live.com.pt",
+      phone: 967869173,
+      shortBio: "Student @ISCAC",
+      company: "Instituto Superior de Contabilidade e Administração de Coimbra",
+      image: "claudia_pimenta.jpg",
+      facebook: "https://www.facebook.com/profile.php?id=100001543608308&ref=br_rs",
+      show: true
+    },
+    {
+      id: 7,
+      name: "Filipe Vale",
+      email: "filipevale@ua.pt",
+      phone: 965717720,
+      shortBio: "Student @ISCAC",
+      company: "Universidade de Aveiro",
+      image: "filipe_vale.jpg",
+      facebook: "https://www.facebook.com/FilipeMiguelVale?ref=br_rs",
+      show: true
+    },
+    {
+      id: 8,
+      name: "Ana Longras",
+      email: "analongras@hotmail.com",
+      phone: 966191109,
+      shortBio: "Student @IPVC-ESTG",
+      company: "IPVC - Escola Superior de Tecnologia e Gestão",
+      image: "ana_longras.jpg",
+      facebook: "https://www.facebook.com/ana.longras?ref=br_rs",
+      show: true
+    },
+    {
+      id: 9,
+      name: "João Fonseca",
+      email: "jpedrofonseca@ua.pt",
+      phone: 913443092,
+      shortBio: "Student @UA",
+      company: "Universidade de Aveiro",
+      image: "joao_fonseca.jpg",
+      linkedin: "https://pt.linkedin.com/in/jpedrofonseca",
+      facebook: "https://www.facebook.com/jpedrocfonseca",
+      show: true
+    },
+    {
+      id: 10,
+      name: "Sérgio Ramos",
+      email: "a21230092@alunos.isec.pt",
+      phone: 917067068,
+      shortBio: "Student @ISEC",
+      company: "Instituto Superior de Engenharia de Coimbra (ISEC)",
+      image: "sergio_ramos.jpg",
+      linkedin: "https://www.linkedin.com/in/sergioramosxvii/",
+      facebook: "https://www.facebook.com/sergio.ramos.XVII?ref=br_rs",
+      show: true
+    },
+    {
+      id: 11,
+      name: "Pedro Alves",
+      email: "pedroalves428@gmail.com",
+      phone: 925713911,
+      shortBio: "Student @UTAD",
+      company: "Universidade de Trás os Montes e Alto Douro , UTAD",
+      image: "pedro_alves.jpg",
+      linkedin: "www.linkedin.com/in/pedro-alves-ba4589b0",
+      facebook: "https://www.facebook.com/pedro.alves.3762",
+      show: true
+    },
+    {
+      id: 12,
+      name: "Bruno Carvalho",
+      email: "brunocoelhoc@gmail.com",
+      phone: 912289137, 
+      shortBio: "Student @IPT",
+      company: "Instituto Politécnico de Tomar",
+      image: "bruno_carvalho.jpg",
+      show: false
+    },
+    {
+      id: 13,
+      name: "Américo Sá",
+      email: "americojunior99@hotmail.com",
+      phone: 919799199,
+      shortBio: "Student @UBI",
+      company: "Universidade da Beira Interior",
+      image: "americo_sa.jpg",
+      facebook: "https://www.facebook.com/americo.pereira.31?ref=br_rs",
+      show: false
+    },
+    {
+      id: 14,
+      name: "Adriana Guedes",
+      email: "adrianaguedes13@gmail.com",
+      phone: 938900496,
+      shortBio: "Student @UM",
+      company: "Universidade do Minho",
+      image: "adriana_guedes.jpg",
+      linkedin: "https://www.linkedin.com/in/adriana-guedes-b47632134/",
+      facebook: "https://www.facebook.com/adrianasg122?ref=br_rs",
+      show: true
+    },
+    {
+      id: 15,
+      name: "Sérgio Costa",
+      email: "asergioalvesc@gmail.com",
+      phone: 913290141,
+      shortBio: "Student @UM",
+      company: "Universidade do Minho",
+      image: "sergio_costa.jpg",
+      linkedin: "https://www.linkedin.com/in/asergioacosta",
+      facebook: "https://www.facebook.com/asergioalvesc",
       show: true
     }
   ]

@@ -949,13 +949,13 @@ img.signup-section-img {
 
 @media (min-width: 490px) {
     .sponsor.bronze div {
-        min-width: 60px;
+        min-width: 70px;
     }
 }
 
 @media (max-width: 490px) {
     .sponsor.bronze div {
-        min-width: 40px;
+        min-width: 45px;
     }
 }
 
@@ -1003,6 +1003,13 @@ img.signup-section-img {
         max-height: 100%;
     }
 }*/
+
+div.info-row div p .talk-lang-icon {
+    max-width: 1.6em;
+    max-height: 1.6em;
+    display: inline;
+    margin: -0.3em 0 0 1em;
+}
 
 .notfound-container {
     max-width: 800px;

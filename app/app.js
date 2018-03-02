@@ -19,6 +19,11 @@ var signup_complete = require('./routes/signup-complete');
 var signup_submitted = require('./routes/signup-submitted');
 var signup_error = require('./routes/signup-error');
 var notfound = require('./routes/notfound');
+var ambassador = require('./routes/ambassador');
+var android = require('./routes/android');
+var tickets = require('./routes/tickets');
+var workshops = require('./routes/workshops');
+var talks = require('./routes/talks');
 
 var app = express();
 
@@ -47,6 +52,12 @@ app.use('/signup-group', signup_group);
 app.use('/signup-group-create', signup_group_create);
 app.use('/signup-error', signup_error);
 app.use('/notfound', notfound);
+app.use('/ambassador', ambassador);
+app.use('/android', android);
+app.use('/tickets', tickets);
+app.use('/bilhetes', tickets);
+app.use('/workshops', workshops);
+app.use('/talks', talks);
 
 // register path to partials
 hbs.registerPartials(__dirname + '/views/partials');

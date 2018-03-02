@@ -154,7 +154,8 @@ module.exports = [{
                     time: "11:00 - 12:00",
                     location: "Auditório FEUP",
                     url: "/speakers/12",
-                    show: true
+                    show: true,
+                    lang: "en"
                 },
             },
             {
@@ -224,7 +225,8 @@ module.exports = [{
                     time: "14:00 - 14:45",
                     location: "Auditório FEUP",
                     url: "/speakers/0",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col2: {
                     rowspan: 8,
@@ -273,7 +275,8 @@ module.exports = [{
                     time: "14:45 - 15:30",
                     location: "Auditório FEUP",
                     url: "/speakers/11",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -428,8 +431,17 @@ module.exports = [{
                 rowspan: 2
             },
             {
-                start: "19:45",
+                start: "20:45",
             },
+            {
+                start: "21:00",
+                break: true,
+                title: "Rally das Tascas e Peddy Paper",
+                rowspan: 2
+            },
+            {
+                start: "23:45",
+            }
         ]
     },
     {
@@ -447,7 +459,8 @@ module.exports = [{
                     time: "10:00 - 10:30",
                     url: "/speakers/14",
                     location: "Auditório FEUP",
-                    show: true
+                    show: true,
+                    lang: "en"
                 },
                 col2: {
                     rowspan: 10,
@@ -490,7 +503,8 @@ module.exports = [{
                     time: "10:30 - 11:15",
                     location: "Auditório FEUP",
                     url: "/speakers/13",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -509,7 +523,8 @@ module.exports = [{
                     time: "11:15 - 11:45",
                     location: "Auditório FEUP",
                     url: "/speakers/9",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -525,7 +540,8 @@ module.exports = [{
                     time: "11:45 - 12:30",
                     location: "Auditório FEUP",
                     url: "/speakers/10",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -554,7 +570,8 @@ module.exports = [{
                     time: "14:00 - 14:30",
                     location: "Auditório FEUP",
                     url: "/speakers/1",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col2: {
                     rowspan: 8,
@@ -569,18 +586,13 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
-                    time: "14:00 - 16:00",
-                    location: "Sala por definir",
-                    show: true
-                    /*rowspan: 8,
-                    colspan: 1,
                     title: "Henrique Ferrolho",
                     subtitle: "Robotics Mechanics with ThreeJS",
                     time: "14:00 - 16:00",
-                    location: "Sala por definir",
                     url: "/speakers/3",
-                    show: true*/
+                    location: "Sala por definir",
+                    show: true,
+                    lang: "pt"
                 },
                 col4: {
                     rowspan: 8,
@@ -735,7 +747,8 @@ module.exports = [{
             {
                 start: "18:30",
                 break: true,
-                title: "Por anunciar",
+                title: "Mega febrada",
+                location: "AEFEUP",
                 rowspan: 2
             },
             {
@@ -824,7 +837,7 @@ module.exports = [{
                     rowspan: 3,
                     colspan: 1,
                     title: "Por anunciar",
-                    time: "10:00 - 11:00",
+                    time: "11:00 - 11:45",
                     location: "Auditório FEUP",
                     show: true
                     /*rowspan: 3,
@@ -847,17 +860,13 @@ module.exports = [{
                 col1: {
                     rowspan: 3,
                     colspan: 1,
-                    title: "Por anunciar",
-                    time: "11:45 - 12:30",
-                    location: "Auditório FEUP",
-                    show: true
-                    /*rowspan: 3,
-                    colspan: 1,
-                    title: "Leonel Caseiro Morgado",
+                    title: "Leonel Morgado",
                     subtitle: "Jogos Sérios e Mundos Virtuais para ensino e formação: tendências e perspetivas",
                     time: "11:45 - 12:30",
                     location: "Auditório FEUP",
-                    show: true*/
+                    show: true,
+                    url: "/speakers/17",
+                    lang: "pt"
                 }
             },
             {
@@ -898,15 +907,3 @@ module.exports = [{
         ]
     }
 ]
-
-/*
-col1: {
-                    rowspan: 1,
-                    colspan: 1,
-                    title: "Hello There",
-                    subtitle: "Monsieur Kenobi",
-                    url: "/team",
-                    time: "10:00 - 10:45",
-                    location: "Auditório FEUP"
-                
-*/

@@ -21,7 +21,8 @@
     <div class="panel with-nav-tabs panel-default">
       <div class="panel-heading">
         <ul class="nav nav-tabs">
-          {{#each schedule}} {{#if id}}
+          {{#each schedule}}
+          {{#if @index}}
           <li class="custom-tab-item custom-tab-item-odd">
             <a href="#eneiday{{id}}" data-toggle="tab">{{day}}</a>
           </li>
@@ -29,7 +30,8 @@
           <li class="active custom-tab-item custom-tab-item-odd">
             <a href="#eneiday{{id}}" data-toggle="tab">{{day}}</a>
           </li>
-          {{/if}} {{/each}}
+          {{/if}}
+          {{/each}}
           <!--<li class="active custom-tab-item custom-tab-item-odd"><a href="#tab1default" data-toggle="tab">23 de Março</a></li>
           <li class="custom-tab-item custom-tab-item-even"><a href="#tab2default" data-toggle="tab">24 de Março</a></li>
           <li class="custom-tab-item custom-tab-item-odd"><a href="#tab3default" data-toggle="tab">25 de Março</a></li>
@@ -76,7 +78,11 @@
                       {{#if col1.url}}<a href="{{col1.url}}">{{/if}}
                       <div class="block-title">{{col1.title}}</div>
                       {{#if col1.subtitle}}
-                      <div class="block-subtitle">{{col1.subtitle}}</div>
+                      <div class="block-subtitle">{{col1.subtitle}}
+                        {{#if col1.lang}}
+                          <img class="schedule-talk-lang" src="/images/{{col1.lang}}-flag.png"/>
+                        {{/if}}
+                      </div>
                       {{/if}}
                       {{#if col1.url}}</a>{{/if}}
                       {{#if col1.extras}}
@@ -97,7 +103,11 @@
                       {{#if col2.url}}<a href="{{col2.url}}">{{/if}}
                       <div class="block-title">{{col2.title}}</div>
                       {{#if col2.subtitle}}
-                      <div class="block-subtitle">{{col2.subtitle}}</div>
+                      <div class="block-subtitle">{{col2.subtitle}}
+                        {{#if col2.lang}}
+                          <img class="schedule-talk-lang" src="/images/{{col1.lang}}-flag.png"/>
+                        {{/if}}
+                      </div>
                       {{/if}}
                       {{#if col2.url}}</a>{{/if}}
                       {{#if col2.extras}}
@@ -118,7 +128,11 @@
                       {{#if col3.url}}<a href="{{col3.url}}">{{/if}}
                       <div class="block-title">{{col3.title}}</div>
                       {{#if col3.subtitle}}
-                      <div class="block-subtitle">{{col3.subtitle}}</div>
+                      <div class="block-subtitle">{{col3.subtitle}}
+                        {{#if col3.lang}}
+                          <img class="schedule-talk-lang" src="/images/{{col3.lang}}-flag.png"/>
+                        {{/if}}
+                      </div>
                       {{/if}}
                       {{#if col3.url}}</a>{{/if}}
                       {{#if col3.extras}}
@@ -139,7 +153,11 @@
                       {{#if col4.url}}<a href="{{col4.url}}">{{/if}}
                       <div class="block-title">{{col4.title}}</div>
                       {{#if col4.subtitle}}
-                      <div class="block-subtitle">{{col4.subtitle}}</div>
+                      <div class="block-subtitle">{{col4.subtitle}}
+                        {{#if col4.lang}}
+                          <img class="schedule-talk-lang" src="/images/{{col4.lang}}-flag.png"/>
+                        {{/if}}
+                      </div>
                       {{/if}}
                       {{#if col4.url}}</a>{{/if}}
                       {{#if col4.extras}}
