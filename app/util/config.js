@@ -251,6 +251,7 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "MINIX 3: A Reliable and Secure Operating System",
       talkSummary: "Most computer users nowadays are nontechnical people who have  a mental model of what they expect from a computer based on their experience with TV sets and stereos: you buy it, plug it in, and it works perfectly for the next 10 years. Computers aren't like that, which leads to frustration. Part of the problem is the operating system, which is often millions of lines of kernel code, each of which can potentially bring the system down. As long as we maintain the current structure of the  operating system as a huge single monolithic program full of foreign code (device drivers) and running in kernel mode, the situation will not improve. In an attempt to provide better reliability and security, we have created a new multiserver operating system,  MINIX 3, with only 15,000 lines in kernel and the rest of the operating system split up into small components each running as a separate user-mode processes.  It is available for the x86 and ARM for embedded systems. The talk will discuss the design of the system and some of unique aspects, such as live update--the ability to replace the operating system with a new version while it is running without affecting running applications. The MINIX 3 Website is at <a href='http://www.minix3.org'>www.minix3.org</a>",
+      talkDate: "Sábado 24/03 | 11:00 - 12:00 | Auditório FEUP",
       show: true,
       speaker: true,
       lang: "en"
@@ -267,16 +268,7 @@ module.exports = {
       facebook: "https://www.facebook.com/lealjoaoo",
       instagram: "https://www.instagram.com/joaoo_leal/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 14:00 - 14:30 | Auditório FEUP",
       talkTitle: "Como podes chegar à Google? Dicas para conseguires o teu emprego de sonho.",
       talkSummary: "",
       show: true,
@@ -293,16 +285,7 @@ module.exports = {
       image: "alexey_sidorenko.jpg",
       linkedin: "https://www.linkedin.com/in/alexeysidorenko/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 14:30 - 15:15 | Auditório FEUP",
       talkTitle: "The Closure: Como o governo Russo procura exercer controlo total na internet",
       talkSummary: "\"A Internet foi criada como um projeto da CIA e continua a ser desenvolvida como tal\", uma citação infame (e longe de ser correta) do presidente russo, Putin, de abril de 2014, pode descrever de melhor forma a atitude do governo russo contemporâneo em relação à Net. Sendo geralmente céticas da Net, as autoridades russas nunca confiaram no meio. Mas, após os protestos pós-eleição de 2011-2012 e as revelações de Snowden, o Kremlin abriu uma nova frente contra ela, implementando um plano coordenado para exercer tanto controlo online como atualmente tem offline. Alexey Sidorenko, observador de longo prazo deste processo, compartilhará uma história ainda em andamento de The Closure - um lento processo de privação de liberdades para se comunicar e expressar online na Rússia.",
       show: true,
@@ -319,7 +302,7 @@ module.exports = {
       linkedin: "https://www.linkedin.com/in/wolfgangmerkt/",
       website: "",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 10:00 - 10:30 | Auditório FEUP",
       talkTitle: "From Industrial Automation, Disaster Recovery, and Space Exploration: A Journey in Practical Robotics",
       talkSummary: "In his talk, Wolfgang will highlight different areas of his journey in the wonderful world of robotics and touch upon challenges and frontiers in the field. In particular, he will highlight recent research successes and open challenges along with implications of an applied field.",
       show: true,
@@ -336,7 +319,7 @@ module.exports = {
       image: "job_voort.jpg",
       linkedin: "https://www.linkedin.com/in/jobvo/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 15:15 - 16:00 | Auditório FEUP",
       talkTitle: "GitLab",
       talkSummary: "O GitLab iniciou-se como um projeto open source. Com o passar dos ano, cresceu e tornou-se num empresa constituída por cerca de 250 pessoas. Em vez de abrir um escritório em São Francisco, o GitLab fez tudo remotamente: 0 escritórios. Além disso, todo o trabalho desenvolvido pelo GitLab é aberto. Nesta talk, Job examinará como o GitLab gere o seu crescimento como empresa, onde todos podem trabalhar com os seus pijamas e onde todo o trabalho é público.",
       show: true,
@@ -370,17 +353,8 @@ module.exports = {
       linkedin: "https://www.linkedin.com/in/andrerfosilva/",
       github: "https://github.com/andresilva",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "A definir.",
-      talkTitle: "",
+      talkDate: "Sábado 24/03 | 14:00 - 14:45 | Auditório FEUP",
+      talkTitle: "Blockchain",
       talkSummary: "A palestra será uma introdução a tecnologia blockchain, onde se irá descrever como funciona um sistema como Bitcoin e o que assegura a segurança do mesmo. Durante a palestra iremos começar por descrever o problema que estamos a tentar resolver (distributed ledger) e iterativamente construir uma solução que no final deverá ser semelhante a Bitcoin (não irá ser 100% semelhante para evitar descrever detalhes de implementação). Por fim irei também fazer uma pequena menção a outros sistema como o Ethereum.",
       show: true,
       speaker: true,
@@ -396,19 +370,10 @@ module.exports = {
       image: "nelson_pinho.png",
       linkedin: "https://www.linkedin.com/in/nelsonpinho/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Segunda-feira 26/03 | 10:00 - 11:00 | Auditório FEUP",
       talkTitle: "Will You Disrupt or Be Disrupted in 2018? Digital Transformation and the New Face of Business",
       talkSummary: "A Transformação Digital não é uma buzzword, é uma inevitabilidade. Temas como IoT, blockchain, quantum computing, ou Inteligência Artificial já fazem parte dos nossos dias. Esta sessão pretende fomentar o debate acerca de como a transformação digital está a alterar paradigmas e como poderá ser aplicada a 4 pilares: A co-criação com o cliente; A capacitação do colaborador; A optimização das operações e a Transformação dos produtos.",
-      show: false,
+      show: true,
       speaker: true,
       lang: "pt"
     },
@@ -426,16 +391,7 @@ module.exports = {
       github: "https://github.com/ferrolho",
       website: "https://ferrolho.github.io/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 14:00 - 16:00",
       talkTitle: "Robotics Mechanics with ThreeJS",
       talkSummary: "",
       show: true,
@@ -452,19 +408,11 @@ module.exports = {
       image: "mario_carneiro.jpg",
       linkedin: "https://www.linkedin.com/in/mariocarneiro/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
-      talkTitle: "Introduction to the Arduino ecosystem and the internet of things.",
-      talkSummary: "Developments in microcontroller technology have made it easier than ever to empower electronics projects with internet connectivity. Armed with very basic notions of electronics, programming and networking every junior engineering student has, this workshop will show you how to consolidate all that knowledge and put it to use to build and connect real-world circuits and devices to the internet. We will build simple circuits using Arduino-like platforms and electronic components, like using temperature and humidity sensors and displaying its readings on a character LCD screen or using a relay switch to control a light bulb. We’ll then use the networking capabilities of the ESP8266 microcontroller to do prototypical Internet of Things tasks, like logging the sensor data with the help of a cloud service, or how to control your physical circuit’s on/off state from a web page. You have to bring your own computer for this, but we’ll provide all the electronic components you’ll need.",
-      show: false,
+      talkDate: "Segunda-feira 26/03 | 10:00 - 12:00",
+      talkTitle: "Introdução ao ecossistema do Arduino e às IoT.",
+      talkSummary: "<p>Avanços na tecnologia de microprocessadores tornaram mais fácil do que nunca potenciar projectos electrónicos com ligação à internet. Através de noções básicas de electrónica, programação e redes que todos os novos estudantes engenheiros possuem, este workshop irá demonstrar como consolidar esse conhecimento e colocá-lo em prática para construir e ligar circuitos e dispositivos à internet.</p><p>Iremos construir pequenos circuitos usando plataformas da família Arduino e componentes eletrônicos, como sensores de temperatura e humidade e apresentar as leituras em um ecrã LCD ou usando um interruptor para controlar uma lâmpada. Iremos depois usar as interfaces de redes do micro-controlador ESP8266 para prototipar tarefas de IoT como logar dados dos sensores com a ajudar de serviços da cloud, ou como controlar o estado on/off de circuitos físicos através de uma página web.</p><p>Terás de trazer o teu próprio computador para este workshop, iremos fornecer todos os componentes electrónicos necessários.</p>",
+      show: true,
+      speaker: false,
       lang: "pt"
     },
     {
@@ -477,10 +425,11 @@ module.exports = {
       image: "joao_gradim.jpg",
       linkedin: "https://www.linkedin.com/in/jo%C3%A3o-gradim-b41770150/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
-      talkTitle: "Introduction to the Arduino ecosystem and the internet of things.",
-      talkSummary: "Developments in microcontroller technology have made it easier than ever to empower electronics projects with internet connectivity. Armed with very basic notions of electronics, programming and networking every junior engineering student has, this workshop will show you how to consolidate all that knowledge and put it to use to build and connect real-world circuits and devices to the internet. We will build simple circuits using Arduino-like platforms and electronic components, like using temperature and humidity sensors and displaying its readings on a character LCD screen or using a relay switch to control a light bulb. We’ll then use the networking capabilities of the ESP8266 microcontroller to do prototypical Internet of Things tasks, like logging the sensor data with the help of a cloud service, or how to control your physical circuit’s on/off state from a web page. You have to bring your own computer for this, but we’ll provide all the electronic components you’ll need.",
-      show: false,
+      talkDate: "Segunda-feira 26/03 | 10:00 - 12:00",
+      talkTitle: "Introdução ao ecossistema do Arduino e às IoT.",
+      talkSummary: "<p>Avanços na tecnologia de microprocessadores tornaram mais fácil do que nunca potenciar projectos electrónicos com ligação à internet. Através de noções básicas de electrónica, programação e redes que todos os novos estudantes engenheiros possuem, este workshop irá demonstrar como consolidar esse conhecimento e colocá-lo em prática para construir e ligar circuitos e dispositivos à internet.</p><p>Iremos construir pequenos circuitos usando plataformas da família Arduino e componentes eletrônicos, como sensores de temperatura e humidade e apresentar as leituras em um ecrã LCD ou usando um interruptor para controlar uma lâmpada. Iremos depois usar as interfaces de redes do micro-controlador ESP8266 para prototipar tarefas de IoT como logar dados dos sensores com a ajudar de serviços da cloud, ou como controlar o estado on/off de circuitos físicos através de uma página web.</p><p>Terás de trazer o teu próprio computador para este workshop, iremos fornecer todos os componentes electrónicos necessários.</p>",
+      show: true,
+      speaker: false,
       lang: "pt"
     },
     {
@@ -525,7 +474,8 @@ module.exports = {
       image: "ivo_silva.jpg",
       linkedin: "https://www.linkedin.com/in/ivopintodasilva/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Sábado 24/03 | 12:00 - 12:30 | Auditório FEUP",
+      talkTitle: "Construção de uma pipeline para release de aplicações móveis",
       talkSummary: "No desenvolvimento de um produto existe a necessidade de ter diferentes ambientes que se destinam a finalidades distintas. De forma a agilizar este processo, a disponibilização das diferentes versões de uma aplicação pode ser automatizada, utilizando um conjunto de tecnologias de continuous delivery. Esta palestra consiste numa descrição do nosso processo no Finta (uma app mobile direcionada a fãs de futebol: <a href='http://getfinta.pt/'>http://getfinta.pt/</a>) e das ferramentas usadas.",
       show: true,
       speaker: true,
@@ -541,7 +491,7 @@ module.exports = {
       image: "joao_azevedo.jpg",
       linkedin: "https://www.linkedin.com/in/jcazevedo/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 11:15 - 11:45 | Auditório FEUP",
       talkTitle: "Introdução à Programação Funcional com JavaScript.",
       talkSummary: "Nesta apresentação, vamos introduzir o paradigma da programação funcional usando JavaScript. Tentaremos demonstrar que tratando a computação como a avaliação de funções puras, usando dados imutáveis e preferindo expressões a comandos conseguimos produzir código mais fácil de entender, mais modular e mais fácil de testar.",
       show: true,
@@ -558,7 +508,7 @@ module.exports = {
       image: "jose_pedro_silva.jpg",
       linkedin: "https://www.linkedin.com/in/jpsfs/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 11:45 - 12:30 | Auditório FEUP",
       talkSummary: "Ever heard of the 4th Industrial revolution or the Industry 4.0? It's not all about the hardware. In fact, most of the hardware is already here, what we are missing is the software that will make this vision a reality. In this talk we are going to talk about the technologies driving the industry to its 4th revolution and about what we are still missing to achieve I4.0. If you want to be prepared for the next big thing in the enterprise world, join us to find more!",
       show: true,
       speaker: true,
@@ -574,9 +524,9 @@ module.exports = {
       image: "rui_costa.jpg",
       linkedin: "https://www.linkedin.com/in/ruimiguelcosta/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
-      talkTitle: "",
-      talkSummary: "",
+      talkDate: "Sábado 24/03 | 14:45 - 15:30 | Auditório FEUP",
+      talkTitle: "An Internet of autonomous vehicles: Moving terabytes of data between vehicles and the cloud",
+      talkSummary: "With the increasing demand for the continuous connectivity on the move, the way we look at the Internet is changing. Vehicles are now becoming smarter with the increasing number of built-in sensors and high demand for the ability to move data between vehicles and the cloud. The autonomous vehicle sets the pinnacle of that transformation, by generating 4 terabytes of data per day and being a key enabler of new mobility-on-demand services that will change the way we live our lives every day. Veniam is building a V2X (vehicle-to-everything) platform that is able to move terabytes of data between vehicles (V2V) and vehicles and the cloud (V2C). Cars can now do more than carrying people and goods from point A to point B and become active nodes of the Internet, a new one, an Internet of Moving Things.",
       show: true,
       speaker: true,
       lang: "pt"
@@ -591,7 +541,7 @@ module.exports = {
       image: "eduardo_espinheira.jpg",
       linkedin: "https://www.linkedin.com/in/eespinheira/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 10:30 - 11:15 | Auditório FEUP",
       talkTitle: "De Estudante a Engenheiro Informático: Gestão de Carreiras para Tótós",
       talkSummary: "Nesta palestra o Eduardo vai apresentar a perspectiva de um engenheiro na gestão de carreiras e recrutamento. Em particular vai indicar 3 ferramentas fundamentais a utilizar, salientando dicas e armadilhas dos desafios dos engenheiros informáticos hoje em dia.",
       show: true,
@@ -611,11 +561,57 @@ module.exports = {
       faqs: [],
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Jogos Sérios e Mundos Virtuais para ensino e formação: tendências e perspetivas.",
-      talkSummary: "",
+      talkSummary: "“Serious games” is a commonplace word now. But what can we really to achieve with them? Rather than mere fireworks or motivation gimmick, serious games are powerful mindtools, which allow us to explore and live different perspectives, face complex dynamics in concrete form: live the dynamics rather than just read about them. Augmented and virtual reality, combined with gestural interaction, gelocalization, and mobility, may further expand the possibilities of the genre, and in this talk I’ll explain what we want to achieve and how. I’ll also explain how all of this is taking place without much of a connection with current information systems, how this needs to be tackled by software engineers and what baby steps have already begun to be take in this regard.",
+      talkDate: "Segunda-feira 26/03 | 11:45 - 12:30 | Auditório FEUP",
       show: true,
       speaker: true,
       lang: "pt"
-    }
+    },
+    {
+      id: 19,
+      name: "Prof. Luís Paulo Reis",
+      shortBio: "Universidade do Minho",
+      company: "Universidade do Minho",
+      role: "Associate Professor",
+      fullBio: "Luís Paulo Reis é Professor Associado da Universidade do Minho e diretor do LIACC - Laboratório de Inteligência Artificial e Ciência de Computadores, onde também coordena o Grupo de Investigação em Cooperação Inteligente Homem-Máquina. É membro sénior do IEEE e vice-presidente da direção da APPIA - Associação Portuguesa para a Inteligência Artificial. Nos últimos 25 anos, lecionou disciplinas na Universidade, nas áreas de Inteligência Artificial, Robótica Inteligente, Sistemas Multi-Agente, Simulação Inteligente, Aprendizagem Computacional, Jogos Educativos/Sérios e Programação de Computadores. Foi investigador principal em mais de 10 projetos de investigação nessas áreas. Foram-lhe atribuídos mais de 50 prêmios científicos, incluindo vencer mais de 15 competições internacionais da RoboCup. Orientou 18 teses de doutoramento e 101 teses de mestrado concluídas. Organizou mais de 50 eventos científicos e pertenceu ao Comité de Programa de mais de 250 eventos científicos. É autor de mais de 300 publicações em conferências e revistas internacionais (indexadas no SCOPUS ou ISI Web of Knowledge).",
+      image: "luis_reis.jpg",
+      linkedin: "https://www.linkedin.com/in/lpreis/",
+      faqs: [],
+      talkTitle: "Inteligência Artificial e Robótica: Cooperação Homem-Robô para a Formação de Equipas compostas por Humanos e Robôs",
+      talkSummary: "No futuro, humanos e robôs terão que trabalhar juntos em ambientes complexos, resolver problemas difíceis e realizar tarefas que exigem cooperação homem-máquina em equipa. Deste modo, são necessárias metodologias para permitir que os robôs aprendam, interajam e cooperem com os seus parceiros humanos. Esta palestra será baseada nas metodologias desenvolvidas para a criação de equipas heterogéneas multi-robô e humano-robô com ênfase nas metodologias desenvolvidas nos nossos projetos: FC Portugal e HearBo. O projeto do FC Portugal desenvolveu metodologias para a criação de equipas de futebol robótico capazes de seguir instruções de alto-nível de um treinador humano/robô usando conceitos como estratégia, táticas, formações e jogadas estudadas. O projeto também desenvolveu metodologias para aprendizagem de skills, usando simulação, tais como andar, chutar, levantar-se ou passar/receber uma bola. O projeto permitiu que os nossos grupos de investigação vencessem 4 campeonatos mundiais e 10 campeonatos europeus de futebol robótico de diferentes ligas/competições. No HearBo, juntamente com o Honda-RI Japão, desenvolvemos metodologias de aprendizagem e interação de robôs humanos para robôs humanoides capazes de reconhecer o tipo de música e dançar respeitando o seu estilo e ritmo. A conversa será ilustrada com vídeos de ambos os projetos.",
+      talkDate: "Sábado 24/03 | 10:00 - 11:00 | Auditório FEUP",
+      show: true,
+      speaker: true,
+      lang: "pt"
+    },
+    {
+      id: 20,
+      name: "Daniel Teixeira",
+      //shortBio: "Universidade do Minho",
+      //company: "Universidade do Minho",
+      //role: "Associate Professor",
+      fullBio: "Daniel Teixeira é um especialista em segurança informática, especializado em testes de penetração e análise de vulnerabilidades. Suas principais áreas de foco são a simulação adversários, emulação de tácticas, técnicas e procedimentos de adversários modernos, pesquisa de vulnerabilidades e desenvolvimento de exploits.",
+      image: "daniel_teixeira.png",
+      faqs: [],
+      talkTitle: "Cibersegurança",
+      talkSummary: "Daniel Teixeira é um especialista em segurança informática, especializado em testes de penetração e análise de vulnerabilidades. Suas principais áreas de foco são a simulação adversários, emulação de tácticas, técnicas e procedimentos de adversários modernos, pesquisa de vulnerabilidades e desenvolvimento de exploits.",
+      talkDate: "Sábado 24/03 | 15:30 - 16:00 | Auditório FEUP",
+      show: true,
+      speaker: true,
+      lang: "pt"
+    },
+    {
+      id: 21,
+      name: "Rui Guedes",
+      fullBio: "I have worked for a few years on corporate solutions development, did some R&D on the field of robotics and AI (subject of my master's thesis). Then I've decided that I needed some excitement on my life and turned to Indie game/VR dev. First on mobile and now on PC/Consoles. I've been working with VR since 2013, focusing on Immersion and Design-For-VR paradigms. Cool stuff :)",
+      //image: "daniel_teixeira.png",
+      faqs: [],
+      talkTitle: "Novas Realidades Digitais (Virtual, Aumentada, Mista)",
+      talkSummary: "Exploração do tema das novas realidades (virtual, aumentada e mista), distinção entre elas, aplicabilidade no mundo real, abordagens tecnológicas e o seu enquadramento no futuro das tecnologias.",
+      talkDate: "Segunda-feira 26/03 | 11:00 - 11:45 | Auditório FEUP",
+      show: false,
+      speaker: true,
+    },
   ],
   talks: [
     {
@@ -645,6 +641,138 @@ module.exports = {
       image: "/images/sessao_networking.svg",
       date: "25 de Março | 20:30 - 23:45",
       location: "Quinta de Santo António",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 3,
+      title: "Modern Graph Analysis using opensource tools like Tinkerpop and Janusgraph",
+      desc: "<p>Graph databases are worth talking about in the big data and analytics context because, behind the scenes, the capabilities of graph databases improve the ability to analyze complex data relationships; these databases also give organizations greater ability to move reporting into a real-time or near-real-time mode.</p><p>In this workshop, everyone will be able to: understand the difference between the graph data and the traversal process; know the elements of a TinkerPop property graph; be able to write basic traversals through the graph; be able to perform common mutations of the graph (insert, change and remove data); be exposed to simple data transformations such as grouping, ordering, and aggregations.</p><p>To get the maximum from the workshop you should bring your own laptop. As software requirements, every participant must have internet connection and Docker installed.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 10:00 - 12:30",
+      location: "Ricardo Faria e Pedro Pires",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 4,
+      title: "Web Security Foundations - Hands-on!",
+      desc: "<p>Security nowadays is a hot topic. Everyone is on alert for the latest database leak, closely tracking the updates on the business losing millions on a hack and digging deep on the web to find ways to stay protected. In this workshop, we will dig in the most well-known vulnerabilities that exist in the wild and have a look at some tricks that will help you during security assessments.</p>" + 
+      "<p>Mandatory: Laptop.</p>" + 
+      "<p>Renato Rodrigues: Holder of a MSc in Informatics Engineering, with high interest in security issues, working in the AppSec world for a while. Curator of an AppSec Ezine and promoter of a security enthusiasts group (0xOPOSEC Meetup) – more than breaking through challenges, it is all about sharing the knowledge. Speaker at conferences like BSides, OWASP and others security and IT related. Find him on <a href=\"https://github.com/Simpsonpt/\">GitHub</a> and <a href=\"https://twitter.com/simps0n\">Twitter</a>.</p>" + 
+      "<p>César Silva: César comes from Braga and completed his graduation in Informatics at ISEP in 2016. Then he started working at Farfetch as a Developer, mainly in authentication problems. Later he moved to the Security team, focusing on Application Security. He also had some training in Networking, as this is one of his areas of interest. He likes to listen to music and try to sniff bugs. When there are no keyboards around, he watches some movies or reads some books. Find him on <a href=\"https://twitter.com/Apl3b\">Twitter</a>.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 10:00 - 12:30",
+      location: "Renato Rodrigues e César Silva",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 5,
+      title: "Capture the Flag: CTF 101",
+      desc: "<p>Capture the Flag (CTF) são competições de segurança informática. \"It's like the hacker Olympics.\" - Elliot Alderson, Mr. Robot S03E01 Nestes competições, equipas de todo o mundo tentam resolver desafios de modo a conseguir obter o maior número de pontos possível. Os desafios podem-se inserir em diversas categorias: exploitation, reverse engineering, web hacking, criptografia e forensics. Participar em CTFs é excelente para desenvolver novas skills, como por exemplo desenvolvimento de exploits, descoberta de vulnerabilidades e criação de ferramentas. É uma área próxima do mundo profissional da segurança informática e que permite avaliar conhecimentos através de desafios práticos e objetivamente mensuráveis. Neste workshop terás oportunidade de conhecer algumas ferramentas e técnicas que podem ser utilizadas em CTFs e ainda colocar à prova os teus conhecimentos num mini CTF. Gostas de jogos e tens interesse pela área da segurança? Este é o teu workshop!</p>" + 
+      "<p>André Batista é mestre em Segurança Informática pela FCUP, investigador no INESC TEC, capitão da xSTF CTF team e membro do Center of Competence in Cyber Security and Privacy (C3P).</p>" + 
+      "<p>José Sousa tem o cargo de Information Security Officer da Universidade do Porto, e é co-capitão da xSTF CTF team.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 10:00 - 12:30",
+      location: "André Batista e José Sousa",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 6,
+      title: "Espresso The Android Way",
+      desc: "<p>Os testes automáticos são uma das formas de potenciar o escalar das equipas e ao mesmo tempo assegurar que se consegue manter uma boa qualidade e cadência de release dos produtos. Neste workshop iremos mostrar como podemos fazer isto para uma aplicação nativa de Android usando Espresso e criar alguns testes para automatizar uma aplicação.</p>" + 
+      "<p>Fábio Barbosa: Licenciado em Engenharia de Informática no Instituto Superior de Engenharia do Porto. Com alguns anos de experiência na área de automação de Android. Membro activo na comunidade, a criar oportunidades para partilha de conhecimento através do Porto Testers Meetup. Actualmente trabalha na Farfetch como Test Automation Engineer para a equipa de Mobile.</p>" + 
+      "<p>Filipe Carvalho: Estudou no Mestrado Integrado em Engenharia Informática na FEUP. Tem já alguns anos de experiência nas áreas de automação de testes e Continuous Delivery, principalmente em Mobile. Contribuidor assíduo na comunidade, organiza o Porto Testers Meetup para fomentar a partilha de conhecimento. É neste momento QA Automation Engineer na Talkdesk.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 14:00 - 16:00",
+      location: "André Batista e José Sousa",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 7,
+      title: "Internet Of Things – Da Conceptualização À Criação",
+      desc: "<p>O mundo do IoT está a crescer rapidamente, respondendo a diferentes necessidades de sociedades e empresas todos os dias. Este workshop serve para ajudar-te a entrar no IoT mind-set e, através de exercícios práticos, encontrar novas soluções aos desafios do dia.</p>" + 
+      "<p>Será necessário que os alunos inscritos tragam os seus computadores pessoais.</p>" + 
+      "<p>Paulo Patrício (Solution Manager, Novabase): Com 15 anos de experiência na industria das Telecomunicações, uma Licenciatura em Eng. Eletrotécnica e um Mestrado em Software Engineering, sou um apaixonado pela Robótica, Domótica e tudo o que se relacione com inovação em geral.</p>" + 
+      "<p>Sandra Simões (Senior UX Designer, Novabase): Há 7 anos na Celfocus, com expecial foco no mercado de Telco, com focos de UX&Strategy design. Atualmente estou como CX SME no IoT colaborando com diferentes stakeholders focando-me essencialmente no user final.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 10:00 - 12:00",
+      location: "Paulo Patrício e Sandra Simões",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 8,
+      title: "101 Blockchain",
+      desc: "<p>Tópicos:<br/>- Blockchain fundamentals<br/>- Mining and incentives<br/>- How it works (tech session)<br/>- Smart contracts and trusted computing<br/>- Lightning networks<br/>- Other DLTs: DAGs<br/>- Industry applications<br/>- Q&A</p>" + 
+      "<p>Celso Martinho: procura-o no seu <a href=\"https://www.linkedin.com/in/celsomartinho/\">Linkedin</a> ou <a href=\"mailto:celso@brpx.com\">email</a>.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 10:00 - 12:00",
+      location: "Celso Martinho",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 9,
+      title: "101 Blockchain",
+      desc: "<p>Tópicos:<br/>- Blockchain fundamentals<br/>- Mining and incentives<br/>- How it works (tech session)<br/>- Smart contracts and trusted computing<br/>- Lightning networks<br/>- Other DLTs: DAGs<br/>- Industry applications<br/>- Q&A</p>" + 
+      "<p>Celso Martinho: procura-o no seu <a href=\"https://www.linkedin.com/in/celsomartinho/\">Linkedin</a> ou <a href=\"mailto:celso@brpx.com\">email</a>.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 10:00 - 12:00",
+      location: "Celso Martinho",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 10,
+      title: "Criação de recursos 3D para Motores a tempo real",
+      desc: "<p>Neste workshop serão apresentados conceitos e metodologias para o desenvolvimento de recursos 3D direcionados para motores gráficos a tempo real. Existirá uma componente prática durante a sessão e os participantes que quiserem acompanhar poderão trazer os seus portáteis com a instalação prévia do programa Autodesk Maya (versão de estudante). O software poderá ser descarregado a partir do seguinte url: <a href=\"https://www.autodesk.com/education/free-software/maya\">https://www.autodesk.com/education/free-software/maya</a>.</p>" + 
+      "<p>André Cruz: Mestre em Tecnologia Multimédia pela Faculdade de Engenharia da Universidade do Porto, André Cruz é consultor no Centro de Serviços e Apoio às Empresas da Associação Empresarial de Portugal e docente no Instituto Superior de Tecnologias Avançadas do Porto e na Lisbon School of Design, tendo entretanto desenvolvido vários projetos para clientes como Europarque, Unicer, Civec, Eurocid, Exponor e Nimco.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 14:00 - 16:00",
+      location: "André Cruz",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 11,
+      title: "Cibersegurança S21sec",
+      desc: "<p>Tópicos:<br/>- Recon (port mapping, DNS recon, etc.)<br/>- Web Application Security<br/>- Mobile Security<br/>- Como participar num bug bounty e reportar uma vulnerabilidade</p>" + 
+      "<p>Requisitos:<br/>- Tenha alguma experiência em Linux, e que venha com uma PEN USB com o Kali Linux, que será utilizado durante o workshop<br/>- Trazer portátil.</p>" + 
+      "<p>Sobre o Luís Grangeia (lgrangeia@s21sec.com):</p>" + 
+      "<p>I’m an information security professional working in the field for about 17 years, mostly doing security audits and pen-tests.</p>" + 
+      "<p>I do information security auditing and testing to major portuguese and european companies (retail, banking, insurance, telcos). I sometimes speak about information security at conferences and meetings. Some stuff I did of interest: In 2015 I found and exploited a memory corruption vulnerability on a TomTom GPS sportswatch, bypassing several security measures, including encrypted firmware updates. All without touching a screwdriver; I wrote Cupid, an implementation of the heartbleed attack for wireless networks, implemented as patches for hostapd and wpa_supplicant; I authored a Burp Suite extension to handle and inject inside AES encrypted payloads; I wrote the original paper for DNS Cache Snooping; In another millenium I’ve co-authored a phrack article that, among other things, implemented a covert TCP sniffer inside the Linux kernel.</p>" + 
+      "<p>All my recent slide decks are available on slideshare.net. I’m mostly interested in security research, covering the usual topics: Operation System design models (trusted path computing, security models, etc.); Web and Mobile Application security; Low level protocols design and implementation; Debugging & disassembling software & hardware; Mobility and embedded systems, Android/IOS, wearables, IoT; Futurology, new uses for technology, new forms of interaction.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 14:00 - 16:00",
+      location: "Luís Grangeia",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 12,
+      title: "{H}API Day - Open architectures",
+      desc: "<p>Introdução sobre as boas práticas de desenvolvimento de uma API REST.</p>" + 
+      "<p>Business Case sobre a aplicação de APIs na SONAE MC.</p>" + 
+      "<p>Aplicação prática: Especificar uma API REST de um caso real.</p>" + 
+      "<p>Todos os participantes devem levar o seu computador.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      location: "João Riqueza, Ernesto Costa e Marcelo Barroso",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 13,
+      title: "Introdução ao ecossistema do Arduino e às IoT",
+      desc: "<p>Avanços na tecnologia de microprocessadores tornaram mais fácil do que nunca potenciar projectos electrónicos com ligação à internet. Através de noções básicas de electrónica, programação e redes que todos os novos estudantes engenheiros possuem, este workshop irá demonstrar como consolidar esse conhecimento e colocá-lo em prática para construir e ligar circuitos e dispositivos à internet.</p><p>Iremos construir pequenos circuitos usando plataformas da família Arduino e componentes eletrônicos, como sensores de temperatura e humidade e apresentar as leituras em um ecrã LCD ou usando um interruptor para controlar uma lâmpada. Iremos depois usar as interfaces de redes do micro-controlador ESP8266 para prototipar tarefas de IoT como logar dados dos sensores com a ajudar de serviços da cloud, ou como controlar o estado on/off de circuitos físicos através de uma página web.</p><p>Terás de trazer o teu próprio computador para este workshop, iremos fornecer todos os componentes electrónicos necessários.</p>" + 
+      "<p></p>",
+      image: "/images/Ativo 4.svg",
+      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      location: "<a href=\"/speakers/5\">João Gradim</a> e <a href=\"/speakers/4\">Mário Carneiro</a>",
       faqs: [],
       show: true
     }
@@ -695,7 +823,7 @@ module.exports = {
       name: "Beatriz Henriques",
       image: "beatriz_henriques.jpg",
       role: "Animação",
-      facebook: "https://www.facebook.com/tis.henriques",
+      linkedin: "https://www.linkedin.com/in/beatrizdehenriquesmartins/",
       show: true
     },
     {
@@ -931,7 +1059,7 @@ module.exports = {
       name: "Filipe Vale",
       email: "filipevale@ua.pt",
       phone: 965717720,
-      shortBio: "Student @ISCAC",
+      shortBio: "Student @UA",
       company: "Universidade de Aveiro",
       image: "filipe_vale.jpg",
       facebook: "https://www.facebook.com/FilipeMiguelVale?ref=br_rs",
@@ -1003,7 +1131,7 @@ module.exports = {
       company: "Universidade da Beira Interior",
       image: "americo_sa.jpg",
       facebook: "https://www.facebook.com/americo.pereira.31?ref=br_rs",
-      show: false
+      show: true
     },
     {
       id: 14,
