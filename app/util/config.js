@@ -251,6 +251,7 @@ module.exports = {
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "MINIX 3: A Reliable and Secure Operating System",
       talkSummary: "Most computer users nowadays are nontechnical people who have  a mental model of what they expect from a computer based on their experience with TV sets and stereos: you buy it, plug it in, and it works perfectly for the next 10 years. Computers aren't like that, which leads to frustration. Part of the problem is the operating system, which is often millions of lines of kernel code, each of which can potentially bring the system down. As long as we maintain the current structure of the  operating system as a huge single monolithic program full of foreign code (device drivers) and running in kernel mode, the situation will not improve. In an attempt to provide better reliability and security, we have created a new multiserver operating system,  MINIX 3, with only 15,000 lines in kernel and the rest of the operating system split up into small components each running as a separate user-mode processes.  It is available for the x86 and ARM for embedded systems. The talk will discuss the design of the system and some of unique aspects, such as live update--the ability to replace the operating system with a new version while it is running without affecting running applications. The MINIX 3 Website is at <a href='http://www.minix3.org'>www.minix3.org</a>",
+      talkDate: "Sábado 24/03 | 11:00 - 12:00 | Auditório FEUP",
       show: true,
       speaker: true,
       lang: "en"
@@ -267,16 +268,7 @@ module.exports = {
       facebook: "https://www.facebook.com/lealjoaoo",
       instagram: "https://www.instagram.com/joaoo_leal/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 14:00 - 14:30 | Auditório FEUP",
       talkTitle: "Como podes chegar à Google? Dicas para conseguires o teu emprego de sonho.",
       talkSummary: "",
       show: true,
@@ -293,16 +285,7 @@ module.exports = {
       image: "alexey_sidorenko.jpg",
       linkedin: "https://www.linkedin.com/in/alexeysidorenko/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 14:30 - 15:15 | Auditório FEUP",
       talkTitle: "The Closure: Como o governo Russo procura exercer controlo total na internet",
       talkSummary: "\"A Internet foi criada como um projeto da CIA e continua a ser desenvolvida como tal\", uma citação infame (e longe de ser correta) do presidente russo, Putin, de abril de 2014, pode descrever de melhor forma a atitude do governo russo contemporâneo em relação à Net. Sendo geralmente céticas da Net, as autoridades russas nunca confiaram no meio. Mas, após os protestos pós-eleição de 2011-2012 e as revelações de Snowden, o Kremlin abriu uma nova frente contra ela, implementando um plano coordenado para exercer tanto controlo online como atualmente tem offline. Alexey Sidorenko, observador de longo prazo deste processo, compartilhará uma história ainda em andamento de The Closure - um lento processo de privação de liberdades para se comunicar e expressar online na Rússia.",
       show: true,
@@ -319,7 +302,7 @@ module.exports = {
       linkedin: "https://www.linkedin.com/in/wolfgangmerkt/",
       website: "",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 10:00 - 10:30 | Auditório FEUP",
       talkTitle: "From Industrial Automation, Disaster Recovery, and Space Exploration: A Journey in Practical Robotics",
       talkSummary: "In his talk, Wolfgang will highlight different areas of his journey in the wonderful world of robotics and touch upon challenges and frontiers in the field. In particular, he will highlight recent research successes and open challenges along with implications of an applied field.",
       show: true,
@@ -336,7 +319,7 @@ module.exports = {
       image: "job_voort.jpg",
       linkedin: "https://www.linkedin.com/in/jobvo/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 15:15 - 16:00 | Auditório FEUP",
       talkTitle: "GitLab",
       talkSummary: "O GitLab iniciou-se como um projeto open source. Com o passar dos ano, cresceu e tornou-se num empresa constituída por cerca de 250 pessoas. Em vez de abrir um escritório em São Francisco, o GitLab fez tudo remotamente: 0 escritórios. Além disso, todo o trabalho desenvolvido pelo GitLab é aberto. Nesta talk, Job examinará como o GitLab gere o seu crescimento como empresa, onde todos podem trabalhar com os seus pijamas e onde todo o trabalho é público.",
       show: true,
@@ -370,17 +353,8 @@ module.exports = {
       linkedin: "https://www.linkedin.com/in/andrerfosilva/",
       github: "https://github.com/andresilva",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "A definir.",
-      talkTitle: "",
+      talkDate: "Sábado 24/03 | 14:00 - 14:45 | Auditório FEUP",
+      talkTitle: "Blockchain",
       talkSummary: "A palestra será uma introdução a tecnologia blockchain, onde se irá descrever como funciona um sistema como Bitcoin e o que assegura a segurança do mesmo. Durante a palestra iremos começar por descrever o problema que estamos a tentar resolver (distributed ledger) e iterativamente construir uma solução que no final deverá ser semelhante a Bitcoin (não irá ser 100% semelhante para evitar descrever detalhes de implementação). Por fim irei também fazer uma pequena menção a outros sistema como o Ethereum.",
       show: true,
       speaker: true,
@@ -396,19 +370,10 @@ module.exports = {
       image: "nelson_pinho.png",
       linkedin: "https://www.linkedin.com/in/nelsonpinho/",
       faqs: [],
-      /*faqs: [{
-          question: "Onde trabalha atualmente?",
-          answer: "Em minha casa."
-        },
-        {
-          question: "O que gosta de fazer?",
-          answer: "Trabalhar para o site do ENEI! xD"
-        }
-      ],*/
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Segunda-feira 26/03 | 10:00 - 11:00 | Auditório FEUP",
       talkTitle: "Will You Disrupt or Be Disrupted in 2018? Digital Transformation and the New Face of Business",
       talkSummary: "A Transformação Digital não é uma buzzword, é uma inevitabilidade. Temas como IoT, blockchain, quantum computing, ou Inteligência Artificial já fazem parte dos nossos dias. Esta sessão pretende fomentar o debate acerca de como a transformação digital está a alterar paradigmas e como poderá ser aplicada a 4 pilares: A co-criação com o cliente; A capacitação do colaborador; A optimização das operações e a Transformação dos produtos.",
-      show: false,
+      show: true,
       speaker: true,
       lang: "pt"
     },
@@ -525,7 +490,8 @@ module.exports = {
       image: "ivo_silva.jpg",
       linkedin: "https://www.linkedin.com/in/ivopintodasilva/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Sábado 24/03 | 12:00 - 12:30 | Auditório FEUP",
+      talkTitle: "Construção de uma pipeline para release de aplicações móveis",
       talkSummary: "No desenvolvimento de um produto existe a necessidade de ter diferentes ambientes que se destinam a finalidades distintas. De forma a agilizar este processo, a disponibilização das diferentes versões de uma aplicação pode ser automatizada, utilizando um conjunto de tecnologias de continuous delivery. Esta palestra consiste numa descrição do nosso processo no Finta (uma app mobile direcionada a fãs de futebol: <a href='http://getfinta.pt/'>http://getfinta.pt/</a>) e das ferramentas usadas.",
       show: true,
       speaker: true,
@@ -541,7 +507,7 @@ module.exports = {
       image: "joao_azevedo.jpg",
       linkedin: "https://www.linkedin.com/in/jcazevedo/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 11:15 - 11:45 | Auditório FEUP",
       talkTitle: "Introdução à Programação Funcional com JavaScript.",
       talkSummary: "Nesta apresentação, vamos introduzir o paradigma da programação funcional usando JavaScript. Tentaremos demonstrar que tratando a computação como a avaliação de funções puras, usando dados imutáveis e preferindo expressões a comandos conseguimos produzir código mais fácil de entender, mais modular e mais fácil de testar.",
       show: true,
@@ -558,7 +524,7 @@ module.exports = {
       image: "jose_pedro_silva.jpg",
       linkedin: "https://www.linkedin.com/in/jpsfs/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 11:45 - 12:30 | Auditório FEUP",
       talkSummary: "Ever heard of the 4th Industrial revolution or the Industry 4.0? It's not all about the hardware. In fact, most of the hardware is already here, what we are missing is the software that will make this vision a reality. In this talk we are going to talk about the technologies driving the industry to its 4th revolution and about what we are still missing to achieve I4.0. If you want to be prepared for the next big thing in the enterprise world, join us to find more!",
       show: true,
       speaker: true,
@@ -574,9 +540,9 @@ module.exports = {
       image: "rui_costa.jpg",
       linkedin: "https://www.linkedin.com/in/ruimiguelcosta/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
-      talkTitle: "",
-      talkSummary: "",
+      talkDate: "Sábado 24/03 | 14:45 - 15:30 | Auditório FEUP",
+      talkTitle: "An Internet of autonomous vehicles: Moving terabytes of data between vehicles and the cloud",
+      talkSummary: "With the increasing demand for the continuous connectivity on the move, the way we look at the Internet is changing. Vehicles are now becoming smarter with the increasing number of built-in sensors and high demand for the ability to move data between vehicles and the cloud. The autonomous vehicle sets the pinnacle of that transformation, by generating 4 terabytes of data per day and being a key enabler of new mobility-on-demand services that will change the way we live our lives every day. Veniam is building a V2X (vehicle-to-everything) platform that is able to move terabytes of data between vehicles (V2V) and vehicles and the cloud (V2C). Cars can now do more than carrying people and goods from point A to point B and become active nodes of the Internet, a new one, an Internet of Moving Things.",
       show: true,
       speaker: true,
       lang: "pt"
@@ -591,7 +557,7 @@ module.exports = {
       image: "eduardo_espinheira.jpg",
       linkedin: "https://www.linkedin.com/in/eespinheira/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
+      talkDate: "Domingo 25/03 | 10:30 - 11:15 | Auditório FEUP",
       talkTitle: "De Estudante a Engenheiro Informático: Gestão de Carreiras para Tótós",
       talkSummary: "Nesta palestra o Eduardo vai apresentar a perspectiva de um engenheiro na gestão de carreiras e recrutamento. Em particular vai indicar 3 ferramentas fundamentais a utilizar, salientando dicas e armadilhas dos desafios dos engenheiros informáticos hoje em dia.",
       show: true,
@@ -611,11 +577,57 @@ module.exports = {
       faqs: [],
       //talkDate: "Sexta-feira, 11:42",
       talkTitle: "Jogos Sérios e Mundos Virtuais para ensino e formação: tendências e perspetivas.",
-      talkSummary: "",
+      talkSummary: "“Serious games” is a commonplace word now. But what can we really to achieve with them? Rather than mere fireworks or motivation gimmick, serious games are powerful mindtools, which allow us to explore and live different perspectives, face complex dynamics in concrete form: live the dynamics rather than just read about them. Augmented and virtual reality, combined with gestural interaction, gelocalization, and mobility, may further expand the possibilities of the genre, and in this talk I’ll explain what we want to achieve and how. I’ll also explain how all of this is taking place without much of a connection with current information systems, how this needs to be tackled by software engineers and what baby steps have already begun to be take in this regard.",
+      talkDate: "Segunda-feira 26/03 | 11:45 - 12:30 | Auditório FEUP",
       show: true,
       speaker: true,
       lang: "pt"
-    }
+    },
+    {
+      id: 19,
+      name: "Prof. Luís Paulo Reis",
+      shortBio: "Universidade do Minho",
+      company: "Universidade do Minho",
+      role: "Associate Professor",
+      fullBio: "Luís Paulo Reis é Professor Associado da Universidade do Minho e diretor do LIACC - Laboratório de Inteligência Artificial e Ciência de Computadores, onde também coordena o Grupo de Investigação em Cooperação Inteligente Homem-Máquina. É membro sénior do IEEE e vice-presidente da direção da APPIA - Associação Portuguesa para a Inteligência Artificial. Nos últimos 25 anos, lecionou disciplinas na Universidade, nas áreas de Inteligência Artificial, Robótica Inteligente, Sistemas Multi-Agente, Simulação Inteligente, Aprendizagem Computacional, Jogos Educativos/Sérios e Programação de Computadores. Foi investigador principal em mais de 10 projetos de investigação nessas áreas. Foram-lhe atribuídos mais de 50 prêmios científicos, incluindo vencer mais de 15 competições internacionais da RoboCup. Orientou 18 teses de doutoramento e 101 teses de mestrado concluídas. Organizou mais de 50 eventos científicos e pertenceu ao Comité de Programa de mais de 250 eventos científicos. É autor de mais de 300 publicações em conferências e revistas internacionais (indexadas no SCOPUS ou ISI Web of Knowledge).",
+      image: "luis_reis.jpg",
+      linkedin: "https://www.linkedin.com/in/lpreis/",
+      faqs: [],
+      talkTitle: "Inteligência Artificial e Robótica: Cooperação Homem-Robô para a Formação de Equipas compostas por Humanos e Robôs",
+      talkSummary: "No futuro, humanos e robôs terão que trabalhar juntos em ambientes complexos, resolver problemas difíceis e realizar tarefas que exigem cooperação homem-máquina em equipa. Deste modo, são necessárias metodologias para permitir que os robôs aprendam, interajam e cooperem com os seus parceiros humanos. Esta palestra será baseada nas metodologias desenvolvidas para a criação de equipas heterogéneas multi-robô e humano-robô com ênfase nas metodologias desenvolvidas nos nossos projetos: FC Portugal e HearBo. O projeto do FC Portugal desenvolveu metodologias para a criação de equipas de futebol robótico capazes de seguir instruções de alto-nível de um treinador humano/robô usando conceitos como estratégia, táticas, formações e jogadas estudadas. O projeto também desenvolveu metodologias para aprendizagem de skills, usando simulação, tais como andar, chutar, levantar-se ou passar/receber uma bola. O projeto permitiu que os nossos grupos de investigação vencessem 4 campeonatos mundiais e 10 campeonatos europeus de futebol robótico de diferentes ligas/competições. No HearBo, juntamente com o Honda-RI Japão, desenvolvemos metodologias de aprendizagem e interação de robôs humanos para robôs humanoides capazes de reconhecer o tipo de música e dançar respeitando o seu estilo e ritmo. A conversa será ilustrada com vídeos de ambos os projetos.",
+      talkDate: "Sábado 24/03 | 10:00 - 11:00 | Auditório FEUP",
+      show: true,
+      speaker: true,
+      lang: "pt"
+    },
+    {
+      id: 20,
+      name: "Daniel Teixeira",
+      //shortBio: "Universidade do Minho",
+      //company: "Universidade do Minho",
+      //role: "Associate Professor",
+      fullBio: "Daniel Teixeira é um especialista em segurança informática, especializado em testes de penetração e análise de vulnerabilidades. Suas principais áreas de foco são a simulação adversários, emulação de tácticas, técnicas e procedimentos de adversários modernos, pesquisa de vulnerabilidades e desenvolvimento de exploits.",
+      image: "daniel_teixeira.png",
+      faqs: [],
+      talkTitle: "Cibersegurança",
+      talkSummary: "Daniel Teixeira é um especialista em segurança informática, especializado em testes de penetração e análise de vulnerabilidades. Suas principais áreas de foco são a simulação adversários, emulação de tácticas, técnicas e procedimentos de adversários modernos, pesquisa de vulnerabilidades e desenvolvimento de exploits.",
+      talkDate: "Sábado 24/03 | 15:30 - 16:00 | Auditório FEUP",
+      show: true,
+      speaker: true,
+      lang: "pt"
+    },
+    {
+      id: 21,
+      name: "Rui Guedes",
+      fullBio: "I have worked for a few years on corporate solutions development, did some R&D on the field of robotics and AI (subject of my master's thesis). Then I've decided that I needed some excitement on my life and turned to Indie game/VR dev. First on mobile and now on PC/Consoles. I've been working with VR since 2013, focusing on Immersion and Design-For-VR paradigms. Cool stuff :)",
+      //image: "daniel_teixeira.png",
+      faqs: [],
+      talkTitle: "Novas Realidades Digitais (Virtual, Aumentada, Mista)",
+      talkSummary: "Exploração do tema das novas realidades (virtual, aumentada e mista), distinção entre elas, aplicabilidade no mundo real, abordagens tecnológicas e o seu enquadramento no futuro das tecnologias.",
+      talkDate: "Segunda-feira 26/03 | 11:00 - 11:45 | Auditório FEUP",
+      show: false,
+      speaker: true,
+    },
   ],
   talks: [
     {
@@ -695,7 +707,7 @@ module.exports = {
       name: "Beatriz Henriques",
       image: "beatriz_henriques.jpg",
       role: "Animação",
-      facebook: "https://www.facebook.com/tis.henriques",
+      linkedin: "https://www.linkedin.com/in/beatrizdehenriquesmartins/",
       show: true
     },
     {

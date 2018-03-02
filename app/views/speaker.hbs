@@ -15,7 +15,9 @@
   <div class="speaker-container row">
     <div class="bio-row row">
       <div class="col-md-4">
+        {{#if speaker.image}}
         <img src="/images/speakers/{{speaker.image}}" />
+        {{/if}}
       </div>
       <div class="col-md-8 info-col">
         <h2>{{speaker.name}}</h2>

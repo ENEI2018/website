@@ -287,7 +287,7 @@ table.schedule-table div.schedule-entry-container.rowcount-4 {
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-6 {
-  min-height: 212px;
+  min-height: 202px;
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-7 {
@@ -303,7 +303,7 @@ table.schedule-table div.schedule-entry-container.rowcount-8 {
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-8.day-1-fixer {
-  min-height: 276px;
+  min-height: 314px;
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-8.day-2-fixer {
@@ -315,15 +315,15 @@ table.schedule-table div.schedule-entry-container.rowcount-10 {
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-10.day-1-fixer {
-  min-height: 352px;
+  min-height: 386px;
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-10.day-2-fixer {
-  min-height: 403px;
+  min-height: 442px;
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-10.day-3-fixer {
-  min-height: 344px;
+  min-height: 348px;
 }
 
 table.schedule-table div.schedule-entry-container.rowcount-11 {

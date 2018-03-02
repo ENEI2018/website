@@ -142,52 +142,52 @@ module.exports = [{
             {
                 start: "10:00",
                 col1: {
+                    width: 40,
                     rowspan: 4,
                     colspan: 1,
-                    title: "Por anunciar",
-                    time: "10:00 - 11:00",
-                    location: "Auditório FEUP",
-                    show: true
-                    /*rowspan: 4,
-                    colspan: 1,
                     title: "Prof. Luis Paulo Reis",
+                    subtitle: "Inteligência Artificial e Robótica: Cooperação Homem-Robô para a Formação de Equipas compostas por Humanos e Robôs",
                     time: "10:00 - 11:00",
+                    url: "/speakers/19",
                     location: "Auditório FEUP",
-                    show: true*/
+                    show: true,
+                    lang: "pt"
                 },
                 col2: {
+                    width: 20,
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Por anunciar",
+                    title: "Ricardo Faria e Pedro Pires",
+                    subtitle: "Modern Graph Analysis using Tinkerpop and Janusgraph",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col3: {
+                    width: 20,
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Por anunciar",
-                    time: "10:00 - 12:30",
-                    location: "Sala por definir",
-                    show: true
-                    /*rowspan: 10,
-                    colspan: 1,
                     title: "Renato Rodrigues",
                     subtitle: "Web Security",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
-                    show: true*/
+                    show: true,
+                    lang: "pt"
                 },
                 col4: {
+                    width: 20,
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Por anunciar",
+                    title: "André Batista e José Sousa",
+                    subtitle: "Capture The Flag - CTF 101",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -227,18 +227,13 @@ module.exports = [{
                 col1: {
                     rowspan: 2,
                     colspan: 1,
-                    title: "Por anunciar",
-                    time: "12:00 - 12:30",
-                    location: "Auditório FEUP",
-                    show: true
-                    /*rowspan: 2,
-                    colspan: 1,
                     title: "Ivo Silva",
                     subtitle: "Contrução de uma pipeline de release para aplicações móveis",
                     time: "12:00 - 12:30",
                     location: "Auditório FEUP",
                     url: "/speakers/8",
-                    show: true*/
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -287,24 +282,19 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Por anunciar",
-                    time: "14:00 - 16:00",
-                    location: "Sala a anunciar",
-                    show: true
-                    /*rowspan: 8,
-                    colspan: 1,
                     title: "Filipe Carvalho",
                     subtitle: "Android Testing",
-                    time: "14:00 - 16:00",
-                    location: "Sala por definir",
                     url: "/speakers/7",
-                    show: true*/
+                    time: "14:00 - 16:00",
+                    location: "Sala a anunciar",
+                    show: true,
+                    lang: "pt"
                 },
                 col3: {
                     rowspan: 8,
                     colspan: 2,
                     class: "day-1-fixer",
-                    title: "Por anunciar",
+                    title: "Sessão de Networking",
                     time: "14:00 - 16:00",
                     location: "Sala a anunciar",
                     show: true
@@ -326,7 +316,7 @@ module.exports = [{
                     rowspan: 3,
                     colspan: 1,
                     title: "Rui Costa",
-                    subtitle: "IoT Sensors",
+                    subtitle: "An Internet of autonomous vehicles: Moving terabytes of data between vehicles and the cloud",
                     time: "14:45 - 15:30",
                     location: "Auditório FEUP",
                     url: "/speakers/11",
@@ -345,17 +335,13 @@ module.exports = [{
                 col1: {
                     rowspan: 2,
                     colspan: 1,
-                    title: "Por anunciar",
-                    time: "15:30 - 16:00",
-                    location: "Auditório FEUP",
-                    show: true
-                    /*rowspan: 2,
-                    colspan: 1,
                     title: "Daniel Teixeira",
                     subtitle: "Cibersegurança",
+                    url: "/speakers/20",
                     time: "15:30 - 16:00",
                     location: "Auditório FEUP",
-                    show: true*/
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -390,15 +376,10 @@ module.exports = [{
             {
                 start: "16:45",
                 col1: {
-                    /*rowspan: 7,
-                    colspan: 1,
-                    title: "Debate",
-                    time: "16:45 - 18:15",
-                    location: "Auditório FEUP",
-                    show: true*/
                     rowspan: 7,
                     colspan: 1,
-                    title: "Por anunciar",
+                    title: "Debate: Educação 4.0",
+                    subtitle: "Participantes por anunciar",
                     time: "16:45 - 18:30",
                     location: "Auditório FEUP",
                     show: true
@@ -600,28 +581,34 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
+                    title: "Paulo Patrício e Sandra Simões",
+                    subtitle: "Internet of Things",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col3: {
                     rowspan: 10,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
+                    title: "Celso Martinho",
+                    subtitle: "101 Blockchain",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col4: {
                     rowspan: 10,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
+                    title: "Rui Brilha e Egas Basto",
+                    subtitle: "Miniclip",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -711,10 +698,12 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
+                    title: "André Cruz",
+                    subtitle: "Criação de Recursos 3D para Motores a Tempo Real",
                     time: "14:00 - 16:00",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col3: {
                     rowspan: 8,
@@ -732,17 +721,12 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
+                    title: "Luís Grangeia",
+                    subtitle: "Cibersegurança S21sec",
                     time: "14:00 - 16:00",
                     location: "Sala por definir",
-                    show: true
-                    /*rowspan: 8,
-                    colspan: 1,
-                    title: "André Cruz",
-                    subtitle: "Processos para o Desenvolvimento de Game Assets 3D",
-                    time: "14:00 - 16:00",
-                    location: "Sala por definir",
-                    show: true*/
+                    show: true,
+                    lang: "pt"
                 }
             },
             {
@@ -753,17 +737,13 @@ module.exports = [{
                 col1: {
                     rowspan: 3,
                     colspan: 1,
-                    title: "Por anunciar",
-                    time: "14:30 - 15:15",
-                    location: "Auditório FEUP",
-                    show: true
-                    /*rowspan: 3,
-                    colspan: 1,
                     title: "Alexey Sidorenko",
                     subtitle: "The Closure: How Russian Government Seeks to Exert Full Control Over the Net",
                     time: "14:30 - 15:15",
+                    url: "/speakers/15",
                     location: "Auditório FEUP",
-                    show: true*/
+                    show: true,
+                    lang: "en"
                 },
             },
             {
@@ -777,10 +757,13 @@ module.exports = [{
                 col1: {
                     rowspan: 3,
                     colspan: 1,
-                    title: "Por anunciar",
+                    title: "Job van der Voort",
+                    subtitle: "GitLab",
+                    url: "/speakers/16",
                     time: "15:15 - 16:00",
                     location: "Auditório FEUP",
-                    show: true
+                    show: true,
+                    lang: "en"
                 },
             },
             {
@@ -802,9 +785,9 @@ module.exports = [{
             {
                 start: "16:45",
                 col1: {
-                    rowspan: 2,
+                    rowspan: 3,
                     colspan: 1,
-                    time: "16:45 - 17:15",
+                    time: "16:45 - 17:30",
                     title: "Por anunciar",
                     location: "Auditório FEUP",
                     show: true
@@ -815,7 +798,8 @@ module.exports = [{
                     time: "16:45 - 18:15",
                     title: "Karaoke Presentation",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col3: {
                     rowspan: 7,
@@ -841,28 +825,23 @@ module.exports = [{
             },
             {
                 start: "17:15",
-                col1: {
-                    rowspan: 2,
-                    colspan: 1,
-                    time: "17:15 - 17:45",
-                    title: "Por anunciar",
-                    location: "Auditório FEUP",
-                    show: true
-                },
             },
             {
                 start: "17:30",
+                col1: {
+                    rowspan: 3,
+                    colspan: 1,
+                    time: "17:30 - 18:15",
+                    title: "Guilherme Duarte",
+                    subtitle: "Por Falar Noutra Coisa",
+                    location: "Auditório FEUP",
+                    show: true,
+                    lang: "pt",
+                    url: "/speakers/18"
+                },
             },
             {
                 start: "17:45",
-                col1: {
-                    rowspan: 2,
-                    colspan: 1,
-                    time: "17:45 - 18:15",
-                    title: "Por anunciar",
-                    location: "Auditório FEUP",
-                    show: true
-                },
             },
             {
                 start: "18:00",
@@ -875,7 +854,8 @@ module.exports = [{
                     time: "18:15 - 18:30",
                     title: "Karaoke Presentation Final",
                     location: "Auditório FEUP",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
             },
             {
@@ -970,59 +950,46 @@ module.exports = [{
                 col1: {
                     rowspan: 4,
                     colspan: 1,
-                    title: "Por anunciar",
-                    time: "10:00 - 11:00",
-                    location: "Auditório FEUP",
-                    show: true
-                    /*rowspan: 4,
-                    colspan: 1,
                     title: "Nelson Pinho",
                     subtitle: "Will You Disrupt or Be Disrupted in 2018? Digital Transformation and the New Face of Business",
-                    time: "10:00 - 11:00",
                     url: "/speakers/2",
+                    time: "10:00 - 11:00",
                     location: "Auditório FEUP",
-                    show: true*/
+                    show: true,
+                    lang: "pt"
                 },
                 col2: {
                     rowspan: 10,
                     colspan: 1,
                     class: "day-3-fixer",
-                    title: "Por anunciar",
+                    title: "João Riqueza, Ernesto Costa e Marcelo Barroso",
+                    subtitle: "{H}API Day - Open architectures",
                     time: "10:00 - 12:30",
                     location: "Sala a anunciar",
-                    show: true
-                    /*rowspan: 10,
-                    colspan: 1,
-                    title: "Pedro Caramez",
-                    subtitle: "Masterclass LinkedIn + apresentação DCOOP",
-                    time: "10:00 - 12:30",
-                    location: "Sala a anunciar",
-                    show: true*/
+                    show: true,
+                    lang: "pt"
                 },
                 col3: {
                     rowspan: 10,
                     colspan: 1,
                     class: "day-3-fixer",
-                    title: "Por anunciar",
+                    title: "Pedro Caramez",
+                    subtitle: "Masterclass LinkedIn + apresentação DCOOP",
                     time: "10:00 - 12:30",
                     location: "Sala a anunciar",
-                    show: true
-                    /*rowspan: 10,
-                    colspan: 1,
-                    title: "Mário Carneiro e João Gradim",
-                    subtitle: "Internet of Things (Arduino)",
-                    time: "10:00 - 12:30",
-                    location: "Sala a anunciar",
-                    show: true*/
+                    show: true,
+                    lang: "pt"
                 },
                 col4: {
                     rowspan: 10,
                     colspan: 1,
                     class: "day-3-fixer",
-                    title: "Por anunciar",
+                    title: "Mário Carneiro e João Gradim",
+                    subtitle: "Internet of Things (Arduino)",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 }
             },
             {
@@ -1039,17 +1006,13 @@ module.exports = [{
                 col1: {
                     rowspan: 3,
                     colspan: 1,
-                    title: "Por anunciar",
+                    title: "Rui Guedes",
+                    subtitle: "Novas Realidades Digitais (Virtual, Aumentada, Mista)",
+                    //url: "/speakers/21",
                     time: "11:00 - 11:45",
                     location: "Auditório FEUP",
-                    show: true
-                    /*rowspan: 3,
-                    colspan: 1,
-                    title: "Rui Guedes",
-                    subtitle: "Virtual Reality",
-                    time: "10:00 - 11:00",
-                    location: "Auditório FEUP",
-                    show: true*/
+                    show: true,
+                    lang: "pt"
                 }
             },
             {
