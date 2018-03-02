@@ -931,7 +931,7 @@ module.exports = {
       name: "Filipe Vale",
       email: "filipevale@ua.pt",
       phone: 965717720,
-      shortBio: "Student @ISCAC",
+      shortBio: "Student @UA",
       company: "Universidade de Aveiro",
       image: "filipe_vale.jpg",
       facebook: "https://www.facebook.com/FilipeMiguelVale?ref=br_rs",
@@ -1003,7 +1003,7 @@ module.exports = {
       company: "Universidade da Beira Interior",
       image: "americo_sa.jpg",
       facebook: "https://www.facebook.com/americo.pereira.31?ref=br_rs",
-      show: false
+      show: true
     },
     {
       id: 14,
