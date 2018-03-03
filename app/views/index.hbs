@@ -141,6 +141,38 @@
     </div>
   {{/if}}-->
 
+  {{#if desafios_enabled}}
+  <div class="separator-row-secondary">
+    <div class="row separator-shapes-2">
+      <div class="col-xs-4 shape-square enei-skew enei-bgd-bgdblue anim-vertical-phase1"></div>
+      <div class="col-xs-4 shape-square enei-skew enei-bgd-thrdhlghtblue anim-vertical-phase2"></div>
+      <div class="col-xs-4 shape-square enei-skew enei-bgd-hlghtpurple anim-vertical-phase3"></div>
+    </div>
+  </div>
+
+  <div id="faqs" class="container faqs-container">
+    <h1 class="section-title" id="index-faq">Desafios do ENEI</h1>
+
+    <div class="panel-group" id="desafios-accordion">
+      {{#each desafios}}
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#desafios-accordion" href="#faq-collapse-{{id}}">
+              {{question}}</a>
+          </h4>
+        </div>
+        <div id="faq-collapse-{{id}}" class="panel-collapse collapse">
+          <div class="panel-body faq-answer">
+            {{{answer}}}
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+  {{/if}}
+
   <div class="separator-row-secondary">
     <div class="row separator-shapes-2">
       <div class="col-xs-4 shape-square enei-skew enei-bgd-bgdblue anim-vertical-phase1"></div>
@@ -153,98 +185,21 @@
     <h1 class="section-title" id="index-faq">FAQ's</h1>
 
     <div class="panel-group" id="accordion">
+      {{#each faqs}}
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-              O que é o ENEI?</a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#faq-collapse-{{id}}">
+              {{question}}</a>
           </h4>
         </div>
-        <div id="collapse1" class="panel-collapse collapse">
+        <div id="faq-collapse-{{id}}" class="panel-collapse collapse">
           <div class="panel-body faq-answer">
-            <p>O Encontro Nacional de Estudantes de Informática (ENEI) é um evento que pretende oferecer aos estudantes
-              de todo
-              o país um evento que promove a aprendizagem, a troca de ideias e o convívio, enquanto tenta criar fortes
-              ligações
-              com o mundo empresarial.</p>
-            <p>A 12ª edição do evento terá lugar na Faculdade de Engenharia da Universidade do Porto entre os dias 23 e
-              26 de
-              março de 2018 e a organização espera contar com 500 estudantes que poderão participar em palestras,
-              workshops
-              e painéis de discussão, contando com oradores de renome nacional e internacional.</p>
-            <p>Esta versão do evento também incluirá os tradicionais momentos de diversão noturnos que muito apelam a
-              todos
-              os participantes das antigas edições e são uma excelente via de networking e transferência de
-              conhecimento!</p>
+            {{{answer}}}
           </div>
         </div>
       </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-              Onde me posso inscrever?</a>
-          </h4>
-        </div>
-        <div id="collapse2" class="panel-collapse collapse">
-          <div class="panel-body faq-answer">No nosso website, quando abrir a época de inscrições. Mantém-te atento às
-            nossas redes sociais para seres o primeiro!
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-              Quando me posso inscrever nos workshops?</a>
-          </h4>
-        </div>
-        <div id="collapse3" class="panel-collapse collapse">
-          <div class="panel-body faq-answer">A inscrição em workshops será feita mais próxima da data do evento e será
-            divulgada nas nossas redes sociais.
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-              Quem pode participar?</a>
-          </h4>
-        </div>
-        <div id="collapse4" class="panel-collapse collapse">
-          <div class="panel-body faq-answer">Todos os estudantes de cursos relacionados com informática estão convidados
-            a participar!
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-              Tenho acesso a todas as sessões?</a>
-          </h4>
-        </div>
-        <div id="collapse5" class="panel-collapse collapse">
-          <div class="panel-body faq-answer">As palestras são abertas a todos os participantes. No que toca a workshops,
-            as inscrições serão à parte e limitadas.
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
-              Como posso chegar ao ENEI?</a>
-          </h4>
-        </div>
-        <div id="collapse6" class="panel-collapse collapse">
-          <div class="panel-body faq-answer">
-            A maior parte das atividades do ENEI vão-se realizar na FEUP, e terás transporte a partir de lá para aquelas que são noutros locais.
-            Podes ver como chegar à FEUP <a href="https://sigarra.up.pt/feup/pt/web_base.gera_pagina?p_pagina=*localiza%C3%A7%C3%A3o">aqui</a>.
-          </div>
-        </div>
-      </div>
+      {{/each}}
     </div>
   </div>
 
