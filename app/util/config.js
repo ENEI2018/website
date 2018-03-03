@@ -152,6 +152,12 @@ module.exports = {
         image: "it-sector.png",
         href: "http://www.itsector.pt/pt/",
         show: true
+      },
+      {
+        name: "i2S",
+        image: "i2s.png",
+        href: "http://www.i2s.pt/pt-pt/",
+        show: true
       }
     ],
 
