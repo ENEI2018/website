@@ -9,6 +9,13 @@ router.post('/', function(req, res, next) {
     maxBuffer : 1024 * 1024
   }
 
+  var branch = JSON.parse(req.body.payload).ref;
+  if(branch !== "refs/heads/master") {
+    console.log("Skipping deployment");
+    res.sendStatus(200);
+    return;
+  }
+
   execFile(config.update_script, execOptions, function(error, stdout, stderr) {
     console.log('Git script executed');
     console.log(error);
