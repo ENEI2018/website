@@ -5,6 +5,55 @@ module.exports = {
   update_script: "/www/website-enei/hooks/hook.sh",
   signup_spreadsheet: "1XQvB1H0EBVpU2_gvbJCl3RWGp1DkpE_Z1AzYiDFcpL8",
   android_page: "https://play.google.com/store/apps/details?id=com.enei.eneimobile",
+  faqs: [
+    {
+      id: 1,
+      question: "O que é o ENEI?",
+      answer: "<p>O Encontro Nacional de Estudantes de Informática (ENEI) é um evento que pretende oferecer aos estudantes de todo o país um evento que promove a aprendizagem, a troca de ideias e o convívio, enquanto tenta criar fortes ligações com o mundo empresarial.</p><p>A 12ª edição do evento terá lugar na Faculdade de Engenharia da Universidade do Porto entre os dias 23 e 26 de março de 2018 e a organização espera contar com 500 estudantes que poderão participar em palestras, workshops e painéis de discussão, contando com oradores de renome nacional e internacional.</p><p>Esta versão do evento também incluirá os tradicionais momentos de diversão noturnos que muito apelam a todos os participantes das antigas edições e são uma excelente via de networking e transferência de conhecimento!</p>"
+    },
+    {
+      id: 2,
+      question: "Onde me posso inscrever?",
+      answer: "No nosso website, quando abrir a época de inscrições. Mantém-te atento às nossas redes sociais para seres o primeiro!"
+    },
+    {
+      id: 3,
+      question: "Quando me posso inscrever nos workshops?",
+      answer: "A inscrição em workshops será feita mais próxima da data do evento e será divulgada nas nossas redes sociais."
+    },
+    {
+      id: 4,
+      question: "Quem pode participar?",
+      answer: "Todos os estudantes de cursos relacionados com informática estão convidados a participar!"
+    },
+    {
+      id: 5,
+      question: "Tenho acesso a todas as sessões?",
+      answer: "As palestras são abertas a todos os participantes. No que toca a workshops, as inscrições serão à parte e limitadas."
+    },
+    {
+      id: 6,
+      question: "Como posso chegar ao ENEI?",
+      answer: "A maior parte das atividades do ENEI vão-se realizar na FEUP, e terás transporte a partir de lá para aquelas que são noutros locais. Podes ver como chegar à FEUP <a href=\"https://sigarra.up.pt/feup/pt/web_base.gera_pagina?p_pagina=*localiza%C3%A7%C3%A3o\">aqui</a>."
+    }
+  ],
+  desafios: [
+    {
+      id: 1,
+      question: "Desafio 1",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vitae leo ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque in tortor a leo aliquam accumsan. Vestibulum non mauris vulputate, pulvinar augue non, ullamcorper neque. Donec vel lacinia turpis. Nulla laoreet dui eu dapibus tincidunt. Praesent vel pharetra orci. Proin dui quam, feugiat non turpis vel, euismod consectetur dui. Aliquam tempor porta pellentesque. Integer dolor ante, vestibulum vitae gravida quis, accumsan ut felis."
+    },
+    {
+      id: 2,
+      question: "Desafio 2",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vitae leo ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque in tortor a leo aliquam accumsan. Vestibulum non mauris vulputate, pulvinar augue non, ullamcorper neque. Donec vel lacinia turpis. Nulla laoreet dui eu dapibus tincidunt. Praesent vel pharetra orci. Proin dui quam, feugiat non turpis vel, euismod consectetur dui. Aliquam tempor porta pellentesque. Integer dolor ante, vestibulum vitae gravida quis, accumsan ut felis."
+    },
+    {
+      id: 3,
+      question: "Desafio 3",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vitae leo ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque in tortor a leo aliquam accumsan. Vestibulum non mauris vulputate, pulvinar augue non, ullamcorper neque. Donec vel lacinia turpis. Nulla laoreet dui eu dapibus tincidunt. Praesent vel pharetra orci. Proin dui quam, feugiat non turpis vel, euismod consectetur dui. Aliquam tempor porta pellentesque. Integer dolor ante, vestibulum vitae gravida quis, accumsan ut felis."
+    }
+  ],
   sponsors: {
     main: [{
       name: "Sonae IM",

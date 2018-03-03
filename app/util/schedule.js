@@ -886,11 +886,20 @@ module.exports = [{
                 start: "20:15",
             },
             {
+                special: true,
                 start: "20:30",
+                col1: {
+                    title: "Mega Febrada | AEFEUP",
+                    rowspan: 2,
+                    colspan: 2,
+                    url: "/talks/1",
+                },
+                col2: {
+                    title: "<a href=\"/talks/2\">Jantar de CVs</a>",
+                    rowspan: 2,
+                    colspan: 2,
+                },
                 break: true,
-                title: "Mega febrada",
-                location: "AEFEUP",
-                rowspan: 2
             },
             {
                 start: "02:45",

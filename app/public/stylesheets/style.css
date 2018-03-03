@@ -441,6 +441,7 @@ div.ticket-box div>span.price {
     font-size: 100%;
 }
 
+.faqs-container #desafios-accordion,
 .faqs-container #accordion {
     width: fit-content;
     display: table;
@@ -449,21 +450,26 @@ div.ticket-box div>span.price {
     margin-top: 30px;
 }
 
+.faqs-container #desafios-accordion .panel-default,
 .faqs-container #accordion .panel-default,
+.faqs-container #desafios-accordion .panel-default .panel-heading,
 .faqs-container #accordion .panel-default .panel-heading {
     background-color: transparent;
 }
 
+.faqs-container #desafios-accordion .panel-default .panel-heading .panel-title
 .faqs-container #accordion .panel-default .panel-heading .panel-title {
     color: white;
     font-size: 200%;
 }
 
+.faqs-container #desafios-accordion .panel,
 .faqs-container #accordion .panel {
     border-width: 0px !important;
     margin-top: 40px;
 }
 
+.faqs-container #desafios-accordion div div.panel-heading,
 .faqs-container #accordion div div.panel-heading {
     display: table;
     width: fit-content;
@@ -473,16 +479,19 @@ div.ticket-box div>span.price {
     background-color: var(--main-highlight-purple) !important;
 }
 
+.faqs-container #desafios-accordion .panel-default .panel-heading .panel-title:hover,
 .faqs-container #accordion .panel-default .panel-heading .panel-title:hover {
     color: var(--main-third-highlight-blue);
 }
 
+.faqs-container #desafios-accordion .panel .panel-collapse .panel-body,
 .faqs-container #accordion .panel .panel-collapse .panel-body {
     border-style: solid;
     border-width: 6px;
     border-color: var(--main-highlight-purple);
 }
 
+#desafios-accordion,
 #accordion {
     width: fit-content;
     display: table;
@@ -490,22 +499,27 @@ div.ticket-box div>span.price {
     margin: auto;
 }
 
+#desafios-accordion .panel-default,
 #accordion .panel-default,
+#desafios-accordion .panel-default .panel-heading,
 #accordion .panel-default .panel-heading {
     background-color: transparent;
 }
 
+#desafios-accordion .panel-default .panel-heading .panel-title,
 #accordion .panel-default .panel-heading .panel-title {
     color: white;
     font-size: 150%;
 }
 
+#desafios-accordion .panel,
 #accordion .panel {
     border-width: 0px !important;
     margin-bottom: 20px;
     margin-top: 10px;
 }
 
+#desafios-accordion div div.panel-heading,
 #accordion div div.panel-heading {
     display: table;
     width: fit-content;
@@ -515,10 +529,12 @@ div.ticket-box div>span.price {
     background-color: var(--main-highlight-purple) !important;
 }
 
+#desafios-accordion .panel-default .panel-heading .panel-title:hover,
 #accordion .panel-default .panel-heading .panel-title:hover {
     color: var(--main-third-highlight-blue);
 }
 
+#desafios-accordion .panel .panel-collapse .panel-body,
 #accordion .panel .panel-collapse .panel-body {
     border-style: solid;
     border-width: 6px;

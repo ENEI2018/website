@@ -19,7 +19,10 @@ function render(res, page, options) {
     schedule: schedule,
     earlybird_soldout: features.earlybird_soldout,
     include_ambassadors: features.ambassadors,
-    ambassadors: config.ambassadors
+    ambassadors: config.ambassadors,
+    faqs: config.faqs,
+    desafios: config.desafios,
+    desafios_enabled: features.desafios
   }
 
   res.render(page, Object.assign(new_options, options));
