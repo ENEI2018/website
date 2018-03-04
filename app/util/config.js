@@ -204,7 +204,7 @@ module.exports = {
       },
       {
         name: "i2S",
-        image: "i2s.png",
+        image: "i2S.png",
         href: "http://www.i2s.pt/pt-pt/",
         show: true
       }
