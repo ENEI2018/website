@@ -95,7 +95,7 @@ module.exports = [{
                 rowspan: 2
             },
             {
-                start: "08:30",
+                start: "09:00",
                 col1: {
                     rowspan: 1,
                     colspan: 1,
@@ -114,10 +114,9 @@ module.exports = [{
                 }
             },
             {
-                start: "08:45",
+                start: "09:15",
                 break: true,
                 title: "Pequeno-almoço",
-                location: "Cantina de Engenharia",
                 rowspan: 2
             },
             {
@@ -524,7 +523,7 @@ module.exports = [{
                 rowspan: 2
             },
             {
-                start: "08:30",
+                start: "09:00",
                 col1: {
                     rowspan: 1,
                     colspan: 1,
@@ -543,10 +542,9 @@ module.exports = [{
                 }
             },
             {
-                start: "08:45",
+                start: "09:15",
                 break: true,
                 title: "Pequeno-almoço",
-                location: "Cantina de Engenharia",
                 rowspan: 2
             },
             {
@@ -919,7 +917,7 @@ module.exports = [{
                 rowspan: 2
             },
             {
-                start: "08:30",
+                start: "09:00",
                 col1: {
                     rowspan: 1,
                     colspan: 1,
@@ -938,10 +936,9 @@ module.exports = [{
                 }
             },
             {
-                start: "08:45",
+                start: "09:15",
                 break: true,
                 title: "Pequeno-almoço",
-                location: "Cantina de Engenharia",
                 rowspan: 2
             },
             {
@@ -1028,7 +1025,7 @@ module.exports = [{
                     colspan: 1,
                     title: "Rui Guedes",
                     subtitle: "Novas Realidades Digitais (Virtual, Aumentada, Mista)",
-                    //url: "/speakers/21",
+                    url: "/speakers/21",
                     time: "11:00 - 11:45",
                     location: "Auditório FEUP",
                     show: true,
