@@ -157,13 +157,14 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Ricardo Faria e Pedro Pires",
-                    subtitle: "Modern Graph Analysis using Tinkerpop and Janusgraph",
+                    title: "Por anunciar",
+                    //title: "Ricardo Faria e Pedro Pires",
+                    //subtitle: "Modern Graph Analysis using Tinkerpop and Janusgraph",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
-                    url: "/talks/3",
-                    lang: "pt"
+                    //url: "/talks/3",
+                    //lang: "pt"
                 },
                 col3: {
                     width: 20,
@@ -595,24 +596,26 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Celso Martinho",
-                    subtitle: "101 Blockchain",
+                    title: "Por anunciar",
+                    //title: "Celso Martinho",
+                    //subtitle: "101 Blockchain",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
-                    lang: "pt",
-                    url: "/talks/8"
+                    //lang: "pt",
+                    //url: "/talks/8"
                 },
                 col4: {
                     rowspan: 10,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Rui Brilha e Egas Basto",
-                    subtitle: "Miniclip",
+                    title: "Por anunciar",
+                    //title: "Rui Brilha e Egas Basto",
+                    //subtitle: "Miniclip",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
-                    lang: "pt"
+                    //lang: "pt"
                 },
             },
             {
@@ -726,13 +729,14 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Luís Grangeia",
-                    subtitle: "Cibersegurança S21sec",
+                    title: "Por anunciar",
+                    //title: "Luís Grangeia",
+                    //subtitle: "Cibersegurança S21sec",
                     time: "14:00 - 16:00",
                     location: "Sala por definir",
                     show: true,
-                    lang: "pt",
-                    url: "/talks/11"
+                    //lang: "pt",
+                    //url: "/talks/11"
                 }
             },
             {

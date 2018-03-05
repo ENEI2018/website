@@ -707,7 +707,7 @@ module.exports = {
       date: "Sábado 24 de Março | 10:00 - 12:30",
       location: "Ricardo Faria e Pedro Pires",
       faqs: [],
-      show: true
+      show: false
     },
     {
       id: 4,
@@ -768,18 +768,7 @@ module.exports = {
       date: "Domingo 25 de Março | 10:00 - 12:00",
       location: "Celso Martinho",
       faqs: [],
-      show: true
-    },
-    {
-      id: 9,
-      title: "101 Blockchain",
-      desc: "<p>Tópicos:<br/>- Blockchain fundamentals<br/>- Mining and incentives<br/>- How it works (tech session)<br/>- Smart contracts and trusted computing<br/>- Lightning networks<br/>- Other DLTs: DAGs<br/>- Industry applications<br/>- Q&A</p>" + 
-      "<p>Celso Martinho: procura-o no seu <a href=\"https://www.linkedin.com/in/celsomartinho/\">Linkedin</a> ou <a href=\"mailto:celso@brpx.com\">email</a>.</p>",
-      image: "/images/Ativo 4.svg",
-      date: "Domingo 25 de Março | 10:00 - 12:00",
-      location: "Celso Martinho",
-      faqs: [],
-      show: true
+      show: false
     },
     {
       id: 10,
@@ -805,7 +794,7 @@ module.exports = {
       date: "Domingo 25 de Março | 14:00 - 16:00",
       location: "Luís Grangeia",
       faqs: [],
-      show: true
+      show: false
     },
     {
       id: 12,
