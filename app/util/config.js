@@ -707,7 +707,7 @@ module.exports = {
       date: "Sábado 24 de Março | 10:00 - 12:30",
       location: "Ricardo Faria e Pedro Pires",
       faqs: [],
-      show: true
+      show: false
     },
     {
       id: 4,
@@ -768,6 +768,9 @@ module.exports = {
       date: "Domingo 25 de Março | 10:00 - 12:00",
       location: "Celso Martinho",
       faqs: [],
+<<<<<<< HEAD
+      show: false
+=======
       show: true
     },
     {
@@ -780,6 +783,7 @@ module.exports = {
       location: "Celso Martinho",
       faqs: [],
       show: true
+>>>>>>> origin/master
     },
     {
       id: 10,
@@ -805,7 +809,7 @@ module.exports = {
       date: "Domingo 25 de Março | 14:00 - 16:00",
       location: "Luís Grangeia",
       faqs: [],
-      show: true
+      show: false
     },
     {
       id: 12,
