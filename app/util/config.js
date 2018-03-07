@@ -684,7 +684,7 @@ module.exports = {
       title: "Sessão de Cocktails",
       desc: "<p>A Sessão de Cocktails é uma atividade focada no conhecimento dos nossos patrocinadores e no networking. Esta sessão é constituída por pequenos pitches (entre 2 a 5 minutos) das empresas presentes que tentarão apresentar o seu trabalho, objetivo e quais vagas têm atualmente abertas para estudantes, recém-licenciados ou recém-mestres.</p><p>Após uma série de apresentações, haverá um intervalo em que os participantes poderão contactar os nossos patrocinadores pelos quais poderão ter ficado interessados e preparar, então, o seu futuro.</p>",
       image: "/images/sessao_cocktails.svg",
-      date: "25 de Março | 18:30 - 20:15",
+      date: "25 de Março | 18:30 - 20:30",
       //location: "Auditório FEUP",
       faqs: [],
       show: true

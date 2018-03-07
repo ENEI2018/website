@@ -892,7 +892,7 @@ module.exports = [{
                 start: "20:30",
                 col1: {
                     title: "Mega Febrada | AEFEUP",
-                    rowspan: 2,
+                    rowspan: 4,
                     colspan: 2,
                     url: "/talks/1",
                 },
@@ -902,6 +902,12 @@ module.exports = [{
                     colspan: 2,
                 },
                 break: true,
+            },
+            {
+                start: "00:00",
+            },
+            {
+                start: "01:00",
             },
             {
                 start: "02:45",
