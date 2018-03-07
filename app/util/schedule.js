@@ -878,7 +878,7 @@ module.exports = [{
                     url: "/talks/1",
                 },
                 col2: {
-                    title: "Sponsor Showcase",
+                    title: "Quiz by Whitesmith",
                     rowspan: 2,
                     colspan: 2,
                 },
@@ -897,7 +897,7 @@ module.exports = [{
                     url: "/talks/1",
                 },
                 col2: {
-                    title: "<a href=\"/talks/2\">Jantar de CVs</a>",
+                    title: "<a href=\"/talks/2\">Jantar Empresarial</a>",
                     rowspan: 2,
                     colspan: 2,
                 },
