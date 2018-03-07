@@ -674,7 +674,7 @@ module.exports = {
       title: "Sessão de Networking",
       desc: "<p>Esta atividade é focada na resolução, por parte dos participantes, de problemas propostos pelos nossos patrocinadores. O objetivo é que os estudantes apresentem soluções num curto espaço de tempo para uma problemática relacionada com informática. Estes problemas poderão ser a melhor tecnologia a utilizar para uma determinada tarefa, como arquiteturar um sistema com os componentes especificados pela empresa, etc.</p><p>A organização da atividade passa pela colocação de várias empresas em mesas diferentes que serão visitadas durante cerca de 5 minutos por grupo de 3 a 5 participantes para resolverem o desafio proposto pela equipa lá presente.</p><p>A Sessão de Networking é importante para participantes que estejam à procura quer de trabalho a tempo inteiro, quer estágios (de verão ou não). Após a sessão espera-se que os representantes dos nossos patrocinadores na sessão façam uma avaliação e contactem os estudantes com melhores soluções!</p>",
       image: "/images/sessao_networking.svg",
-      date: "25 de Março | 15:00 - 16:00",
+      date: "23 de Março | 14:00 - 16:00",
       //location: "Auditório FEUP",
       faqs: [],
       show: true
