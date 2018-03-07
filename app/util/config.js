@@ -691,8 +691,8 @@ module.exports = {
     },
     {
       id: 2,
-      title: "Jantar com Patrocinadores",
-      desc: "<p>O Jantar com Patrocinadores é uma atividade inovadora que visa criar uma maior relação entre participantes e o mundo empresarial. O objetivo principal é permitir que estudantes comuniquem com representantes de alguns dos nossos patrocinadores a fim de obter mais informações sobre a empresa, o seu funcionamento, se estão a recrutar, etc.</p><p>Esta atividade ocorre em simultâneo com a Mega Febrada.</p><p>Para participação neste Jantar, os participantes deverão enviar o seu Curriculum Vitae e este será o critério de seleção de modo a tentar criar laços comuns entre a experiência dos estudantes e os interesses de cada patrocinador presente.</p>",
+      title: "Jantar Empresarial",
+      desc: "<p>O Jantar Empresarial é uma atividade inovadora que visa criar uma maior relação entre participantes e o mundo empresarial. O objetivo principal é permitir que estudantes comuniquem com representantes de alguns dos nossos patrocinadores a fim de obter mais informações sobre a empresa, o seu funcionamento, se estão a recrutar, etc.</p><p>Esta atividade ocorre em simultâneo com a Mega Febrada.</p><p>Para participação neste Jantar, os participantes deverão enviar o seu Curriculum Vitae e este será o critério de seleção de modo a tentar criar laços comuns entre a experiência dos estudantes e os interesses de cada patrocinador presente.</p>",
       image: "/images/sessao_networking.svg",
       date: "25 de Março | 20:30 - 23:45",
       location: "Quinta de Santo António",
