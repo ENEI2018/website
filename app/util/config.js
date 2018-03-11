@@ -29,7 +29,7 @@ module.exports = {
     {
       id: 5,
       question: "Tenho acesso a todas as sessões?",
-      answer: "As palestras são abertas a todos os participantes. No que toca a workshops, as inscrições serão à parte e limitadas."
+      answer: "As palestras são abertas a todos os participantes. No que toca a workshops, as inscrições serão à parte e limitadas. As sessões de cocktails e de networking, assim como o Jantar Empresarial precisam de inscrição prévia. Mantém-te atento às nossas redes sociais!"
     },
     {
       id: 6,
