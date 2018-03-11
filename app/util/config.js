@@ -247,6 +247,12 @@ module.exports = {
       href: "https://www.santandertotta.pt/pt_PT/Particulares/Universitarios.html",
       show: true
     },
+    {
+      name: "Make or Break",
+      image: "makeorbreak.png",
+      href: "https://makeorbreak.io/",
+      show: true
+    },
   ],
   partners2: [
     {
