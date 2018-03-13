@@ -453,7 +453,7 @@ module.exports = {
       website: "https://ferrolho.github.io/",
       faqs: [],
       talkDate: "Domingo 25/03 | 14:00 - 16:00",
-      talkTitle: "Robotics Mechanics with ThreeJS",
+      talkTitle: "Introdução à Robótica com Three.js",
       talkSummary: "",
       show: true,
       speaker: false,
