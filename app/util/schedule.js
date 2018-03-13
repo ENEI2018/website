@@ -718,7 +718,7 @@ module.exports = [{
                     colspan: 1,
                     class: "day-2-fixer",
                     title: "Henrique Ferrolho",
-                    subtitle: "Robotics Mechanics with ThreeJS",
+                    subtitle: "Introdução à Robótica com Three.js",
                     time: "14:00 - 16:00",
                     url: "/speakers/3",
                     location: "Sala por definir",
