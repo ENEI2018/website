@@ -684,7 +684,8 @@ module.exports = {
       date: "24 de Março | 14:00 - 16:00",
       //location: "Auditório FEUP",
       faqs: [],
-      show: true
+      show: true,
+      signup_url: "https://google.pt"
     },
     {
       id: 1,
