@@ -144,7 +144,7 @@ module.exports = [{
                     width: 40,
                     rowspan: 4,
                     colspan: 1,
-                    title: "Prof. Luis Paulo Reis",
+                    title: "Luis Paulo Reis",
                     subtitle: "Inteligência Artificial e Robótica: Cooperação Homem-Robô para a Formação de Equipas compostas por Humanos e Robôs",
                     time: "10:00 - 11:00",
                     url: "/speakers/19",
