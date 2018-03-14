@@ -457,7 +457,8 @@ module.exports = {
       talkSummary: "",
       show: true,
       speaker: false,
-      lang: "pt"
+      lang: "pt",
+      signup_url: "https://google.pt"
     },
     {
       id: 4,
@@ -630,7 +631,7 @@ module.exports = {
     },
     {
       id: 19,
-      name: "Prof. Luís Paulo Reis",
+      name: "Luís Paulo Reis",
       shortBio: "Universidade do Minho",
       company: "Universidade do Minho",
       role: "Associate Professor",
