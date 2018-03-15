@@ -18,20 +18,14 @@
         <img src="{{talk.image}}" />
       </div>
       <div class="col-md-8 info-col">
-        <div class="row">
-          <div class="col-md-6">
         <h2>{{{talk.title}}}</h2>
-          </div>
-          <div class="col-md-6">
-            {{#if talk.signup_url}}
-              <div id="speaker-button" class="speaker-page col-sm-4 info-socialmedia-col"><button class="subcribe-btn-custom">Inscreve-te!</button></div>
-            {{/if}}
-          </div>
-        </div>
         <h4>{{talk.date}}</h4>
         <h4>{{{talk.location}}}</h4>
         <div style="display: block;">
         <p class="speaker-page-bio">{{{talk.desc}}}</p>
+        {{#if talk.signup_url}}
+          <div id="speaker-button" class="talk-page col-sm-4 info-socialmedia-col"><button class="subcribe-btn-custom">Inscreve-te!</button></div>
+        {{/if}}
         </div>
       </div>
     </div>

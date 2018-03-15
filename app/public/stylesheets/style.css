@@ -70,8 +70,31 @@ div.full-line {
 }
 
 #speaker-button.speaker-page {
-    margin: 0 0 0px 0px;
+    margin: -40px 20px 0px 0px;
     float: right;
+}
+
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    #speaker-button.speaker-page {
+        margin: auto;
+        float: none;
+    }
+    
+}
+
+#speaker-button.talk-page {
+    margin: 10px 15px 0px 0px;
+    float: right;
+}
+
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    #speaker-button.talk-page {
+        margin: auto;
+        float: none;
+    }
+    
 }
 
 #speaker-button button {

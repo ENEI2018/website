@@ -457,8 +457,7 @@ module.exports = {
       talkSummary: "",
       show: true,
       speaker: false,
-      lang: "pt",
-      signup_url: "https://google.pt"
+      lang: "pt"
     },
     {
       id: 4,
@@ -685,7 +684,6 @@ module.exports = {
       //location: "Auditório FEUP",
       faqs: [],
       show: true,
-      signup_url: "https://google.pt"
     },
     {
       id: 1,
