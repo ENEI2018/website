@@ -710,16 +710,6 @@ module.exports = {
       show: true
     },
     {
-      id: 3,
-      title: "Modern Graph Analysis using opensource tools like Tinkerpop and Janusgraph",
-      desc: "<p>Graph databases are worth talking about in the big data and analytics context because, behind the scenes, the capabilities of graph databases improve the ability to analyze complex data relationships; these databases also give organizations greater ability to move reporting into a real-time or near-real-time mode.</p><p>In this workshop, everyone will be able to: understand the difference between the graph data and the traversal process; know the elements of a TinkerPop property graph; be able to write basic traversals through the graph; be able to perform common mutations of the graph (insert, change and remove data); be exposed to simple data transformations such as grouping, ordering, and aggregations.</p><p>To get the maximum from the workshop you should bring your own laptop. As software requirements, every participant must have internet connection and Docker installed.</p>",
-      image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 10:00 - 12:30",
-      location: "Ricardo Faria e Pedro Pires",
-      faqs: [],
-      show: false
-    },
-    {
       id: 4,
       title: "Web Security Foundations - Hands-on!",
       desc: "<p>Security nowadays is a hot topic. Everyone is on alert for the latest database leak, closely tracking the updates on the business losing millions on a hack and digging deep on the web to find ways to stay protected. In this workshop, we will dig in the most well-known vulnerabilities that exist in the wild and have a look at some tricks that will help you during security assessments.</p>" +
@@ -831,7 +821,10 @@ module.exports = {
     {
       id: 14,
       title: "Modern Graph Analysis using Tinkerpop and Janusgraph",
-      desc: "<p>Ricardo is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Ricardo is an avid UX and UI enthusiast, with high proficiency in Rich Internet Applications. At WeDo Technologies, Ricardo is in a leading role that oversees various SaaS application products, under WeDo’s RAID.Cloud offer. This includes, but is not limited to, the intelligent and smart processing applicability of gigantic amounts of data, managing the application scalability with state-of-the-art usability and user experience for B2B.</p>" + 
+      desc: "<p>Graph databases are worth talking about in the big data and analytics context because, behind the scenes, the capabilities of graph databases improve the ability to analyze complex data relationships; these databases also give organizations greater ability to move reporting into a real-time or near-real-time mode.</p>" + 
+      "<p>In this workshop, everyone will be able to: understand the difference between the graph data and the traversal process; know the elements of a TinkerPop property graph; be able to write basic traversals through the graph; be able to perform common mutations of the graph (insert, change and remove data); be exposed to simple data transformations such as grouping, ordering, and aggregations.</p>" + 
+      "<p>To get the maximum from the workshop you should bring your own laptop. As software requirements, every participant must have internet connection and Docker installed.</p>" + 
+      "<p>Ricardo is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Ricardo is an avid UX and UI enthusiast, with high proficiency in Rich Internet Applications. At WeDo Technologies, Ricardo is in a leading role that oversees various SaaS application products, under WeDo’s RAID.Cloud offer. This includes, but is not limited to, the intelligent and smart processing applicability of gigantic amounts of data, managing the application scalability with state-of-the-art usability and user experience for B2B.</p>" + 
         "<p>Pedro is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Pedro worked extensively on Java Development, before joining WeDo Technologies as an expert in the Java Development - leading the case management solutions global team. An avid machine learning enthusiast, Pedro has recently been invited to join WeDo’s SaaS development and product offer team for RAID.Cloud, where he pivots self-service solutions and bridges the application world with the containers and Kubernetes whole orchestration. Pedro is adamant on showing meaningful data (on top of big data) to customers and leading a team of enthralled ML enthusiasts.</p>",
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 10:00 - 12:30",
