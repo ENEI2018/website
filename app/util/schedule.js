@@ -184,7 +184,7 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "André Batista e José Sousa",
+                    title: "Federico Bento e Joana Barão",
                     subtitle: "Capture The Flag - CTF 101",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
