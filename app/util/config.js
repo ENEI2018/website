@@ -838,7 +838,22 @@ module.exports = {
       desc: "<p>Neste workshop, iremos criar alguns ambientes de desenvolvimento com docker e docker-compose, explorando várias arquiteturas e opções de customização possíveis. Iremos explorar as vantagens do docker, e as suas principais limitações.</p>" + 
         "<p>Sobre o Pedro: Licenciado (2015) e Mestre (2017) em Engenharia Informática, na Universidade de Coimbra, comecei recentemente a trabalhar como software developer na Whitesmith. Adotando desde cedo uma mentalidade DevOps, gosto de explorar as ferramentas disponíveis para facilitar esta abordagem, incluindo o uso de Docker para uniformização de ambientes de desenvolvimento.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      date: "Domingo 25 de Março | 16:45 - 18:30",
+      location: "Pedro Janeiro",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 16,
+      title: "Programação funcional com Elixir e Phoenix",
+      desc: "<p>Na industria de desenvolvimento de software, o paradigma da programação funcional é cada vez mais uma realidade. Na Bitmaker somos pioneiros e uma das referências na adoção da linguagem Elixir.<br/>" +
+        "É por isso que, neste workshop, iremos partilhar alguma da nossa experiência através da criação de uma aplicação Web. Vais ficar a saber, na prática, quais as potencialidades do Elixir e do Phoenix Framework.<br/>" +
+        "Ficarás a conhecer a rapidez e qualidade de desenvolvimento que o Elixir e Phoenix nos trazem para o dia-a-dia.<br/>" +
+        "Vamos abordar diversos temas, tais como, boas práticas de desenvolvimento de software, testes unitários, MVC, database migrations, geradores de código, oauth e websockets.<br/>" +
+        "Estás preparado?</p>" +
+        "<p>Sobre o Daniel: Estudou no Mestrado em Redes e Sistemas Informáticos na Faculdade de Ciências da Universidade do Porto que terminou em 2016 e trabalha atualmente na Bitmaker onde tem vindo a resolver problemas de elevada complexidade utilizando Elixir. Mantém uma relação próxima com a Universidade onde partilha as suas experiências e conhecimento em workshops e eventos. Os seus principais interesses são linguagens de programação, sistemas distribuídos, DevOps e tudo relacionado com redes de computadores. Podem saber mais no seu <a href=\"https://github.com/DFilipeS\">GitHub</a> ou <a href=\"https://twitter.com/DFilipeS\">Twitter</a>.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado-feira 24 de Março | 16:45 - 18:30",
       location: "Pedro Janeiro",
       faqs: [],
       show: true
