@@ -157,14 +157,13 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Por anunciar",
-                    //title: "Ricardo Faria e Pedro Pires",
-                    //subtitle: "Modern Graph Analysis using Tinkerpop and Janusgraph",
+                    title: "Ricardo Faria e Pedro Pires",
+                    subtitle: "Modern Graph Analysis using Tinkerpop and Janusgraph",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
-                    //url: "/talks/3",
-                    //lang: "pt"
+                    url: "/talks/14",
+                    lang: "pt"
                 },
                 col3: {
                     width: 20,
@@ -825,9 +824,12 @@ module.exports = [{
                     colspan: 1,
                     class: "day-2-fixer",
                     time: "16:45 - 18:30",
-                    title: "Por anunciar",
+                    title: "Pedro Janeiro",
+                    subtitle: "Introdução ao Docker",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt",
+                    url: "/talks/15"
                 },
             },
             {
