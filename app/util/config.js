@@ -454,11 +454,14 @@ module.exports = {
       faqs: [],
       talkDate: "Domingo 25/03 | 14:00 - 16:00",
       talkTitle: "Introdução à Robótica com Three.js",
-      talkSummary: "",
+      talkSummary: "<p>O que é que robótica e computer animation têm em comum? Como é que se \"programam\" os robots? Qual o estado da Inteligência Artificial na robótica? O que são Forward e Inverse Kinematics? Quais são as diferentes preocupações de um Roboticist e de um Software Engineer? Durante este workshop, \"o Ferrolho\" vai tentar responder a estas e outras perguntas da área da robótica, altamente biased pela sua experiência pessoal. Se sabes programar em JavaScript e queres pôr a mão na massa para aprender a analisar e programar robots com Three.js, então este é o Workshop indicado para ti.</p>" + 
+      '<p>Requisitos:</p>' + 
+      '<p>- Máximo de 20 pessoas (25 no máximo dos máximos, acho que mais é impossível de garantir que toda a gente está a acompanhar.)</p>' + 
+      '<p>- Saber programar em JavaScript. Não quero estar a impor nenhuma restrição em relação ao ano do curso em que estão, mas é essencial que o pessoal que se inscreva saiba programar em JS. Durante o WS não vou ensinar a programar, vou ensinar conceitos introdutórios de robótica, que necessitam de conceitos fundamentais de programação. Portanto, seria melhor, tanto para mim como para a audiência, os participantes terem consciência disso para não irem ao engano.</p>' + 
+      '<p>- Ter experiência com computação gráfica é também desejado, mas não essencial.</p>',
       show: true,
       speaker: false,
-      lang: "pt",
-      signup_url: "https://google.pt"
+      lang: "pt"
     },
     {
       id: 4,
@@ -684,7 +687,7 @@ module.exports = {
       date: "24 de Março | 14:00 - 16:00",
       //location: "Auditório FEUP",
       faqs: [],
-      show: true
+      show: true,
     },
     {
       id: 1,
