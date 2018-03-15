@@ -834,7 +834,7 @@ module.exports = {
       desc: "<p>Ricardo is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Ricardo is an avid UX and UI enthusiast, with high proficiency in Rich Internet Applications. At WeDo Technologies, Ricardo is in a leading role that oversees various SaaS application products, under WeDo’s RAID.Cloud offer. This includes, but is not limited to, the intelligent and smart processing applicability of gigantic amounts of data, managing the application scalability with state-of-the-art usability and user experience for B2B.</p>" + 
         "<p>Pedro is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Pedro worked extensively on Java Development, before joining WeDo Technologies as an expert in the Java Development - leading the case management solutions global team. An avid machine learning enthusiast, Pedro has recently been invited to join WeDo’s SaaS development and product offer team for RAID.Cloud, where he pivots self-service solutions and bridges the application world with the containers and Kubernetes whole orchestration. Pedro is adamant on showing meaningful data (on top of big data) to customers and leading a team of enthralled ML enthusiasts.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      date: "Sábado 24 de Março | 10:00 - 12:30",
       location: "Ricardo Faria e Pedro Pires",
       faqs: [],
       show: true
