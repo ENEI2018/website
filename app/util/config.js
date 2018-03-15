@@ -829,6 +829,28 @@ module.exports = {
       location: "<a href=\"/speakers/5\">João Gradim</a> e <a href=\"/speakers/4\">Mário Carneiro</a>",
       faqs: [],
       show: true
+    },
+    {
+      id: 14,
+      title: "Modern Graph Analysis using Tinkerpop and Janusgraph",
+      desc: "<p>Ricardo is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Ricardo is an avid UX and UI enthusiast, with high proficiency in Rich Internet Applications. At WeDo Technologies, Ricardo is in a leading role that oversees various SaaS application products, under WeDo’s RAID.Cloud offer. This includes, but is not limited to, the intelligent and smart processing applicability of gigantic amounts of data, managing the application scalability with state-of-the-art usability and user experience for B2B.</p>" + 
+        "<p>Pedro is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Pedro worked extensively on Java Development, before joining WeDo Technologies as an expert in the Java Development - leading the case management solutions global team. An avid machine learning enthusiast, Pedro has recently been invited to join WeDo’s SaaS development and product offer team for RAID.Cloud, where he pivots self-service solutions and bridges the application world with the containers and Kubernetes whole orchestration. Pedro is adamant on showing meaningful data (on top of big data) to customers and leading a team of enthralled ML enthusiasts.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      location: "Ricardo Faria e Pedro Pires",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 15,
+      title: "Introdução ao Docker",
+      desc: "<p>Neste workshop, iremos criar alguns ambientes de desenvolvimento com docker e docker-compose, explorando várias arquiteturas e opções de customização possíveis. Iremos explorar as vantagens do docker, e as suas principais limitações.</p>" + 
+        "<p>Sobre o Pedro: Licenciado (2015) e Mestre (2017) em Engenharia Informática, na Universidade de Coimbra, comecei recentemente a trabalhar como software developer na Whitesmith. Adotando desde cedo uma mentalidade DevOps, gosto de explorar as ferramentas disponíveis para facilitar esta abordagem, incluindo o uso de Docker para uniformização de ambientes de desenvolvimento.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      location: "Pedro Janeiro",
+      faqs: [],
+      show: true
     }
   ],
   team: [{
