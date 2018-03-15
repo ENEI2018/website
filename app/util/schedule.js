@@ -398,10 +398,12 @@ module.exports = [{
                 col4: {
                     rowspan: 7,
                     colspan: 2,
-                    title: "Por anunciar",
+                    title: "Daniel Silva",
+                    subtitle: "Programação funcional com Elixir e Phoenix",
                     time: "16:45 - 18:30",
                     location: "Sala a anunciar",
-                    show: true
+                    show: true,
+                    url: "/talks/16"
                 }
             },
             {

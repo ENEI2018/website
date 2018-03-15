@@ -854,7 +854,7 @@ module.exports = {
         "<p>Sobre o Daniel: Estudou no Mestrado em Redes e Sistemas Informáticos na Faculdade de Ciências da Universidade do Porto que terminou em 2016 e trabalha atualmente na Bitmaker onde tem vindo a resolver problemas de elevada complexidade utilizando Elixir. Mantém uma relação próxima com a Universidade onde partilha as suas experiências e conhecimento em workshops e eventos. Os seus principais interesses são linguagens de programação, sistemas distribuídos, DevOps e tudo relacionado com redes de computadores. Podem saber mais no seu <a href=\"https://github.com/DFilipeS\">GitHub</a> ou <a href=\"https://twitter.com/DFilipeS\">Twitter</a>.</p>",
       image: "/images/Ativo 4.svg",
       date: "Sábado-feira 24 de Março | 16:45 - 18:30",
-      location: "Pedro Janeiro",
+      location: "Daniel Silva",
       faqs: [],
       show: true
     }
