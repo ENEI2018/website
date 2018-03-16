@@ -695,7 +695,7 @@ module.exports = [{
                     rowspan: 2,
                     colspan: 1,
                     title: "João Leal",
-                    subtitle: "De Portugal para a Google",
+                    subtitle: "Como podes chegar à Google? Dicas para conseguires o teu emprego de sonho.",
                     time: "14:00 - 14:30",
                     location: "Auditório FEUP",
                     url: "/speakers/1",
