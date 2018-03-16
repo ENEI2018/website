@@ -454,11 +454,21 @@ module.exports = {
       faqs: [],
       talkDate: "Domingo 25/03 | 14:00 - 16:00",
       talkTitle: "Introdução à Robótica com Three.js",
-      talkSummary: "<p>O que é que robótica e computer animation têm em comum? Como é que se \"programam\" os robots? Qual o estado da Inteligência Artificial na robótica? O que são Forward e Inverse Kinematics? Quais são as diferentes preocupações de um Roboticist e de um Software Engineer? Durante este workshop, \"o Ferrolho\" vai tentar responder a estas e outras perguntas da área da robótica, altamente biased pela sua experiência pessoal. Se sabes programar em JavaScript e queres pôr a mão na massa para aprender a analisar e programar robots com Three.js, então este é o Workshop indicado para ti.</p>" + 
-      '<p>Requisitos:</p>' + 
-      '<p>- Máximo de 20 pessoas (25 no máximo dos máximos, acho que mais é impossível de garantir que toda a gente está a acompanhar.)</p>' + 
-      '<p>- Saber programar em JavaScript. Não quero estar a impor nenhuma restrição em relação ao ano do curso em que estão, mas é essencial que o pessoal que se inscreva saiba programar em JS. Durante o WS não vou ensinar a programar, vou ensinar conceitos introdutórios de robótica, que necessitam de conceitos fundamentais de programação. Portanto, seria melhor, tanto para mim como para a audiência, os participantes terem consciência disso para não irem ao engano.</p>' + 
-      '<p>- Ter experiência com computação gráfica é também desejado, mas não essencial.</p>',
+      talkSummary: "<p>O que é que robótica e computer animation têm em comum? Como é que se \"programam\" os robots? Qual o estado da Inteligência Artificial na robótica? O que são Forward e Inverse Kinematics? Quais são as diferentes preocupações de um Roboticist e de um Software Engineer?</p>" +
+      "<p>Durante este workshop, \"o Ferrolho\" vai tentar responder a estas e outras perguntas da área da robótica, altamente biased pela sua experiência pessoal. Se sabes programar em JavaScript e queres pôr a mão na massa para aprender a analisar e programar robots com Three.js, então este é o Workshop indicado para ti.</p>" + 
+      //'<p>Requisitos:</p>' + 
+      //'<p>- Máximo de 20 pessoas (25 no máximo dos máximos, acho que mais é impossível de garantir que toda a gente está a acompanhar.)</p>' + 
+      //'<p>- Saber programar em JavaScript. Não quero estar a impor nenhuma restrição em relação ao ano do curso em que estão, mas é essencial que o pessoal que se inscreva saiba programar em JS. Durante o WS não vou ensinar a programar, vou ensinar conceitos introdutórios de robótica, que necessitam de conceitos fundamentais de programação. Portanto, seria melhor, tanto para mim como para a audiência, os participantes terem consciência disso para não irem ao engano.</p>' + 
+      //'<p>- Ter experiência com computação gráfica é também desejado, mas não essencial.</p>' + 
+      "<div style='margin-left:30px'>"+
+      "<iframe src='https://gfycat.com/ifr/AggressiveUnnaturalGlobefish' frameborder='0' scrolling='no' allowfullscreen width='200' height='200' style='margin:10px'></iframe>" +
+      "<iframe src='https://gfycat.com/ifr/ElaborateThinGreendarnerdragonfly' frameborder='0' scrolling='no' allowfullscreen width='200' height='138' style='margin:10px;margin-bottom:35px;margin-top:35px'></iframe>" +
+      "<iframe src='https://gfycat.com/ifr/PerfectGrandioseBillygoat' frameborder='0' scrolling='no' allowfullscreen width='200' height='138' style='margin:10px;margin-bottom:35px;margin-top:15px'></iframe>" +
+      "</div>",//<div style='position:relative;padding-bottom:100%;width:80%;margin:auto'><iframe src='https://gfycat.com/ifr/AggressiveUnnaturalGlobefish' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>" +
+      //"<br/>" +
+      //"<div style='position:relative;padding-bottom:69%;width:80%;margin:auto'><iframe src='https://gfycat.com/ifr/ElaborateThinGreendarnerdragonfly' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>" +
+      //"<br/>" +
+      //"<div style='position:relative;padding-bottom:69%;width:80%;margin:auto'><iframe src='https://gfycat.com/ifr/PerfectGrandioseBillygoat' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>",
       show: true,
       speaker: false,
       lang: "pt"
