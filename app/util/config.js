@@ -29,7 +29,7 @@ module.exports = {
     {
       id: 5,
       question: "Tenho acesso a todas as sessões?",
-      answer: "As palestras são abertas a todos os participantes. No que toca a workshops, as inscrições serão à parte e limitadas."
+      answer: "As palestras são abertas a todos os participantes. No que toca a workshops, as inscrições serão à parte e limitadas. As sessões de cocktails e de networking, assim como o Jantar Empresarial precisam de inscrição prévia. Mantém-te atento às nossas redes sociais!"
     },
     {
       id: 6,
@@ -453,8 +453,12 @@ module.exports = {
       website: "https://ferrolho.github.io/",
       faqs: [],
       talkDate: "Domingo 25/03 | 14:00 - 16:00",
-      talkTitle: "Robotics Mechanics with ThreeJS",
-      talkSummary: "",
+      talkTitle: "Introdução à Robótica com Three.js",
+      talkSummary: "<p>O que é que robótica e computer animation têm em comum? Como é que se \"programam\" os robots? Qual o estado da Inteligência Artificial na robótica? O que são Forward e Inverse Kinematics? Quais são as diferentes preocupações de um Roboticist e de um Software Engineer? Durante este workshop, \"o Ferrolho\" vai tentar responder a estas e outras perguntas da área da robótica, altamente biased pela sua experiência pessoal. Se sabes programar em JavaScript e queres pôr a mão na massa para aprender a analisar e programar robots com Three.js, então este é o Workshop indicado para ti.</p>" + 
+      '<p>Requisitos:</p>' + 
+      '<p>- Máximo de 20 pessoas (25 no máximo dos máximos, acho que mais é impossível de garantir que toda a gente está a acompanhar.)</p>' + 
+      '<p>- Saber programar em JavaScript. Não quero estar a impor nenhuma restrição em relação ao ano do curso em que estão, mas é essencial que o pessoal que se inscreva saiba programar em JS. Durante o WS não vou ensinar a programar, vou ensinar conceitos introdutórios de robótica, que necessitam de conceitos fundamentais de programação. Portanto, seria melhor, tanto para mim como para a audiência, os participantes terem consciência disso para não irem ao engano.</p>' + 
+      '<p>- Ter experiência com computação gráfica é também desejado, mas não essencial.</p>',
       show: true,
       speaker: false,
       lang: "pt"
@@ -630,7 +634,7 @@ module.exports = {
     },
     {
       id: 19,
-      name: "Prof. Luís Paulo Reis",
+      name: "Luís Paulo Reis",
       shortBio: "Universidade do Minho",
       company: "Universidade do Minho",
       role: "Associate Professor",
@@ -683,7 +687,7 @@ module.exports = {
       date: "24 de Março | 14:00 - 16:00",
       //location: "Auditório FEUP",
       faqs: [],
-      show: true
+      show: true,
     },
     {
       id: 1,
@@ -701,19 +705,9 @@ module.exports = {
       desc: "<p>O Jantar Empresarial é uma atividade inovadora que visa criar uma maior relação entre participantes e o mundo empresarial. O objetivo principal é permitir que estudantes comuniquem com representantes de alguns dos nossos patrocinadores a fim de obter mais informações sobre a empresa, o seu funcionamento, se estão a recrutar, etc.</p><p>Esta atividade ocorre em simultâneo com a Mega Febrada.</p><p>Para participação neste Jantar, os participantes deverão enviar o seu Curriculum Vitae e este será o critério de seleção de modo a tentar criar laços comuns entre a experiência dos estudantes e os interesses de cada patrocinador presente.</p>",
       image: "/images/sessao_networking.svg",
       date: "25 de Março | 20:30 - 23:45",
-      location: "Quinta de Santo António",
+      location: "BH Foz",
       faqs: [],
       show: true
-    },
-    {
-      id: 3,
-      title: "Modern Graph Analysis using opensource tools like Tinkerpop and Janusgraph",
-      desc: "<p>Graph databases are worth talking about in the big data and analytics context because, behind the scenes, the capabilities of graph databases improve the ability to analyze complex data relationships; these databases also give organizations greater ability to move reporting into a real-time or near-real-time mode.</p><p>In this workshop, everyone will be able to: understand the difference between the graph data and the traversal process; know the elements of a TinkerPop property graph; be able to write basic traversals through the graph; be able to perform common mutations of the graph (insert, change and remove data); be exposed to simple data transformations such as grouping, ordering, and aggregations.</p><p>To get the maximum from the workshop you should bring your own laptop. As software requirements, every participant must have internet connection and Docker installed.</p>",
-      image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 10:00 - 12:30",
-      location: "Ricardo Faria e Pedro Pires",
-      faqs: [],
-      show: false
     },
     {
       id: 4,
@@ -732,12 +726,10 @@ module.exports = {
       id: 5,
       title: "Capture the Flag: CTF 101",
       desc: "<p>Capture the Flag (CTF) são competições de segurança informática. \"It's like the hacker Olympics.\" - Elliot Alderson, Mr. Robot S03E01 Nestes competições, equipas de todo o mundo tentam resolver desafios de modo a conseguir obter o maior número de pontos possível. Os desafios podem-se inserir em diversas categorias: exploitation, reverse engineering, web hacking, criptografia e forensics. Participar em CTFs é excelente para desenvolver novas skills, como por exemplo desenvolvimento de exploits, descoberta de vulnerabilidades e criação de ferramentas. É uma área próxima do mundo profissional da segurança informática e que permite avaliar conhecimentos através de desafios práticos e objetivamente mensuráveis. Neste workshop terás oportunidade de conhecer algumas ferramentas e técnicas que podem ser utilizadas em CTFs e ainda colocar à prova os teus conhecimentos num mini CTF. Gostas de jogos e tens interesse pela área da segurança? Este é o teu workshop!</p>" +
-      "<p>Requisitos: PC com distribuição Linux</p>" +
-      "<p>André Batista é mestre em Segurança Informática pela FCUP, investigador no INESC TEC, capitão da xSTF CTF team e membro do Center of Competence in Cyber Security and Privacy (C3P).</p>" +
-      "<p>José Sousa tem o cargo de Information Security Officer da Universidade do Porto, e é co-capitão da xSTF CTF team.</p>",
+      "<p>Requisitos: PC com distribuição Linux</p>",
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 10:00 - 12:30",
-      location: "André Batista e José Sousa",
+      location: "Federico Bento e Joana Barão",
       faqs: [],
       show: true
     },
@@ -824,6 +816,46 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Segunda-feira 26 de Março | 10:00 - 12:00",
       location: "<a href=\"/speakers/5\">João Gradim</a> e <a href=\"/speakers/4\">Mário Carneiro</a>",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 14,
+      title: "Modern Graph Analysis using Tinkerpop and Janusgraph",
+      desc: "<p>Graph databases are worth talking about in the big data and analytics context because, behind the scenes, the capabilities of graph databases improve the ability to analyze complex data relationships; these databases also give organizations greater ability to move reporting into a real-time or near-real-time mode.</p>" + 
+      "<p>In this workshop, everyone will be able to: understand the difference between the graph data and the traversal process; know the elements of a TinkerPop property graph; be able to write basic traversals through the graph; be able to perform common mutations of the graph (insert, change and remove data); be exposed to simple data transformations such as grouping, ordering, and aggregations.</p>" + 
+      "<p>To get the maximum from the workshop you should bring your own laptop. As software requirements, every participant must have internet connection and Docker installed.</p>" + 
+      "<p>Ricardo is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Ricardo is an avid UX and UI enthusiast, with high proficiency in Rich Internet Applications. At WeDo Technologies, Ricardo is in a leading role that oversees various SaaS application products, under WeDo’s RAID.Cloud offer. This includes, but is not limited to, the intelligent and smart processing applicability of gigantic amounts of data, managing the application scalability with state-of-the-art usability and user experience for B2B.</p>" + 
+        "<p>Pedro is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Pedro worked extensively on Java Development, before joining WeDo Technologies as an expert in the Java Development - leading the case management solutions global team. An avid machine learning enthusiast, Pedro has recently been invited to join WeDo’s SaaS development and product offer team for RAID.Cloud, where he pivots self-service solutions and bridges the application world with the containers and Kubernetes whole orchestration. Pedro is adamant on showing meaningful data (on top of big data) to customers and leading a team of enthralled ML enthusiasts.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 10:00 - 12:30",
+      location: "Ricardo Faria e Pedro Pires",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 15,
+      title: "Introdução ao Docker",
+      desc: "<p>Neste workshop, iremos criar alguns ambientes de desenvolvimento com docker e docker-compose, explorando várias arquiteturas e opções de customização possíveis. Iremos explorar as vantagens do docker, e as suas principais limitações.</p>" + 
+        "<p>Sobre o Pedro: Licenciado (2015) e Mestre (2017) em Engenharia Informática, na Universidade de Coimbra, comecei recentemente a trabalhar como software developer na Whitesmith. Adotando desde cedo uma mentalidade DevOps, gosto de explorar as ferramentas disponíveis para facilitar esta abordagem, incluindo o uso de Docker para uniformização de ambientes de desenvolvimento.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 16:45 - 18:30",
+      location: "Pedro Janeiro",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 16,
+      title: "Programação funcional com Elixir e Phoenix",
+      desc: "<p>Na industria de desenvolvimento de software, o paradigma da programação funcional é cada vez mais uma realidade. Na Bitmaker somos pioneiros e uma das referências na adoção da linguagem Elixir.<br/>" +
+        "É por isso que, neste workshop, iremos partilhar alguma da nossa experiência através da criação de uma aplicação Web. Vais ficar a saber, na prática, quais as potencialidades do Elixir e do Phoenix Framework.<br/>" +
+        "Ficarás a conhecer a rapidez e qualidade de desenvolvimento que o Elixir e Phoenix nos trazem para o dia-a-dia.<br/>" +
+        "Vamos abordar diversos temas, tais como, boas práticas de desenvolvimento de software, testes unitários, MVC, database migrations, geradores de código, oauth e websockets.<br/>" +
+        "Estás preparado?</p>" +
+        "<p>Sobre o Daniel: Estudou no Mestrado em Redes e Sistemas Informáticos na Faculdade de Ciências da Universidade do Porto que terminou em 2016 e trabalha atualmente na Bitmaker onde tem vindo a resolver problemas de elevada complexidade utilizando Elixir. Mantém uma relação próxima com a Universidade onde partilha as suas experiências e conhecimento em workshops e eventos. Os seus principais interesses são linguagens de programação, sistemas distribuídos, DevOps e tudo relacionado com redes de computadores. Podem saber mais no seu <a href=\"https://github.com/DFilipeS\">GitHub</a> ou <a href=\"https://twitter.com/DFilipeS\">Twitter</a>.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado-feira 24 de Março | 16:45 - 18:30",
+      location: "Daniel Silva",
       faqs: [],
       show: true
     }

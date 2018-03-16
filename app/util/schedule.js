@@ -144,7 +144,7 @@ module.exports = [{
                     width: 40,
                     rowspan: 4,
                     colspan: 1,
-                    title: "Prof. Luis Paulo Reis",
+                    title: "Luis Paulo Reis",
                     subtitle: "Inteligência Artificial e Robótica: Cooperação Homem-Robô para a Formação de Equipas compostas por Humanos e Robôs",
                     time: "10:00 - 11:00",
                     url: "/speakers/19",
@@ -157,14 +157,13 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Por anunciar",
-                    //title: "Ricardo Faria e Pedro Pires",
-                    //subtitle: "Modern Graph Analysis using Tinkerpop and Janusgraph",
+                    title: "Ricardo Faria e Pedro Pires",
+                    subtitle: "Modern Graph Analysis using Tinkerpop and Janusgraph",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
-                    //url: "/talks/3",
-                    //lang: "pt"
+                    url: "/talks/14",
+                    lang: "pt"
                 },
                 col3: {
                     width: 20,
@@ -184,7 +183,7 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "André Batista e José Sousa",
+                    title: "Federico Bento e Joana Barão",
                     subtitle: "Capture The Flag - CTF 101",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
@@ -399,10 +398,12 @@ module.exports = [{
                 col4: {
                     rowspan: 7,
                     colspan: 2,
-                    title: "Por anunciar",
+                    title: "Daniel Silva",
+                    subtitle: "Programação funcional com Elixir e Phoenix",
                     time: "16:45 - 18:30",
                     location: "Sala a anunciar",
-                    show: true
+                    show: true,
+                    url: "/talks/16"
                 }
             },
             {
@@ -718,7 +719,7 @@ module.exports = [{
                     colspan: 1,
                     class: "day-2-fixer",
                     title: "Henrique Ferrolho",
-                    subtitle: "Robotics Mechanics with ThreeJS",
+                    subtitle: "Introdução à Robótica com Three.js",
                     time: "14:00 - 16:00",
                     url: "/speakers/3",
                     location: "Sala por definir",
@@ -825,9 +826,12 @@ module.exports = [{
                     colspan: 1,
                     class: "day-2-fixer",
                     time: "16:45 - 18:30",
-                    title: "Por anunciar",
+                    title: "Pedro Janeiro",
+                    subtitle: "Introdução ao Docker",
                     location: "Sala por definir",
-                    show: true
+                    show: true,
+                    lang: "pt",
+                    url: "/talks/15"
                 },
             },
             {

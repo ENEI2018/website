@@ -58,6 +58,61 @@ body {
     padding: 0 !important;
 }
 
+div.full-line {
+    width: 100% !important;
+}
+
+#speaker-button {
+    width: fit-content;
+    display: block;
+    margin: 0 0 0px 0px;
+    padding: 0;
+}
+
+#speaker-button.speaker-page {
+    margin: -40px 20px 0px 0px;
+    float: right;
+}
+
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    #speaker-button.speaker-page {
+        margin: auto;
+        float: none;
+    }
+    
+}
+
+#speaker-button.talk-page {
+    margin: 10px 15px 0px 0px;
+    float: right;
+}
+
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    #speaker-button.talk-page {
+        margin: auto;
+        float: none;
+    }
+    
+}
+
+#speaker-button button {
+    display: block;
+    width: fit-content;
+    padding: 4px 16px 4px 16px;
+    font-size: large;
+    font-weight: bold;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+#speaker-button button:hover {
+    border-color: var(--main-third-highlight-blue);
+    color: var(--main-third-highlight-blue);
+}
+
 .page-content-container .subscribe-area-container,
 .page-content-container .tickets-area-container,
 .page-content-container .faqs-container,
@@ -144,7 +199,7 @@ div.enei-footer {
     margin-bottom: 30px;
 }
 
-.info-socialmedia-col .subcribe-btn-custom {
+.subcribe-btn-custom {
     background-color: transparent;
     width: 60%;
 }
