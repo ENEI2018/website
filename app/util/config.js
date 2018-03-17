@@ -669,7 +669,7 @@ module.exports = {
       image: "daniel_teixeira.png",
       faqs: [],
       talkTitle: "Cibersegurança",
-      talkSummary: "Daniel Teixeira é um especialista em segurança informática, especializado em testes de penetração e análise de vulnerabilidades. Suas principais áreas de foco são a simulação adversários, emulação de tácticas, técnicas e procedimentos de adversários modernos, pesquisa de vulnerabilidades e desenvolvimento de exploits.",
+      talkSummary: "",
       talkDate: "Sábado 24/03 | 15:30 - 16:00 | Auditório FEUP",
       show: true,
       speaker: true,
