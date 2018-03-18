@@ -760,6 +760,7 @@ module.exports = {
       id: 6,
       title: "Espresso The Android Way",
       desc: "<p>Os testes automáticos são uma das formas de potenciar o escalar das equipas e ao mesmo tempo assegurar que se consegue manter uma boa qualidade e cadência de release dos produtos. Neste workshop iremos mostrar como podemos fazer isto para uma aplicação nativa de Android usando Espresso e criar alguns testes para automatizar uma aplicação.</p>" +
+      "<p>Requisitos:<br/>- Android Studio 3.0.1 - https://developer.android.com/studio/index.html<br/>- Android SDK: 8.0 (Oreo) e 7.1.1 (Nougat)<br/>- JDK - http://www.oracle.com/technetwork/java/javase/downloads/index.html<br/>- Git (linha de comandos, SourceTree ou Github Desktop)</p>" +
       "<p>Fábio Barbosa: Licenciado em Engenharia de Informática no Instituto Superior de Engenharia do Porto. Com alguns anos de experiência na área de automação de Android. Membro activo na comunidade, a criar oportunidades para partilha de conhecimento através do Porto Testers Meetup. Actualmente trabalha na Farfetch como Test Automation Engineer para a equipa de Mobile.</p>" +
       "<p>Filipe Carvalho: Estudou no Mestrado Integrado em Engenharia Informática na FEUP. Tem já alguns anos de experiência nas áreas de automação de testes e Continuous Delivery, principalmente em Mobile. Contribuidor assíduo na comunidade, organiza o Porto Testers Meetup para fomentar a partilha de conhecimento. É neste momento QA Automation Engineer na Talkdesk.</p>",
       image: "/images/Ativo 4.svg",
