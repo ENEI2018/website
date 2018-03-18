@@ -2,7 +2,11 @@
 <div class="container page-content-container">
 
   <div class="container speakers-title-container">
-    <h1 class="speakers-title">Atividade</h1>
+    {{#if talk.header}}
+      <h1 class="speakers-title">{{talk.header}}</h1>
+    {{else}}
+      <h1 class="speakers-title">Workshop</h1>
+    {{/if}}
     <div class="logo-wrapper">
       <div id="logo" class="enei-skew logo medium speaker">
         <p id="E_1">E</p>
