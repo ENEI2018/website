@@ -1,0 +1,1 @@
+A aplicação ENEI não guarda nenhuns dados de câmara ou de utilizador local ou remotamente. Os únicos dados colecionados são os códigos lidos com a aplicação ou alguma aplicação externa e são apenas guardados localmente, sem nenhuma transmissão externa ao dispositivo.
