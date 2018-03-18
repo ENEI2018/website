@@ -597,14 +597,13 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
-                    //title: "Celso Martinho",
-                    //subtitle: "101 Blockchain",
+                    title: "Rui Brilha e Egas Basto",
+                    subtitle: "Desenvolver um Jogo Como um Produto",
                     time: "10:00 - 12:30",
                     location: "Sala por definir",
                     show: true,
-                    //lang: "pt",
-                    //url: "/talks/8"
+                    lang: "pt",
+                    url: "/talks/19"
                 },
                 col4: {
                     rowspan: 10,
@@ -817,8 +816,11 @@ module.exports = [{
                     colspan: 1,
                     class: "day-2-fixer",
                     time: "16:45 - 18:30",
-                    title: "Por anunciar",
-                    location: "Sala por definir",
+                    title: "ESP Applied to IoT",
+                    subtitle: "IEEE",
+                    location: "Sala B116",
+                    url: "/talks/17",
+                    lang: "pt",
                     show: true
                 },
                 col4: {
@@ -1008,7 +1010,8 @@ module.exports = [{
                     time: "10:00 - 12:30",
                     location: "Sala a anunciar",
                     show: true,
-                    lang: "pt"
+                    lang: "pt",
+                    url: "/talks/18"
                 },
                 col4: {
                     rowspan: 10,
