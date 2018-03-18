@@ -14,7 +14,7 @@ module.exports = {
     {
       id: 2,
       question: "Onde me posso inscrever?",
-      answer: "No nosso website, quando abrir a época de inscrições. Mantém-te atento às nossas redes sociais para seres o primeiro!"
+      answer: "Os bilhetes para a edição de 2018 já esgotaram, mas não percas a oportunidade de participar na próxima edição do ENEI!"
     },
     {
       id: 3,
@@ -40,19 +40,14 @@ module.exports = {
   desafios: [
     {
       id: 1,
-      question: "Desafio 1",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vitae leo ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque in tortor a leo aliquam accumsan. Vestibulum non mauris vulputate, pulvinar augue non, ullamcorper neque. Donec vel lacinia turpis. Nulla laoreet dui eu dapibus tincidunt. Praesent vel pharetra orci. Proin dui quam, feugiat non turpis vel, euismod consectetur dui. Aliquam tempor porta pellentesque. Integer dolor ante, vestibulum vitae gravida quis, accumsan ut felis."
+      question: "Bot de Sueca (Shiftforward)",
+      answer: "<p>Cria o teu bot e compete com outros jogadores!</p><p>O ShiftForward Challenge vai desafiar as tuas habilidades de Sueca num outro nível. Alia o estudante de engenharia informática ao velhote do jardim público que há em ti e cria um bot para competir num campeonato de Sueca contra outros jogadores presentes no ENEI 2018.</p><p>Habilita-te a ganhar os seguintes prémios:<br/>1.º Prémio: PlayStation 4 + GTA V<br/>2.º Prémio: Headphones Sennheiser HD 4.50 BTNC<br/>3.º Prémio: ShiftForward Craft Beer + Kit IoT</p>"
     },
-    {
-      id: 2,
-      question: "Desafio 2",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vitae leo ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque in tortor a leo aliquam accumsan. Vestibulum non mauris vulputate, pulvinar augue non, ullamcorper neque. Donec vel lacinia turpis. Nulla laoreet dui eu dapibus tincidunt. Praesent vel pharetra orci. Proin dui quam, feugiat non turpis vel, euismod consectetur dui. Aliquam tempor porta pellentesque. Integer dolor ante, vestibulum vitae gravida quis, accumsan ut felis."
-    },
-    {
-      id: 3,
-      question: "Desafio 3",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vitae leo ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque in tortor a leo aliquam accumsan. Vestibulum non mauris vulputate, pulvinar augue non, ullamcorper neque. Donec vel lacinia turpis. Nulla laoreet dui eu dapibus tincidunt. Praesent vel pharetra orci. Proin dui quam, feugiat non turpis vel, euismod consectetur dui. Aliquam tempor porta pellentesque. Integer dolor ante, vestibulum vitae gravida quis, accumsan ut felis."
-    }
+    // {
+    //   id: 2,
+    //   question: "Jogo QR Codes ENEI",
+    //   answer: "<p>Tens um smartphone Android? Queres ganhar um prémio gratuito do ENEI e aprender mais sobre a FEUP entretanto? Então descarrega já a <a href='https://enei.pt/android'>app Android do ENEI</a> e segue as instruções! Só tens de encontrar os QR codes espalhados pela FEUP e lê-los com o teu smartphone!</p>"
+    // }
   ],
   sponsors: {
     main: [{
@@ -315,7 +310,6 @@ module.exports = {
       website: "http://www.cs.vu.nl/~ast",
       linkedin: "https://www.linkedin.com/in/andrew-tanenbaum-a142b5/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
       talkTitle: "MINIX 3: A Reliable and Secure Operating System",
       talkSummary: "Most computer users nowadays are nontechnical people who have  a mental model of what they expect from a computer based on their experience with TV sets and stereos: you buy it, plug it in, and it works perfectly for the next 10 years. Computers aren't like that, which leads to frustration. Part of the problem is the operating system, which is often millions of lines of kernel code, each of which can potentially bring the system down. As long as we maintain the current structure of the  operating system as a huge single monolithic program full of foreign code (device drivers) and running in kernel mode, the situation will not improve. In an attempt to provide better reliability and security, we have created a new multiserver operating system,  MINIX 3, with only 15,000 lines in kernel and the rest of the operating system split up into small components each running as a separate user-mode processes.  It is available for the x86 and ARM for embedded systems. The talk will discuss the design of the system and some of unique aspects, such as live update--the ability to replace the operating system with a new version while it is running without affecting running applications. The MINIX 3 Website is at <a href='http://www.minix3.org'>www.minix3.org</a>",
       talkDate: "Sábado 24/03 | 11:00 - 12:00 | Auditório FEUP",
@@ -758,7 +752,7 @@ module.exports = {
       "<p>Requisitos: PC com distribuição Linux</p>",
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B120",
-      location: "Federico Bento e Joana Barão",
+      location: "Frederico Bento e Joana Barão",
       faqs: [],
       show: true
     },
@@ -860,7 +854,7 @@ module.exports = {
       "<p>Ricardo is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Ricardo is an avid UX and UI enthusiast, with high proficiency in Rich Internet Applications. At WeDo Technologies, Ricardo is in a leading role that oversees various SaaS application products, under WeDo’s RAID.Cloud offer. This includes, but is not limited to, the intelligent and smart processing applicability of gigantic amounts of data, managing the application scalability with state-of-the-art usability and user experience for B2B.</p>" + 
         "<p>Pedro is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Pedro worked extensively on Java Development, before joining WeDo Technologies as an expert in the Java Development - leading the case management solutions global team. An avid machine learning enthusiast, Pedro has recently been invited to join WeDo’s SaaS development and product offer team for RAID.Cloud, where he pivots self-service solutions and bridges the application world with the containers and Kubernetes whole orchestration. Pedro is adamant on showing meaningful data (on top of big data) to customers and leading a team of enthralled ML enthusiasts.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 10:00 - 12:30 | B116",
+      date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B116",
       location: "Ricardo Faria e Pedro Pires",
       faqs: [],
       show: true
@@ -920,7 +914,7 @@ module.exports = {
       desc: "<p>Workshop criado originalmente para estudantes de engenharia informática a nível universitário. É composto por uma breve apresentação inicial que aborda porções da evolução, estructura e dados de desempenho ( de cariz público ) da Miniclip.</p><p>Este momento é precedido por um exercício prático onde os participantes passam pela experiência de desenvolver um jogo como um produto ( ao invés de apenas uma aplicação ), passando por alguns dos processos e desafios que nos são a nós apresentados no dia-a-dia operacional da Miniclip.</p><p>A premissa geral do exercício é os participantes criarem um jogo usando apenas os objectos fornecidos pelos formadores no início do workshop: Papel, marcadores, objectos aleatórios, etc.</p><p>O objectivo do uso dos mesmos sendo o de direcionar o foco dos participantes para o resultado do jogo como produto, para lá da sua implementação técnica.</p>",
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 10:00 - 12:30",
-      location: "Rui Brilha e Egas Basto (Miniclip)",
+      location: "Rui Brilha e Egas Bastos (Miniclip)",
       faqs: [],
       show: true
     }
