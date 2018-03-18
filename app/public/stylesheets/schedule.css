@@ -260,7 +260,7 @@ table.schedule-table td.schedule-entry .block-title {
 
 table.schedule-table td.schedule-entry .block-extras {
   font-size: 80%;
-  color: var(--font-highlight-blue);
+  color: var(--font-highlight-blue) !important;
 }
 
 table.schedule-table td.schedule-entry a div {

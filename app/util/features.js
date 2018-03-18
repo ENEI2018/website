@@ -10,5 +10,5 @@ module.exports = {
     ambassadors: process.env.ENEI_dev === '1' || true,
     workshops: process.env.ENEI_dev === '1' || false,
     talks: process.env.ENEI_dev === '1' || true,
-    desafios: process.env.ENEI_dev === '1' || false,
+    desafios: process.env.ENEI_dev === '1' || true,
 }
