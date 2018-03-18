@@ -1,6 +1,6 @@
 module.exports = [{
         id: 0,
-        day: "23 de Março (6ªF)",
+        day: "23 de Março (SEX)",
         colTitle1: "Palestras",
         colTitle2: "Atividades",
         schedule: [{
@@ -84,7 +84,7 @@ module.exports = [{
     },
     {
         id: 1,
-        day: "24 de Março (Sab)",
+        day: "24 de Março (SAB)",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
@@ -318,7 +318,7 @@ module.exports = [{
                 col1: {
                     rowspan: 3,
                     colspan: 1,
-                    title: "Rui Costa",
+                    title: "Ricardo Matos",
                     subtitle: "An Internet of autonomous vehicles: Moving terabytes of data between vehicles and the cloud",
                     time: "14:45 - 15:30",
                     location: "Auditório FEUP",
@@ -514,7 +514,7 @@ module.exports = [{
     },
     {
         id: 2,
-        day: "25 de Março (Dom)",
+        day: "25 de Março (DOM)",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
@@ -924,7 +924,7 @@ module.exports = [{
     },
     {
         id: 3,
-        day: "26 de Março (2ªF)",
+        day: "26 de Março (SEG)",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
@@ -1020,7 +1020,7 @@ module.exports = [{
                     colspan: 1,
                     class: "day-3-fixer",
                     title: "Mário Carneiro e João Gradim",
-                    subtitle: "Internet of Things (Arduino)",
+                    subtitle: "Introdução ao ecossistema do Arduino e às IoT",
                     time: "10:00 - 12:30",
                     location: "Sala B120",
                     show: true,
