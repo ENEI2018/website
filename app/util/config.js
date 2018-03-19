@@ -398,7 +398,8 @@ module.exports = {
       linkedin: "https://www.linkedin.com/in/guilhermercd/",
       website: "http://guilhermeduarte.pt/",
       faqs: [],
-      talkTitle: "",
+      talkDate: "Domingo 25/03 | 17:30 - 18:15 | Auditório FEUP",
+      talkTitle: "Ser informático: A vida c'um sócio escolheu.",
       talkSummary: "",
       show: true,
       speaker: true,
@@ -719,7 +720,7 @@ module.exports = {
       image: "/images/sessao_cocktails.svg",
       date: "25 de Março | 18:30 - 20:30",
       location: "Sala I-105",
-      signup_url: "https://enei18networking.eventbrite.pt",
+      signup_url: "https://enei18cocktails.eventbrite.pt",
       faqs: [],
       show: true
     },

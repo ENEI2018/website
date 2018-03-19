@@ -856,7 +856,7 @@ module.exports = [{
                     colspan: 1,
                     time: "17:30 - 18:15",
                     title: "Guilherme Duarte",
-                    subtitle: "Por Falar Noutra Coisa",
+                    subtitle: "Ser informático: A vida c'um sócio escolheu.",
                     location: "Auditório FEUP",
                     show: true,
                     lang: "pt",
