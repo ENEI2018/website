@@ -298,7 +298,7 @@ module.exports = [{
                     class: "day-1-fixer",
                     title: "Sessão de Networking",
                     time: "14:00 - 16:00",
-                    location: "Sala a anunciar",
+                    location: "Sala B116",
                     url: "/talks/0",
                     show: true
                 },
@@ -605,7 +605,7 @@ module.exports = [{
                     title: "Rui Brilha e Egas Bastos",
                     subtitle: "Desenvolver um Jogo Como um Produto",
                     time: "10:00 - 12:30",
-                    location: "Sala por definir",
+                    location: "Sala B120",
                     show: true,
                     lang: "pt",
                     url: "/talks/19"
@@ -617,7 +617,7 @@ module.exports = [{
                     title: "Celso Martinho",
                     subtitle: "Blockchain 101",
                     time: "10:00 - 12:30",
-                    location: "Sala por definir",
+                    location: "Sala B107",
                     url: "/talks/8",
                     show: true,
                     lang: "pt"
@@ -738,7 +738,7 @@ module.exports = [{
                     //title: "Luís Grangeia",
                     //subtitle: "Cibersegurança S21sec",
                     time: "14:00 - 16:00",
-                    location: "Sala por definir",
+                    location: "Sala B107",
                     show: true,
                     //lang: "pt",
                     //url: "/talks/11"
