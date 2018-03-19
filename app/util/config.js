@@ -14,7 +14,7 @@ module.exports = {
     {
       id: 2,
       question: "Onde me posso inscrever?",
-      answer: "No nosso website, quando abrir a época de inscrições. Mantém-te atento às nossas redes sociais para seres o primeiro!"
+      answer: "Os bilhetes para a edição de 2018 já esgotaram, mas não percas a oportunidade de participar na próxima edição do ENEI!"
     },
     {
       id: 3,
@@ -40,19 +40,14 @@ module.exports = {
   desafios: [
     {
       id: 1,
-      question: "Desafio 1",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vitae leo ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque in tortor a leo aliquam accumsan. Vestibulum non mauris vulputate, pulvinar augue non, ullamcorper neque. Donec vel lacinia turpis. Nulla laoreet dui eu dapibus tincidunt. Praesent vel pharetra orci. Proin dui quam, feugiat non turpis vel, euismod consectetur dui. Aliquam tempor porta pellentesque. Integer dolor ante, vestibulum vitae gravida quis, accumsan ut felis."
+      question: "Bot de Sueca (Shiftforward)",
+      answer: "<p>Cria o teu bot e compete com outros jogadores!</p><p>O ShiftForward Challenge vai desafiar as tuas habilidades de Sueca num outro nível. Alia o estudante de engenharia informática ao velhote do jardim público que há em ti e cria um bot para competir num campeonato de Sueca contra outros jogadores presentes no ENEI 2018.</p><p>Habilita-te a ganhar os seguintes prémios:<br/>1.º Prémio: PlayStation 4 + GTA V<br/>2.º Prémio: Headphones Sennheiser HD 4.50 BTNC<br/>3.º Prémio: ShiftForward Craft Beer + Kit IoT</p>"
     },
-    {
-      id: 2,
-      question: "Desafio 2",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vitae leo ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque in tortor a leo aliquam accumsan. Vestibulum non mauris vulputate, pulvinar augue non, ullamcorper neque. Donec vel lacinia turpis. Nulla laoreet dui eu dapibus tincidunt. Praesent vel pharetra orci. Proin dui quam, feugiat non turpis vel, euismod consectetur dui. Aliquam tempor porta pellentesque. Integer dolor ante, vestibulum vitae gravida quis, accumsan ut felis."
-    },
-    {
-      id: 3,
-      question: "Desafio 3",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vitae leo ut ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque in tortor a leo aliquam accumsan. Vestibulum non mauris vulputate, pulvinar augue non, ullamcorper neque. Donec vel lacinia turpis. Nulla laoreet dui eu dapibus tincidunt. Praesent vel pharetra orci. Proin dui quam, feugiat non turpis vel, euismod consectetur dui. Aliquam tempor porta pellentesque. Integer dolor ante, vestibulum vitae gravida quis, accumsan ut felis."
-    }
+    // {
+    //   id: 2,
+    //   question: "Jogo QR Codes ENEI",
+    //   answer: "<p>Tens um smartphone Android? Queres ganhar um prémio gratuito do ENEI e aprender mais sobre a FEUP entretanto? Então descarrega já a <a href='https://enei.pt/android'>app Android do ENEI</a> e segue as instruções! Só tens de encontrar os QR codes espalhados pela FEUP e lê-los com o teu smartphone!</p>"
+    // }
   ],
   sponsors: {
     main: [{
@@ -290,6 +285,12 @@ module.exports = {
       image: "scaleup.png",
       href: "http://scaleupporto.pt/",
       show: true
+    },
+    {
+      name: "e-University League",
+      image: "eul.png",
+      href: "http://www.euniversityleague.com/",
+      show: true
     }
   ],
   workshops: [
@@ -304,12 +305,11 @@ module.exports = {
       name: "Andrew Tanenbaum",
       shortBio: "Vrije Universiteit",
       company: "Vrije Universiteit",
-      fullBio: "Andrew S. Tanenbaum was born in New York City and raised in White Plains, NY. He has an S.B.from M.I.T. and a Ph.D. from the University of California at Berkeley.  He is currently a Professor Emeritus of Computer Science at the Vrije Universiteit in Amsterdam. Prof. Tanenbaum is the principal designer of three operating systems: TSS-11, Amoeba, and MINIX. In addition, Tanenbaum is the author or coauthor of five books, which have been translated into 21 languages and appeared in a total of 175 editions. Tanenbaum is a Fellow of the ACM, a Fellow of the IEEE, and a member of the Netherlands Royal Academy of Arts and Sciences. In 1994 he was the recipient of the ACM Karl V. Karlstrom Outstanding Educator Award. In 1997 he won the ACM SIGCSE Award for Outstanding Contributions to Computer Science. In 2007 he won the IEEE James H. Mulligan, Jr., Education Medal. He also received the Lifetime Achievement Award from USENIX and also from Eurosys.",
+      fullBio: "<p>Andrew S. Tanenbaum nasceu em Nova Iorque e foi criado em White Plains, NY.</p><p>Possui um S.B. do M.I.T. e um Ph.D. da Universidade da Califórnia em Berkeley. Atualmente, é professor jubilado de Ciências da Computação no Vrije Universiteit em Amesterdão.</p><p>Professor Tanenbaum é o principal designer de três sistemas operativos: TSS-11, Amoeba e MINIX.</p><p>Além disso, Tanenbaum é o autor ou co-autor de cinco livros, que foram traduzido para 21 idiomas e somam um total de 175 edições.</p><p>Tanenbaum é um Fellow do ACM, um Fellow do IEEE, e um membro da Royal Academy of Arts and Sciences da Holanda. Em 1994, foi congratulado com o prêmio ACM Karl V. Karlstrom Outstanding Educator. Em 1997, ganhou o Prêmio ACM SIGCSE por grandes contribuições para a Ciência da Computação. Em 2007, ganhou a Medalha de Educação, IEEE James H. Mulligan, Jr.</p><p>Recebeu também o prémio Lifetime Achievement da USENIX e também da Eurosys.</p>",
       image: "andrew_tanenbaum.jpg",
       website: "http://www.cs.vu.nl/~ast",
       linkedin: "https://www.linkedin.com/in/andrew-tanenbaum-a142b5/",
       faqs: [],
-      //talkDate: "Sexta-feira, 11:42",
       talkTitle: "MINIX 3: A Reliable and Secure Operating System",
       talkSummary: "Most computer users nowadays are nontechnical people who have  a mental model of what they expect from a computer based on their experience with TV sets and stereos: you buy it, plug it in, and it works perfectly for the next 10 years. Computers aren't like that, which leads to frustration. Part of the problem is the operating system, which is often millions of lines of kernel code, each of which can potentially bring the system down. As long as we maintain the current structure of the  operating system as a huge single monolithic program full of foreign code (device drivers) and running in kernel mode, the situation will not improve. In an attempt to provide better reliability and security, we have created a new multiserver operating system,  MINIX 3, with only 15,000 lines in kernel and the rest of the operating system split up into small components each running as a separate user-mode processes.  It is available for the x86 and ARM for embedded systems. The talk will discuss the design of the system and some of unique aspects, such as live update--the ability to replace the operating system with a new version while it is running without affecting running applications. The MINIX 3 Website is at <a href='http://www.minix3.org'>www.minix3.org</a>",
       talkDate: "Sábado 24/03 | 11:00 - 12:00 | Auditório FEUP",
@@ -342,7 +342,7 @@ module.exports = {
       shortBio: "Teplitsa",
       company: "Teplitsa: Tecnologias para o Bem Social",
       role: "Project Director",
-      fullBio: "Alexey Sidorenko é diretor da \"Teplitsa: Tecnologias para o Bem Social\". Alexey é um membro ativo da sociedade civil e lidera um coletivo de mais de 30 indivíduos em várias regiões da Rússia que divulgam conhecimentos sobre novas ferramentas para organizações da sociedade civil e empreendedores sociais. Ao longo de sua carreira, Alexey colaborou com vários grupos civis, grupos de reflexão e comunidades internacionais, incluindo Carnegie Moscow Centre, Global Voices Online, Freedom House e Reporters Without Borders. Em 2010, ele desenvolveu o projeto \"Help Map\", uma iniciativa premiada de crowdsourcing para ajudar as vítimas dos incêndios florestais do verão. Desde 2012, dirige a Teplitsa, um projeto para ajudar as ONGs russas com IT e formas inovadoras de engajamento cívico. A Teplitsa administra o maior portal de tecnologia cívica de língua russa, atraindo mais de 10 mil leitores únicos por dia. Também organiza hackathons e meetups e desenvolve software de código aberto. Alexey regularmente apresenta no Fórum de Democracia Pessoal da Europa Central e Oriental. Alexey possui um Ph.D. em Geografia (Moscow State University, 2010) e fala polaco, inglês e russo.",
+      fullBio: "<p>Alexey Sidorenko é diretor da \"Teplitsa: Tecnologias para o Bem Social\".</p><p>Alexey é um membro ativo da sociedade civil e lidera um coletivo de mais de 30 indivíduos em várias regiões da Rússia que divulgam conhecimentos sobre novas ferramentas para organizações da sociedade civil e empreendedores sociais.</p><p>Ao longo de sua carreira, Alexey colaborou com vários grupos civis, grupos de reflexão e comunidades internacionais, incluindo Carnegie Moscow Centre, Global Voices Online, Freedom House e Reporters Without Borders.</p><p>Em 2010, ele desenvolveu o projeto \"Help Map\", uma iniciativa premiada de crowdsourcing para ajudar as vítimas dos incêndios florestais do verão. Desde 2012, dirige a Teplitsa, um projeto para ajudar as ONGs russas com IT e formas inovadoras de engajamento cívico.</p><p>A Teplitsa administra o maior portal de tecnologia cívica de língua russa, atraindo mais de 10 mil leitores únicos por dia. Também organiza hackathons e meetups e desenvolve software de código aberto. Alexey regularmente apresenta no Fórum de Democracia Pessoal da Europa Central e Oriental.</p><p>Alexey possui um Ph.D. em Geografia (Moscow State University, 2010) e fala polaco, inglês e russo.</p>",
       image: "alexey_sidorenko.jpg",
       linkedin: "https://www.linkedin.com/in/alexeysidorenko/",
       faqs: [],
@@ -439,6 +439,19 @@ module.exports = {
       lang: "pt"
     },
     {
+      id: 22,
+      name: "Raul Vidal",
+      fullBio: "<p>Licenciado em Engenharia Eletrotécnica pela FEUP em 1972, Raul Moreira Vidal prosseguiu os estudos em Inglaterra, onde concluiu o Mestrado (1974) e mais tarde o Doutoramento (1978), ambos na UMIST, em Manchester. Os seus interesses profissionais iniciaram-se na área de sistemas digitais e computadores, direcionando-se depois para a área da qualidade de software, melhoria de processos de software, fatores humanos em engenharia de software, empreendedorismo e inovação, sendo nestas áreas que focou as suas atividades de I&D, desenvolvidas na FEUP e no INESC TEC.</p><p>Raul Vidal teve uma passagem relevante pela Faculdade de Ciências e Tecnologia da Universidade de Coimbra (1972-1977) e também pela Universidade do Minho (1978-1982). Iniciou a sua carreira na FEUP em 1982 e, em 1986, coordenou e foi um dos principais dinamizadores do processo de criação do Mestrado em Engenharia Eletrotécnica e Computadores (MEEC) e, em 1994, coautor do processo de criação da Licenciatura em Engenharia Informática e Computação (LEIC), posteriormente transformado em Mestrado Integrado em Engenharia Informática e Computação (MIEIC), que dirigiu, de 2001 a 2008.</p><p>Foi também dinamizador e coordenador do processo de criação de outros cursos superiores de informática e de ações de formação contínua e profissional.</p><p>À data da jubilação, detinha o título de Professor Associado, integrado na sub-área científica de Engenharia de Software e o cargo de Diretor do DEI. Membro eleito do Conselho Geral da Universidade do Porto desde julho de 2013, foi também, desde julho de 2014, membro do Conselho Científico da Faculdade de Engenharia do Porto e é, desde 2016, Coordenador das Relações com os Alumni FEUP.</p><p>Membro do Grupo de I&D de Engenharia de Software da FEUP, que fundou e liderou até 2008, Raul Vidal tem participado em vários projetos de I&D, nacionais e internacionais. Em 2009 foi cofundador da Strongstep, spin-off da Faculdade de Engenharia na área da melhoria de processos e da qualidade de software. Integra também, desde fevereiro de 2015, o Serviço de Apoio a Parcerias Empresariais (SAPE) do INESC TEC como Assessor Sénior.</p><p>É membro Sénior do IEEE, Membro do Software Engineering Institute (SEI) da Universidade de Carnegie-Mellon, e Membro Sénior da Ordem dos Engenheiros (Colégio de Engenharia Informática).</p><p>Destaque ainda para vários reconhecimentos obtidos ao longo do seu percurso, nomeadamente o  ‘IEEE Third Millenium Award’ (2000) e a distinção ‘Personalidade do Ano em Engenharia de Software’ (2016), pelo grande impulso dado ao setor das TIC e mesmo à economia nacional.</p>",
+      image: "raul_vidal.jpg",
+      faqs: [],
+      talkTitle: "Educação 4.0",
+      talkSummary: "",
+      talkDate: "Sábado 24/03 | 16:45 - 18:30 | Auditório FEUP",
+      lang: 'pt',
+      show: true,
+      speaker: true,
+    },
+    {
       id: 3,
       name: "Henrique Ferrolho",
       shortBio: "University of Edinburgh",
@@ -454,11 +467,21 @@ module.exports = {
       faqs: [],
       talkDate: "Domingo 25/03 | 14:00 - 16:00",
       talkTitle: "Introdução à Robótica com Three.js",
-      talkSummary: "<p>O que é que robótica e computer animation têm em comum? Como é que se \"programam\" os robots? Qual o estado da Inteligência Artificial na robótica? O que são Forward e Inverse Kinematics? Quais são as diferentes preocupações de um Roboticist e de um Software Engineer? Durante este workshop, \"o Ferrolho\" vai tentar responder a estas e outras perguntas da área da robótica, altamente biased pela sua experiência pessoal. Se sabes programar em JavaScript e queres pôr a mão na massa para aprender a analisar e programar robots com Three.js, então este é o Workshop indicado para ti.</p>" + 
-      '<p>Requisitos:</p>' + 
-      '<p>- Máximo de 20 pessoas (25 no máximo dos máximos, acho que mais é impossível de garantir que toda a gente está a acompanhar.)</p>' + 
-      '<p>- Saber programar em JavaScript. Não quero estar a impor nenhuma restrição em relação ao ano do curso em que estão, mas é essencial que o pessoal que se inscreva saiba programar em JS. Durante o WS não vou ensinar a programar, vou ensinar conceitos introdutórios de robótica, que necessitam de conceitos fundamentais de programação. Portanto, seria melhor, tanto para mim como para a audiência, os participantes terem consciência disso para não irem ao engano.</p>' + 
-      '<p>- Ter experiência com computação gráfica é também desejado, mas não essencial.</p>',
+      talkSummary: "<p>O que é que robótica e computer animation têm em comum? Como é que se \"programam\" os robots? Qual o estado da Inteligência Artificial na robótica? O que são Forward e Inverse Kinematics? Quais são as diferentes preocupações de um Roboticist e de um Software Engineer?</p>" +
+      "<p>Durante este workshop, \"o Ferrolho\" vai tentar responder a estas e outras perguntas da área da robótica, altamente biased pela sua experiência pessoal. Se sabes programar em JavaScript e queres pôr a mão na massa para aprender a analisar e programar robots com Three.js, então este é o Workshop indicado para ti.</p>" + 
+      //'<p>Requisitos:</p>' + 
+      //'<p>- Máximo de 20 pessoas (25 no máximo dos máximos, acho que mais é impossível de garantir que toda a gente está a acompanhar.)</p>' + 
+      //'<p>- Saber programar em JavaScript. Não quero estar a impor nenhuma restrição em relação ao ano do curso em que estão, mas é essencial que o pessoal que se inscreva saiba programar em JS. Durante o WS não vou ensinar a programar, vou ensinar conceitos introdutórios de robótica, que necessitam de conceitos fundamentais de programação. Portanto, seria melhor, tanto para mim como para a audiência, os participantes terem consciência disso para não irem ao engano.</p>' + 
+      //'<p>- Ter experiência com computação gráfica é também desejado, mas não essencial.</p>' + 
+      "<div style='margin-left:30px'>"+
+      "<iframe src='https://gfycat.com/ifr/AggressiveUnnaturalGlobefish' frameborder='0' scrolling='no' allowfullscreen width='200' height='200' style='margin:10px'></iframe>" +
+      "<iframe src='https://gfycat.com/ifr/ElaborateThinGreendarnerdragonfly' frameborder='0' scrolling='no' allowfullscreen width='200' height='138' style='margin:10px;margin-bottom:35px;margin-top:35px'></iframe>" +
+      "<iframe src='https://gfycat.com/ifr/PerfectGrandioseBillygoat' frameborder='0' scrolling='no' allowfullscreen width='200' height='138' style='margin:10px;margin-bottom:35px;margin-top:15px'></iframe>" +
+      "</div>",//<div style='position:relative;padding-bottom:100%;width:80%;margin:auto'><iframe src='https://gfycat.com/ifr/AggressiveUnnaturalGlobefish' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>" +
+      //"<br/>" +
+      //"<div style='position:relative;padding-bottom:69%;width:80%;margin:auto'><iframe src='https://gfycat.com/ifr/ElaborateThinGreendarnerdragonfly' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>" +
+      //"<br/>" +
+      //"<div style='position:relative;padding-bottom:69%;width:80%;margin:auto'><iframe src='https://gfycat.com/ifr/PerfectGrandioseBillygoat' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>",
       show: true,
       speaker: false,
       lang: "pt"
@@ -581,12 +604,12 @@ module.exports = {
     },
     {
       id: 11,
-      name: "Rui Costa",
+      name: "Ricardo Matos",
       shortBio: "Veniam",
       company: "Veniam",
-      role: "CTO",
-      fullBio: "Rui Costa is the CTO of Veniam and Founder of IEEE Academic. Rui joined Veniam in 2013 as a Systems Engineer and later headed the company product effort, helping the Veniam scale its technology and vision towards the mission of delivering the Internet of Moving Things, being the author of multiple patents held by the company. Rui was also responsible for setting up Veniam center for North America operations in New York City, building the team, and securing key strategic partnerships in the area of automotive and connected autonomous vehicles. In parallel, Rui is also passionate about open access education by being the founder of IEEE Academic, a web-based international project for the creation and dissemination of free educational multimedia content since 2012. Rui is also a co-founder of Kairos Society Portugal and the Startup Scholarship, and active IEEE volunteer.",
-      image: "rui_costa.jpg",
+      role: "",
+      fullBio: "Ricardo Matos received his Ph.D. in Electrical Engineering by the University of Aveiro in January 2013. He was a member of Instituto de Telecomunicações from September 2008-December 2012, belonging to the Network Architectures and Protocols (NAP) group. In January 2013, he joined a vehicular networking company, Veniam, which builds all the hardware, software, and cloud components for delivering data and services over mesh networks of connected vehicles. In Veniam, he has been involved in the platform development, engineering management, business and marketing discussions, IP management, architectural discussions around networking and transport layers protocols, such as, connection manager, routing and delay-tolerant networking. He has been involved in several national funding projects, such as the ones granted by Fundação para a Ciência e tecnologia (FCT), QREN and the ones that resulting from the collaboration between Veniam and Instituto de Telecomunicações (IT), as well as in the FP6 European Project WEIRD, FP7 European Project Euro-NF, and RETHINK BIG. Moreover, he has been supervising the work of several MI and Ph.D. students, and the reviewer of several international conferences and journals articles. He also has been the main author or co-author of several publications. Currently, his current research interests are related with vehicular networking technologies and protocols, M2M communications, future mobility, autonomous vehicles, Internet of things, wireless mesh networking, self-management, and context-awareness.",
+      image: "ricardo_matos.jpg",
       linkedin: "https://www.linkedin.com/in/ruimiguelcosta/",
       faqs: [],
       talkDate: "Sábado 24/03 | 14:45 - 15:30 | Auditório FEUP",
@@ -602,7 +625,7 @@ module.exports = {
       shortBio: "QAValue",
       company: "QAValue",
       role: "Gestor e Consultor",
-      fullBio: "O Eduardo é Gestor e Consultor na QAValue e Docente Convidado na Porto Business School e no IPP. É licenciado (2003) e mestrado (2008) em Eng. Informática e Computação, tem um Exec Master em Marketing (2009), um MBA Executivo (2010). Ao longo da carreira de 17 anos, com 8 anos de coordenação de equipas já assumiu funções de Business Manager, IT Recruiter, Support Architect, Business Analyst, Process Improvement Manager e Consultant em empresas dos setores de Construção Civil, Telecomunicações, Serviços, Semicondutores, Saúde e Retalho.",
+      fullBio: "<p>O Eduardo é Gestor e Consultor na QAValue e Docente Convidado na Porto Business School e no IPP.</p><p>É licenciado (2003) e mestrado (2008) em Eng. Informática e Computação, tem um Exec Master em Marketing (2009), um MBA Executivo (2010).</p><p>Ao longo da carreira de 17 anos, com 8 anos de coordenação de equipas já assumiu funções de Business Manager, IT Recruiter, Support Architect, Business Analyst, Process Improvement Manager e Consultant em empresas dos setores de Construção Civil, Telecomunicações, Serviços, Semicondutores, Saúde e Retalho.</p>",
       image: "eduardo_espinheira.jpg",
       linkedin: "https://www.linkedin.com/in/eespinheira/",
       faqs: [],
@@ -652,14 +675,11 @@ module.exports = {
     {
       id: 20,
       name: "Daniel Teixeira",
-      //shortBio: "Universidade do Minho",
-      //company: "Universidade do Minho",
-      //role: "Associate Professor",
       fullBio: "Daniel Teixeira é um especialista em segurança informática, especializado em testes de penetração e análise de vulnerabilidades. Suas principais áreas de foco são a simulação adversários, emulação de tácticas, técnicas e procedimentos de adversários modernos, pesquisa de vulnerabilidades e desenvolvimento de exploits.",
       image: "daniel_teixeira.png",
       faqs: [],
       talkTitle: "Cibersegurança",
-      talkSummary: "Daniel Teixeira é um especialista em segurança informática, especializado em testes de penetração e análise de vulnerabilidades. Suas principais áreas de foco são a simulação adversários, emulação de tácticas, técnicas e procedimentos de adversários modernos, pesquisa de vulnerabilidades e desenvolvimento de exploits.",
+      talkSummary: "",
       talkDate: "Sábado 24/03 | 15:30 - 16:00 | Auditório FEUP",
       show: true,
       speaker: true,
@@ -668,7 +688,7 @@ module.exports = {
     {
       id: 21,
       name: "Rui Guedes",
-      fullBio: "I have worked for a few years on corporate solutions development, did some R&D on the field of robotics and AI (subject of my master's thesis). Then I've decided that I needed some excitement on my life and turned to Indie game/VR dev. First on mobile and now on PC/Consoles. I've been working with VR since 2013, focusing on Immersion and Design-For-VR paradigms. Cool stuff :)",
+      fullBio: "Rui trabalhou durante alguns anos no desenvolvimento de soluções empresariais, investigação e desenvolvimento na área da robótica e inteligência artificial (tema da sua tese de mestrado). Até que decidiu que precisava de mais entusiasmo na sua vida e virou-se para Indie game/VR dev. Primeiro em mobile e agora em PC/Consolas. Trabalha em VR desde 2013, focando-se na Imersividade e paradigmas de Design-For-VR. Cool stuff :)",
       image: "rui_guedes.jpg",
       faqs: [],
       talkTitle: "Novas Realidades Digitais (Virtual, Aumentada, Mista)",
@@ -681,6 +701,7 @@ module.exports = {
   talks: [
     {
       id: 0,
+      header: "Atividade",
       title: "Sessão de Networking",
       desc: "<p>Esta atividade é focada na resolução, por parte dos participantes, de problemas propostos pelos nossos patrocinadores. O objetivo é que os estudantes apresentem soluções num curto espaço de tempo para uma problemática relacionada com informática. Estes problemas poderão ser a melhor tecnologia a utilizar para uma determinada tarefa, como arquiteturar um sistema com os componentes especificados pela empresa, etc.</p><p>A organização da atividade passa pela colocação de várias empresas em mesas diferentes que serão visitadas durante cerca de 5 minutos por grupo de 3 a 5 participantes para resolverem o desafio proposto pela equipa lá presente.</p><p>A Sessão de Networking é importante para participantes que estejam à procura quer de trabalho a tempo inteiro, quer estágios (de verão ou não). Após a sessão espera-se que os representantes dos nossos patrocinadores na sessão façam uma avaliação e contactem os estudantes com melhores soluções!</p>",
       image: "/images/sessao_networking.svg",
@@ -691,6 +712,7 @@ module.exports = {
     },
     {
       id: 1,
+      header: "Atividade",
       title: "Sessão de Cocktails",
       desc: "<p>A Sessão de Cocktails é uma atividade focada no conhecimento dos nossos patrocinadores e no networking. Esta sessão é constituída por pequenos pitches (entre 2 a 5 minutos) das empresas presentes que tentarão apresentar o seu trabalho, objetivo e quais vagas têm atualmente abertas para estudantes, recém-licenciados ou recém-mestres.</p><p>Após uma série de apresentações, haverá um intervalo em que os participantes poderão contactar os nossos patrocinadores pelos quais poderão ter ficado interessados e preparar, então, o seu futuro.</p>",
       image: "/images/sessao_cocktails.svg",
@@ -701,6 +723,7 @@ module.exports = {
     },
     {
       id: 2,
+      header: "Atividade",
       title: "Jantar Empresarial",
       desc: "<p>O Jantar Empresarial é uma atividade inovadora que visa criar uma maior relação entre participantes e o mundo empresarial. O objetivo principal é permitir que estudantes comuniquem com representantes de alguns dos nossos patrocinadores a fim de obter mais informações sobre a empresa, o seu funcionamento, se estão a recrutar, etc.</p><p>Esta atividade ocorre em simultâneo com a Mega Febrada.</p><p>Para participação neste Jantar, os participantes deverão enviar o seu Curriculum Vitae e este será o critério de seleção de modo a tentar criar laços comuns entre a experiência dos estudantes e os interesses de cada patrocinador presente.</p>",
       image: "/images/sessao_networking.svg",
@@ -717,7 +740,7 @@ module.exports = {
       "<p>Renato Rodrigues: Holder of a MSc in Informatics Engineering, with high interest in security issues, working in the AppSec world for a while. Curator of an AppSec Ezine and promoter of a security enthusiasts group (0xOPOSEC Meetup) – more than breaking through challenges, it is all about sharing the knowledge. Speaker at conferences like BSides, OWASP and others security and IT related. Find him on <a href=\"https://github.com/Simpsonpt/\">GitHub</a> and <a href=\"https://twitter.com/simps0n\">Twitter</a>.</p>" +
       "<p>César Silva: César comes from Braga and completed his graduation in Informatics at ISEP in 2016. Then he started working at Farfetch as a Developer, mainly in authentication problems. Later he moved to the Security team, focusing on Application Security. He also had some training in Networking, as this is one of his areas of interest. He likes to listen to music and try to sniff bugs. When there are no keyboards around, he watches some movies or reads some books. Find him on <a href=\"https://twitter.com/Apl3b\">Twitter</a>.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 10:00 - 12:30",
+      date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B107",
       location: "Renato Rodrigues e César Silva",
       faqs: [],
       show: true
@@ -725,10 +748,11 @@ module.exports = {
     {
       id: 5,
       title: "Capture the Flag: CTF 101",
-      desc: "<p>Capture the Flag (CTF) são competições de segurança informática. \"It's like the hacker Olympics.\" - Elliot Alderson, Mr. Robot S03E01 Nestes competições, equipas de todo o mundo tentam resolver desafios de modo a conseguir obter o maior número de pontos possível. Os desafios podem-se inserir em diversas categorias: exploitation, reverse engineering, web hacking, criptografia e forensics. Participar em CTFs é excelente para desenvolver novas skills, como por exemplo desenvolvimento de exploits, descoberta de vulnerabilidades e criação de ferramentas. É uma área próxima do mundo profissional da segurança informática e que permite avaliar conhecimentos através de desafios práticos e objetivamente mensuráveis. Neste workshop terás oportunidade de conhecer algumas ferramentas e técnicas que podem ser utilizadas em CTFs e ainda colocar à prova os teus conhecimentos num mini CTF. Gostas de jogos e tens interesse pela área da segurança? Este é o teu workshop!</p>",
+      desc: "<p>Capture the Flag (CTF) são competições de segurança informática. \"It's like the hacker Olympics.\" - Elliot Alderson, Mr. Robot S03E01 Nestes competições, equipas de todo o mundo tentam resolver desafios de modo a conseguir obter o maior número de pontos possível. Os desafios podem-se inserir em diversas categorias: exploitation, reverse engineering, web hacking, criptografia e forensics. Participar em CTFs é excelente para desenvolver novas skills, como por exemplo desenvolvimento de exploits, descoberta de vulnerabilidades e criação de ferramentas. É uma área próxima do mundo profissional da segurança informática e que permite avaliar conhecimentos através de desafios práticos e objetivamente mensuráveis. Neste workshop terás oportunidade de conhecer algumas ferramentas e técnicas que podem ser utilizadas em CTFs e ainda colocar à prova os teus conhecimentos num mini CTF. Gostas de jogos e tens interesse pela área da segurança? Este é o teu workshop!</p>" +
+      "<p>Requisitos: PC com distribuição Linux</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 10:00 - 12:30",
-      location: "Federico Bento e Joana Barão",
+      date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B120",
+      location: "Frederico Bento e Joana Barão",
       faqs: [],
       show: true
     },
@@ -736,10 +760,11 @@ module.exports = {
       id: 6,
       title: "Espresso The Android Way",
       desc: "<p>Os testes automáticos são uma das formas de potenciar o escalar das equipas e ao mesmo tempo assegurar que se consegue manter uma boa qualidade e cadência de release dos produtos. Neste workshop iremos mostrar como podemos fazer isto para uma aplicação nativa de Android usando Espresso e criar alguns testes para automatizar uma aplicação.</p>" +
+      "<p>Requisitos:<br/>- Android Studio 3.0.1 - https://developer.android.com/studio/index.html<br/>- Android SDK: 8.0 (Oreo) e 7.1.1 (Nougat)<br/>- JDK - http://www.oracle.com/technetwork/java/javase/downloads/index.html<br/>- Git (linha de comandos, SourceTree ou Github Desktop)</p>" +
       "<p>Fábio Barbosa: Licenciado em Engenharia de Informática no Instituto Superior de Engenharia do Porto. Com alguns anos de experiência na área de automação de Android. Membro activo na comunidade, a criar oportunidades para partilha de conhecimento através do Porto Testers Meetup. Actualmente trabalha na Farfetch como Test Automation Engineer para a equipa de Mobile.</p>" +
       "<p>Filipe Carvalho: Estudou no Mestrado Integrado em Engenharia Informática na FEUP. Tem já alguns anos de experiência nas áreas de automação de testes e Continuous Delivery, principalmente em Mobile. Contribuidor assíduo na comunidade, organiza o Porto Testers Meetup para fomentar a partilha de conhecimento. É neste momento QA Automation Engineer na Talkdesk.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 14:00 - 16:00",
+      date: "Sábado 24 de Março | 14:00 - 16:00 | Sala B120",
       location: "Fábio Barbosa e Filipe Carvalho",
       faqs: [],
       show: true
@@ -752,7 +777,7 @@ module.exports = {
       "<p>Paulo Patrício (Solution Manager, Novabase): Com 15 anos de experiência na industria das Telecomunicações, uma Licenciatura em Eng. Eletrotécnica e um Mestrado em Software Engineering, sou um apaixonado pela Robótica, Domótica e tudo o que se relacione com inovação em geral.</p>" +
       "<p>Sandra Simões (Senior UX Designer, Novabase): Há 7 anos na Celfocus, com expecial foco no mercado de Telco, com focos de UX&Strategy design. Atualmente estou como CX SME no IoT colaborando com diferentes stakeholders focando-me essencialmente no user final.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Domingo 25 de Março | 10:00 - 12:00",
+      date: "Domingo 25 de Março | 10:00 - 12:00 | B116",
       location: "Paulo Patrício e Sandra Simões",
       faqs: [],
       show: true
@@ -761,20 +786,21 @@ module.exports = {
       id: 8,
       title: "101 Blockchain",
       desc: "<p>Tópicos:<br/>- Blockchain fundamentals<br/>- Mining and incentives<br/>- How it works (tech session)<br/>- Smart contracts and trusted computing<br/>- Lightning networks<br/>- Other DLTs: DAGs<br/>- Industry applications<br/>- Q&A</p>" +
-      "<p>Celso Martinho: procura-o no seu <a href=\"https://www.linkedin.com/in/celsomartinho/\">Linkedin</a> ou <a href=\"mailto:celso@brpx.com\">email</a>.</p>",
+      "<p>Celso Martinho é o CEO e Founder da Bright Pixel, formado na Universidade de Aveiro. Irá desmistificar a buzzword Blockchain, explicando os seus princípios, como funciona o “mining” e qual o seu objetivo, explicará a tecnologia adjacente, os “smart contracts” e outros conceitos associados à tecnologia e as suas aplicações na indústria. Não percas esta oportunidade de perceber a complexa e simples arquitetura da blockchain por trás da Bitcoin e outras cryptocurrencies. Encontra-o no <a href='https://www.linkedin.com/in/celsomartinho/'>LinkedIn</a></p>",
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 10:00 - 12:00",
       location: "Celso Martinho",
       faqs: [],
-      show: false
+      show: true
     },
     {
       id: 10,
       title: "Criação de recursos 3D para Motores a tempo real",
       desc: "<p>Neste workshop serão apresentados conceitos e metodologias para o desenvolvimento de recursos 3D direcionados para motores gráficos a tempo real. Existirá uma componente prática durante a sessão e os participantes que quiserem acompanhar poderão trazer os seus portáteis com a instalação prévia do programa Autodesk Maya (versão de estudante). O software poderá ser descarregado a partir do seguinte url: <a href=\"https://www.autodesk.com/education/free-software/maya\">https://www.autodesk.com/education/free-software/maya</a>.</p>" +
+      "<p>Requisitos: Trazer o próprio portátil, com a instalação prévia do programa Autodesk Maya (versão de estudante). O software poderá ser descarregado a partir do seguinte url: <a href='autodesk.com/education/free-software/maya'>autodesk.com/education/free-software/maya</a>." +
       "<p>André Cruz: Mestre em Tecnologia Multimédia pela Faculdade de Engenharia da Universidade do Porto, André Cruz é consultor no Centro de Serviços e Apoio às Empresas da Associação Empresarial de Portugal e docente no Instituto Superior de Tecnologias Avançadas do Porto e na Lisbon School of Design, tendo entretanto desenvolvido vários projetos para clientes como Europarque, Unicer, Civec, Eurocid, Exponor e Nimco.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Domingo 25 de Março | 14:00 - 16:00",
+      date: "Domingo 25 de Março | 14:00 - 16:00 | Sala B120",
       location: "André Cruz",
       faqs: [],
       show: true
@@ -798,11 +824,13 @@ module.exports = {
       id: 12,
       title: "{H}API Day - Open architectures",
       desc: "<p>Introdução sobre as boas práticas de desenvolvimento de uma API REST.</p>" +
+      "<p>Requisitos: Todos os participantes devem levar o seu computador.</p>" +
       "<p>Business Case sobre a aplicação de APIs na SONAE MC.</p>" +
       "<p>Aplicação prática: Especificar uma API REST de um caso real.</p>" +
-      "<p>Todos os participantes devem levar o seu computador.</p>",
+      "<p>Todos os participantes devem levar o seu computador.</p>" + 
+      "<p>Marcelo Barroso: O Marcelo tem a licenciatura em Engenharia Informática e frequenta o mestrado de Engenharia de Software no Instituto Superior de Engenharia do Porto (ISEP). Realizou o estágio curricular na empresa BIT da Sonae na implementação de uma API Management na arquitetura, desde então trabalha na organização a integrar a plataforma Apigee aos sistemas e na definição e especificação as APIs que são expostas externamente para os parceiros.</p><p>Ernesto Costa: O Ernesto tirou a Licenciatura em Engenharia de Sistemas e Informática na Universidade do Minho em 2008. Logo após iniciou a sua carreira profissional na empresa Wipro Retail onde se especializou na área de Integração tendo para isso trabalhado inicialmente na área de suporte e posteriormente dedicou-se à implementação de projetos de integração em vários clientes internacionais, tais como SuperValu, Morrisons, Ahold, Despar, entre outros.Posteriormente, em 2014, aceitou um novo desafio na empresa Altran para se juntar à equipa de Integração da Sonae, tendo assumido funções tecnicas, e algumas de gestão, em inumeros projetos da Sonae. Desde 2017 tem estado a assumir um papel relevante na implementação da estrategia de API’s na Sonae, a nivel da sua de definição, especificação e implementação.</p><p>João Riqueza: O João tirou licenciatura em Engenharia Informática no ISEP, ramo de sistemas de informação em 2005. Fez um percurso peculiar, iniciou a sua carreira como programador freelancer em 1997. Em 2000 decidiu complementar o seu conhecimento com a licenciatura e em paralelo com a sua atividade como freelancer. Foi o melhor aluno do seu ano. Em 2005, decide fazer uma alteração de carreira profissional para poder desenvolver-se como profissional e iniciar projetos de maior dimensão e complexidade, iniciando o seu percurso como trabalhador dependente em software houses. Desenvolveu projetos nas diversas indústrias, Seguros, Produção, Saúde e mais recentemente no retalho. Em 2011 juntou-se à equipa SONAE para implementar uma equipa e processos com competência em arquitetura empresarial. Desde 2014 que assumiu funções de manager de área de integração e em 2017 acumulou essa função com mais duas equipas: Customer e Gestão de Identidades e Acessos. Orgulhoso pelas equipas e pessoas que tem a felicidade de liderar, e mais recentemente do sucesso da estratégia implementada de API management.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      date: "Segunda-feira 26 de Março | 10:00 - 12:00 | Sala B116",
       location: "João Riqueza, Ernesto Costa e Marcelo Barroso",
       faqs: [],
       show: true
@@ -813,7 +841,7 @@ module.exports = {
       desc: "<p>Avanços na tecnologia de microprocessadores tornaram mais fácil do que nunca potenciar projectos electrónicos com ligação à internet. Através de noções básicas de electrónica, programação e redes que todos os novos estudantes engenheiros possuem, este workshop irá demonstrar como consolidar esse conhecimento e colocá-lo em prática para construir e ligar circuitos e dispositivos à internet.</p><p>Iremos construir pequenos circuitos usando plataformas da família Arduino e componentes eletrônicos, como sensores de temperatura e humidade e apresentar as leituras em um ecrã LCD ou usando um interruptor para controlar uma lâmpada. Iremos depois usar as interfaces de redes do micro-controlador ESP8266 para prototipar tarefas de IoT como logar dados dos sensores com a ajudar de serviços da cloud, ou como controlar o estado on/off de circuitos físicos através de uma página web.</p><p>Terás de trazer o teu próprio computador para este workshop, iremos fornecer todos os componentes electrónicos necessários.</p>" +
       "<p></p>",
       image: "/images/Ativo 4.svg",
-      date: "Segunda-feira 26 de Março | 10:00 - 12:00",
+      date: "Segunda-feira 26 de Março | 10:00 - 12:00 | B120",
       location: "<a href=\"/speakers/5\">João Gradim</a> e <a href=\"/speakers/4\">Mário Carneiro</a>",
       faqs: [],
       show: true
@@ -827,7 +855,7 @@ module.exports = {
       "<p>Ricardo is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Ricardo is an avid UX and UI enthusiast, with high proficiency in Rich Internet Applications. At WeDo Technologies, Ricardo is in a leading role that oversees various SaaS application products, under WeDo’s RAID.Cloud offer. This includes, but is not limited to, the intelligent and smart processing applicability of gigantic amounts of data, managing the application scalability with state-of-the-art usability and user experience for B2B.</p>" + 
         "<p>Pedro is a Software Engineer, graduated from the Universidade do Minho, in Portugal. Pedro worked extensively on Java Development, before joining WeDo Technologies as an expert in the Java Development - leading the case management solutions global team. An avid machine learning enthusiast, Pedro has recently been invited to join WeDo’s SaaS development and product offer team for RAID.Cloud, where he pivots self-service solutions and bridges the application world with the containers and Kubernetes whole orchestration. Pedro is adamant on showing meaningful data (on top of big data) to customers and leading a team of enthralled ML enthusiasts.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 10:00 - 12:30",
+      date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B116",
       location: "Ricardo Faria e Pedro Pires",
       faqs: [],
       show: true
@@ -838,7 +866,7 @@ module.exports = {
       desc: "<p>Neste workshop, iremos criar alguns ambientes de desenvolvimento com docker e docker-compose, explorando várias arquiteturas e opções de customização possíveis. Iremos explorar as vantagens do docker, e as suas principais limitações.</p>" + 
         "<p>Sobre o Pedro: Licenciado (2015) e Mestre (2017) em Engenharia Informática, na Universidade de Coimbra, comecei recentemente a trabalhar como software developer na Whitesmith. Adotando desde cedo uma mentalidade DevOps, gosto de explorar as ferramentas disponíveis para facilitar esta abordagem, incluindo o uso de Docker para uniformização de ambientes de desenvolvimento.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Domingo 25 de Março | 16:45 - 18:30",
+      date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B120",
       location: "Pedro Janeiro",
       faqs: [],
       show: true
@@ -853,8 +881,41 @@ module.exports = {
         "Estás preparado?</p>" +
         "<p>Sobre o Daniel: Estudou no Mestrado em Redes e Sistemas Informáticos na Faculdade de Ciências da Universidade do Porto que terminou em 2016 e trabalha atualmente na Bitmaker onde tem vindo a resolver problemas de elevada complexidade utilizando Elixir. Mantém uma relação próxima com a Universidade onde partilha as suas experiências e conhecimento em workshops e eventos. Os seus principais interesses são linguagens de programação, sistemas distribuídos, DevOps e tudo relacionado com redes de computadores. Podem saber mais no seu <a href=\"https://github.com/DFilipeS\">GitHub</a> ou <a href=\"https://twitter.com/DFilipeS\">Twitter</a>.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado-feira 24 de Março | 16:45 - 18:30",
+      date: "Sábado-feira 24 de Março | 16:45 - 18:30 | Sala B120",
       location: "Daniel Silva",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 17,
+      title: "ESP applied to IoT",
+      desc: "<p>Já alguma vez reparaste que fazes um trabalho repetitivo como acender as luzes de casa, e pior às vezes elas ficam acesas sem ninguém na divisão? Ou já sentiste necessidade de recolher dados, por exemplo de temperatura para ligares automaticamente o sistema de aquecimento ou refrigeração?</p>" +
+      "<p>Domótica é uma das áreas de IoT que é facilmente implementado com este microcontrolador WiFi 8x mais rápido que um Arduíno.</p>" +
+      "<p>De que estás à espera para te introduzires à programação de microcontroladores e entrares no mundo dos IoT? Este é o workshop ideal para aprenderes da melhor forma!</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B116",
+      location: "Gonçalo Pereira (IEEE)",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 18,
+      title: "Masterclass LinkedIn e apresentação DCOOP",
+      desc: "<p>Neste workshop, os participantes vão sobrevoar sobre o ecossistema Linkedin (600 milhões de utilizadores em todo o mundo) e as as oportunidades da carreira. Como criar um perfil de sucesso na rede, como participar eficazmente, desenvolver conexões importantes para o desenvolvimento da sua carreira, identificar vagas e oportunidades de carreira.</p><p>Requisito: trazer PC ou smartphone com a app LinkedIn.</p>" + 
+      "<p>Sobre o Pedro: Palestrante e consultor dedicado quase em exclusivo à rede Linkedin com clientes em Portugal e Brasil. Desenvolve programas de consultoria em social selling, social recruiting e Linkedin. Escreveu 2 livros - sobre o Linkedin e tem centenas de publicações nas diversas revistas nacionais.  Este ano, irá publicar novo livro sobre a rede. Atualmente, mantém ainda atividade como professor em várias universidades portuguesas e é advisor de várias startups.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Segunda-feira 26 de Março | 10:00 - 12:30 | Sala B107",
+      location: "Pedro Caramez",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 19,
+      title: "Desenvolver um Jogo Como um Produto",
+      desc: "<p>Workshop criado originalmente para estudantes de engenharia informática a nível universitário. É composto por uma breve apresentação inicial que aborda porções da evolução, estructura e dados de desempenho ( de cariz público ) da Miniclip.</p><p>Este momento é precedido por um exercício prático onde os participantes passam pela experiência de desenvolver um jogo como um produto ( ao invés de apenas uma aplicação ), passando por alguns dos processos e desafios que nos são a nós apresentados no dia-a-dia operacional da Miniclip.</p><p>A premissa geral do exercício é os participantes criarem um jogo usando apenas os objectos fornecidos pelos formadores no início do workshop: Papel, marcadores, objectos aleatórios, etc.</p><p>O objectivo do uso dos mesmos sendo o de direcionar o foco dos participantes para o resultado do jogo como produto, para lá da sua implementação técnica.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 10:00 - 12:30",
+      location: "Rui Brilha e Egas Bastos (Miniclip)",
       faqs: [],
       show: true
     }
