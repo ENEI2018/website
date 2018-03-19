@@ -918,6 +918,16 @@ module.exports = {
       location: "Rui Brilha e Egas Bastos (Miniclip)",
       faqs: [],
       show: true
+    },
+    {
+      id: 20,
+      title: "Next Gen Experiences Through Connected Technologies",
+      desc: "<p>Compreender o problema, encontrar uma solução inovadora com a tecnologia no núcleo e os resultados finais;<br/>Desafiar o público para voltar com soluções inovadoras para resolver os problemas comuns do dia a dia através de várias tecnologias conectadas entre si;<br/>Avaliação das soluções pelo painel executivo e discussão aberta para identificar melhorias;</p><p>Exemplos: Tecnologia Conectada: Uso de painéis sensíveis ao toque, Big Data Analytics, Cognitive e Machine Learning para permitir uma melhor compreensão, 3D priniting, que incluirá exemplos de como a Wipro fez isso para clientes em todo o mundo</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 16:45 - 18:30",
+      location: "Alexandra Pinto e Boudhayan Mukherjee",
+      faqs: [],
+      show: true
     }
   ],
   team: [{

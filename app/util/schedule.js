@@ -391,9 +391,12 @@ module.exports = [{
                 col3: {
                     rowspan: 7,
                     colspan: 1,
-                    title: "Por anunciar",
+                    title: "Alexandra Pinto e Boudhayan Mukherjee",
+                    subtitle: "Next Gen Experiences Through Connected Technologies",
                     time: "16:45 - 18:30",
                     location: "Sala a anunciar",
+                    lang: "pt",
+                    url: "/talks/20",
                     show: true
                 },
                 col4: {
