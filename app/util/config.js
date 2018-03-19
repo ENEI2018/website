@@ -719,7 +719,7 @@ module.exports = {
       image: "/images/sessao_cocktails.svg",
       date: "25 de Março | 18:30 - 20:30",
       location: "Sala I-105",
-      signup_url: "https://enei18networking.eventbrite.pt",
+      signup_url: "https://enei18cocktails.eventbrite.pt",
       faqs: [],
       show: true
     },
