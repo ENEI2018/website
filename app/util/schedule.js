@@ -116,7 +116,7 @@ module.exports = [{
             {
                 start: "09:15",
                 break: true,
-                title: "Pequeno-almoço",
+                title: "Pequeno-almoço | Coffee Lounge FEUP",
                 rowspan: 2
             },
             {
@@ -385,6 +385,7 @@ module.exports = [{
                     subtitle: "Participantes por anunciar",
                     time: "16:45 - 18:30",
                     location: "Auditório FEUP",
+                    lang: "pt",
                     show: true
                 },
                 col3: {
@@ -403,6 +404,7 @@ module.exports = [{
                     time: "16:45 - 18:30",
                     location: "Sala a anunciar",
                     show: true,
+                    lang: "pt",
                     url: "/talks/16"
                 }
             },
@@ -546,7 +548,7 @@ module.exports = [{
             {
                 start: "09:15",
                 break: true,
-                title: "Pequeno-almoço",
+                title: "Pequeno-almoço | Coffee Lounge FEUP",
                 rowspan: 2
             },
             {
@@ -952,7 +954,7 @@ module.exports = [{
             {
                 start: "09:15",
                 break: true,
-                title: "Pequeno-almoço",
+                title: "Pequeno-almoço | Coffee Lounge FEUP",
                 rowspan: 2
             },
             {
