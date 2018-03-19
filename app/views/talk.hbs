@@ -28,7 +28,7 @@
         <div style="display: block;">
         <p class="speaker-page-bio">{{{talk.desc}}}</p>
         {{#if talk.signup_url}}
-          <div id="speaker-button" class="talk-page col-sm-4 info-socialmedia-col"><button class="subcribe-btn-custom">Inscreve-te!</button></div>
+          <a href="{{talk.signup_url}}"><div id="speaker-button" class="talk-page col-sm-4 info-socialmedia-col"><button class="subcribe-btn-custom">Inscreve-te!</button></div></a>
         {{/if}}
         </div>
       </div>
