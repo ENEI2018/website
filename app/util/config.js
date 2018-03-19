@@ -679,7 +679,7 @@ module.exports = {
       image: "daniel_teixeira.png",
       faqs: [],
       talkTitle: "Cibersegurança",
-      talkSummary: "",
+      talkSummary: "<p>Segurança na perspectiva do adversário, a palestra é uma introdução a algumas das técnicas tácticas e procedimentos utilizadas por adversários.</p><p>Durante a palestra vai ser analisado um cenário de ataque real, no qual se contempla as seguintes fases de um ataque: reconhecimento, análise de vulnerabilidades, bypass de soluções de segurança, compromisso inicial e movimento lateral.</p><p>Tem como objectivo mostrar com um adversário se movimenta numa organização e a eficácia das soluções de segurança actuais.</p>",
       talkDate: "Sábado 24/03 | 15:30 - 16:00 | Auditório FEUP",
       show: true,
       speaker: true,
