@@ -885,7 +885,7 @@ module.exports = [{
                 special: true,
                 start: "18:45",
                 col1: {
-                    title: "<a href=\"/talks/1\">Sessão de Cocktails</a>",
+                    title: "<a href=\"/talks/1\">Sessão de Cocktails</a> | Sala I-105",
                     rowspan: 2,
                     colspan: 2,
                     url: "/talks/1",
@@ -913,6 +913,7 @@ module.exports = [{
                     title: "<a href=\"/talks/2\">Jantar Empresarial</a>",
                     rowspan: 2,
                     colspan: 2,
+                    url: "/talks/2"
                 },
                 break: true,
             },

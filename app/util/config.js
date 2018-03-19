@@ -706,7 +706,8 @@ module.exports = {
       desc: "<p>Esta atividade é focada na resolução, por parte dos participantes, de problemas propostos pelos nossos patrocinadores. O objetivo é que os estudantes apresentem soluções num curto espaço de tempo para uma problemática relacionada com informática. Estes problemas poderão ser a melhor tecnologia a utilizar para uma determinada tarefa, como arquiteturar um sistema com os componentes especificados pela empresa, etc.</p><p>A organização da atividade passa pela colocação de várias empresas em mesas diferentes que serão visitadas durante cerca de 5 minutos por grupo de 3 a 5 participantes para resolverem o desafio proposto pela equipa lá presente.</p><p>A Sessão de Networking é importante para participantes que estejam à procura quer de trabalho a tempo inteiro, quer estágios (de verão ou não). Após a sessão espera-se que os representantes dos nossos patrocinadores na sessão façam uma avaliação e contactem os estudantes com melhores soluções!</p>",
       image: "/images/sessao_networking.svg",
       date: "24 de Março | 14:00 - 16:00",
-      //location: "Auditório FEUP",
+      location: "Sala B116",
+      signup_url: "https://enei18networking.eventbrite.pt",
       faqs: [],
       show: true,
     },
@@ -717,7 +718,8 @@ module.exports = {
       desc: "<p>A Sessão de Cocktails é uma atividade focada no conhecimento dos nossos patrocinadores e no networking. Esta sessão é constituída por pequenos pitches (entre 2 a 5 minutos) das empresas presentes que tentarão apresentar o seu trabalho, objetivo e quais vagas têm atualmente abertas para estudantes, recém-licenciados ou recém-mestres.</p><p>Após uma série de apresentações, haverá um intervalo em que os participantes poderão contactar os nossos patrocinadores pelos quais poderão ter ficado interessados e preparar, então, o seu futuro.</p>",
       image: "/images/sessao_cocktails.svg",
       date: "25 de Março | 18:30 - 20:30",
-      //location: "Auditório FEUP",
+      location: "Sala I-105",
+      signup_url: "https://enei18networking.eventbrite.pt",
       faqs: [],
       show: true
     },
@@ -729,6 +731,7 @@ module.exports = {
       image: "/images/sessao_networking.svg",
       date: "25 de Março | 20:30 - 23:45",
       location: "BH Foz",
+      signup_url: "https://enei18jantar.eventbrite.pt",
       faqs: [],
       show: true
     },
