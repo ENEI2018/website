@@ -814,9 +814,10 @@ module.exports = [{
                     rowspan: 6,
                     colspan: 1,
                     time: "16:45 - 18:15",
-                    title: "Karaoke Presentation",
-                    location: "Sala por definir",
+                    title: "Presentation Karaoke",
+                    location: "Sala B107",
                     show: true,
+                    url: "/talks/21",
                     lang: "pt"
                 },
                 col3: {
@@ -838,7 +839,7 @@ module.exports = [{
                     time: "16:45 - 18:30",
                     title: "Pedro Janeiro",
                     subtitle: "Introdução ao Docker",
-                    location: "Sala B120",
+                    location: "Sala B107",
                     show: true,
                     lang: "pt",
                     url: "/talks/15"
@@ -876,9 +877,10 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                     time: "18:15 - 18:30",
-                    title: "Karaoke Presentation Final",
+                    title: "Presentation Karaoke Final",
                     location: "Auditório FEUP",
                     show: true,
+                    url: "/talks/21",
                     lang: "pt"
                 },
             },
