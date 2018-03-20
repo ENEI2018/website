@@ -75,10 +75,11 @@ module.exports = [{
                 break: true,
                 title: "Festarola",
                 location: "AEFEUP",
+                desc: "DJ Tape | 23:00 - 1:00<br/>DJ CheckMike | 1:00 - 3:00",
                 rowspan: 2
             },
             {
-                start: "02:45",
+                start: "03:00",
             }
         ]
     },
@@ -710,18 +711,6 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "André Cruz",
-                    subtitle: "Criação de Recursos 3D para Motores a Tempo Real",
-                    time: "14:00 - 16:00",
-                    location: "Sala B120",
-                    show: true,
-                    lang: "pt",
-                    url: "/talks/10"
-                },
-                col3: {
-                    rowspan: 8,
-                    colspan: 1,
-                    class: "day-2-fixer",
                     title: "Henrique Ferrolho",
                     subtitle: "Introdução à Robótica com Three.js",
                     time: "14:00 - 16:00",
@@ -729,6 +718,18 @@ module.exports = [{
                     location: "Sala B116",
                     show: true,
                     lang: "pt"
+                },
+                col3: {
+                    rowspan: 8,
+                    colspan: 1,
+                    class: "day-2-fixer",
+                    title: "André Cruz",
+                    subtitle: "Criação de Recursos 3D para Motores a Tempo Real",
+                    time: "14:00 - 16:00",
+                    location: "Sala B120",
+                    show: true,
+                    lang: "pt",
+                    url: "/talks/10"
                 },
                 col4: {
                     rowspan: 8,
@@ -907,6 +908,7 @@ module.exports = [{
                     title: "Mega Febrada | AEFEUP",
                     rowspan: 4,
                     colspan: 2,
+                    desc: "DJ Tape | 23:00 - 1:00<br/>DJ 2Fellas | 1:00 - 3:00",
                     url: "/talks/1",
                 },
                 col2: {
