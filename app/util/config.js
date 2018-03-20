@@ -968,6 +968,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 21:00 - 00:00",
       location: "",
+      signup_url: "https://www.eventbrite.pt/e/registo-rally-das-tascas-enei-2018-44372883489",
       faqs: [],
       show: true
     },
