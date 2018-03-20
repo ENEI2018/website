@@ -17,6 +17,11 @@
     </a>
   </div>
 
+  <!--<div class="schedule-button-container">
+    <a href="/schedule"><div class="schedule-button"><button class="subcribe-btn-custom">Guia de Sobrevivência</button></div></a>
+    <a href="/schedule"><div class="schedule-button"><button class="subcribe-btn-custom">Versão PDF</button></div></a>
+  </div>-->
+
   <div class="custom-tab-container">
     <div class="panel with-nav-tabs panel-default">
       <div class="panel-heading">
@@ -63,7 +68,9 @@
                     {{#if special}}
                     <!-- SPECIAL -->
                     <td class="schedule-entry break-entry" colspan="2" rowspan="{{col1.rowspan}}">
-                      <div class="schedule-entry-container rowcount-{{col1.rowspan}}"><span>{{{col1.title}}}</span></div>
+                      <div class="schedule-entry-container rowcount-{{col1.rowspan}}"><span>{{{col1.title}}}</span>
+                      {{#if col1.desc}}<div class="break-desc special">{{{col1.desc}}}</div>{{/if}}
+                      </div>
                     </td>
                     {{#if col2.url}}<a href='{{col2.url}}'>{{/if}}
                     <td class="schedule-entry break-entry" colspan="2" rowspan="{{col2.rowspan}}">
@@ -74,7 +81,9 @@
                     <!-- BREAK -->
                     <td class="schedule-entry break-entry" colspan="4" rowspan="{{rowspan}}">
                       {{#if location}}
-                      <div class="schedule-entry-container {{class}} rowcount-{{rowspan}}"><span>{{title}} | {{location}}</span></div>
+                      <div class="schedule-entry-container {{class}} rowcount-{{rowspan}}"><span>{{title}} | {{location}}</span>
+                      {{#if desc}}<div class="break-desc">{{{desc}}}</div>{{/if}}
+                      </div>
                       {{else}}
                       <div class="schedule-entry-container rowcount-{{rowspan}}"><span>{{title}}</span></div>
                       {{/if}}
