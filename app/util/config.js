@@ -964,7 +964,7 @@ module.exports = {
     {
       id: 22,
       title: "Rally das Tascas",
-      desc: "<p>No dia 24 de março com início previsto para às 22 horas, o Rally das Tascas vai dar-te a conhecer alguns locais da baixa do Porto e pelo caminho vais somando bebidas. Por apenas 30€/equipa tens a oportunidade de participar neste mítico evento, já habitual no ENEI.<br/>E para melhorar isto tudo, após o término do percurso acaba a tua noite na festa de Erasmus da discoteca Villa Porto!</p><p>Não percas esta oportunidade!</p><p>Aconselhamos a leitura do regulamento.</p>",
+      desc: "<p>No dia 24 de março com início previsto para às 22 horas, o Rally das Tascas vai dar-te a conhecer alguns locais da baixa do Porto e pelo caminho vais somando bebidas. Por apenas 30€/equipa tens a oportunidade de participar neste mítico evento, já habitual no ENEI.<br/>E para melhorar isto tudo, após o término do percurso acaba a tua noite na festa de Erasmus da discoteca Villa Porto!</p><p>Não percas esta oportunidade!</p><p>Aconselhamos a leitura do regulamento, disponível <a href=\"/misc/Regulamento Rally das Tascas.pdf\">aqui</a>.</p>",
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 21:00 - 00:00",
       location: "",
