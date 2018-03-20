@@ -6,12 +6,10 @@ let config = require('./../util/config');
 
 router.get('/:id', function(req, res, next) {
   // Redirect if speakers feature is disabled
-    console.log("here");
   if(!features.talks) {
     res.redirect('/notfound');
     return;
   }
-  console.log("here");
 
   let talk = undefined;
   let talkId = req.params.id;
@@ -22,27 +20,23 @@ router.get('/:id', function(req, res, next) {
     }
   }
 
-  console.log("here");
   if(talk === undefined || !talk.show) {
     res.redirect('/notfound');
     return;
   }
 
-  console.log("here");
   if(talk.faqs.length === 0 && talk.talkSummary === "" && talk.talkTitle === "") {
     talk.displayDetails = false;
   } else {
     talk.displayDetails = true;
   }
 
-  console.log("here");
   if(talk.talkSummary === "" && talk.talkTitle === "") {
     talk.showTalk = false;
   } else {
     talk.showTalk = true;
   }
 
-  console.log("here");
   renderer.render(res, 'talk', {
     include_navbar: true,
     talk: talk

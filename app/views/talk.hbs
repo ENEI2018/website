@@ -2,7 +2,11 @@
 <div class="container page-content-container">
 
   <div class="container speakers-title-container">
-    <h1 class="speakers-title">Atividade</h1>
+    {{#if talk.header}}
+      <h1 class="speakers-title">{{talk.header}}</h1>
+    {{else}}
+      <h1 class="speakers-title">Workshop</h1>
+    {{/if}}
     <div class="logo-wrapper">
       <div id="logo" class="enei-skew logo medium speaker">
         <p id="E_1">E</p>
@@ -21,58 +25,14 @@
         <h2>{{{talk.title}}}</h2>
         <h4>{{talk.date}}</h4>
         <h4>{{{talk.location}}}</h4>
+        <div style="display: block;">
         <p class="speaker-page-bio">{{{talk.desc}}}</p>
-      </div>
-    </div>
-
-    <br/>
-    <br/>
-
-    {{#if speaker.displayDetails}}
-    <div class="row separator-row separator-shapes-1">
-      <div class="col-xs-4 shape-square enei-skew enei-bgd-hlghtpink anim-vertical-phase1"></div>
-      <div class="col-xs-4 shape-square enei-skew enei-bgd-thrdhlghtblue anim-vertical-phase2"></div>
-      <div class="col-xs-4 shape-square enei-skew enei-bgd-hlghtpurple anim-vertical-phase3"></div>
-    </div>
-
-    <div class="info-row row">
-      <div class="col-md-4 speaker-faq">
-        {{#if speaker.faqs.length}}
-        <div class="speaker-faq-title" id="speaker-faq-title">
-          FAQ
+        {{#if talk.signup_url}}
+          <a href="{{talk.signup_url}}"><div id="speaker-button" class="talk-page col-sm-4 info-socialmedia-col"><button class="subcribe-btn-custom">Inscreve-te!</button></div></a>
+        {{/if}}
         </div>
-        <div class="panel-group" id="accordion">
-          {{#each speaker.faqs}}
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
-                  {{question}}</a>
-              </h4>
-            </div>
-            <div id="collapse{{@index}}" class="panel-collapse collapse">
-              <div class="panel-body faq-answer">
-                {{answer}}
-              </div>
-            </div>
-          </div>
-          {{/each}}
-        </div>
-        {{/if}}
-      </div>
-      <div class="col-md-8 talk-col">
-        {{#if speaker.showTalk}}
-        <h4 class="about-talk-title">Sobre a palestra</h3>
-        <h5>{{speaker.talkDate}}</h5>
-        <h4>{{speaker.talkTitle}}</h4>
-        {{#if speaker.lang}}
-        <p class="speaker-page-talk">Idioma: <img class="talk-lang-icon" src="/images/{{speaker.lang}}-flag.png"/></p>
-        {{/if}}
-        <p class="speaker-page-talk">{{{speaker.talkSummary}}}</p>
-        {{/if}}
       </div>
     </div>
-    {{/if}}
   </div>
 </div>
 

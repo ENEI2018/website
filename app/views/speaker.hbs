@@ -90,6 +90,9 @@
         <h4 class="about-talk-title">Sobre a palestra</h3>
         <h5>{{speaker.talkDate}}</h5>
         <h4>{{speaker.talkTitle}}</h4>
+        {{#if speaker.signup_url}}
+          <a href="{{speaker.signup_url}}"><div id="speaker-button" class="speaker-page col-sm-4 info-socialmedia-col"><button class="subcribe-btn-custom">Inscreve-te!</button></div></a>
+        {{/if}}
         {{#if speaker.lang}}
         <p class="speaker-page-talk">Idioma: <img class="talk-lang-icon" src="/images/{{speaker.lang}}-flag.png"/></p>
         {{/if}}

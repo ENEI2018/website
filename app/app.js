@@ -24,6 +24,7 @@ var android = require('./routes/android');
 var tickets = require('./routes/tickets');
 var workshops = require('./routes/workshops');
 var talks = require('./routes/talks');
+var slack = require('./routes/slack');
 var secret = require('./routes/secret');
 
 var app = express();
@@ -59,6 +60,7 @@ app.use('/tickets', tickets);
 app.use('/bilhetes', tickets);
 app.use('/workshops', workshops);
 app.use('/talks', talks);
+app.use('/slack', slack);
 app.use('/s3cr3t', secret);
 
 // register path to partials

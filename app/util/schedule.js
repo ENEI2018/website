@@ -1,6 +1,6 @@
 module.exports = [{
         id: 0,
-        day: "23 de Março (6ªF)",
+        day: "23 de Março (SEX)",
         colTitle1: "Palestras",
         colTitle2: "Atividades",
         schedule: [{
@@ -75,16 +75,17 @@ module.exports = [{
                 break: true,
                 title: "Festarola",
                 location: "AEFEUP",
+                desc: "DJ Tape | 23:00 - 1:00<br/>DJ CheckMike | 1:00 - 3:00",
                 rowspan: 2
             },
             {
-                start: "02:45",
+                start: "03:00",
             }
         ]
     },
     {
         id: 1,
-        day: "24 de Março (Sab)",
+        day: "24 de Março (SAB)",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
@@ -116,7 +117,7 @@ module.exports = [{
             {
                 start: "09:15",
                 break: true,
-                title: "Pequeno-almoço",
+                title: "Pequeno-almoço | Coffee Lounge FEUP",
                 rowspan: 2
             },
             {
@@ -144,7 +145,7 @@ module.exports = [{
                     width: 40,
                     rowspan: 4,
                     colspan: 1,
-                    title: "Prof. Luis Paulo Reis",
+                    title: "Luis Paulo Reis",
                     subtitle: "Inteligência Artificial e Robótica: Cooperação Homem-Robô para a Formação de Equipas compostas por Humanos e Robôs",
                     time: "10:00 - 11:00",
                     url: "/speakers/19",
@@ -157,14 +158,13 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "Por anunciar",
-                    //title: "Ricardo Faria e Pedro Pires",
-                    //subtitle: "Modern Graph Analysis using Tinkerpop and Janusgraph",
+                    title: "Ricardo Faria e Pedro Pires",
+                    subtitle: "Modern Graph Analysis using Tinkerpop and Janusgraph",
                     time: "10:00 - 12:30",
-                    location: "Sala por definir",
+                    location: "Sala B116",
                     show: true,
-                    //url: "/talks/3",
-                    //lang: "pt"
+                    url: "/talks/14",
+                    lang: "pt"
                 },
                 col3: {
                     width: 20,
@@ -174,7 +174,7 @@ module.exports = [{
                     title: "Renato Rodrigues e César Silva",
                     subtitle: "Web Security Foundations - Hands-on!",
                     time: "10:00 - 12:30",
-                    location: "Sala por definir",
+                    location: "Sala B107",
                     show: true,
                     url: "/talks/4",
                     lang: "pt"
@@ -184,10 +184,10 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-1-fixer",
-                    title: "André Batista e José Sousa",
+                    title: "Frederico Bento e Joana Barão",
                     subtitle: "Capture The Flag - CTF 101",
                     time: "10:00 - 12:30",
-                    location: "Sala por definir",
+                    location: "Sala B120",
                     show: true,
                     url: "/talks/5",
                     lang: "pt"
@@ -289,7 +289,7 @@ module.exports = [{
                     subtitle: "Espresso The Android Way",
                     url: "/talks/6",
                     time: "14:00 - 16:00",
-                    location: "Sala a anunciar",
+                    location: "Sala B120",
                     show: true,
                     lang: "pt"
                 },
@@ -299,7 +299,7 @@ module.exports = [{
                     class: "day-1-fixer",
                     title: "Sessão de Networking",
                     time: "14:00 - 16:00",
-                    location: "Sala a anunciar",
+                    location: "Sala B116",
                     url: "/talks/0",
                     show: true
                 },
@@ -319,7 +319,7 @@ module.exports = [{
                 col1: {
                     rowspan: 3,
                     colspan: 1,
-                    title: "Rui Costa",
+                    title: "Ricardo Matos",
                     subtitle: "An Internet of autonomous vehicles: Moving terabytes of data between vehicles and the cloud",
                     time: "14:45 - 15:30",
                     location: "Auditório FEUP",
@@ -340,7 +340,7 @@ module.exports = [{
                     rowspan: 2,
                     colspan: 1,
                     title: "Daniel Teixeira",
-                    subtitle: "Cibersegurança",
+                    subtitle: "Segurança na perspectiva do adversário",
                     url: "/speakers/20",
                     time: "15:30 - 16:00",
                     location: "Auditório FEUP",
@@ -386,23 +386,30 @@ module.exports = [{
                     subtitle: "Participantes por anunciar",
                     time: "16:45 - 18:30",
                     location: "Auditório FEUP",
+                    lang: "pt",
                     show: true
                 },
                 col3: {
                     rowspan: 7,
                     colspan: 1,
-                    title: "Por anunciar",
+                    title: "Alexandra Pinto e Boudhayan Mukherjee",
+                    subtitle: "Next Gen Experiences Through Connected Technologies",
                     time: "16:45 - 18:30",
                     location: "Sala a anunciar",
+                    lang: "pt",
+                    url: "/talks/20",
                     show: true
                 },
                 col4: {
                     rowspan: 7,
                     colspan: 2,
-                    title: "Por anunciar",
+                    title: "Daniel Silva",
+                    subtitle: "Programação funcional com Elixir e Phoenix",
                     time: "16:45 - 18:30",
-                    location: "Sala a anunciar",
-                    show: true
+                    location: "Sala B120",
+                    show: true,
+                    lang: "pt",
+                    url: "/talks/16"
                 }
             },
             {
@@ -513,7 +520,7 @@ module.exports = [{
     },
     {
         id: 2,
-        day: "25 de Março (Dom)",
+        day: "25 de Março (DOM)",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
@@ -545,7 +552,7 @@ module.exports = [{
             {
                 start: "09:15",
                 break: true,
-                title: "Pequeno-almoço",
+                title: "Pequeno-almoço | Coffee Lounge FEUP",
                 rowspan: 2
             },
             {
@@ -587,7 +594,7 @@ module.exports = [{
                     title: "Paulo Patrício e Sandra Simões",
                     subtitle: "Internet Of Things – Da Conceptualização À Criação",
                     time: "10:00 - 12:30",
-                    location: "Sala por definir",
+                    location: "Sala B116",
                     show: true,
                     lang: "pt",
                     url: "/talks/7"
@@ -596,26 +603,25 @@ module.exports = [{
                     rowspan: 10,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
-                    //title: "Celso Martinho",
-                    //subtitle: "101 Blockchain",
+                    title: "Rui Brilha e Egas Bastos",
+                    subtitle: "Desenvolver um Jogo Como um Produto",
                     time: "10:00 - 12:30",
-                    location: "Sala por definir",
+                    location: "Sala B120",
                     show: true,
-                    //lang: "pt",
-                    //url: "/talks/8"
+                    lang: "pt",
+                    url: "/talks/19"
                 },
                 col4: {
                     rowspan: 10,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
-                    //title: "Rui Brilha e Egas Basto",
-                    //subtitle: "Miniclip",
+                    title: "Celso Martinho",
+                    subtitle: "Blockchain 101",
                     time: "10:00 - 12:30",
-                    location: "Sala por definir",
+                    location: "Sala B107",
+                    url: "/talks/8",
                     show: true,
-                    //lang: "pt"
+                    lang: "pt"
                 },
             },
             {
@@ -694,7 +700,7 @@ module.exports = [{
                     rowspan: 2,
                     colspan: 1,
                     title: "João Leal",
-                    subtitle: "De Portugal para a Google",
+                    subtitle: "Como podes chegar à Google? Dicas para conseguires o teu emprego de sonho.",
                     time: "14:00 - 14:30",
                     location: "Auditório FEUP",
                     url: "/speakers/1",
@@ -705,25 +711,25 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "André Cruz",
-                    subtitle: "Criação de Recursos 3D para Motores a Tempo Real",
+                    title: "Henrique Ferrolho",
+                    subtitle: "Introdução à Robótica com Three.js",
                     time: "14:00 - 16:00",
-                    location: "Sala por definir",
+                    url: "/speakers/3",
+                    location: "Sala B116",
                     show: true,
-                    lang: "pt",
-                    url: "/talks/10"
+                    lang: "pt"
                 },
                 col3: {
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Henrique Ferrolho",
-                    subtitle: "Robotics Mechanics with ThreeJS",
+                    title: "André Cruz",
+                    subtitle: "Criação de Recursos 3D para Motores a Tempo Real",
                     time: "14:00 - 16:00",
-                    url: "/speakers/3",
-                    location: "Sala por definir",
+                    location: "Sala B120",
                     show: true,
-                    lang: "pt"
+                    lang: "pt",
+                    url: "/talks/10"
                 },
                 col4: {
                     rowspan: 8,
@@ -733,7 +739,7 @@ module.exports = [{
                     //title: "Luís Grangeia",
                     //subtitle: "Cibersegurança S21sec",
                     time: "14:00 - 16:00",
-                    location: "Sala por definir",
+                    location: "Sala B107",
                     show: true,
                     //lang: "pt",
                     //url: "/talks/11"
@@ -798,9 +804,11 @@ module.exports = [{
                     rowspan: 3,
                     colspan: 1,
                     time: "16:45 - 17:30",
-                    title: "Por anunciar",
+                    title: "Egas Bastos",
+                    subtitle: "10 Pro Tips Para Ser um Game Developer de Sucesso",
                     location: "Auditório FEUP",
-                    show: true
+                    show: true,
+                    lang: "pt"
                 },
                 col2: {
                     rowspan: 6,
@@ -816,8 +824,11 @@ module.exports = [{
                     colspan: 1,
                     class: "day-2-fixer",
                     time: "16:45 - 18:30",
-                    title: "Por anunciar",
-                    location: "Sala por definir",
+                    title: "ESP Applied to IoT",
+                    subtitle: "IEEE",
+                    location: "Sala B116",
+                    url: "/talks/17",
+                    lang: "pt",
                     show: true
                 },
                 col4: {
@@ -825,9 +836,12 @@ module.exports = [{
                     colspan: 1,
                     class: "day-2-fixer",
                     time: "16:45 - 18:30",
-                    title: "Por anunciar",
-                    location: "Sala por definir",
-                    show: true
+                    title: "Pedro Janeiro",
+                    subtitle: "Introdução ao Docker",
+                    location: "Sala B120",
+                    show: true,
+                    lang: "pt",
+                    url: "/talks/15"
                 },
             },
             {
@@ -843,7 +857,7 @@ module.exports = [{
                     colspan: 1,
                     time: "17:30 - 18:15",
                     title: "Guilherme Duarte",
-                    subtitle: "Por Falar Noutra Coisa",
+                    subtitle: "Ser informático: A vida c'um sócio escolheu.",
                     location: "Auditório FEUP",
                     show: true,
                     lang: "pt",
@@ -872,7 +886,7 @@ module.exports = [{
                 special: true,
                 start: "18:45",
                 col1: {
-                    title: "<a href=\"/talks/1\">Sessão de Cocktails</a>",
+                    title: "<a href=\"/talks/1\">Sessão de Cocktails</a> | Sala I-105",
                     rowspan: 2,
                     colspan: 2,
                     url: "/talks/1",
@@ -894,12 +908,14 @@ module.exports = [{
                     title: "Mega Febrada | AEFEUP",
                     rowspan: 4,
                     colspan: 2,
+                    desc: "DJ Tape | 23:00 - 1:00<br/>DJ's 2Fellas | 1:00 - 3:00",
                     url: "/talks/1",
                 },
                 col2: {
                     title: "<a href=\"/talks/2\">Jantar Empresarial</a>",
                     rowspan: 2,
                     colspan: 2,
+                    url: "/talks/2"
                 },
                 break: true,
             },
@@ -916,7 +932,7 @@ module.exports = [{
     },
     {
         id: 3,
-        day: "26 de Março (2ªF)",
+        day: "26 de Março (SEG)",
         colTitle1: "Palestras",
         colTitle2: "Workshops",
         schedule: [
@@ -948,7 +964,7 @@ module.exports = [{
             {
                 start: "09:15",
                 break: true,
-                title: "Pequeno-almoço",
+                title: "Pequeno-almoço | Coffee Lounge FEUP",
                 rowspan: 2
             },
             {
@@ -990,7 +1006,7 @@ module.exports = [{
                     title: "João Riqueza, Ernesto Costa e Marcelo Barroso",
                     subtitle: "{H}API Day - Open architectures",
                     time: "10:00 - 12:30",
-                    location: "Sala a anunciar",
+                    location: "Sala B116",
                     show: true,
                     lang: "pt",
                     url: "/talks/12"
@@ -1002,18 +1018,19 @@ module.exports = [{
                     title: "Pedro Caramez",
                     subtitle: "Masterclass LinkedIn + apresentação DCOOP",
                     time: "10:00 - 12:30",
-                    location: "Sala a anunciar",
+                    location: "Sala B107",
                     show: true,
-                    lang: "pt"
+                    lang: "pt",
+                    url: "/talks/18"
                 },
                 col4: {
                     rowspan: 10,
                     colspan: 1,
                     class: "day-3-fixer",
                     title: "Mário Carneiro e João Gradim",
-                    subtitle: "Internet of Things (Arduino)",
+                    subtitle: "Introdução ao ecossistema do Arduino e às IoT",
                     time: "10:00 - 12:30",
-                    location: "Sala por definir",
+                    location: "Sala B120",
                     show: true,
                     lang: "pt",
                     url: "/talks/13"
