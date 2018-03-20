@@ -870,7 +870,7 @@ module.exports = {
       desc: "<p>Neste workshop, iremos criar alguns ambientes de desenvolvimento com docker e docker-compose, explorando várias arquiteturas e opções de customização possíveis. Iremos explorar as vantagens do docker, e as suas principais limitações.</p>" + 
         "<p>Sobre o Pedro: Licenciado (2015) e Mestre (2017) em Engenharia Informática, na Universidade de Coimbra, comecei recentemente a trabalhar como software developer na Whitesmith. Adotando desde cedo uma mentalidade DevOps, gosto de explorar as ferramentas disponíveis para facilitar esta abordagem, incluindo o uso de Docker para uniformização de ambientes de desenvolvimento.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B120",
+      date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B107",
       location: "Pedro Janeiro",
       faqs: [],
       show: true
@@ -930,6 +930,26 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 16:45 - 18:30",
       location: "Alexandra Pinto e Boudhayan Mukherjee",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 21,
+      title: "Presentation Karaoke",
+      desc: "O Presentation Karaoke é uma variação do karaoke tradicional onde, em vez de cantar canções, os participantes irão realizar uma apresentação improvisada com base em fotografias escolhidas pela organização. Haverá um júri que avaliará a performance dos concorrentes e os três melhores terão a possibilidade de repetir a façanha no Auditório Principal de FEUP, numa final que promete bastante diversão e gargalhadas.",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B120",
+      location: "",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 22,
+      title: "Quiz by Whitesmith",
+      desc: "",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 16:45 - 18:30",
+      location: "",
       faqs: [],
       show: true
     }
