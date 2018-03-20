@@ -320,7 +320,7 @@ module.exports = [{
                     rowspan: 3,
                     colspan: 1,
                     title: "Ricardo Matos",
-                    subtitle: "An Internet of autonomous vehicles: Moving terabytes of data between vehicles and the cloud",
+                    subtitle: "An Internet of vehicles: Moving terabytes of data between vehicles and the cloud",
                     time: "14:45 - 15:30",
                     location: "Auditório FEUP",
                     url: "/speakers/11",
