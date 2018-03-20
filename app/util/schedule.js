@@ -340,7 +340,7 @@ module.exports = [{
                     rowspan: 2,
                     colspan: 1,
                     title: "Daniel Teixeira",
-                    subtitle: "Cibersegurança",
+                    subtitle: "Segurança na perspectiva do adversário",
                     url: "/speakers/20",
                     time: "15:30 - 16:00",
                     location: "Auditório FEUP",
@@ -908,7 +908,7 @@ module.exports = [{
                     title: "Mega Febrada | AEFEUP",
                     rowspan: 4,
                     colspan: 2,
-                    desc: "DJ Tape | 23:00 - 1:00<br/>DJ 2Fellas | 1:00 - 3:00",
+                    desc: "DJ Tape | 23:00 - 1:00<br/>DJ's 2Fellas | 1:00 - 3:00",
                     url: "/talks/1",
                 },
                 col2: {
