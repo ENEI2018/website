@@ -465,6 +465,7 @@ module.exports = {
       instagram: "https://www.instagram.com/henriqueferrolho/",
       github: "https://github.com/ferrolho",
       website: "https://ferrolho.github.io/",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-introducao-a-robotica-com-threejs-enei-2018-44221544831&sa=D&ust=1521564907146000&usg=AFQjCNE5pgXauX34pMcEYtPYRNl01xk9kA",
       faqs: [],
       talkDate: "Domingo 25/03 | 14:00 - 16:00",
       talkTitle: "Introdução à Robótica com Three.js",
@@ -746,6 +747,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B107",
       location: "Renato Rodrigues e César Silva",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-web-security-foundations-hands-on-enei-2018-44143101204&sa=D&ust=1521564907148000&usg=AFQjCNEV_qHfgioFO2DQmnhuO_u6fhOO_A",
       faqs: [],
       show: true
     },
@@ -757,6 +759,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B120",
       location: "Frederico Bento e Joana Barão",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-ctf-101-capture-the-flag-enei-2018-44138386101&sa=D&ust=1521564907152000&usg=AFQjCNEYY0rIyUmQ1gm2LqeXzixX81oUWw",
       faqs: [],
       show: true
     },
@@ -771,6 +774,7 @@ module.exports = {
       date: "Sábado 24 de Março | 14:00 - 16:00 | Sala B120",
       location: "Fábio Barbosa e Filipe Carvalho",
       faqs: [],
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-espresso-the-android-way-enei-2018-44162113069&sa=D&ust=1521564907156000&usg=AFQjCNFaMqKbXCZwWUu-Mwnok8FqYs2EIA",
       show: true
     },
     {
@@ -783,17 +787,19 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 10:00 - 12:00 | B116",
       location: "Paulo Patrício e Sandra Simões",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-internet-of-things-da-conceptualizacao-a-criacao-enei-2018-44195926205&sa=D&ust=1521564907143000&usg=AFQjCNFjrr8-ai83QMCtur_Z16HFSMMu2g",
       faqs: [],
       show: true
     },
     {
       id: 8,
-      title: "101 Blockchain",
+      title: "Blockchain 101",
       desc: "<p>Tópicos:<br/>- Blockchain fundamentals<br/>- Mining and incentives<br/>- How it works (tech session)<br/>- Smart contracts and trusted computing<br/>- Lightning networks<br/>- Other DLTs: DAGs<br/>- Industry applications<br/>- Q&A</p>" +
       "<p>Celso Martinho é o CEO e Founder da Bright Pixel, formado na Universidade de Aveiro. Irá desmistificar a buzzword Blockchain, explicando os seus princípios, como funciona o “mining” e qual o seu objetivo, explicará a tecnologia adjacente, os “smart contracts” e outros conceitos associados à tecnologia e as suas aplicações na indústria. Não percas esta oportunidade de perceber a complexa e simples arquitetura da blockchain por trás da Bitcoin e outras cryptocurrencies. Encontra-o no <a href='https://www.linkedin.com/in/celsomartinho/'>LinkedIn</a></p>",
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 10:00 - 12:00",
       location: "Celso Martinho",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-blockchain-101-enei-2018-44303578195&sa=D&ust=1521564907149000&usg=AFQjCNELGwkZOvcEeCE3PecQhIpea36g6Q",
       faqs: [],
       show: true
     },
@@ -806,6 +812,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 14:00 - 16:00 | Sala B120",
       location: "André Cruz",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-criacao-de-recursos-3d-para-motores-a-tempo-real-enei-2018-44142748148&sa=D&ust=1521564907151000&usg=AFQjCNF51-3L0VoGoC2-cTv7CIAi0jTuFg",
       faqs: [],
       show: true
     },
@@ -836,6 +843,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Segunda-feira 26 de Março | 10:00 - 12:00 | Sala B116",
       location: "João Riqueza, Ernesto Costa e Marcelo Barroso",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-hapi-day-open-architectures-enei-2018-44196159904&sa=D&ust=1521564907147000&usg=AFQjCNEnL32Z9SBBm8jg828fzXFltZ9IWQ",
       faqs: [],
       show: true
     },
@@ -847,6 +855,8 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Segunda-feira 26 de Março | 10:00 - 12:00 | B120",
       location: "<a href=\"/speakers/5\">João Gradim</a> e <a href=\"/speakers/4\">Mário Carneiro</a>",
+
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-introducao-ao-ecossistema-do-arduino-e-a-iot-enei-2018-44142888568&sa=D&ust=1521564907142000&usg=AFQjCNHHQQ2M0c9d8C0TOX5XryrNw6fgCw",
       faqs: [],
       show: true
     },
@@ -861,6 +871,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B116",
       location: "Ricardo Faria e Pedro Pires",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-modern-graph-analysis-using-opensource-tools-like-tinkerpop-and-janusgraph-enei-2018-44138659920&sa=D&ust=1521564907145000&usg=AFQjCNHUi6DBFAxzMc9DLwcc3qGjQ2GYcg",
       faqs: [],
       show: true
     },
@@ -872,6 +883,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B107",
       location: "Pedro Janeiro",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-introducao-a-docker-enei-2018-44303546099&sa=D&ust=1521564907146000&usg=AFQjCNFXluG-BxQVfttwFEBUJMIMJg7Xzw",
       faqs: [],
       show: true
     },
@@ -887,6 +899,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado-feira 24 de Março | 16:45 - 18:30 | Sala B120",
       location: "Daniel Silva",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-phoenix-framework-enei-2018-44231189679&sa=D&ust=1521564907152000&usg=AFQjCNHguP15TP3NufjpPXn2PZWCw2f9lQ",
       faqs: [],
       show: true
     },
@@ -899,6 +912,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B116",
       location: "Gonçalo Pereira (IEEE)",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-esp-aplicado-a-iot-enei-2018-44196244156&sa=D&ust=1521564907147000&usg=AFQjCNF0ViS2oB1ySgCLzhk3JnOwc86QIg",
       faqs: [],
       show: true
     },
@@ -910,6 +924,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Segunda-feira 26 de Março | 10:00 - 12:30 | Sala B107",
       location: "Pedro Caramez",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-masterclass-linkedin-enei-2018-44221988157&sa=D&ust=1521564907155000&usg=AFQjCNE9rbSyuYT0nxA-jh3Kjh2pB7Oq5w",
       faqs: [],
       show: true
     },
@@ -920,6 +935,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 10:00 - 12:30",
       location: "Rui Brilha e Egas Bastos (Miniclip)",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-desenvolver-um-jogo-como-um-produto-enei-2018-44143198495&sa=D&ust=1521564907144000&usg=AFQjCNE0Xvoe5kdmFarKhBC2vNOPj4IazQ",
       faqs: [],
       show: true
     },
@@ -930,6 +946,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 16:45 - 18:30",
       location: "Alexandra Pinto e Boudhayan Mukherjee",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-next-gen-experiences-through-connected-technologies-enei-2018-44331008239&sa=D&ust=1521564907150000&usg=AFQjCNGMC2ih1YqfRHBSyqSepBkzXKQ-kA",
       faqs: [],
       show: true
     },
@@ -939,17 +956,29 @@ module.exports = {
       desc: "O Presentation Karaoke é uma variação do karaoke tradicional onde, em vez de cantar canções, os participantes irão realizar uma apresentação improvisada com base em fotografias escolhidas pela organização. Haverá um júri que avaliará a performance dos concorrentes e os três melhores terão a possibilidade de repetir a façanha no Auditório Principal de FEUP, numa final que promete bastante diversão e gargalhadas.",
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B120",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-presentation-karaoke-enei-2018-44373795216&sa=D&ust=1521566223030000&usg=AFQjCNF7We3oz7859tlMp7P8anTHJKTFKA",
       location: "",
       faqs: [],
       show: true
     },
     {
       id: 22,
+      title: "Rally das Tascas",
+      desc: "<p>No dia 24 de março com início previsto para às 22 horas, o Rally das Tascas vai dar-te a conhecer alguns locais da baixa do Porto e pelo caminho vais somando bebidas. Por apenas 30€/equipa tens a oportunidade de participar neste mítico evento, já habitual no ENEI.<br/>E para melhorar isto tudo, após o término do percurso acaba a tua noite na festa de Erasmus da discoteca Villa Porto!</p><p>Não percas esta oportunidade!</p><p>Aconselhamos a leitura do regulamento.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 21:00 - 00:00",
+      location: "",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 23,
       title: "Quiz by Whitesmith",
       desc: "",
       image: "/images/Ativo 4.svg",
-      date: "Domingo 25 de Março | 16:45 - 18:30",
+      date: "Domingo 25 de Março | 18:30 - 19:30",
       location: "",
+      signup_url: "",
       faqs: [],
       show: true
     }

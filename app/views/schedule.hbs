@@ -68,15 +68,18 @@
                     {{#if special}}
                     <!-- SPECIAL -->
                     <td class="schedule-entry break-entry" colspan="2" rowspan="{{col1.rowspan}}">
-                      <div class="schedule-entry-container rowcount-{{col1.rowspan}}"><span>{{{col1.title}}}</span>
+                      <div class="schedule-entry-container rowcount-{{col1.rowspan}}"><span>
+                      {{#if col1.url}}<a href='{{col1.url}}'>{{/if}}
+                        {{{col1.title}}}
+                      {{#if col1.url}}</a>{{/if}}</span>
                       {{#if col1.desc}}<div class="break-desc special">{{{col1.desc}}}</div>{{/if}}
                       </div>
                     </td>
-                    {{#if col2.url}}<a href='{{col2.url}}'>{{/if}}
                     <td class="schedule-entry break-entry" colspan="2" rowspan="{{col2.rowspan}}">
-                      <div class="schedule-entry-container rowcount-{{col2.rowspan}}"><span>{{{col2.title}}}</span></div>
+                      <div class="schedule-entry-container rowcount-{{col2.rowspan}}"><span>
+                    {{#if col2.url}}<a href='{{col2.url}}'>{{/if}}
+                      {{{col2.title}}}{{#if col2.url}}</a>{{/if}}</span></div>
                     </td>
-                    {{#if col2.url}}</a>{{/if}}
                     {{else if break}}
                     <!-- BREAK -->
                     <td class="schedule-entry break-entry" colspan="4" rowspan="{{rowspan}}">

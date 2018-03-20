@@ -485,6 +485,7 @@ module.exports = [{
                 start: "21:00",
                 col1: {
                     title: "Rally das Tascas",
+                    url: "/talks/22",
                     rowspan: 2,
                     colspan: 2,
                 },
@@ -894,7 +895,8 @@ module.exports = [{
                     url: "/talks/1",
                 },
                 col2: {
-                    title: "Quiz by Whitesmith",
+                    title: "Quiz by Whitesmith | Auditório FEUP",
+                    //url: "/talks/23",
                     rowspan: 2,
                     colspan: 2,
                 },
