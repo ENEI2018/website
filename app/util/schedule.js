@@ -913,7 +913,6 @@ module.exports = [{
                     rowspan: 4,
                     colspan: 2,
                     desc: "DJ Tape | 23:00 - 1:00<br/>DJ's 2Fellas | 1:00 - 3:00",
-                    url: "/talks/1",
                 },
                 col2: {
                     title: "<a href=\"/talks/2\">Jantar Empresarial</a>",
