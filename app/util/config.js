@@ -144,6 +144,7 @@ module.exports = {
       },
       {
         name: "Inova Ria",
+        //image: "inova-altice.PNG",
         image: "inova-ria.jpg",
         href: "http://www.inova-ria.pt/",
         show: true
@@ -201,6 +202,12 @@ module.exports = {
         name: "i2S",
         image: "i2S.png",
         href: "http://www.i2s.pt/pt-pt/",
+        show: true
+      },
+      {
+        name: "Accenture",
+        image: "accenture.PNG",
+        href: "https://www.accenture.com/pt-pt/new-applied-now",
         show: true
       }
     ],
