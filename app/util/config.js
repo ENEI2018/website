@@ -144,7 +144,7 @@ module.exports = {
       },
       {
         name: "Inova Ria",
-        image: "inova-ria.jpg",
+        image: "inova-altice.PNG",
         href: "http://www.inova-ria.pt/",
         show: true
       },
@@ -201,6 +201,12 @@ module.exports = {
         name: "i2S",
         image: "i2S.png",
         href: "http://www.i2s.pt/pt-pt/",
+        show: true
+      },
+      {
+        name: "Accenture",
+        image: "accenture.PNG",
+        href: "https://www.accenture.com/pt-pt/new-applied-now",
         show: true
       }
     ],
@@ -290,6 +296,12 @@ module.exports = {
       name: "e-University League",
       image: "eul.png",
       href: "http://www.euniversityleague.com/",
+      show: true
+    },
+    {
+      name: "RedBull",
+      image: "redbull.png",
+      href: "https://www.redbull.com/pt-pt/",
       show: true
     }
   ],
@@ -444,6 +456,22 @@ module.exports = {
       name: "Raul Vidal",
       fullBio: "<p>Licenciado em Engenharia Eletrotécnica pela FEUP em 1972, Raul Moreira Vidal prosseguiu os estudos em Inglaterra, onde concluiu o Mestrado (1974) e mais tarde o Doutoramento (1978), ambos na UMIST, em Manchester. Os seus interesses profissionais iniciaram-se na área de sistemas digitais e computadores, direcionando-se depois para a área da qualidade de software, melhoria de processos de software, fatores humanos em engenharia de software, empreendedorismo e inovação, sendo nestas áreas que focou as suas atividades de I&D, desenvolvidas na FEUP e no INESC TEC.</p><p>Raul Vidal teve uma passagem relevante pela Faculdade de Ciências e Tecnologia da Universidade de Coimbra (1972-1977) e também pela Universidade do Minho (1978-1982). Iniciou a sua carreira na FEUP em 1982 e, em 1986, coordenou e foi um dos principais dinamizadores do processo de criação do Mestrado em Engenharia Eletrotécnica e Computadores (MEEC) e, em 1994, coautor do processo de criação da Licenciatura em Engenharia Informática e Computação (LEIC), posteriormente transformado em Mestrado Integrado em Engenharia Informática e Computação (MIEIC), que dirigiu, de 2001 a 2008.</p><p>Foi também dinamizador e coordenador do processo de criação de outros cursos superiores de informática e de ações de formação contínua e profissional.</p><p>À data da jubilação, detinha o título de Professor Associado, integrado na sub-área científica de Engenharia de Software e o cargo de Diretor do DEI. Membro eleito do Conselho Geral da Universidade do Porto desde julho de 2013, foi também, desde julho de 2014, membro do Conselho Científico da Faculdade de Engenharia do Porto e é, desde 2016, Coordenador das Relações com os Alumni FEUP.</p><p>Membro do Grupo de I&D de Engenharia de Software da FEUP, que fundou e liderou até 2008, Raul Vidal tem participado em vários projetos de I&D, nacionais e internacionais. Em 2009 foi cofundador da Strongstep, spin-off da Faculdade de Engenharia na área da melhoria de processos e da qualidade de software. Integra também, desde fevereiro de 2015, o Serviço de Apoio a Parcerias Empresariais (SAPE) do INESC TEC como Assessor Sénior.</p><p>É membro Sénior do IEEE, Membro do Software Engineering Institute (SEI) da Universidade de Carnegie-Mellon, e Membro Sénior da Ordem dos Engenheiros (Colégio de Engenharia Informática).</p><p>Destaque ainda para vários reconhecimentos obtidos ao longo do seu percurso, nomeadamente o  ‘IEEE Third Millenium Award’ (2000) e a distinção ‘Personalidade do Ano em Engenharia de Software’ (2016), pelo grande impulso dado ao setor das TIC e mesmo à economia nacional.</p>",
       image: "raul_vidal.jpg",
+      faqs: [],
+      talkTitle: "Educação 4.0",
+      talkSummary: "",
+      talkDate: "Sábado 24/03 | 16:45 - 18:30 | Auditório FEUP",
+      lang: 'pt',
+      show: true,
+      speaker: true,
+    },
+    {
+      id: 23,
+      name: "Filipe Araújo",
+      shortBio: "CM Porto",
+      company: "CM Porto",
+      role: "Vice-presidente",
+      fullBio: "<p>Vereador do Pelouro da Inovação e Ambiente na Câmara Municipal do Porto (mandato 2013-2017).</p><p>Presidente do Conselho de Administração da Empresa Municipal de Ambiente do Porto.</p><p></p><p>Presidente do Conselho de Administração da Agência de Energia do Porto.</p><p>Presidente do Conselho de Administração da Associação Porto Digital.</p><p>Membro do Conselho de Administração da LIPOR.</p><p>Vice-Presidente do Fórum do Ambiente da rede Eurocities.</p><p>Membro do Conselho Consultivo da Associação Portuguesa para o Desenvolvimento das Comunicações.</p><p>Membro do Conselho Consultivo do MIL (Media Innovation Labs) da Universidade do Porto.</p><p>Licenciado em Engenharia Eletrotécnica pela Faculdade de Engenharia da Universidade do Porto.</p><p>M.Sc. em Telecomunicações pela UMIST - University of Manchester Institute of Science and Technology, Manchester, Reino Unido.</p><p>Foi Professor convidado da Faculdade de Ciências da Universidade do Porto, entre 2007 e 2011.</p><p>Foi deputado da Assembleia Municipal do Porto entre 2005 e 2009.</p><p>Quadro superior de uma empresa de telecomunicações.</p><p>Membro do Conselho de Administração da Fundação da Juventude (2007-2013).</p>",
+      image: "filipe_araujo.jpg",
       faqs: [],
       talkTitle: "Educação 4.0",
       talkSummary: "",
@@ -942,9 +970,11 @@ module.exports = {
     {
       id: 20,
       title: "Next Gen Experiences Through Connected Technologies",
-      desc: "<p>Compreender o problema, encontrar uma solução inovadora com a tecnologia no núcleo e os resultados finais;<br/>Desafiar o público para voltar com soluções inovadoras para resolver os problemas comuns do dia a dia através de várias tecnologias conectadas entre si;<br/>Avaliação das soluções pelo painel executivo e discussão aberta para identificar melhorias;</p><p>Exemplos: Tecnologia Conectada: Uso de painéis sensíveis ao toque, Big Data Analytics, Cognitive e Machine Learning para permitir uma melhor compreensão, 3D priniting, que incluirá exemplos de como a Wipro fez isso para clientes em todo o mundo</p>",
+      desc: "<p>Compreender o problema, encontrar uma solução inovadora com a tecnologia no núcleo e os resultados finais;<br/>Desafiar o público para voltar com soluções inovadoras para resolver os problemas comuns do dia a dia através de várias tecnologias conectadas entre si;<br/>Avaliação das soluções pelo painel executivo e discussão aberta para identificar melhorias;</p><p>Exemplos: Tecnologia Conectada: Uso de painéis sensíveis ao toque, Big Data Analytics, Cognitive e Machine Learning para permitir uma melhor compreensão, 3D priniting, que incluirá exemplos de como a Wipro fez isso para clientes em todo o mundo</p>" +
+      "<p>Alexandra Sousa Pinto é Head of Solutions & Innovation na Wipro Technologies.<br/>Mestre em Engenharia de Sistemas e Computadores, Alexandra tem mais de17 anos de experiência em retalho, entre os quais se destacam a participação em grandes projectos de implementação de Oracle Retail em retalhistas de renome mundias.<br/>É também percursora do Desenvolvimento de novas soluções, respectivo alinhamento com necessidades de mercado e complementaridade com a tecnologia de Oracle Retail.</p>" +
+      "<p>Boudhayan Mukherjee é Practice Manager na Wipro Technologies.<br/>Mestre em Engenharia e Ciências de Computadores, Boudhayan tem mais de 14 anos de experiência profissional multidisciplinar nas indústrias de Retalho, Saúde e Seguros.<br/>Profundo conhecimento da indústria de retalho, alavancandoesse background como potencial em projectos de transformação e implementações de Oracle Retail.<br/>É um entusiasta na transformação digital do negócio de retalho.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 16:45 - 18:30",
+      date: "Sábado 24 de Março | 16:45 - 18:30 | Sala B116",
       location: "Alexandra Pinto e Boudhayan Mukherjee",
       signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-next-gen-experiences-through-connected-technologies-enei-2018-44331008239&sa=D&ust=1521564907150000&usg=AFQjCNGMC2ih1YqfRHBSyqSepBkzXKQ-kA",
       faqs: [],

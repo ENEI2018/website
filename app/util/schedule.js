@@ -383,7 +383,10 @@ module.exports = [{
                     rowspan: 7,
                     colspan: 1,
                     title: "Debate: Educação 4.0",
-                    subtitle: "Participantes por anunciar",
+                    subtitle: "<a href=\"/speakers/23\">Filipe Araújo</a><br/>" + 
+                        "<a href=\"/speakers/22\">Raúl Vidal</a><br/>" + 
+                        "José Pedro Nunes<br/>" + 
+                        "Sérgio Sousa (Moderador)<br/>",
                     time: "16:45 - 18:30",
                     location: "Auditório FEUP",
                     lang: "pt",
@@ -395,7 +398,7 @@ module.exports = [{
                     title: "Alexandra Pinto e Boudhayan Mukherjee",
                     subtitle: "Next Gen Experiences Through Connected Technologies",
                     time: "16:45 - 18:30",
-                    location: "Sala a anunciar",
+                    location: "Sala B116",
                     lang: "pt",
                     url: "/talks/20",
                     show: true
@@ -816,7 +819,7 @@ module.exports = [{
                     colspan: 1,
                     time: "16:45 - 18:15",
                     title: "Presentation Karaoke",
-                    location: "Sala B107",
+                    location: "Sala B120",
                     show: true,
                     url: "/talks/21",
                     lang: "pt"
