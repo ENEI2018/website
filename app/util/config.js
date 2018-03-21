@@ -144,8 +144,7 @@ module.exports = {
       },
       {
         name: "Inova Ria",
-        //image: "inova-altice.PNG",
-        image: "inova-ria.jpg",
+        image: "inova-altice.PNG",
         href: "http://www.inova-ria.pt/",
         show: true
       },
@@ -297,6 +296,12 @@ module.exports = {
       name: "e-University League",
       image: "eul.png",
       href: "http://www.euniversityleague.com/",
+      show: true
+    },
+    {
+      name: "RedBull",
+      image: "redbull.png",
+      href: "https://www.redbull.com/pt-pt/",
       show: true
     }
   ],

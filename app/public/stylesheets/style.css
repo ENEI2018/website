@@ -1018,6 +1018,10 @@ img.signup-section-img {
     background-repeat: no-repeat;
 }
 
+.sponsor.bronze div.Shiftforward {
+    min-width: 90px;
+}
+
 @media (min-width: 490px) {
     .sponsor.bronze div {
         min-width: 70px;
