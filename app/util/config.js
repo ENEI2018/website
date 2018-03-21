@@ -551,6 +551,22 @@ module.exports = {
       lang: "pt"
     },
     {
+      id: 24,
+      name: "José Pedro Nunes",
+      shortBio: "Conselho Geral da UP",
+      company: "Conselho Geral da Universidade do Porto",
+      role: "Representante dos estudantes",
+      fullBio: "<p>José Pedro Nunes nasceu em Amarante no ano de 1992. Adquiriu distinção de mérito no final do 2º ciclo e do 3º ciclo no externato de Vila-Meã.</p><p>Ingressou em 2010 na Faculdade de Engenharia da Universidade do Porto no Mestrado Integrado em Engenharia Informática e Computação, onde em 2013 se transferiu para o Mestrado Integrado em Engenharia Mecânica neste momento a frequentar.</p><p>Ao longo destes anos no Ensino Superior foi de 2011 a 2013 vogal da Direção da Associação de Estudantes da Faculdade de Engenharia da Universidade do Porto(AEFEUP). Em 2013 é líder do Departamento Recreativo da AEFEUP. Em 2014 exerce o cargo de Vice-Presidente da Direção da AEFEUP. Em 2015 é eleito Presidente da Direção da AEFEUP, nomeado para o Conselho Coordenador do Modelo Educativo da Universidade do Porto, é membro do Senado da Universidade do Porto, é convidado assíduo do Conselho Pedagógico da Faculdade de Engenharia da Universidade do Porto, é convidado para ingressar no Comissariado Desportivo da Faculdade de Engenharia da Universidade do Porto (atualmente).</p><p>Em 2016 é eleito como representante dos estudantes no Conselho Geral da Universidade do Porto (atualmente).</p>",
+      image: "josepedronunes.jpg",
+      faqs: [],
+      talkTitle: "Educação 4.0",
+      talkSummary: "",
+      talkDate: "Sábado 24/03 | 16:45 - 18:30 | Auditório FEUP",
+      lang: 'pt',
+      show: true,
+      speaker: true,
+    },
+    {
       id: 6,
       name: "Fábio Barbosa",
       shortBio: "Farfetch",
