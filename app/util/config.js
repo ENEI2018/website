@@ -974,7 +974,7 @@ module.exports = {
       "<p>Alexandra Sousa Pinto é Head of Solutions & Innovation na Wipro Technologies.<br/>Mestre em Engenharia de Sistemas e Computadores, Alexandra tem mais de17 anos de experiência em retalho, entre os quais se destacam a participação em grandes projectos de implementação de Oracle Retail em retalhistas de renome mundias.<br/>É também percursora do Desenvolvimento de novas soluções, respectivo alinhamento com necessidades de mercado e complementaridade com a tecnologia de Oracle Retail.</p>" +
       "<p>Boudhayan Mukherjee é Practice Manager na Wipro Technologies.<br/>Mestre em Engenharia e Ciências de Computadores, Boudhayan tem mais de 14 anos de experiência profissional multidisciplinar nas indústrias de Retalho, Saúde e Seguros.<br/>Profundo conhecimento da indústria de retalho, alavancandoesse background como potencial em projectos de transformação e implementações de Oracle Retail.<br/>É um entusiasta na transformação digital do negócio de retalho.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 16:45 - 18:30",
+      date: "Sábado 24 de Março | 16:45 - 18:30 | Sala B116",
       location: "Alexandra Pinto e Boudhayan Mukherjee",
       signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-next-gen-experiences-through-connected-technologies-enei-2018-44331008239&sa=D&ust=1521564907150000&usg=AFQjCNGMC2ih1YqfRHBSyqSepBkzXKQ-kA",
       faqs: [],

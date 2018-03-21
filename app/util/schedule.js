@@ -398,7 +398,7 @@ module.exports = [{
                     title: "Alexandra Pinto e Boudhayan Mukherjee",
                     subtitle: "Next Gen Experiences Through Connected Technologies",
                     time: "16:45 - 18:30",
-                    location: "Sala a anunciar",
+                    location: "Sala B116",
                     lang: "pt",
                     url: "/talks/20",
                     show: true
