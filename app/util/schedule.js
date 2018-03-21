@@ -383,7 +383,10 @@ module.exports = [{
                     rowspan: 7,
                     colspan: 1,
                     title: "Debate: Educação 4.0",
-                    subtitle: "Participantes por anunciar",
+                    subtitle: "<a href=\"/speakers/23\">Filipe Araújo</a><br/>" + 
+                        "<a href=\"/speakers/22\">Raúl Vidal</a><br/>" + 
+                        "José Pedro Nunes<br/>" + 
+                        "Sérgio Sousa (Moderador)<br/>",
                     time: "16:45 - 18:30",
                     location: "Auditório FEUP",
                     lang: "pt",
