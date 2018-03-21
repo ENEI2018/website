@@ -819,7 +819,7 @@ module.exports = [{
                     colspan: 1,
                     time: "16:45 - 18:15",
                     title: "Presentation Karaoke",
-                    location: "Sala B107",
+                    location: "Sala B120",
                     show: true,
                     url: "/talks/21",
                     lang: "pt"
