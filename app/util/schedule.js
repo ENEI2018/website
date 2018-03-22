@@ -495,6 +495,7 @@ module.exports = [{
                 },
                 col2: {
                     title: "Peddy Paper",
+                    url: "/talks/24",
                     rowspan: 2,
                     colspan: 2,
                 },
