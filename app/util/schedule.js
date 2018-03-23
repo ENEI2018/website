@@ -380,13 +380,14 @@ module.exports = [{
             {
                 start: "16:45",
                 col1: {
-                    rowspan: 7,
+                    rowspan: 6,
                     colspan: 1,
                     title: "Debate: Educação 4.0",
                     subtitle: "<a href=\"/speakers/23\">Filipe Araújo</a><br/>" + 
                         "<a href=\"/speakers/22\">Raúl Vidal</a><br/>" + 
                         "<a href=\"/speakers/25\">João Carlos Sousa</a><br/>" + 
-                        "<a href=\"/speakers/24\">José Pedro Nunes</a><br/>" + 
+                        "<a href=\"/speakers/24\">José Pedro Nunes</a><br/>" +  
+                        "<a href=\"/speakers/26\">Carlos Alberto Silva</a><br/>" + 
                         "Sérgio Sousa (Moderador)<br/>",
                     time: "16:45 - 18:30",
                     location: "Auditório FEUP",
@@ -397,6 +398,7 @@ module.exports = [{
                     rowspan: 7,
                     colspan: 1,
                     title: "Alexandra Pinto e Boudhayan Mukherjee",
+                    class: "quick-fixer",
                     subtitle: "Next Gen Experiences Through Connected Technologies",
                     time: "16:45 - 18:30",
                     location: "Sala B116",
@@ -409,7 +411,8 @@ module.exports = [{
                     colspan: 2,
                     title: "Daniel Silva",
                     subtitle: "Programação funcional com Elixir e Phoenix",
-                    time: "16:45 - 18:30",
+                    class: "quick-fixer",
+                    time: "16:45 - 18:15",
                     location: "Sala B120",
                     show: true,
                     lang: "pt",
@@ -453,6 +456,17 @@ module.exports = [{
             },
             {
                 start: "18:15",
+                col1: {
+                    rowspan: 1,
+                    colspan: 1,
+                    title: "A ficção científica de ontem",
+                    subtitle: "Sofia Couto da Rocha",
+                    url: "/speakers/27",
+                    time: "18:15 - 18:30",
+                    location: "Auditório FEUP",
+                    lang: "pt",
+                    show: true
+                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
