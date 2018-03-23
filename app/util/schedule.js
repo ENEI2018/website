@@ -459,8 +459,8 @@ module.exports = [{
                 col1: {
                     rowspan: 1,
                     colspan: 1,
-                    title: "A ficção científica de ontem",
-                    subtitle: "Sofia Couto da Rocha",
+                    title: "Sofia Couto da Rocha",
+                    subtitle: "A ficção científica de ontem",
                     url: "/speakers/27",
                     time: "18:15 - 18:45",
                     location: "Auditório FEUP",
