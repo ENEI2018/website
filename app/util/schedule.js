@@ -389,7 +389,7 @@ module.exports = [{
                         "<a href=\"/speakers/24\">José Pedro Nunes</a><br/>" +  
                         "<a href=\"/speakers/26\">Carlos Alberto Silva</a><br/>" + 
                         "Sérgio Sousa (Moderador)<br/>",
-                    time: "16:45 - 18:30",
+                    time: "16:45 - 18:15",
                     location: "Auditório FEUP",
                     lang: "pt",
                     show: true
@@ -459,8 +459,8 @@ module.exports = [{
                 col1: {
                     rowspan: 1,
                     colspan: 1,
-                    title: "A ficção científica de ontem",
-                    subtitle: "Sofia Couto da Rocha",
+                    title: "Sofia Couto da Rocha",
+                    subtitle: "A ficção científica de ontem",
                     url: "/speakers/27",
                     time: "18:15 - 18:45",
                     location: "Auditório FEUP",
