@@ -462,7 +462,7 @@ module.exports = [{
                     title: "A ficção científica de ontem",
                     subtitle: "Sofia Couto da Rocha",
                     url: "/speakers/27",
-                    time: "18:15 - 18:30",
+                    time: "18:15 - 18:45",
                     location: "Auditório FEUP",
                     lang: "pt",
                     show: true
@@ -473,7 +473,7 @@ module.exports = [{
                 },
             },
             {
-                start: "18:30",
+                start: "18:45",
                 break: true,
                 title: "Deslocamento",
                 location: "FEUP → Campo Alegre",
