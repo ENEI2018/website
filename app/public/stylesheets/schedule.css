@@ -284,6 +284,10 @@ table.schedule-table div.schedule-entry-container div.break-desc.special {
   margin-top: 50px;
 }
 
+table.schedule-table div.schedule-entry-container.rowcount-7.quick-fixer {
+  min-height: 292px;
+}
+
 table.schedule-table div.schedule-entry-container.rowcount-2 {
   min-height: 60px;
 }
