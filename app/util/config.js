@@ -915,18 +915,14 @@ module.exports = {
     },
     {
       id: 11,
-      title: "Cibersegurança S21sec",
-      desc: "<p>Tópicos:<br/>- Recon (port mapping, DNS recon, etc.)<br/>- Web Application Security<br/>- Mobile Security<br/>- Como participar num bug bounty e reportar uma vulnerabilidade</p>" +
-      "<p>Requisitos:<br/>- Tenha alguma experiência em Linux, e que venha com uma PEN USB com o Kali Linux, que será utilizado durante o workshop<br/>- Trazer portátil.</p>" +
-      "<p>Sobre o Luís Grangeia (lgrangeia@s21sec.com):</p>" +
-      "<p>I’m an information security professional working in the field for about 17 years, mostly doing security audits and pen-tests.</p>" +
-      "<p>I do information security auditing and testing to major portuguese and european companies (retail, banking, insurance, telcos). I sometimes speak about information security at conferences and meetings. Some stuff I did of interest: In 2015 I found and exploited a memory corruption vulnerability on a TomTom GPS sportswatch, bypassing several security measures, including encrypted firmware updates. All without touching a screwdriver; I wrote Cupid, an implementation of the heartbleed attack for wireless networks, implemented as patches for hostapd and wpa_supplicant; I authored a Burp Suite extension to handle and inject inside AES encrypted payloads; I wrote the original paper for DNS Cache Snooping; In another millenium I’ve co-authored a phrack article that, among other things, implemented a covert TCP sniffer inside the Linux kernel.</p>" +
-      "<p>All my recent slide decks are available on slideshare.net. I’m mostly interested in security research, covering the usual topics: Operation System design models (trusted path computing, security models, etc.); Web and Mobile Application security; Low level protocols design and implementation; Debugging & disassembling software & hardware; Mobility and embedded systems, Android/IOS, wearables, IoT; Futurology, new uses for technology, new forms of interaction.</p>",
+      title: "Engenharia Reversa de Aplicações Android",
+      desc: "<p>Tens curiosidade em 'hackear' aplicações android, saber os segredos que cada aplicação esconde? Neste workshop irás aprender a 'reversar' APIs e fazer os teus próprios 'bots'. Esta é uma sessão introdutória ao reverse engineering de aplicações Android onde iremos demonstrar como desempacotar uma aplicação e analisar o seu código.</p><p>Requisitos: Computador Pessoal com Android Studio e Java</p>",
       image: "/images/Ativo 4.svg",
-      date: "Domingo 25 de Março | 14:00 - 16:00",
+      date: "Domingo 25 de Março | 14:00 - 16:00 | B107",
       location: "Luís Grangeia",
       faqs: [],
-      show: false
+      show: true,
+      signup_url: "https://www.eventbrite.pt/e/registo-workshop-engenharia-reversa-de-aplicacoes-android-enei-2018-44498111048"
     },
     {
       id: 12,
@@ -994,7 +990,7 @@ module.exports = {
         "Estás preparado?</p>" +
         "<p>Sobre o Daniel: Estudou no Mestrado em Redes e Sistemas Informáticos na Faculdade de Ciências da Universidade do Porto que terminou em 2016 e trabalha atualmente na Bitmaker onde tem vindo a resolver problemas de elevada complexidade utilizando Elixir. Mantém uma relação próxima com a Universidade onde partilha as suas experiências e conhecimento em workshops e eventos. Os seus principais interesses são linguagens de programação, sistemas distribuídos, DevOps e tudo relacionado com redes de computadores. Podem saber mais no seu <a href=\"https://github.com/DFilipeS\">GitHub</a> ou <a href=\"https://twitter.com/DFilipeS\">Twitter</a>.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado-feira 24 de Março | 16:45 - 18:30 | Sala B120",
+      date: "Sábado 24 de Março | 16:45 - 18:30 | Sala B120",
       location: "Daniel Silva",
       signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-phoenix-framework-enei-2018-44231189679&sa=D&ust=1521564907152000&usg=AFQjCNHguP15TP3NufjpPXn2PZWCw2f9lQ",
       faqs: [],

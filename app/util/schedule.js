@@ -754,14 +754,13 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
-                    //title: "Luís Grangeia",
-                    //subtitle: "Cibersegurança S21sec",
+                    title: "Luís Grangeia",
+                    subtitle: "Engenharia Reversa de Aplicações Android",
                     time: "14:00 - 16:00",
                     location: "Sala B107",
                     show: true,
-                    //lang: "pt",
-                    //url: "/talks/11"
+                    lang: "pt",
+                    url: "/talks/11"
                 }
             },
             {
