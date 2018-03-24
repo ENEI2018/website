@@ -905,7 +905,7 @@ module.exports = [{
             },
             {
                 special: true,
-                start: "18:45",
+                start: "18:30",
                 col1: {
                     title: "<a href=\"/talks/1\">Sessão de Cocktails</a> | Sala I-105",
                     rowspan: 2,
