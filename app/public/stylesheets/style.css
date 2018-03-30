@@ -113,6 +113,25 @@ div.full-line {
     color: var(--main-third-highlight-blue);
 }
 
+.video-row .about-talk-title {
+    margin-left: 30px;
+}
+
+#talk-video {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 400px;
+}
+
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    #talk-video {
+        height: auto;
+        width: auto;
+    }   
+}
+
 .page-content-container .subscribe-area-container,
 .page-content-container .tickets-area-container,
 .page-content-container .faqs-container,
