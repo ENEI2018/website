@@ -1077,6 +1077,17 @@ module.exports = {
       signup_url: "",
       faqs: [],
       show: true
+    },
+    {
+      id: 24,
+      title: "Peddy Paper",
+      desc: "Descobre os QR Codes do ENEI espalhados pelo porto e habilita-te a ganhar prémios gratuitos! Descarrega a app Android do ENEI <a href='https://enei.pt/android'>aqui</a> para poderes participar no jogo!<br/>Consulta o regulamento do Peddy Paper <a href='/misc/peddypaper.pdf'>aqui</a>.",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 21:00 - 00:00",
+      location: "",
+      signup_url: "https://enei18peddypaper.eventbrite.pt",
+      faqs: [],
+      show: true
     }
   ],
   team: [{
