@@ -97,6 +97,14 @@ div.full-line {
     
 }
 
+.candidaturas-container {
+    color: white;
+}
+
+#info-candidatura {
+    font-size: 150%;
+}
+
 #speaker-button button {
     display: block;
     width: fit-content;
