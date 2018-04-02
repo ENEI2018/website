@@ -382,7 +382,7 @@ module.exports = [{
                 col1: {
                     rowspan: 6,
                     colspan: 1,
-                    title: "Debate: Educação 4.0",
+                    title: "<a href='https://youtu.be/gme0zh6e0yU'>Debate: Educação 4.0</a>",
                     subtitle: "<a href=\"/speakers/23\">Filipe Araújo</a><br/>" + 
                         "<a href=\"/speakers/22\">Raúl Vidal</a><br/>" + 
                         "<a href=\"/speakers/25\">João Carlos Sousa</a><br/>" + 

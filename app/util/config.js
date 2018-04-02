@@ -481,7 +481,8 @@ module.exports = {
       talkSummary: "A palestra será uma introdução a tecnologia blockchain, onde se irá descrever como funciona um sistema como Bitcoin e o que assegura a segurança do mesmo. Durante a palestra iremos começar por descrever o problema que estamos a tentar resolver (distributed ledger) e iterativamente construir uma solução que no final deverá ser semelhante a Bitcoin (não irá ser 100% semelhante para evitar descrever detalhes de implementação). Por fim irei também fazer uma pequena menção a outros sistema como o Ethereum.",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/JVeC4QvcRPQ",
     },
     {
       id: 3,
@@ -633,7 +634,8 @@ module.exports = {
       talkSummary: "No desenvolvimento de um produto existe a necessidade de ter diferentes ambientes que se destinam a finalidades distintas. De forma a agilizar este processo, a disponibilização das diferentes versões de uma aplicação pode ser automatizada, utilizando um conjunto de tecnologias de continuous delivery. Esta palestra consiste numa descrição do nosso processo no Finta (uma app mobile direcionada a fãs de futebol: <a href='http://getfinta.pt/'>http://getfinta.pt/</a>) e das ferramentas usadas.",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/Homn3_D2kDo",
     },
     {
       id: 25,
@@ -716,7 +718,8 @@ module.exports = {
       talkSummary: "With the increasing demand for the continuous connectivity on the move, the way we look at the Internet is changing. Vehicles are now becoming smarter with the increasing number of built-in sensors and high demand for the ability to move data between vehicles and the cloud. The vehicle sets the pinnacle of that transformation, by generating 4 terabytes of data per day and being a key enabler of new mobility-on-demand services that will change the way we live our lives every day. Veniam is building a V2X (vehicle-to-everything) platform that is able to move terabytes of data between vehicles (V2V) and vehicles and the cloud (V2C). Cars can now do more than carrying people and goods from point A to point B and become active nodes of the Internet, a new one, an Internet of Moving Things.",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/dhoEIHAr_uI",
     },
     {
       id: 13,
@@ -769,7 +772,8 @@ module.exports = {
       talkDate: "Sábado 24/03 | 10:00 - 11:00 | Auditório FEUP",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/4VP52aWgWsc",
     },
     {
       id: 20,
