@@ -823,7 +823,7 @@ module.exports = [{
                     rowspan: 3,
                     colspan: 1,
                     time: "16:45 - 17:30",
-                    title: "Egas Bastos",
+                    title: "<a href=\"https://youtu.be/m4kKl6wNQUE\">Egas Bastos</a>",
                     subtitle: "10 Pro Tips Para Ser um Game Developer de Sucesso",
                     location: "Auditório FEUP",
                     show: true,

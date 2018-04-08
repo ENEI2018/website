@@ -346,7 +346,8 @@ module.exports = {
       talkSummary: "",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/CCNkWuVvW2w",
     },
     {
       id: 15,
@@ -363,7 +364,8 @@ module.exports = {
       talkSummary: "\"A Internet foi criada como um projeto da CIA e continua a ser desenvolvida como tal\", uma citação infame (e longe de ser correta) do presidente russo, Putin, de abril de 2014, pode descrever de melhor forma a atitude do governo russo contemporâneo em relação à Net. Sendo geralmente céticas da Net, as autoridades russas nunca confiaram no meio. Mas, após os protestos pós-eleição de 2011-2012 e as revelações de Snowden, o Kremlin abriu uma nova frente contra ela, implementando um plano coordenado para exercer tanto controlo online como atualmente tem offline. Alexey Sidorenko, observador de longo prazo deste processo, compartilhará uma história ainda em andamento de The Closure - um lento processo de privação de liberdades para se comunicar e expressar online na Rússia.",
       show: true,
       speaker: true,
-      lang: "en"
+      lang: "en",
+      video: "https://youtube.com/embed/DTR0d8hBSBM",
     },
     {
       id: 14,
@@ -380,7 +382,8 @@ module.exports = {
       talkSummary: "In his talk, Wolfgang will highlight different areas of his journey in the wonderful world of robotics and touch upon challenges and frontiers in the field. In particular, he will highlight recent research successes and open challenges along with implications of an applied field.",
       show: true,
       speaker: true,
-      lang: "en"
+      lang: "en",
+      video: "https://youtube.com/embed/dA-dz-NzL3M",
     },
     {
       id: 16,
@@ -397,7 +400,8 @@ module.exports = {
       talkSummary: "O GitLab iniciou-se como um projeto open source. Com o passar dos ano, cresceu e tornou-se num empresa constituída por cerca de 250 pessoas. Em vez de abrir um escritório em São Francisco, o GitLab fez tudo remotamente: 0 escritórios. Além disso, todo o trabalho desenvolvido pelo GitLab é aberto. Nesta talk, Job examinará como o GitLab gere o seu crescimento como empresa, onde todos podem trabalhar com os seus pijamas e onde todo o trabalho é público.",
       show: true,
       speaker: true,
-      lang: "en"
+      lang: "en",
+      video: "https://youtube.com/embed/HRP9cAox8po",
     },
     {
       id: 18,
@@ -415,6 +419,8 @@ module.exports = {
       talkSummary: "",
       show: true,
       speaker: true,
+      lang: "pt",
+      video: "https://youtube.com/embed/GfvJvsIl8BQ",
     },
     {
       id: 22,
@@ -685,7 +691,8 @@ module.exports = {
       talkSummary: "Nesta apresentação, vamos introduzir o paradigma da programação funcional usando JavaScript. Tentaremos demonstrar que tratando a computação como a avaliação de funções puras, usando dados imutáveis e preferindo expressões a comandos conseguimos produzir código mais fácil de entender, mais modular e mais fácil de testar.",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/yVFHJ-XJV_k",
     },
     {
       id: 10,
@@ -701,7 +708,8 @@ module.exports = {
       talkSummary: "Ever heard of the 4th Industrial revolution or the Industry 4.0? It's not all about the hardware. In fact, most of the hardware is already here, what we are missing is the software that will make this vision a reality. In this talk we are going to talk about the technologies driving the industry to its 4th revolution and about what we are still missing to achieve I4.0. If you want to be prepared for the next big thing in the enterprise world, join us to find more!",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/pWhdUhGZ3j0",
     },
     {
       id: 11,
@@ -736,7 +744,8 @@ module.exports = {
       talkSummary: "Nesta palestra o Eduardo vai apresentar a perspectiva de um engenheiro na gestão de carreiras e recrutamento. Em particular vai indicar 3 ferramentas fundamentais a utilizar, salientando dicas e armadilhas dos desafios dos engenheiros informáticos hoje em dia.",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/TFjqk6JNqZc",
     },
     {
       id: 17,
@@ -755,7 +764,8 @@ module.exports = {
       talkDate: "Segunda-feira 26/03 | 11:45 - 12:30 | Auditório FEUP",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/gewA58QubPs",
     },
     {
       id: 19,
@@ -799,6 +809,8 @@ module.exports = {
       talkDate: "Segunda-feira 26/03 | 11:00 - 11:45 | Auditório FEUP",
       show: true,
       speaker: true,
+      lang: "pt",
+      video: "https://youtube.com/embed/JcgTsxaP1-Y",
     },
   ],
   talks: [
